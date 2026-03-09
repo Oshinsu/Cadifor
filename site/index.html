@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison Cadifor — Encyclopedie Dynastique</title>
+  <meta name="description" content="L'encyclopedie complete de la dynastie Cadifor, de la fondation d'Aberthol a l'Empire de Rose.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- NAVIGATION -->
+  <!-- ═══════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <span class="nav__infinity">&#8734;</span>
+      <span class="nav__name">CADIFOR</span>
+    </div>
+    <div class="nav__links">
+      <a href="#accueil" class="nav__link active" data-section="accueil">Accueil</a>
+      <a href="#personnages" class="nav__link" data-section="personnages">Personnages</a>
+      <a href="#chronologie" class="nav__link" data-section="chronologie">Chronologie</a>
+      <a href="#empire" class="nav__link" data-section="empire">Empire</a>
+      <a href="#civilisation" class="nav__link" data-section="civilisation">Civilisation</a>
+      <a href="#bestiaire" class="nav__link" data-section="bestiaire">Bestiaire</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#accueil" class="mobile-menu__link" data-section="accueil">Accueil</a>
+    <a href="#personnages" class="mobile-menu__link" data-section="personnages">Personnages</a>
+    <a href="#chronologie" class="mobile-menu__link" data-section="chronologie">Chronologie</a>
+    <a href="#empire" class="mobile-menu__link" data-section="empire">Empire</a>
+    <a href="#civilisation" class="mobile-menu__link" data-section="civilisation">Civilisation</a>
+    <a href="#bestiaire" class="mobile-menu__link" data-section="bestiaire">Bestiaire</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- HERO / ACCUEIL -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="hero" id="accueil">
+    <div class="hero__particles" id="particles"></div>
+    <div class="hero__content">
+      <div class="hero__emblem">
+        <svg viewBox="0 0 200 100" class="hero__infinity-svg">
+          <path d="M50,50 C50,20 80,20 100,50 C120,80 150,80 150,50 C150,20 120,20 100,50 C80,80 50,80 50,50 Z"
+                fill="none" stroke="url(#cyanGrad)" stroke-width="2.5" class="infinity-path"/>
+          <defs>
+            <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.4"/>
+              <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:1"/>
+              <stop offset="100%" style="stop-color:#7b68ee;stop-opacity:0.6"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <h1 class="hero__title">
+        <span class="hero__title-line hero__title-line--1">Maison</span>
+        <span class="hero__title-line hero__title-line--2">Cadifor</span>
+      </h1>
+      <p class="hero__subtitle">De la frontiere a l'Empire. Quatre siecles de destinee.</p>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-number" data-count="13">0</span>
+          <span class="hero__stat-label">Souverains</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number" data-count="411">0</span>
+          <span class="hero__stat-label">Annees de regne</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number" data-count="9">0</span>
+          <span class="hero__stat-label">Royaumes</span>
+        </div>
+      </div>
+      <a href="#personnages" class="hero__cta">Explorer la dynastie</a>
+    </div>
+    <div class="hero__scroll-indicator">
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- CITATION D'OUVERTURE -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="quote-section reveal">
+    <blockquote class="quote">
+      <p>&laquo; La grandeur des Cadifor ne vient pas d'un seul monstre. Elle vient du fait que plusieurs monstres differents regnent assez longtemps pour transformer leur nature en institutions. &raquo;</p>
+    </blockquote>
+  </section>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- PERSONNAGES -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="section" id="personnages">
+    <div class="section__header reveal">
+      <span class="section__number">I</span>
+      <h2 class="section__title">Les Souverains</h2>
+      <p class="section__desc">Treize noms. Quatre siecles. Une lignee qui ne monte pas au pouvoir d'un seul coup, mais par couches successives.</p>
+    </div>
+
+    <!-- Filtres -->
+    <div class="filters reveal">
+      <button class="filter active" data-filter="all">Tous</button>
+      <button class="filter" data-filter="fondateur">Fondateurs</button>
+      <button class="filter" data-filter="expansion">Expansion</button>
+      <button class="filter" data-filter="imperial">Ere Imperiale</button>
+      <button class="filter" data-filter="apogee">Apogee</button>
+    </div>
+
+    <!-- Grille personnages -->
+    <div class="characters-grid">
+
+      <!-- ABERTHOL -->
+      <article class="char-card reveal" data-era="fondateur" data-id="aberthol">
+        <div class="char-card__rank">
+          <span class="char-card__rank-number">97</span>
+          <span class="char-card__rank-label">/100</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#9876;</div>
+          <h3 class="char-card__name">Aberthol</h3>
+          <span class="char-card__epithet">Le Vieux Lion</span>
+        </div>
+        <div class="char-card__class">Warrior Arms/Prot</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Rang</span>
+            <span class="stat-value legendary">10 Legendaire</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Trait</span>
+            <span class="stat-value genius">Genie</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">573 - 617</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Duree</span>
+            <span class="stat-value">43 ans</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill" style="--width: 97%"></div>
+        </div>
+        <p class="char-card__bio">Marechal supreme de Lordaeron. Guerrier legendaire rang 10. Fondateur de la dynastie. A mene la guerre contre Quel'Thalas, puis par manoeuvre politique devient vassal de Main-de-Tyr. Epouse Andrea Gahron et prepare la mutation successorale la plus decisive de l'histoire humaine.</p>
+        <div class="char-card__tags">
+          <span class="tag tag--warrior">Guerrier</span>
+          <span class="tag tag--legendary">Legendaire</span>
+          <span class="tag tag--genius">Genie</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Arme</h4><p>Ashkandi, Greatsword of the Brotherhood / Drake Talon Cleaver</p>
+          <h4>Set</h4><p>Might / Valor</p>
+          <h4>Techniques</h4><p>Shield Wall, Last Stand, Mortal Strike, Retaliation, Charge</p>
+          <h4>Citation</h4><p><em>"Il ne legue pas seulement un comte enrichi ; il legue une methode."</em></p>
+        </div>
+      </article>
+
+      <!-- VIKI -->
+      <article class="char-card reveal" data-era="fondateur" data-id="viki">
+        <div class="char-card__rank">
+          <span class="char-card__rank-number">95</span>
+          <span class="char-card__rank-label">/100</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#9876;</div>
+          <h3 class="char-card__name">Viki</h3>
+          <span class="char-card__epithet">La Joie d'Acier</span>
+        </div>
+        <div class="char-card__class">Warrior Fury/Arms</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Rang</span>
+            <span class="stat-value legendary">10 Legendaire</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Trait</span>
+            <span class="stat-value">Espiegle</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">617 - 668</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Duree</span>
+            <span class="stat-value">51 ans</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill" style="--width: 95%"></div>
+        </div>
+        <p class="char-card__bio">Ainee d'Aberthol, guerriere legendaire a 20 ans. Abat seule une troupe de loups albinos a 16 ans. Change la loi en succession elective. Forme les chevaliers "a l'ecole du front, non dans les salons". Bonne vivante, boit avec la troupe.</p>
+        <div class="char-card__tags">
+          <span class="tag tag--warrior">Guerriere</span>
+          <span class="tag tag--legendary">Legendaire</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Arme</h4><p>Bonereaver's Edge</p>
+          <h4>Set</h4><p>Wrath + Lionheart Helm</p>
+          <h4>Techniques</h4><p>Death Wish, Recklessness, Bloodthirst, Whirlwind, Execute</p>
+          <h4>Citation</h4><p><em>"Viki etait la lame, Andrea la ruse."</em></p>
+        </div>
+      </article>
+
+      <!-- ANDREA LA ROUGISSANTE -->
+      <article class="char-card reveal" data-era="fondateur" data-id="rougissante">
+        <div class="char-card__rank">
+          <span class="char-card__rank-number">72</span>
+          <span class="char-card__rank-label">/100</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#9733;</div>
+          <h3 class="char-card__name">Andrea</h3>
+          <span class="char-card__epithet">La Rougissante</span>
+        </div>
+        <div class="char-card__class">Stratege / Maitresse des Ombres</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Rang</span>
+            <span class="stat-value">6 Expert</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Trait</span>
+            <span class="stat-value genius">Genie</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">668 - 676</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Duree</span>
+            <span class="stat-value">7 ans</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill" style="--width: 72%"></div>
+        </div>
+        <p class="char-card__bio">La premiere vraie Cadifor. Genie unique de la fratrie. Regente officieuse du duche pendant que sa mere vit encore. Supervisait services secrets, assassinats, guildes d'information, tresorerie secrete. "La fin justifie les moyens."</p>
+        <div class="char-card__tags">
+          <span class="tag tag--genius">Genie</span>
+          <span class="tag tag--spy">Espionnage</span>
+          <span class="tag tag--grade-s">Grade S</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Grade Lore</h4><p>S — La matriarche courte mais decisive</p>
+          <h4>Role reel</h4><p>Regente officieuse, intendante du duche, maitresse des reseaux</p>
+          <h4>Citation</h4><p><em>"Andrea la Rougissante est probablement la premiere vraie Cadifor."</em></p>
+        </div>
+      </article>
+
+      <!-- ANDREA L'ERUDITE -->
+      <article class="char-card reveal" data-era="expansion" data-id="erudite">
+        <div class="char-card__rank">
+          <span class="char-card__rank-number">80</span>
+          <span class="char-card__rank-label">/100</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#127993;</div>
+          <h3 class="char-card__name">Andrea I</h3>
+          <span class="char-card__epithet">L'Erudite</span>
+        </div>
+        <div class="char-card__class">Hunter MM/Survival</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Rang</span>
+            <span class="stat-value">7 Grand Chasseur</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">676 - 710</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Duree</span>
+            <span class="stat-value">34 ans</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill" style="--width: 80%"></div>
+        </div>
+        <p class="char-card__bio">Pionniere d'expansion vers la Sylve de l'Est. Chasseuse rang 7, brillante stratege, commandante d'infanterie. Plus libre, plus originale, touche-a-tout.</p>
+        <div class="char-card__tags">
+          <span class="tag tag--hunter">Chasseuse</span>
+          <span class="tag tag--grade-a">Grade A+</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Arme</h4><p>Rhok'delar, Longbow of the Ancient Keepers</p>
+          <h4>Set</h4><p>Giantstalker Armor</p>
+          <h4>Techniques</h4><p>Aimed Shot, Freezing Trap, Hunter's Mark, Trueshot Aura</p>
+        </div>
+      </article>
+
+      <!-- ANDREA LA JUSTE -->
+      <article class="char-card reveal" data-era="expansion" data-id="juste">
+        <div class="char-card__rank">
+          <span class="char-card__rank-number">78</span>
+          <span class="char-card__rank-label">/100</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#9878;</div>
+          <h3 class="char-card__name">Andrea</h3>
+          <span class="char-card__epithet">La Juste</span>
+        </div>
+        <div class="char-card__class">Paladin Ret/Holy</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Naissance</span>
+            <span class="stat-value">~704</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">710 - 767</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Duree</span>
+            <span class="stat-value">57 ans</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill" style="--width: 78%"></div>
+        </div>
+        <p class="char-card__bio">Le pont des siecles. Monte a 13 ans, consolide pendant 57 ans. Andrea II de Sylve de l'Est, Andrea I d'Azeroth. Le mariage matrilineaire avec Llane Wrynn change la geopolitique humaine a jamais.</p>
+        <div class="char-card__tags">
+          <span class="tag tag--paladin">Paladin</span>
+          <span class="tag tag--grade-a">Grade A+/S-</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Arme</h4><p>The Untamed Blade / Sulfuras</p>
+          <h4>Set</h4><p>Lawbringer Armor</p>
+          <h4>Techniques</h4><p>Seal of Command, Hammer of Justice, Blessing of Freedom, Lay on Hands</p>
+        </div>
+      </article>
+
+      <!-- ANDREA LA VICTORIEUSE -->
+      <article class="char-card reveal char-card--featured" data-era="imperial" data-id="victorieuse">
+        <div class="char-card__rank">
+          <span class="char-card__rank-number">93</span>
+          <span class="char-card__rank-label">/100</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#128081;</div>
+          <h3 class="char-card__name">Andrea III</h3>
+          <span class="char-card__epithet">La Victorieuse — Reine aux Trois Sangs</span>
+        </div>
+        <div class="char-card__class">Mage Arcane/Frost</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Rang</span>
+            <span class="stat-value legendary">Legendaire (a 58 ans)</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Naissance</span>
+            <span class="stat-value">24/09/734</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">767 - 815</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Duree</span>
+            <span class="stat-value">47 ans</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill" style="--width: 93%"></div>
+        </div>
+        <p class="char-card__bio">Pivot historique supreme. Trois sangs : Cadifor, Wrynn, Trollbane. Ecrase la rebellion de Bradney, purge Lordaeron des sargerites, unifie 9 royaumes. Supprime tous les titres royaux : il ne reste que l'Empire d'Azeroth.</p>
+        <div class="char-card__tags">
+          <span class="tag tag--mage">Mage</span>
+          <span class="tag tag--legendary">Legendaire</span>
+          <span class="tag tag--grade-s">Grade S++</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Fratrie</h4><p>6 membres : Gautmar, Celestria (Cadifor) + Anastasia, Ariana, Brigitte (Wrynn)</p>
+          <h4>Stats a 16 ans</h4><p>Dip 14, Mar 7, Int 14, Intr 1, Eru 10, CP 55</p>
+          <h4>Arme</h4><p>Staff of Dominance / Azuresong Mageblade</p>
+          <h4>Set</h4><p>Netherwind Regalia</p>
+          <h4>Citation</h4><p><em>"Celle qui a assez longtemps survecu pour transformer sa vision en architecture de victoire."</em></p>
+        </div>
+      </article>
+
+      <!-- BANNI -->
+      <article class="char-card reveal" data-era="imperial" data-id="banni">
+        <div class="char-card__rank">
+          <span class="char-card__rank-number">88</span>
+          <span class="char-card__rank-label">/100</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#10024;</div>
+          <h3 class="char-card__name">Banni</h3>
+          <span class="char-card__epithet">Le Porte-Empire</span>
+        </div>
+        <div class="char-card__class">Mage Arcane/Frost</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Rang</span>
+            <span class="stat-value">9</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">825 - 859</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Duree</span>
+            <span class="stat-value">33 ans</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill" style="--width: 88%"></div>
+        </div>
+        <p class="char-card__bio">Fondateur de la dynastie des archimages. Roi du trop grand : maintient l'edifice imperial. Mage rang 9 — fondation de la lignee magique.</p>
+        <div class="char-card__tags">
+          <span class="tag tag--mage">Mage</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Arme</h4><p>Staff of Dominance</p>
+          <h4>Set</h4><p>Netherwind Regalia</p>
+          <h4>Techniques</h4><p>Evocation, Mana Shield, Counterspell, Blizzard, Arcane Explosion</p>
+        </div>
+      </article>
+
+      <!-- BENJAMIN -->
+      <article class="char-card reveal" data-era="imperial" data-id="benjamin">
+        <div class="char-card__rank">
+          <span class="char-card__rank-number">94</span>
+          <span class="char-card__rank-label">/100</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#128293;</div>
+          <h3 class="char-card__name">Benjamin</h3>
+          <span class="char-card__epithet">Le Cruel</span>
+        </div>
+        <div class="char-card__class">Mage Fire/Arcane</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Rang</span>
+            <span class="stat-value legendary">10 Legendaire</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">859 - 909</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Duree</span>
+            <span class="stat-value">50 ans</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill" style="--width: 94%"></div>
+        </div>
+        <p class="char-card__bio">Mage X destructeur. Surnom acquis AVANT le trone. Plus brutal, plus offensif, plus de letalite que d'elegance. 50 ans de regne de fer.</p>
+        <div class="char-card__tags">
+          <span class="tag tag--mage">Mage X</span>
+          <span class="tag tag--legendary">Legendaire</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Arme</h4><p>Staff of the Shadow Flame</p>
+          <h4>Techniques</h4><p>Combustion, Pyroblast, Blast Wave, Flamestrike, Counterspell</p>
+        </div>
+      </article>
+
+      <!-- MARJORY -->
+      <article class="char-card reveal char-card--featured" data-era="apogee" data-id="marjory">
+        <div class="char-card__rank">
+          <span class="char-card__rank-number">97</span>
+          <span class="char-card__rank-label">/100</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#10025;</div>
+          <h3 class="char-card__name">Marjory</h3>
+          <span class="char-card__epithet">L'Imperiale</span>
+        </div>
+        <div class="char-card__class">Archimage Arcane/Frost</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Rang</span>
+            <span class="stat-value legendary">10 Legendaire</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Erudition</span>
+            <span class="stat-value genius">34 — 1er mondial</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">909 - 943</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Mort</span>
+            <span class="stat-value">Au combat, 69 ans</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill" style="--width: 97%"></div>
+        </div>
+        <p class="char-card__bio">Mere de Rose. Archimage supreme. La version la plus pure du mage souverain parfait. Architecte des palais imperiaux, creatrice de la culture materielle Cadifor. Morte au combat a 69 ans.</p>
+        <div class="char-card__tags">
+          <span class="tag tag--mage">Archimage</span>
+          <span class="tag tag--legendary">Legendaire</span>
+          <span class="tag tag--grade-s">Grade S+</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Arme</h4><p>Atiesh, Greatstaff of the Guardian (Legendaire)</p>
+          <h4>Set</h4><p>Enigma Vestments (AQ40)</p>
+          <h4>Techniques</h4><p>Arcane Power, Presence of Mind, Counterspell, Blizzard, Polymorph, Ice Block</p>
+          <h4>Citation</h4><p><em>"Rose est le depassement ; Marjory est la condition de possibilite du depassement."</em></p>
+        </div>
+      </article>
+
+      <!-- ROSE -->
+      <article class="char-card reveal char-card--supreme" data-era="apogee" data-id="rose">
+        <div class="char-card__rank char-card__rank--ss">
+          <span class="char-card__rank-number">104</span>
+          <span class="char-card__rank-label">/100</span>
+          <span class="char-card__rank-tier">SS</span>
+        </div>
+        <div class="char-card__header">
+          <div class="char-card__icon">&#9830;</div>
+          <h3 class="char-card__name">Rose</h3>
+          <span class="char-card__epithet">L'Absolue</span>
+        </div>
+        <div class="char-card__class">Arcane Absolu + Necromancie Legendaire</div>
+        <div class="char-card__stats">
+          <div class="char-card__stat">
+            <span class="stat-label">Rang</span>
+            <span class="stat-value legendary">X + X Necro</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Erudition</span>
+            <span class="stat-value genius">36 — 1er toutes races</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Martial</span>
+            <span class="stat-value">18</span>
+          </div>
+          <div class="char-card__stat">
+            <span class="stat-label">Regne</span>
+            <span class="stat-value">943 - ...</span>
+          </div>
+        </div>
+        <div class="char-card__bar">
+          <div class="char-card__bar-fill char-card__bar-fill--overflow" style="--width: 100%"></div>
+        </div>
+        <p class="char-card__bio">Hors categorie. Double transcendance : mage legendaire + necromancienne legendaire. Plus haute erudition de toutes les races confondues. S+ a 19 ans. Choisit de rester humaine. "On ne la voit jamais." Son duel contre Arwyn : elle se retient enormement.</p>
+        <div class="char-card__tags">
+          <span class="tag tag--mage">Mage X</span>
+          <span class="tag tag--necro">Necro X</span>
+          <span class="tag tag--legendary">Hors Categorie</span>
+          <span class="tag tag--genius">Genie Absolu</span>
+        </div>
+        <button class="char-card__expand" aria-label="Details">+</button>
+        <div class="char-card__details">
+          <h4>Arme</h4><p>Atiesh, Greatstaff of the Guardian + reliques Naxxramas</p>
+          <h4>Set</h4><p>Frostfire Regalia (T3)</p>
+          <h4>Techniques</h4><p>Arcane Power, Presence of Mind, Counterspell, Blizzard, Death Coil, Curse of Doom, Soul Fire</p>
+          <h4>Comparaison</h4><p>Rose > Jaina en puissance brute. Comparable a un Aspect. Depasse Arthas sur plusieurs axes.</p>
+          <h4>Citation</h4><p><em>"Elle n'etait pas simplement la meilleure. Elle etait d'un autre ordre."</em></p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- CHRONOLOGIE -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="section section--dark" id="chronologie">
+    <div class="section__header reveal">
+      <span class="section__number">II</span>
+      <h2 class="section__title">Chronologie</h2>
+      <p class="section__desc">Quatre siecles. Cinq eres. De la frontiere a l'Empire.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline__line"></div>
+
+      <div class="timeline__era reveal">
+        <div class="timeline__era-label">Ere Fondatrice</div>
+        <div class="timeline__era-years">573 — 676</div>
+      </div>
+
+      <div class="timeline__item reveal" data-year="573">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__year">573</span>
+          <h3>Aberthol s'installe a New Avalon</h3>
+          <p>L'ancien marechal de Lordaeron devient comte sous Main-de-Tyr. La dynastie commence.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item timeline__item--right reveal" data-year="581">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__year">581</span>
+          <h3>Mariage Aberthol — Andrea Gahron</h3>
+          <p>Duchesse de Darrow. Le premier acte de genie politique. Le glissement de puissance commence.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal" data-year="617">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__year">617</span>
+          <h3>Mort d'Aberthol — Avènement de Viki</h3>
+          <p>Apres 43 ans. "Tiens." — le dernier mot du fondateur. Viki recoit New Avalon, Darrow reste a la mere.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item timeline__item--right reveal" data-year="668">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__year">668</span>
+          <h3>Andrea la Rougissante monte sur le trone</h3>
+          <p>Apres 51 ans de Viki. La lame cede a la ruse. La maison devient consciente d'elle-meme.</p>
+        </div>
+      </div>
+
+      <div class="timeline__era reveal">
+        <div class="timeline__era-label">Ere d'Expansion</div>
+        <div class="timeline__era-years">676 — 767</div>
+      </div>
+
+      <div class="timeline__item reveal" data-year="676">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__year">676</span>
+          <h3>Andrea l'Erudite — La poussee vers la Sylve</h3>
+          <p>Chasseuse rang 7, expansion territoriale majeure. 34 ans de regne.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item timeline__item--right reveal" data-year="710">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__year">710</span>
+          <h3>Andrea la Juste — 57 ans de consolidation</h3>
+          <p>Monte a 13 ans. Haute Reine d'Azeroth des 739. Le mariage Wrynn change tout.</p>
+        </div>
+      </div>
+
+      <div class="timeline__era reveal">
+        <div class="timeline__era-label">Ere Imperiale</div>
+        <div class="timeline__era-years">767 — 943</div>
+      </div>
+
+      <div class="timeline__item reveal" data-year="767">
+        <div class="timeline__dot timeline__dot--major"></div>
+        <div class="timeline__content timeline__content--major">
+          <span class="timeline__year">767</span>
+          <h3>La Reine aux Trois Sangs unifie l'Empire</h3>
+          <p>Cadifor + Wrynn + Trollbane. Guerre civile, purge sargerite, 9 royaumes reunis. L'Empire d'Azeroth est ne.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item timeline__item--right reveal" data-year="825">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__year">825</span>
+          <h3>Banni — L'ere des archimages commence</h3>
+          <p>Mage rang 9. Fondateur de la dynastie magique. Le trop grand est maintenu.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal" data-year="859">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__year">859</span>
+          <h3>Benjamin le Cruel — 50 ans de fer</h3>
+          <p>Mage X. Plus brutal, plus destructeur. L'Empire est endurci.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item timeline__item--right reveal" data-year="909">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__year">909</span>
+          <h3>Marjory l'Imperiale — La sublimation</h3>
+          <p>Archimage rang 10, erudition 34. Architecte de la culture imperiale. Meurt au combat a 69 ans.</p>
+        </div>
+      </div>
+
+      <div class="timeline__era reveal">
+        <div class="timeline__era-label">Ere de Rose</div>
+        <div class="timeline__era-years">943 — ...</div>
+      </div>
+
+      <div class="timeline__item reveal" data-year="943">
+        <div class="timeline__dot timeline__dot--supreme"></div>
+        <div class="timeline__content timeline__content--supreme">
+          <span class="timeline__year">943</span>
+          <h3>Rose l'Absolue monte sur le trone</h3>
+          <p>Erudition 36. Mage X + Necro X. Hors categorie. L'echelle cesse de suffire. Le monde n'a jamais vu cela.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- EMPIRE / GEOPOLITIQUE -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="section" id="empire">
+    <div class="section__header reveal">
+      <span class="section__number">III</span>
+      <h2 class="section__title">L'Empire</h2>
+      <p class="section__desc">Neuf royaumes. Un blason. Une theorie du pouvoir.</p>
+    </div>
+
+    <div class="empire-grid">
+      <div class="empire-card reveal">
+        <div class="empire-card__icon">&#127984;</div>
+        <h3>Lordaeron</h3>
+        <p>Purge sargerite. Ancien fief du marechal Aberthol. Integre par la Victorieuse.</p>
+      </div>
+      <div class="empire-card reveal">
+        <div class="empire-card__icon">&#127968;</div>
+        <h3>Sylve de l'Est</h3>
+        <p>Berceau Cadifor. New Avalon. Le coeur sacral, aristocratique et riche de la maison.</p>
+      </div>
+      <div class="empire-card reveal">
+        <div class="empire-card__icon">&#9962;</div>
+        <h3>Stormwind</h3>
+        <p>Moteur urbain et commercial principal de l'Empire. Capitale sous Rose.</p>
+      </div>
+      <div class="empire-card reveal">
+        <div class="empire-card__icon">&#9876;</div>
+        <h3>Stormgarde</h3>
+        <p>Heritage Trollbane. Integre via le troisieme sang. Fierte militaire.</p>
+      </div>
+      <div class="empire-card reveal">
+        <div class="empire-card__icon">&#127796;</div>
+        <h3>Gurubashi</h3>
+        <p>Conquete sudiste. Raptors Razzashi. Richesses tropicales.</p>
+      </div>
+      <div class="empire-card reveal">
+        <div class="empire-card__icon">&#127754;</div>
+        <h3>Morasses Noires</h3>
+        <p>Marais strategiques. Premiere conquete de la guerre civile.</p>
+      </div>
+      <div class="empire-card reveal">
+        <div class="empire-card__icon">&#128176;</div>
+        <h3>Kezan</h3>
+        <p>Ile gobeline. Centre maritime vers Kalimdor. Commerce intercontinental.</p>
+      </div>
+      <div class="empire-card reveal">
+        <div class="empire-card__icon">&#127956;</div>
+        <h3>Hautebrande</h3>
+        <p>Royaume integre. Profondeur territoriale de l'Empire.</p>
+      </div>
+      <div class="empire-card reveal">
+        <div class="empire-card__icon">&#127760;</div>
+        <h3>Duche Kolkar</h3>
+        <p>Kalimdor. Biens exclusifs d'importation. Tete de pont continentale.</p>
+      </div>
+    </div>
+
+    <!-- Heraldique -->
+    <div class="heraldry reveal">
+      <div class="heraldry__shield">
+        <svg viewBox="0 0 200 100" class="heraldry__svg">
+          <rect width="200" height="100" rx="8" fill="#2D1B4E"/>
+          <path d="M50,50 C50,25 75,25 100,50 C125,75 150,75 150,50 C150,25 125,25 100,50 C75,75 50,75 50,50 Z"
+                fill="none" stroke="#00d4ff" stroke-width="3"/>
+        </svg>
+      </div>
+      <div class="heraldry__text">
+        <h3>Le Blason Cadifor</h3>
+        <p><strong>Pourpre profond</strong> — Souverainete, rarete, arcane, altitude</p>
+        <p><strong>Infini cyan</strong> — Continuite, intelligence, boucle dynastique, refus de la fin</p>
+        <p><em>"Ce blason ne represente pas un clan. Il represente une theorie du pouvoir."</em></p>
+      </div>
+    </div>
+
+    <!-- Regime -->
+    <div class="regime reveal">
+      <h3>Regime Imperial sous Rose</h3>
+      <div class="regime__grid">
+        <div class="regime__item">
+          <span class="regime__label">Type</span>
+          <span class="regime__value">Monarchie elective cognatique</span>
+        </div>
+        <div class="regime__item">
+          <span class="regime__label">Autorite royale</span>
+          <span class="regime__value">Forte</span>
+        </div>
+        <div class="regime__item">
+          <span class="regime__label">Centralisation</span>
+          <span class="regime__value">Moyenne</span>
+        </div>
+        <div class="regime__item">
+          <span class="regime__label">Principe</span>
+          <span class="regime__value">L'heritier peut remonter d'une branche non-centrale</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- CIVILISATION -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="section section--dark" id="civilisation">
+    <div class="section__header reveal">
+      <span class="section__number">IV</span>
+      <h2 class="section__title">Civilisation</h2>
+      <p class="section__desc">Architecture, culture materielle, theologie et sociologie d'un empire qui transforme chaque matiere en intelligence.</p>
+    </div>
+
+    <div class="civ-grid">
+      <div class="civ-card reveal">
+        <h3>&#127984; Architecture</h3>
+        <div class="civ-card__content">
+          <p><strong>Doctrine Marjory</strong> : "Un palais marjoryen est un lieu ou chaque matiere a ete forcee a devenir plus intelligente qu'elle-meme."</p>
+          <ul>
+            <li>Palais principal (Stormwind) : 7 strates de souverainete</li>
+            <li>Palais secondaire (New Avalon) : intimite imperiale</li>
+            <li>Marbre veine, nervures de mithril, joints runiques</li>
+            <li>Lampes a memoire thermique, tables runiques</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="civ-card reveal">
+        <h3>&#128214; Theologie</h3>
+        <div class="civ-card__content">
+          <p><strong>Le Texte de Rose</strong> — quasi-scripturaire</p>
+          <p><em>"L'humanite n'est pas ce qu'il faut depasser ; c'est ce qu'il faut enfin consentir a habiter pleinement."</em></p>
+          <ul>
+            <li>Refuse la transcendance malgre la capacite</li>
+            <li>Religion officielle : Sacree (La Lumiere)</li>
+            <li>Sargeritisme purge sous Andrea III</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="civ-card reveal">
+        <h3>&#9878; Droit et Societe</h3>
+        <div class="civ-card__content">
+          <p><strong>Egalite stricte des sexes</strong> — dans TOUTES les civilisations</p>
+          <ul>
+            <li>Primogeniture suit l'ainee</li>
+            <li>Femmes : maires, comtesses, duchesses, imperatrices</li>
+            <li>Lignees feminines = norme, pas anomalie</li>
+            <li>Changement anthropologique total du monde</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="civ-card reveal">
+        <h3>&#128176; Economie</h3>
+        <div class="civ-card__content">
+          <p><strong>Le "Deal d'Aberthol"</strong></p>
+          <ul>
+            <li>Gwen (Kul Tiras) + June (Stormgarde) : empires commerciaux</li>
+            <li>Routes favorables, tarifs avantageux</li>
+            <li>Societes ecrans, faux pavillons</li>
+            <li>Tresorerie secrete, raids aux Hinterlands</li>
+            <li>Guildes d'information, espions en Lordaeron</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="civ-card reveal">
+        <h3>&#128085; Culture Materielle</h3>
+        <div class="civ-card__content">
+          <p><strong>Armures</strong> : 3 etats (presence / campagne / ceremonie)</p>
+          <ul>
+            <li>Mithril brode dans les lisieres</li>
+            <li>Micro-runes de tenue et de silence</li>
+            <li>Robes : permettent salon, bibliotheque, magie, et presque la guerre</li>
+            <li>Ecuries : plaques emaillees par monture, noeuds runiques de calme</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="civ-card reveal">
+        <h3>&#127891; Education</h3>
+        <div class="civ-card__content">
+          <p><strong>4 siecles de perfectionnisme</strong></p>
+          <ul>
+            <li>Banni > Benjamin > Marjory > Rose : lignee d'archimages</li>
+            <li>Caserne des jeunes nobles : 14-15 ans, rigueur sans mollesse</li>
+            <li>Formation "a l'ecole du front, non dans les salons" (Viki)</li>
+            <li>Resultat : Rose a 36 d'erudition, depassant toutes les races</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- BESTIAIRE -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="section" id="bestiaire">
+    <div class="section__header reveal">
+      <span class="section__number">V</span>
+      <h2 class="section__title">Bestiaire & Montures</h2>
+      <p class="section__desc">Du destrier de guerre au proto-drake de Northrend. Le prestige incarne.</p>
+    </div>
+
+    <div class="bestiary-grid">
+      <div class="bestiary-card reveal">
+        <div class="bestiary-card__tier">Communes</div>
+        <h3>Chevaux & Destriers</h3>
+        <p>Base militaire et aristocratique. Le socle de toute puissance humaine.</p>
+      </div>
+      <div class="bestiary-card reveal">
+        <div class="bestiary-card__tier">Communes</div>
+        <h3>Beliers Nains</h3>
+        <p>Commerce avec Ironforge. Montagne, climat froid, ceremonial martial.</p>
+      </div>
+      <div class="bestiary-card reveal">
+        <div class="bestiary-card__tier">Rares</div>
+        <h3>Raptors Razzashi</h3>
+        <p>Predateurs les plus intelligents de la jungle. Elite sudiste de conquete.</p>
+      </div>
+      <div class="bestiary-card reveal">
+        <div class="bestiary-card__tier">Rares</div>
+        <h3>Tigre de Zul'Gurub</h3>
+        <p>Don supreme. Attribue a Rose ou Marjory. Le nec plus ultra du prestige.</p>
+      </div>
+      <div class="bestiary-card reveal">
+        <div class="bestiary-card__tier">Rares</div>
+        <h3>Nightsabers</h3>
+        <p>Point de friction avec Quel'Thalas. Ultra-prestige, tres jalouses par les elfes.</p>
+      </div>
+      <div class="bestiary-card reveal">
+        <div class="bestiary-card__tier tier--legendary">Legendaires</div>
+        <h3>Proto-Drakes</h3>
+        <p>Importes de Northrend. ~10 pour tout l'Empire. Prestige supreme, pas utilitarisme.</p>
+      </div>
+      <div class="bestiary-card reveal">
+        <div class="bestiary-card__tier tier--legendary">Legendaires</div>
+        <h3>Griffons Imperiaux</h3>
+        <p>Logistique militaire haute. Messagers imperiaux. Forces aeriennes nobles.</p>
+      </div>
+      <div class="bestiary-card reveal">
+        <div class="bestiary-card__tier tier--legendary">Legendaires</div>
+        <h3>Dragons</h3>
+        <p>Elevage pres de Rochenoire. Extremement rares. Prets aux vassaux les plus fideles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- QUATRE FILLES D'ACIER -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="section section--accent">
+    <div class="section__header reveal">
+      <span class="section__number">VI</span>
+      <h2 class="section__title">Les Quatre Filles d'Acier</h2>
+      <p class="section__desc">L'epoque la plus cadiforienne des Cadifor.</p>
+    </div>
+
+    <div class="sisters-grid">
+      <div class="sister-card reveal">
+        <div class="sister-card__role">Le pere continue</div>
+        <h3>Viki</h3>
+        <p class="sister-card__desc">La force, l'aura, la joie martiale. Guerriere legendaire rang 10.</p>
+        <span class="sister-card__domain">New Avalon — La Guerre</span>
+      </div>
+      <div class="sister-card reveal">
+        <div class="sister-card__role">La maison rendue aimable</div>
+        <h3>Gwen</h3>
+        <p class="sister-card__desc">La grace, la souplesse, l'empire maritime. Guerriere rang 8.</p>
+        <span class="sister-card__domain">Kul Tiras — La Diplomatie</span>
+      </div>
+      <div class="sister-card reveal">
+        <div class="sister-card__role">La maison rendue juste</div>
+        <h3>June</h3>
+        <p class="sister-card__desc">La lumiere, la pudeur, la droiture. Paladin rang 8 a 16 ans.</p>
+        <span class="sister-card__domain">Stormgarde — La Foi</span>
+      </div>
+      <div class="sister-card reveal">
+        <div class="sister-card__role">La maison rendue consciente</div>
+        <h3>Andrea</h3>
+        <p class="sister-card__desc">L'intelligence, les reseaux, les secrets. Genie unique de la fratrie.</p>
+        <span class="sister-card__domain">Darrow — L'Esprit</span>
+      </div>
+    </div>
+
+    <blockquote class="quote reveal">
+      <p>&laquo; Aberthol cree la possibilite. Les Quatre Filles d'Acier creent le systeme. &raquo;</p>
+    </blockquote>
+  </section>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- FOOTER -->
+  <!-- ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer__logo">
+        <span class="footer__infinity">&#8734;</span>
+        <span>CADIFOR</span>
+      </div>
+      <p class="footer__text">Univers alternatif CK2 Warcraft — Mod Guardians of Azeroth</p>
+      <p class="footer__text footer__text--small">De la frontiere a l'Empire. 542 — 953+</p>
+      <div class="footer__divider"></div>
+      <p class="footer__text footer__text--small">Encyclopedie dynastique extraite de 997 pages de lore</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
