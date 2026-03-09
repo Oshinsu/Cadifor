@@ -211,8 +211,31 @@ Duel d'entrainement contre Marjory au Palais des Hautes Reprises (concu par Rose
 *(Scene complete dans `lore/meta/scenes/duel_hautes_reprises.md`)*
 
 ### Le Bal de Clairbois
-Rose arrive a l'improviste au bal du duche d'Ebonlocke. Sa presence redistribue toute la hierarchie de la soiree. Elle bat au domino par Gaspard Fenecourt, petit noble provincial — la meilleure soiree de son annee.
+Rose arrive a l'improviste au bal du duche d'Ebonlocke. Sa presence redistribue toute la hierarchie de la soiree. Battue au domino par Gaspard Fenecourt, petit noble provincial — la meilleure soiree de son annee.
 *(Scene complete dans `lore/meta/scenes/bal_de_clairbois.md`)*
+
+### Le Diner Imperial
+Diner de travail avec Marjory au palais. Entre les huitres de Kul Tiras et le consomme de faisan, elles decident de la cession de Kolkar, de la doctrine technologique, de l'education d'Adrast, et des escouades de huit. La phrase decisive : *"Ne laisse jamais ton genie croire qu'il a le droit de n'appartenir qu'a lui-meme."*
+*(Scene complete dans `lore/meta/scenes/diner_imperial.md`)*
+
+---
+
+## REGIMES DE CONSCIENCE
+
+Rose ne surpasse pas les autres en faisant "la meme chose en mieux". Elle fait **autre chose** :
+
+| Regime | Qui le porte | Ce qu'il voit |
+|--------|-------------|---------------|
+| Duree/Sedimentation | Dragon-aspect | Les eres, les cycles |
+| Organicite cosmique | Ancient/Cenarius | Croissance, corruption, respiration |
+| Verticalite religieuse | Grande pretresse | Le sacre, l'election divine |
+| Grammaire operatoire | Archimage | Les ecoles, les flux |
+| Forme imperiale | Marjory | La structure, la hierarchie |
+| **Integration absolue** | **Rose** | **Toutes les couches simultanement** |
+
+> *"Son esprit ne peut plus rencontrer une chose sans en sentir immediatement plusieurs couches : physique, vitale, historique, symbolique, parfois magique, parfois theologique. Elle ne choisit pas d'aller profond. Le monde lui arrive deja profond."*
+
+*(Analyse complete dans `lore/meta/conscience_rose.md`)*
 
 ---
 

@@ -117,6 +117,26 @@
 
 ---
 
+## SCENES MAJEURES
+
+### Le Duel des Hautes Reprises
+Duel d'entrainement contre Rose. Resultat : double mort simultanee. La phrase : *"L'ivresse de la guerre, c'est d'avoir trouve enfin une verite qui merite qu'on s'habille correctement pour elle."*
+*(Scene complete dans `lore/meta/scenes/duel_hautes_reprises.md`)*
+
+### Le Diner Imperial
+Diner de travail avec Rose. Entre politique et gastronomie, les deux femmes decident du sort de royaumes. *"J'ai restaure les couronnes parce qu'un empire trop intelligent finit par gouverner des territoires vides d'amour-propre."*
+*(Scene complete dans `lore/meta/scenes/diner_imperial.md`)*
+
+---
+
+## REGIME DE CONSCIENCE
+
+Marjory pense comme **l'Empire devenu esprit**. Chez elle, la structure, la hierarchie, la distance, le luxe, l'ordre, la forme correcte du monde sont deja presque une seconde nature. Son genie n'est pas d'abord exploratoire ; il est **formateur, ordonnateur, hierarchisant**.
+
+> *"Marjory n'est pas seulement savante. Elle est deja au point ou l'intelligence cesse d'etre une qualite personnelle pour devenir une architecture de souverainete."*
+
+---
+
 ## CITATIONS
 
 > *"Un palais marjoryen est un lieu ou chaque matiere a ete forcee a devenir plus intelligente qu'elle-meme."*
@@ -124,6 +144,12 @@
 > *"Rose est le depassement ; Marjory est la condition de possibilite du depassement."*
 
 > *"Plus geometrique, plus royale, plus parfaite que Benjamin."*
+
+> *"Les hommes ne poussent vraiment que dans la fiction qu'on leur laisse habiter."*
+
+> *"L'ivresse de la guerre, c'est d'avoir trouve enfin une verite qui merite qu'on s'habille correctement pour elle."*
+
+> *"Ne laisse jamais ton genie croire qu'il a le droit de n'appartenir qu'a lui-meme."*
 
 ---
 

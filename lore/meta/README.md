@@ -18,6 +18,9 @@ lore/meta/
 ├── mecaniques_ck2.md                  # Systeme de classes, mana, rangs, mentorat
 ├── philosophie_marjory_rose.md        # Ecoles philosophiques, classifications
 ├── carnets_secrets.md                 # Journaux intimes de Marjory et Rose
+├── conscience_rose.md                 # Les 6 regimes de conscience, theosophie, renoncement
+├── style_litteraire_approfondi.md     # Les 8 lois du Mode Cadifor, 10 citations supremes
+├── discussions_auteur.md              # Meta-reflexions de l'auteur, debats, questions ouvertes
 ├── metissage.md                       # Systeme de metissage racial
 ├── geopolitique_mondiale.md           # Systeme multipolaire, equilibre mondial
 ├── sociologie_empire.md               # Proto-socialisme technomagique
@@ -25,6 +28,7 @@ lore/meta/
 ├── quatre_vies.md                     # Concept des 4 Vies (points de vue)
 └── scenes/
     ├── duel_hautes_reprises.md        # Duel Marjory vs Rose (scene complete)
+    ├── diner_imperial.md              # Diner Marjory/Rose — politique a table (scene complete)
     └── bal_de_clairbois.md            # Rose au bal de Clairbois (scene complete)
 ```
 
