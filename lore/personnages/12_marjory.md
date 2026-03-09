@@ -9,7 +9,7 @@
 |-------|--------|
 | **Nom** | Marjory Cadifor, dite "le Sage" / "l'Imperiale" |
 | **Role dynastique** | Sublimation de l'Empire — mere de Rose |
-| **Titre** | Imperatrice d'Azeroth |
+| **Titre** | Haute Reine d'Azeroth (titre correct : "Haut Royaume", pas "Empire") |
 | **Naissance** | ~873/874 |
 | **Mort** | 943.9.14 (au combat, age 69) |
 | **Duree de regne** | 34 ans, 2 mois, 25 jours (909.6.20 — 943.9.14) |
@@ -127,8 +127,55 @@
 
 ---
 
+## CLASSIFICATION PHILOSOPHIQUE
+
+Marjory appartient a l'ecole du **Formalisme Imperial Haut** (ou **Ecole de la Forme Souveraine**) :
+
+| Rang | Courant | Description |
+|------|---------|-------------|
+| 1 | Classicisme imperial de la forme | Le beau est un signe de justesse |
+| 2 | Stoicisme aristocratique | Discipline interieure, tenue comme vertu cardinale |
+| 3 | Platonisme politique | Croyance a la forme juste des choses |
+| 4 | Ethique de la responsabilite souveraine | Juger les actes par la continuite qu'ils produisent |
+| 5 | Meritocratie tragique | Doctrine des meilleurs et du cout de leur selection |
+| 6 | Humanisme de haute exigence | L'humain comme matiere a elever |
+
+> *"Le monde doit etre porte a sa forme juste."*
+
+---
+
+## MONTURES
+
+| Type | Monture | Justification |
+|------|---------|---------------|
+| **Terrestre** | **Swift Zulian Tiger** | Souverain, fauve, rare, ancien, style sans etre demonstratif |
+| **Volante** | **Grand Griffon imperial ancien** | Presque impossible, vieux, immense, parfaitement dresse — plus noble qu'un dragon car il dit l'Empire sans provoquer la cosmologie |
+
+> *"Marjory doit paraitre inevitable."* — Recommandation du maitre des ecuries
+
+---
+
+## CARNETS SECRETS (extraits)
+
+Marjory tient un carnet secret — feuillets d'ecriture tres sure, chaque phrase admise apres examen. Extraits sur Rose :
+
+> *"J'ai vu tout de suite ce qu'elle etait. [...] Elle ne croitrait pas dans le monde comme les autres. Elle le prendrait de vitesse."*
+
+> *"Le genie est une matiere instable. [...] Je l'ai traitee avec une exactitude sans complaisance."*
+
+> *"Mon combat fut de construire la forme. Le sien est plus terrible : ne pas se laisser autoriser par son eclat a sortir de toute forme."*
+
+> *"C'est magnifique. C'est presque invivable. Et c'est mortel si personne n'apprend au genie le point ou la comprehension cesse d'etre un droit pour devenir une tentation de violence."*
+
+> *"Mon oeuvre a ete plus difficile : lui apprendre qu'au bord aussi, il existe encore une maniere de se tenir."*
+
+*(Textes complets dans `lore/meta/carnets_secrets.md`)*
+
+---
+
 ## POSITIONNEMENT
 
 - Score 97/100 : egal a Aberthol, le fondateur. Le debut et la fin du cycle se rejoignent.
 - Si Rose n'existait pas, Marjory serait le **sommet absolu** de la dynastie.
 - Son merite historique est *superieur* a celui de Rose : elle a du **creer la forme sans l'avoir recue**.
+- *"Je suis plus meritante historiquement. J'ai du devenir Marjory sans avoir eu Marjory pour mere."* — Carnet secret

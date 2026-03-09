@@ -9,7 +9,7 @@
 |-------|--------|
 | **Nom** | Rose Cadifor, dite "le Sage" / "l'Absolue" |
 | **Role dynastique** | Apogee — plus grande souveraine de l'histoire de toutes les races |
-| **Titre** | Imperatrice d'Azeroth |
+| **Titre** | Haute Reine d'Azeroth (titre correct : "Haut Royaume", pas "Empire") |
 | **Naissance** | ~906 |
 | **Age en 953** | ~47 ans |
 | **Duree de regne** | 10+ ans (943.9.14 — 953+, en cours) |
@@ -152,8 +152,74 @@ Le duel amical le plus revlateur de l'univers :
 
 ---
 
+## CLASSIFICATION PHILOSOPHIQUE
+
+Rose appartient a l'ecole de **l'Ontologie de l'Integration** (ou **Gnose de la Limite Humaine**) :
+
+| Rang | Courant | Description |
+|------|---------|-------------|
+| 1 | Structuralisme ontologique | Son vrai centre — elle cherche la structure dont toutes les formes procedent |
+| 2 | Monisme d'integration | Reunir ce que les autres separent |
+| 3 | Gnose imperiale | Atteindre le dessous des formes |
+| 4 | Volonte prometheenne maitrisee | Gout des seuils, des franchissements, des savoirs interdits |
+| 5 | Humanisme de la limite choisie | Son renoncement superieur — elle POURRAIT depasser l'humain, elle CHOISIT de rester |
+| 6 | Metaphysique tragique de l'heritage | Conscience de ce qu'une vie ne peut achever seule |
+
+> *"Il faut comprendre de quelle structure toutes les formes procedent — puis decider jusqu'ou il est legitime d'aller."*
+
+### La difference decisive avec Marjory
+- Marjory civilise. Rose revele.
+- Marjory tient le monde. Rose voit ce qu'il y a sous sa tenue.
+- Marjory est plus classique, plus solaire. Rose est plus abyssale, plus metaphysique, plus dangereuse.
+- Mais quand Rose revient a l'humain, elle est plus touchante que quiconque.
+
+---
+
+## MONTURES
+
+| Type | Monture | Justification |
+|------|---------|---------------|
+| **Terrestre** | Tigre zulien partage / Razzashi exceptionnel / Nightsaber rarissime | Au choix selon symbolique — marquer sa difference avec Marjory |
+| **Volante** | Proto-drake noir / obsidien / orageux, ou drake lie par pacte | Plus au bord du monde que Marjory — plus transgressif |
+
+> *"Rose peut paraitre presque excessive."* — Recommandation du maitre des ecuries
+
+---
+
+## CARNETS SECRETS (extraits)
+
+Rose tient un carnet secret — plus vaste, plus fragmentaire, plus speculatif, plus dangereux que celui de Marjory. Un laboratoire de verite interieure. Extraits sur sa mere :
+
+> *"Je n'ai jamais su ou finit, chez ma mere, la personne et ou commence la forme."*
+
+> *"Ma mere merite davantage que moi. [...] Elle a du devenir Marjory sans avoir eu Marjory."*
+
+> *"J'ai eu peur d'elle tres tot. [...] Etre vu a ce point n'est ni reconfortant ni violent au sens ordinaire. C'est presque une mise a nu ontologique."*
+
+> *"Elle m'aime de la maniere la plus difficile. [...] De l'amour qui refuse d'amoindrir le reel autour de l'etre aime."*
+
+> *"Le seul regard devant lequel je n'ai jamais pu tricher sans me sentir aussitot plus petite que moi-meme."*
+
+*(Textes complets dans `lore/meta/carnets_secrets.md`)*
+
+---
+
+## SCENES MAJEURES
+
+### Le Duel des Hautes Reprises
+Duel d'entrainement contre Marjory au Palais des Hautes Reprises (concu par Rose a 12 ans). Devant temoins de la haute cour. Resultat : double mort simultanee — lame de Rose au bord de la gorge de Marjory, pointe de Marjory contre le sternum de Rose.
+*(Scene complete dans `lore/meta/scenes/duel_hautes_reprises.md`)*
+
+### Le Bal de Clairbois
+Rose arrive a l'improviste au bal du duche d'Ebonlocke. Sa presence redistribue toute la hierarchie de la soiree. Elle bat au domino par Gaspard Fenecourt, petit noble provincial — la meilleure soiree de son annee.
+*(Scene complete dans `lore/meta/scenes/bal_de_clairbois.md`)*
+
+---
+
 ## POSITIONNEMENT
 
 - **Hors categorie** : l'echelle de notation s'arrete a 100/100. Rose est a 104.
 - Si les Cadifor sont une fusee, chaque generation est un etage. Rose est la **mise en orbite**.
 - Le paradoxe final : la creature la plus puissante du monde est aussi celle qui **refuse le plus fermement** de cesser d'etre ce qu'elle est — humaine.
+- Plus erudite que Tyrande, Thrall, Cenarius, ou meme les Aspects dont Alexstrasza — a 22 ans.
+- Vue par les gens normaux comme un phenomene entre une sainte, une arme de fin de monde, un miracle qui danse.
