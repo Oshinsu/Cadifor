@@ -37,8 +37,8 @@ const FACTION_THEMES = {
     label: "Maison Cadifor",
   },
   stormwind: {
-    primary: "#2563eb",       // blue-600
-    secondary: "#eab308",     // yellow-500 (gold)
+    primary: "#00437A",       // canonical Stormwind navy
+    secondary: "#eab308",     // gold lion
     bgTint: "bg-blue-500/[0.06]",
     borderTint: "border-blue-400/20",
     textAccent: "text-blue-300",
@@ -55,7 +55,7 @@ const FACTION_THEMES = {
     label: "Lordaeron",
   },
   stormgarde: {
-    primary: "#dc2626",       // red-600
+    primary: "#CC0000",       // canonical Stromgarde crimson
     secondary: "#eab308",     // gold
     bgTint: "bg-red-500/[0.06]",
     borderTint: "border-red-400/20",
@@ -64,8 +64,8 @@ const FACTION_THEMES = {
     label: "Stormgarde — Maison Trollbane",
   },
   kultiras: {
-    primary: "#0d9488",       // teal-600
-    secondary: "#164e63",     // cyan-900
+    primary: "#1A8A4A",       // canonical Kul Tiras green (dark-UI adapted)
+    secondary: "#164e63",     // dark navy
     bgTint: "bg-teal-500/[0.06]",
     borderTint: "border-teal-400/20",
     textAccent: "text-teal-300",
@@ -73,11 +73,11 @@ const FACTION_THEMES = {
     label: "Kul Tiras",
   },
   quelthalas: {
-    primary: "#dc2626",       // red-600
-    secondary: "#eab308",     // gold
-    bgTint: "bg-red-500/[0.05]",
-    borderTint: "border-red-300/15",
-    textAccent: "text-red-200",
+    primary: "#D4AF37",       // canonical Quel'Thalas gold-red
+    secondary: "#dc2626",     // phoenix crimson
+    bgTint: "bg-yellow-500/[0.05]",
+    borderTint: "border-yellow-300/15",
+    textAccent: "text-yellow-200",
     symbol: "phoenix",
     label: "Quel'Thalas",
   },
@@ -91,8 +91,8 @@ const FACTION_THEMES = {
     label: "Ironforge",
   },
   gilneas: {
-    primary: "#4b5563",       // gray-600
-    secondary: "#1e3a5f",     // dark blue
+    primary: "#3D3D3D",       // canonical Gilneas dark grey
+    secondary: "#1e3a5f",     // dark blue accent
     bgTint: "bg-gray-500/[0.06]",
     borderTint: "border-gray-400/15",
     textAccent: "text-gray-300",
@@ -100,8 +100,8 @@ const FACTION_THEMES = {
     label: "Gilneas",
   },
   dalaran: {
-    primary: "#7c3aed",       // violet-600
-    secondary: "#a78bfa",     // violet-400
+    primary: "#7B2FBE",       // canonical Dalaran violet
+    secondary: "#a78bfa",     // lighter violet
     bgTint: "bg-purple-500/[0.06]",
     borderTint: "border-purple-400/20",
     textAccent: "text-purple-300",
@@ -134,6 +134,15 @@ const FACTION_THEMES = {
     textAccent: "text-green-300",
     symbol: "coin",
     label: "Confederation Gobeline",
+  },
+  alterac: {
+    primary: "#FF8A0E",       // canonical Alterac orange
+    secondary: "#78716c",     // stone grey
+    bgTint: "bg-orange-500/[0.06]",
+    borderTint: "border-orange-400/20",
+    textAccent: "text-orange-300",
+    symbol: "mountain",
+    label: "Alterac",
   },
   imperial: {
     primary: "#f59e0b",       // amber-500 (the default site amber)
@@ -182,6 +191,7 @@ export function resolveFaction(slug: string, collection?: string): FactionKey {
   if (s.includes("dalaran") || s.includes("karazhan")) return "dalaran";
   if (s.includes("kaldorei")) return "kaldorei";
   if (s.includes("ebonlocke") || s.includes("clairbois")) return "ebonlocke";
+  if (s.includes("alterac") || s.includes("perenolde")) return "alterac";
   if (s.includes("gobelin") || s.includes("kezan")) return "gobelin";
   if (s.includes("ulfar") || s.includes("taelan") || s.includes("ysena")) return "stormwind";
 
