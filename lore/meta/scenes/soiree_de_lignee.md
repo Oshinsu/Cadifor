@@ -8,7 +8,7 @@
 **Nature** : Soiree intime entre femmes. Service entierement feminin — quand les hommes sortent d'une piece, certaines phrases cessent de devoir perdre du temps a contourner leur vanite.
 **Ambiance** : Decontractee (dans la mesure ou Marjory peut l'etre), potins d'empire, discussions sur la lignee et sur les affaires courantes du Haut Royaume.
 
-> **Note de l'auteur** : Voir l'imperatrice vivante est deja, vu la taille de l'empire, une anomalie. Etre invitee par elle dans le "cercle tertiaire" est un honneur absolu. Il y a 3 ou 4 "univers" d'ecart entre Marjory/Rose et ces femmes. Mais cela est su, et c'est "tres bien comme ca".
+> **Note de l'auteur** : Voir l'imperatrice vivante est deja, vu la taille de l'empire, une anomalie. Etre invitee par elle dans le "cercle tertiaire" est un honneur absolu. Il y a 3 ou 4 "univers" d'ecart entre Marjory/Rose et ces femmes. Mais cela est su, et c'est "tres bien comme ca". Le privilege n'est pas d'approcher une idole ; c'est d'approcher d'assez pres une forme souveraine pour sentir ce qu'elle exige du monde sans avoir a le declarer.
 
 ---
 
@@ -25,6 +25,9 @@
 ## Le lieu
 
 Les plafonds y etaient plus bas, non par economie, mais par intention. Les voix y devenaient plus precises. Partout, le gout avait ete pousse a ce point ou il cesse de vouloir convaincre. Tapis de soie epaisse. Consoles de marbre noir veine de lait. Petites tables incrustees de nacre froide. Fourrures blanches jetees sur les dossiers non pour chauffer, mais pour corriger la ligne. Dans les angles, de grands vases de cristal mineral retenaient des branches d'hiver chargees de fruits tardifs, non pas des fleurs : ici, meme l'ornement devait avoir une densite de saison.
+
+Ce n'etait pas seulement une belle piece.
+C'etait un lieu pense pour qu'en presence de Marjory la conversation monte d'elle-meme d'un degre, comme si les choses, autour d'elle, refusaient d'etre mediocres sans recevoir pour autant l'excuse de se croire sacrees.
 
 ## Le service
 
@@ -54,6 +57,11 @@ Serena, riant :
 Marjory les regarda l'une apres l'autre.
 — Si ce soir vous vous conduisez comme des femmes prudentes, nous perdrons toutes du temps. Je vous ai fait venir pour l'epargner.
 
+La phrase eut sur les trois invitees cet effet tres particulier qu'ont parfois les paroles de sommet :
+elle ne les intimida pas.
+Elle les regla.
+Chacune sentit aussitot de combien de degres elle pouvait se hausser sans ridicule, et de combien elle serait vue si elle tentait encore de tricher avec sa propre qualite.
+
 ### II. Le faucon beni
 
 Lysenne :
@@ -69,6 +77,10 @@ Aelys :
 
 Marjory :
 — La comtesse de Vaureuil a toujours eu besoin de trois autorites la ou une intelligence aurait suffi.
+
+Serena eut ce sourire tres fin des femmes qui savent reconnaitre qu'une phrase vient de retablir plus qu'un jugement.
+Dans n'importe quelle autre piece, cela n'eut ete qu'un mot d'esprit superieur.
+Ici, sous Marjory, meme une remarque sur une comtesse mediocre reprenait aussitot la taille d'un principe de civilisation.
 
 ### III. Le jeune Cadifor de Hautebrande
 
@@ -169,6 +181,95 @@ Rose :
 Lysenne :
 — Parce qu'on lui a deja appris a penser comme une piece fermee. Je lui apprendrai que le monde a des liseres.
 
+### VI. Les copies de Rose
+
+Lysenne mordit dans un morceau de pain et dit :
+— J'ai encore mieux, et cela vous plaira moins. Deux jeunes femmes de maison excellente ont commence a se vetir exactement comme Rose. Meme coupe de manche. Meme neutralite d'etoffe. Meme refus de couleur trop visible. L'une d'elles a meme essaye de tenir sa coupe sans la toucher.
+
+Rose baissa les yeux sur sa propre main, puis eclata d'un rire si pur que meme Marjory le laissa durer.
+
+Serena posa sa coupe.
+— Les noms, je t'en prie.
+
+Lysenne, ravie :
+— L'ainee de Montfaucon. Et la seconde fille du marquis de Clairbois.
+
+Aelys, tres seche :
+— Ce sont des filles sans voix. Il fallait bien qu'elles essaient d'emprunter une silhouette.
+
+Rose eut encore un rire, puis se calma.
+— Non. Laissez-les. C'est un stade utile. Les mauvaises imitations fatiguent vite. Si elles ont un fond, elles decouvriront qu'on ne devient jamais dangereuse en copiant le silence d'une autre.
+
+Marjory ajouta, plus froidement :
+— Et si elles n'ont pas de fond, l'etoffe leur fera du mal plus tot que la morale.
+
+Serena dit alors, avec ce tact particulier des femmes tres intelligentes qui savent qu'un mot juste vaut mieux qu'une flatterie haute :
+— Voila une phrase qui meriterait d'etre cousue a l'interieur de tous les vetements de cour.
+
+Rose leva sa coupe vers sa mere.
+— Vous voyez ? Meme en parlant de manches, vous trouvez encore le moyen de reformer la civilisation.
+
+Marjory repondit sans sourire :
+— La civilisation se reforme surtout dans les choses que les hommes se croient dispenses de penser.
+
+### VII. Andrea Gahron
+
+Ce fut Aelys qui, apres un instant, devia la soiree vers la lignee elle-meme.
+
+— Rose, dit-elle, on m'a rapporte que tu avais corrige la semaine derniere la lecture d'un jeune cousin sur Andrea Gahron, en disant qu'il la lisait "comme une belle femme utile alors qu'elle etait une force oblique de fondation". Est-ce vrai, ou bien l'enfant a-t-il simplement voulu se rendre interessant en te pretant une phrase superieure a son intelligence ?
+
+Rose sourit.
+— C'est a peu pres exact.
+— Developpe, dit Marjory.
+
+Lysenne s'adossa davantage. Serena posa sa coupe. Meme les servantes, sans rien laisser paraitre, comprirent que la conversation changeait de densite.
+
+Rose repondit :
+— Les jeunes lisent encore Andrea Gahron comme une correction sentimentale d'Aberthol. C'est indigne. Elle n'est pas le contrepoint doux de la ligne dure. Elle est le principe sans lequel la ligne dure serait restee trop simple pour durer. Aberthol fonde. Elle complexifie. Il eleve. Elle rend habitable. Il impose la forme. Elle lui donne de quoi seduire le monde assez longtemps pour qu'il l'accepte.
+
+Aelys prit son temps avant de repondre.
+— C'est mieux que ce que disent les vieux.
+
+Marjory, sans lever la voix :
+— Oui. Et voila pourquoi j'interdis les hommes d'histoire a mes plus jeunes neveux avant dix-sept ans. Ils confondent presque toujours les femmes de fondation avec les femmes de consolation.
+
+Lysenne eut un rire bref.
+— Chez nous, ils confondent aussi les grandes chasseresses avec les jolies cavalieres.
+
+Serena la regarda.
+— Cela, ma chere, c'est parce que les hommes n'ont jamais tres bien su ce que les femmes faisaient du sang quand elles n'avaient plus besoin d'en parler pour se prouver quelque chose.
+
+Rose leva sa coupe vers elle, comme un salut plus que comme un toast.
+
+### VIII. Le cercle tertiaire
+
+Marjory se redressa legerement. Le geste suffit a faire sentir que la soiree touchait a son point de perfection.
+
+— Vous voyez, dit-elle enfin, pourquoi j'aime encore ces petites assemblees. Le monde entier croit que l'intelligence imperiale vit dans les conseils, les chartes, les sieges, les flottes, les conciles. C'est faux. Elle vit aussi dans ces heures ou quatre ou cinq femmes assez hautes pour ne pas mentir de leurs yeux se disent enfin les choses a leur vraie taille.
+
+Personne ne parla pendant quelques secondes.
+
+Puis Rose, tres doucement, dit :
+— Et c'est encore plus rare que la victoire.
+
+Marjory tourna vers elle un regard d'une nettete presque insoutenable.
+— Oui. C'est pourquoi je ne le gaspille pas.
+
+Ce fut la la vraie faveur de la soiree.
+Pas les mets.
+Pas le palais.
+Pas le service.
+Pas meme l'honneur d'etre conviee par Marjory.
+
+La vraie faveur tenait dans ce simple fait :
+pendant quelques heures, dans le palais secondaire de New Avalon, trois femmes de tres haute qualite avaient ete autorisees a approcher assez pres du feu pour sentir non seulement la chaleur du pouvoir, mais sa conversation interieure.
+
+Et quand elles repartirent, plus tard dans la nuit, elles emporterent toutes la meme chose, sans l'avoir formulee :
+qu'il existe encore, dans ce monde trop vaste et trop hierarchique, quelques pieces ou les sujets les plus legers — une manche copiee, une jeune fille a sauver, un faucon beni de travers, une phrase d'Andrea Gahron mal comprise — deviennent entre les bonnes femmes des affaires de civilisation.
+
+C'etait cela, le cercle tertiaire de Marjory.
+Un lieu ou meme les potins, a force d'intelligence, cessaient d'etre petits.
+
 ---
 
 ## CITATIONS CLES
@@ -184,3 +285,11 @@ Lysenne :
 > *"J'admire les gens capables de faire de leur betise une cosmologie."* — Aelys Cadifor
 
 > *"Le faucon a probablement eu le seul reflexe sain de la scene."* — Rose
+
+> *"La civilisation se reforme surtout dans les choses que les hommes se croient dispenses de penser."* — Marjory
+
+> *"Ils confondent presque toujours les femmes de fondation avec les femmes de consolation."* — Marjory
+
+> *"Et c'est encore plus rare que la victoire."* — Rose
+
+> *"Le cercle tertiaire de Marjory : un lieu ou meme les potins, a force d'intelligence, cessaient d'etre petits."*

@@ -44,6 +44,7 @@ Gwen est mariee au roi de Kul Tiras dans le cadre du systeme commercial d'Aberth
 - A impose le respect par la force brute : *"La premiere fois qu'elle se presenta en salle haute, les dames de Boralus regarderent ses mains et ses epaules"*
 - Empire commercial : gere les routes, les tarifs, et les alliances maritimes
 - N'est pas seulement une reine-consort : elle DIRIGE
+- **La mer est sa vraie grammaire geopolitique** : chez elle, l'expansion cesse d'etre seulement terrestre et devient circulation, projection, prise de routes et tenue d'horizons
 
 ### Rang 8 a ~17 ans
 - Comme sa soeur June, atteint un rang exceptionnel tres jeune
@@ -60,6 +61,7 @@ Gwen est mariee au roi de Kul Tiras dans le cadre du systeme commercial d'Aberth
 | **Commerciale** | Empire maritime, routes, tarifs |
 | **Militaire** | Commandante supreme kul tirassienne |
 | **Symbolique** | "La maison rendue aimable" |
+| **Geopolitique** | Gwen est une **reponse geopolitique** : la mer comme expansion elegante de la puissance cadiforienne |
 
 ---
 
@@ -77,3 +79,7 @@ Gwen est mariee au roi de Kul Tiras dans le cadre du systeme commercial d'Aberth
 ## CITATION
 
 > *"La premiere fois qu'elle se presenta en salle haute, les dames de Boralus regarderent ses mains et ses epaules."*
+
+> *"Gwen est une reponse geopolitique."*
+
+> *"La mer a toujours ete l'expansion la plus elegante."*

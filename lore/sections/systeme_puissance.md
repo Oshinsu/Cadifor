@@ -77,7 +77,7 @@ Le Combat Personnel (CP) en CK2 mesure la capacite en melee. Mais :
 | 8 | **June** | 84/100 | Paladin | 8 | Rang 8 a 16 ans |
 | 9 | **Gwen** | 82/100 | Warrior | 8 | Rang 8 |
 | 10 | **Andrea I** | 80/100 | Hunter | 7 | Chasseuse rang 7 |
-| 11 | **Andrea II** | 78/100 | Paladin | — | CP 33, reine combattante |
+| 11 | **Andrea II** | 78/100 | Warrior | 5 | CP 33, reine combattante |
 | 12 | **Arwyn** | 76/100 | Pretresse | 7 | Grande pretresse rang 7 |
 | 13 | **Andrea la R.** | 72/100 | Warrior | 6 | Plus politique que martiale |
 

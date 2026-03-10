@@ -69,3 +69,144 @@
 - La formation est **severe** mais produit des leaders, pas des brutes
 - Les femmes suivent exactement le meme programme que les hommes (egalite des sexes)
 - Le trait Genie peut etre identifie tot et cultive specifiquement
+
+---
+
+## ENSEIGNEMENT SUPERIEUR IMPERIAL
+
+Le Haut Royaume ne forme pas seulement :
+
+- des chevaliers
+- des mages
+- des paladins
+
+Il forme aussi :
+
+- des intendants
+- des auditeurs
+- des juristes du credit
+- des techniciens de la fiscalite
+
+Le haut age imperial fait ainsi apparaitre de vraies institutions d'enseignement superieur a `Hurlevent`.
+
+### L'Universite Royale d'Hurlevent
+
+L'une des grandes institutions de la capitale.
+
+Fonctions :
+
+- former les elites administratives
+- alimenter le `Tresor`
+- preparer banquiers, experts fiscaux et futurs intendants
+- convertir l'ascension scolaire en service d'Etat
+
+Le screen CK2 lot 5 (958) atteste une **Grande Université** au niveau IV parmi les grands ouvrages de l'Empire.
+
+Le `PDF original` permet maintenant de fixer plus nettement son profil :
+
+- c'est **l'une des trois grandes institutions** de la capitale
+- la mixite sociale y est reelle :
+  - fils de marchands
+  - roturiers ambitieux
+  - petite noblesse
+- les differenciations de rang ne disparaissent pas, mais elles n'empechent plus l'acces aux meilleures filieres
+
+Le point important est social :
+
+- fils de marchands
+- roturiers ambitieux
+- petite noblesse
+- profils allogenes ou mixtes plus rares mais reels
+
+La mixite existe donc vraiment,
+mais sans abolir toute lisibilite des differences de rang.
+
+### Cursus de finance imperiale
+
+Le bloc le mieux atteste dans le materiau tardif est la filiere :
+
+`Banque imperiale et politiques economiques`
+
+Elle tient ensemble :
+
+- mathematiques appliquees
+- droit bancaire
+- histoire economique d'Azeroth
+- fiscalite imperiale
+- gestion du credit
+- circulation monetaire
+- theorie des echanges marchands
+
+Le bloc PDF permet aussi de lui donner une texture plus concrete :
+
+- un rythme lourd de cours et de travail encadre
+- une forte place du cas pratique
+- des debouches directs vers :
+  - la `Banque Imperiale`
+  - l'audit du `Tresor`
+  - l'administration provinciale
+
+### Methodes de formation
+
+L'enseignement ne vaut pas seulement par le cours magistral.
+
+Il repose aussi sur :
+
+- cas pratiques
+- travaux de bibliotheque
+- simulations de crise
+- concours d'eloquence
+- jurys d'examen
+- jeux de gestion et de decision
+
+Le detail le plus utile est pedagogique :
+
+- les **cas pratiques** comptent lourdement dans l'evaluation
+- les simulations de crise et de faillite urbaine y ont une vraie place
+- l'Empire cherche moins des clercs savants que des esprits capables d'agir sous contrainte
+
+Formule juste :
+
+> *L'Empire n'enseigne pas seulement des savoirs ; il enseigne des situations.*
+
+### Examen de synthese
+
+Le `PDF original` donne aussi un excellent indice du niveau attendu en fin de filiere finance :
+
+- `examen final de 3e annee`
+- duree `6 heures`
+- seuls les `codes monetaires` et `chartes commerciales imperiales` sont autorises
+- sujet : reintegrer les finances du Nord apres la guerre, avec enveloppe, controleurs et archives limitees
+
+Ce point est important parce qu'il montre que l'Universite d'Hurlevent forme deja des cadres capables de :
+
+- raisonner en plan quinquennal
+- articuler monnaie, fiscalite, reconstruction et risque politique
+- penser l'integration provinciale comme probleme de gouvernement
+
+### Excellence de promotion
+
+Le materiau tardif fait aussi apparaitre des copies d'exception, dont `Heleris Sunspire` est l'exemple-source le plus utile.
+
+Lecture prudente :
+
+- cela confirme que la filiere finance peut produire des profils deja visibles a l'echelle imperiale
+- l'excellence y est mesuree sur la capacite a tenir ensemble :
+  - monnaie
+  - credit
+  - integration regionale
+  - faisabilite politique
+- la selection n'y est donc pas purement nobiliaire
+
+`Heleris` ne doit pas encore etre lue comme un grand personnage completement canonise ; en revanche, elle prouve que `Hurlevent` sait faire emerger des cerveaux administratifs capables de penser l'Empire comme systeme
+
+### Finalite politique
+
+Ces universites disent une chose essentielle :
+
+le Haut Royaume n'est plus seulement une machine a produire des heros ou des seigneurs.
+Il est devenu une civilisation capable de former des competences abstraites a grande echelle.
+
+Autrement dit :
+
+> *Chez les Cadifor, la guerre, la magie et la noblesse ne suffisent plus ; il faut aussi des intelligences capables de faire tenir les finances, les flux et les institutions.*

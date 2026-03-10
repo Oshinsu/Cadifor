@@ -28,19 +28,54 @@
 | S | Aberthol, Viki, Andrea la Rougissante |
 | A+ | Gwen, June, Andrea l'Erudite, Andrea la Juste, Llane Wrynn |
 | A | Banni, Benjamin, Andrea Gahron, Johnson Trollbane, Arwyn |
-| A- | Anastasia Wrynn, Ariana Wrynn, Prince Allison |
+| A- | Prince Allison |
 | B+ | Andrea la Juste (2e) |
 
-## Les "Quatre Filles d'Acier" — L'epoque la plus cadiforienne
+## Fiches secondaires (15-34)
 
-| Fille | Role symbolique | Destination | Puissance |
-|-------|----------------|-------------|-----------|
-| **Viki** | Le pere continue dans la force | New Avalon — La Guerre | Guerriere Legendaire (95/100) |
-| **Gwen** | La maison rendue aimable | Kul Tiras — La Diplomatie | Guerriere rang 8 (82/100) |
-| **June** | La maison rendue juste | Stormgarde — La Foi | Paladin rang 8 (84/100) |
-| **Andrea** | La maison rendue consciente | Darrow — L'Esprit | Genie, rang 6 (72/100) |
+| Fichier | Personnage |
+|---------|------------|
+| `15_llane.md` | Llane Wrynn |
+| `16_andrea_cadifor.md` | Andrea Cadifor (reine-mere) |
+| `17_johnson.md` | Johnson Trollbane |
+| `18_leonid.md` | Leonid de Stromgarde |
+| `19_thorim.md` | Thorim de Iahienal |
+| `20_gautmar.md` | Gautmar Cadifor |
+| `21_celestria.md` | Celestria Cadifor |
+| `22_ysena.md` | Ysena Wrynn |
+| `23_allison.md` | Prince Allison |
+| `24_taelan.md` | Taelan l'Ancien |
+| `25_allisson_juke.md` | Roi Allisson 'le Juke' |
+| `26_thoras.md` | Thoras de Azeroth |
+| `27_ulfar.md` | Ulfar Ymironsson |
+| `28_empereur_rong.md` | Empereur Rong |
+| `29_gaelan.md` | Gaelan Trellane |
+| `30_selina_parker.md` | Selina Parker |
+| `31_anasterian.md` | Anasterian Sunstrider |
+| `32_demi_soeurs_wrynn.md` | Demi-soeurs Wrynn |
+| `33_commandants_950.md` | Commandants (950) |
+| `34_heleris.md` | Heleris Sunspire |
+
+## Generation Fondatrice (pre-600)
+
+| Personnage | Role | Lecture |
+|------------|------|---------|
+| **Aberthol Cadifor** | Fondateur, guerrier legendaire rang 10, genie | Le mariage avec Andrea Gahron, le Deal, les Quatre Filles |
+| **Andrea Gahron** | Duchesse du "Comte de Darrow", "L'Adultere" | Fiancee a 6 ans, mariee a 16 ans, mere des 4 filles, figure de scandale |
+| **Lord Grisfroy** | Regent de la minorite d'Andrea Gahron | Homme de papier, oncle eloigne, conservateur |
+
+## Les "Quatre Filles d'Acier" — L'epoque la plus cadiforienne (600-700)
+
+| Fille | Role symbolique | Destination | Puissance | Mere |
+|-------|----------------|-------------|-----------|------|
+| **Viki** | Le pere continue dans la force | New Avalon — La Guerre | Guerriere Legendaire (95/100) | Attente 20 ans sous Andrea Gahron |
+| **Gwen** | La maison rendue aimable | Kul Tiras — La Diplomatie | Guerriere rang 8 (82/100) | Reine-consort |
+| **June** | La maison rendue juste | Stormgarde — La Foi | Paladin rang 8 (84/100) | Reine-consort |
+| **Andrea la Rougissante** | La maison rendue consciente | Darrow — L'Esprit | Genie, rang 6 (72/100) | 4e fille, preferee d'Aberthol |
 
 > *"Aberthol cree la possibilite. Les Quatre Filles d'Acier creent le systeme."*
+
+> *"Andrea Gahron donne le sang. Aberthol donne la methode."*
 
 ## Clarification des Andrea
 

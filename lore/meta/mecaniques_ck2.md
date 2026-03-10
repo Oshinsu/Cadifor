@@ -4,6 +4,8 @@
 
 ## LE SYSTEME DE CLASSES
 
+> Voir aussi `administration_du_talent.md` pour la lecture civilisationnelle complete de la revelation, du mentorat et de l'allocation du rare.
+
 ### Principe fondamental
 Dans le mod CK2 "Guardians of Azeroth", la **classe** d'un personnage est revelee a ses **16 ans** (age de majorite CK2). Ce n'est pas un choix : c'est une **revelation** determinee par les stats du personnage a cet age.
 
@@ -19,6 +21,8 @@ Dans le mod CK2 "Guardians of Azeroth", la **classe** d'un personnage est revele
 | **Necromancien** | 15 erudition + 9 intrigue | Erudition ≥ 15, Intrigue ≥ 9 |
 | **Pretre des ombres** | 12 erudition + 9 intrigue | Erudition ≥ 12, Intrigue ≥ 9 |
 | **Paladin** | 12 martial + 9 erudition | Martial ≥ 12, Erudition ≥ 9 |
+| **Chaman** | 12 erudition | Erudition ≥ 12 (religions ancestrales / meres des marees) |
+| **Druide** | 12 erudition | Erudition ≥ 12 (religions druidiques / Elune / traditions du vivant) |
 | **Non-classe** | Aucun seuil atteint | — |
 
 ### La revelation a 16 ans
@@ -26,6 +30,31 @@ Dans le mod CK2 "Guardians of Azeroth", la **classe** d'un personnage est revele
 - La revelation est un **evenement civilisationnel** dans l'Empire : families, cours, ecoles — tout tourne autour de ce moment
 - Un enfant de 15 ans brillant peut etre **rien du tout** a 16
 - La peur, l'espoir, la pression sociale autour de la revelation sont **enormes**
+
+### La seizieme annee comme fixation
+
+Le passage des 16 ans n'est pas seulement un anniversaire de majorite.
+C'est une **fixation structurelle** :
+
+- le corps
+- l'ame
+- l'esprit
+- et le canal de mana
+
+se stabilisent assez pour que la classe apparaisse publiquement.
+
+Cela change tout :
+
+- les tuteurs ne transmettent pas seulement du savoir, ils orientent un vecteur
+- les ecoles preparent moins un metier qu'une emergence
+- le jour des 16 ans devient a la fois examen, revelation, majorite, destin et violence symbolique
+
+Pour une famille :
+
+- une maison noble peut etre confirmee ou decue
+- une famille roturiere peut voir sa vie changer de niveau
+- un enfant discret peut devenir soudain precieux
+- un faux prodige peut s'effondrer en une seule journee
 
 ---
 
@@ -54,6 +83,23 @@ C'est l'une des mecaniques les plus contre-intuitives du systeme :
 - Donc paradoxalement, un rang 4 a plus de potentiel qu'un rang 5
 - **Seuls les Cadifor peuvent se permettre** cette optimisation : il faut des mentors de rang suffisant, du temps, des ressources, et la **connaissance meme de ce phenomene**
 - C'est un avantage dynastique invisible : les autres maisons ne savent meme pas que cette porte existe
+
+### Pourquoi le rang 5 est un piege
+
+Le rang 5 est un faux sommet.
+
+Il est :
+
+- assez haut pour etre celebre par le monde ordinaire
+- mais deja trop ferme pour rester completement mallable
+
+Le grand paradoxe cadiforien est la :
+
+- le commun fete le rang 5
+- les tres grands educateurs savent qu'un rang 4 bien ouvert peut valoir infiniment plus a 18 ans
+
+Le rang 5 n'est donc pas mauvais.
+Il est dangereux pour les elites qui pensent a long terme.
 
 ### Correlation CK2 → Rang lore
 
@@ -113,6 +159,21 @@ Le mana dans Warcraft est **rare**. Ce n'est pas un monde ou tout le monde lance
 - Le systeme educatif de l'Empire est une **machine de detection de talent** : chaque enfant est evalue, chaque potentiel est mesure
 - L'Ecole du Front est concue pour **maximiser les chances** des enfants prometteurs
 
+### Consequence civilisationnelle
+
+Le Haut Royaume ne doit plus etre pense seulement comme une machine militaire ou administrative.
+C'est aussi une machine de :
+
+- detection
+- orientation
+- tri
+- mentorat
+- exploitation prudente du rare
+
+Autrement dit :
+
+la rarete du mana restructure l'ecole, la famille, la religion, le prestige, les mariages et la bureaucratie tout entiere.
+
 ---
 
 ## LE PIEGE DU CP POUR LES LANCEURS
@@ -155,3 +216,41 @@ Certains personnages exceptionnels peuvent atteindre le **rang X dans deux class
 | Prestige/Piete | Reputation et influence civilisationnelle |
 | Alliance matrimoniale | Infrastructure commerciale (Deal d'Aberthol) |
 | Conseil | Architecture de gouvernance |
+
+---
+
+## LES CLASSES COMME FONCTIONS DE CIVILISATION
+
+Dans le lore Cadifor mature, les classes ne restent pas seulement des fonctions de guerre.
+
+Elles deviennent aussi des fonctions civiles de civilisation :
+
+- le paladin impose une geometrie morale
+- le prêtre tient une verticalite sacrale et communautaire
+- le mage classe, ordonne, rend lisible
+- le druide garde les continuites du vivant
+- le chaman distribue des juridictions entre matiere, lieu, flux et autorite
+- le rogue lit les angles morts de la structure
+
+Autrement dit :
+
+la machine imperiale ne se sert pas des classes seulement pour vaincre.
+Elle s'en sert pour **gouverner des regimes de realite differents**.
+
+---
+
+## CULTURE, RELIGION, RACE
+
+Dans l'acces aux hautes charges, la race ne disparait pas.
+Mais elle ne commande pas seule.
+
+Le principe plus haut est le suivant :
+
+- la culture compte
+- la religion compte
+- la tenue compte
+- la capacite d'assimilation compte
+- la fonction bien exercee compte plus haut que la race nue
+
+C'est pourquoi le Haut Royaume ne doit pas etre pense comme un Etat racial.
+C'est une civilisation politique d'assimilation exigeante, hierarchique, mais non ethniquement plate.

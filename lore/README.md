@@ -31,6 +31,7 @@ lore/
 │   └── 14_arwyn.md                    # La Colombe
 ├── sections/
 │   ├── geopolitique.md                # Empire, territoires, diplomatie
+│   ├── armee_imperiale.md             # Doctrine de campagne, grands corps, Magisterium
 │   ├── systeme_puissance.md           # Rangs, stats, combat
 │   ├── architecture.md                # Doctrine Marjory, palais, innovations
 │   ├── religion.md                    # La Lumiere, sargeritisme, Texte de Rose
@@ -41,8 +42,10 @@ lore/
 │   └── education.md                   # Formation, lignee d'archimages
 ├── factions/
 │   ├── nations_externes.md            # Kul Tiras, Quel'Thalas, Ironforge, etc.
+│   ├── duche_ebonlocke.md             # Clairbois, corbeau, haute tenue ducale
+│   ├── sylve_de_l_est.md              # Royaume forestier charniere du bloc d'expansion
 │   ├── personnages_secondaires.md     # Andrea Gahron, Llane, Johnson, etc.
-│   └── ennemis_rivaux.md              # Bradney, Taelan, Ulfar, etc.
+│   └── ennemis_rivaux.md              # Ysena, Taelan, Ulfar, etc.
 └── annexes/
     ├── differences_lore_officiel.md   # Comparaisons AU vs Canon
     ├── comparaisons_rose.md           # Rose vs Jaina, Thrall, Arthas
@@ -53,6 +56,7 @@ lore/
 ## Conventions
 
 - **Noms des Andrea** : Toujours utiliser le SURNOM (la Rougissante, l'Erudite, la Juste, la Victorieuse). Jamais "Andrea II" seul car la numerotation change selon le trone (Sylve de l'Est vs Azeroth).
+- **Sources d'origine** : Pour les premiers ages, voir aussi `meta/origines_canon_et_variants.md` afin de distinguer canon ferme, chiffres de travail et vieux variants conversationnels.
 - **Dates** : Format CK2 (annee.mois.jour) pour precision, annee seule pour contexte narratif.
 - **Grades Lore** : SS (Rose), S++ (Victorieuse), S+ (Marjory), S (Rougissante), A+ a B+ pour les autres.
 - **Scores de combat** : /100, pic de vie, duel pur.

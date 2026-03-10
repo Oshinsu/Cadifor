@@ -16,6 +16,52 @@ Marjory tient le monde. Rose voit ce qu'il y a sous sa tenue.
 Marjory est plus classique, plus solaire dans la discipline, plus imperiale au sens de la coupe.
 Rose est plus abyssale, plus metaphysique, plus dangereuse, puis plus touchante quand elle revient a l'humain.
 
+Le contraste le plus simple a retenir est aussi l'un des plus justes :
+
+> *Marjory est la mere imperiale parfaite ; Rose est la fille imperiale totale.*
+
+Autre formulation utile :
+
+- Marjory demeure superieure en **equilibre civilisateur**
+- Rose pousse la meme excellence jusqu'a la **totalisation**
+
+---
+
+## LE SOCLE COMMUN CADIFORIEN
+
+Avant la difference entre Marjory et Rose, il existe un fond plus ancien, herite d'Aberthol, de Viki, des Andrea, de la lignee de marechaux et de la culture de commandement.
+
+### 1. La forme vaut plus que l'humeur
+
+On n'est pas juste parce qu'on ressent bien.
+On est juste parce qu'on se tient dans une forme qui continue a produire du bien sous fatigue, orgueil, douleur ou solitude.
+
+### 2. Le monde est hierarchique, mais la hierarchie doit etre meritee
+
+L'inegalite est normale.
+L'incompetence au sommet est obscene.
+
+### 3. La guerre est une verite, pas un accident
+
+Les Cadifor pensent depuis un monde ou la guerre appartient a la structure du reel.
+Leur philosophie reste donc martiale, concrete, hostile aux abstractions molles.
+
+### 4. Le pouvoir ne vaut que s'il produit de la continuite
+
+Le vrai grand pouvoir n'est pas le coup d'eclat.
+C'est ce qui survit a la mort du porteur : maison, transmission, institutions, formation, lignee, succession.
+
+### 5. La corruption interieure est pire que l'ennemi exterieur
+
+Le pire n'est pas d'etre attaque.
+Le pire est que la forme se degrade, que les criteres se brouillent, que les faibles soient promus et que les structures pourrissent.
+
+### 6. La grandeur n'excuse rien ; elle oblige davantage
+
+Un genie n'a pas le droit d'etre petit moralement.
+Une haute maison n'a pas le droit d'etre vulgaire.
+Plus on monte, plus la dette de forme augmente.
+
 ---
 
 ## CLASSEMENT PHILOSOPHIQUE DE MARJORY

@@ -40,6 +40,14 @@
 - Integration de Lordaeron dans l'Empire apres la purge
 - Le sargeritisme est **eradique** du continent oriental
 
+### La Religion vide astral (Shek'mag)
+
+- **Empereur Rong de Shek'mag** (118 ans) : religion du Vide
+- Groupe du Vide, divinité principale L'Ombre, maléfiques Le Chaos
+- Texte sacré : Le Grimoire noir
+- Doctrine : magie du Vide utilisée pour le Bien, avec prudence
+- Screen lot 5 (953) — empire distinct, voisin de Xin'ze et Shen
+
 ### Analyse
 Le sargeritisme est l'anti-these du modele Cadifor :
 - Cadifor = accumulation lente, intelligence, patience

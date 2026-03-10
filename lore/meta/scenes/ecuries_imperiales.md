@@ -28,6 +28,7 @@ On y arrivait par une cour longue, pavee de grandes dalles blondes, ou l'on ente
 Le batiment principal, haut, clair, charpente dans un chene sombre importe par voie royale, melait l'architecture de service a une solennite qui eut fait honte a bien des chapelles de province. Au-dessus des stalles, des plaques emaillees portaient noms, lignees, age, campagnes, blessures anciennes, temperaments connus.
 
 Les chevaux imperiaux n'etaient pas simplement beaux. Ils etaient classes.
+Et c'etait deja, pour qui savait voir, une preuve de souverainete : meme ici, dans la paille, le cuir, la bave chaude et les ferrures, quelqu'un au sommet avait refuse que la force vivante fût abandonnee a la simple competence.
 
 Marjory marchait devant, sans hate, dans une robe de visite d'un gris bleu presque martial. A sa ceinture, une dague etroite dont la poignee d'ivoire froid n'avait rien d'ornemental. Rose la suivait d'un demi-pas, assez proche pour que le lien fut sensible, assez loin pour que l'ordre du monde restat lisible.
 
@@ -86,6 +87,9 @@ Les garcons et les filles de quatorze a quinze ans y vivaient dans une proprete 
 
 Au passage de Marjory et Rose, la tension du lieu changea d'un degre entier. Quatorze visages trop jeunes, trop beaux, trop raides encore. Heritiers de grandes maisons, de duches, de comtes, de branches laterales de rois. Tous portaient la tunique claire de la premiere annee, sans broderie de lignee. Ici, le nom existait toujours ; il n'avait juste pas le droit de parler en premier.
 
+Ce qui tombait sur eux n'etait pas seulement la pression du controle.
+C'etait pire : la sensation qu'en quelques secondes deux etres du sommet lisaient deja, sous leurs gestes, la forme entiere de ce qu'ils pourraient devenir ou manquer pour toujours.
+
 Le capitaine-instructeur, Armand de Sorell, vint au rapport.
 — Majeste. Altesse. Premiere section, exercice de garde et correction de ligne.
 
@@ -113,6 +117,10 @@ Marjory :
 — Ce qui est mauvais pour l'ame et excellent pour la guerre. Qu'il continue. Mais qu'on lui apprenne a gagner sans se punir d'abord.
 
 Le garcon salua. On vit dans ses yeux le moment exact ou une vie entiere se reordonne autour d'une phrase.
+Les autres le virent aussi.
+Et ce fut la, plus encore que dans les reprimandes, que la cour comprit ce qu'il en coute d'etre lu par le sommet :
+non pas d'etre condamne,
+mais d'etre soudain rendu incapable de continuer a se raconter une version plus confortable de soi-meme.
 
 ### III. Les reprimandes
 
@@ -156,6 +164,13 @@ Marjory :
 
 Le nom tomba comme un couperet. *Commerce.*
 
+Personne ne sourit.
+Pas meme ceux qui, une heure plus tot, l'eussent volontiers meprise en silence.
+Parce qu'a cet instant le mot ne designait pas une profession inferieure.
+Il designait une chute de monde :
+le passage d'une vie qui pouvait encore pretendre servir de pres la forme souveraine
+a une vie utile autrement, plus basse, plus lointaine, irreprochable peut-etre, mais sortie de la zone ou l'Empire se pense en direct.
+
 ### IV. La cour d'entrainement — Les chevaliers
 
 Bastien de Sorell, rang A, quarante ans, corps de campagne. Eleonore de Caste, rang B, vingt-neuf ans, blondeur claire, vitesse seche, style si propre qu'il donnait envie de la frapper pour verifier qu'elle saignait vraiment.
@@ -195,6 +210,11 @@ Puis elle traversa le portail. Le cercle pale se referma.
 Les jeunes nobles respirerent comme si l'air avait change de densite.
 
 Ce qui changea alors n'etait pas la grandeur. C'etait la temperature. Avec Marjory, la perfection tombait sur le monde comme une forme. Avec Rose seule, cette forme commencait a se deplacer, a s'amuser, a eprouver les hommes au lieu de simplement les mesurer.
+
+Les jeunes nobles sentirent, avec ce soulagement presque indecent qu'on eprouve parfois apres la foudre, que l'altitude n'avait pas disparu.
+Elle etait devenue mobile.
+Moins ecrasante peut-etre.
+Plus dangereuse surement.
 
 Elle prit l'epee d'entrainement, la fit tourner une fois dans sa main.
 

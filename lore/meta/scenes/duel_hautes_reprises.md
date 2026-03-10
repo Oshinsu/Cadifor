@@ -236,6 +236,10 @@ On ne voyait plus que :
 - la lame de Rose au bord de la gorge de sa mere,
 - et dans l'air entier la preuve suspendue que, poussees une ligne plus loin, elles se seraient peut-etre tuees vraiment.
 
+Mais la vraie terreur n'etait pas la.
+Elle tenait au fait que tous les temoins comprirent en meme temps autre chose :
+si le monde tenait encore, c'etait peut-etre depuis des annees sous la garde de deux etres deja presque trop hauts pour la structure meme qu'ils protegeaient.
+
 La premiere a rire fut Rose. Pas d'un rire de victoire. D'un rire de verite.
 
 — Nous sommes mortes toutes les deux.
@@ -256,6 +260,12 @@ Dans la loggia, Aelys expira enfin. Lysenne reprit son verre comme si ses doigts
 
 Serena dit, tres bas :
 — Voila pourquoi le nord dort mal.
+
+Ce n'etait pas une jolie formule.
+C'etait presque un diagnostic strategique.
+Apres un tel spectacle, personne dans la loggia ne pouvait plus tout a fait se raconter que le Haut Royaume tenait seulement par ses armees, ses lois ou ses finances.
+Il tenait aussi par cette chose plus difficile a admettre :
+deux consciences assez hautes pour faire paraitre presque ordinaire, l'espace d'un instant, qu'une civilisation entiere repose sur leur justesse.
 
 Marjory retira enfin sa lame. Rose recula la sienne d'un pouce, puis d'un second.
 

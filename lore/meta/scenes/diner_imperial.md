@@ -1,23 +1,27 @@
 # LE DINER IMPERIAL — Marjory et Rose a table
 
+> *S'il fallait ouvrir toute l'oeuvre par une seule scene, ce pourrait etre celle-ci : non parce qu'elle explique le Haut Royaume, mais parce qu'elle le laisse paraitre deja sous sa forme la plus exacte.*
+
 ---
 
 ## Contexte
 
 **Lieu** : Salle a manger imperiale du palais de New Avalon (ou Stormwind).
-**Nature** : Un diner de travail entre les numeros 1 et 2 du Haut Royaume — mere et fille, mais a cette altitude, chaque phrase est un decret, chaque silence une politique.
-**Rose** : 22 ans, deja mage legendaire, 36 en erudition.
-**Marjory** : Haute Reine, mage legendaire, 34 en erudition — 1er EX AEQUO MONDIAL. Plus meritante que sa fille : elle a du devenir Marjory sans avoir eu Marjory pour mere.
+**Moment** : Un soir sans ceremonie publique, donc un soir de gouvernement reel.
+**Nature** : Un diner de travail entre les numeros 1 et 2 du Haut Royaume — mere et fille en apparence, mais a cette altitude chaque phrase est un decret, chaque silence une politique, chaque correction une transmission de souverainete.
+**Rose** : 22 ans, deja mage legendaire, 36 en erudition — plus haute intelligence connue de toutes les races.
+**Marjory** : Haute Reine, mage legendaire, 34 en erudition — 1er EX AEQUO MONDIAL avant Rose. Plus meritante historiquement que sa fille : elle a du devenir Marjory sans avoir eu Marjory pour mere.
+**Enjeu** : Kezan, Kolkar, Kul Tiras, doctrine technologique, donjons de rang A, formation de guerre, surveillance des grands esprits. Rien qui ressemble a une crise immediate. Tout ce qui ressemble a un siecle.
 **Cuisinier** : Hadrien Voss, premier cuisinier du continent, que la moitie du monde appelle "le second chancelier" et l'autre "le pape des sauces".
 **Personnel** : Dames de cour, maitres d'hotel, scribes silencieux, jeunes valets, servantes, sommeliers, decoupeurs, et une proportion exacte de roturiers. L'edit de Marjory impose 30% minimum de non-nobles dans les charges du palais — non comme concession morale, mais comme principe administratif : une cour qui ne respirait qu'a travers la noblesse finissait par s'intoxiquer de sa propre abstraction.
 
-> **Note de l'auteur** : Ce n'est PAS une mere qui fait cours a sa fille. C'est une discussion entre 34 et 36 en erudition, quasi mystique. Marjory GOUVERNE, elle a l'experience du trone, elle est deja au-dessus des rois-dragons. Rose ne lui apprend rien ; elles pensent ensemble a la meme altitude.
+> **Note de l'auteur** : Ce n'est PAS une mere qui fait cours a sa fille. C'est une discussion entre 34 et 36 en erudition, quasi mystique. Marjory gouverne, elle a l'experience du trone, elle est deja au-dessus des rois-dragons. Rose ne lui apprend rien ; elles pensent ensemble a la meme altitude.
 
 ---
 
 ## Le lieu
 
-La salle a manger imperiale n'etait pas vaste : elle etait exacte.
+La salle a manger imperiale n'etait pas vaste. Elle etait d'une taille qui rendait la vastitude presque vulgaire.
 
 Dans d'autres palais, la grandeur se mesure au volume, a la hauteur des voutes, a la masse des marbres, a l'ecrasement decoratif des ors. Ici, rien n'ecrasait. Tout dominait.
 
@@ -62,6 +66,8 @@ Ce soir-la, quinze mets de tres haut ordre y seraient servis. Non par ostentatio
 ---
 
 ## LA SCENE
+
+Elles ne commencaient jamais par la politique. Elles commencaient par quelque chose de plus serieux : une bouchee juste.
 
 ### I. Les huitres — Kezan et les mensonges coordonnes
 

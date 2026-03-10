@@ -17,13 +17,13 @@ Quatre vies, quatre intelligences de monde differentes. Pas quatre personnages "
 | Attribut | Detail |
 |----------|--------|
 | **Age** | 15 ans, bientot 16 |
-| **Race** | Demi-orque, nee d'un pere orc et d'une mere humaine |
+| **Race** | Orque-humaine de lignee melee |
 | **Classe** | Pas encore revelee — c'est tout le drame |
-| **Rang social** | Fille d'un officier mercenaire orc et d'une nourrice humaine de la petite cour de New Avalon |
-| **Lieu** | Ecole du Front |
+| **Rang social** | Fille d'un milieu modeste, premiere de classe sans prestige de nom |
+| **Lieu** | College de la Marche de l'Ouest, classe 6B |
 
 ### Son intelligence
-Vive, musculaire, presque rageuse. Elle veut :
+Vive, musculaire, presque rageuse. Pas tres belle selon les criteres moyens du monde. Elle veut :
 - reveler haut,
 - sortir sa mere du calcul court,
 - etre vue,
@@ -35,6 +35,9 @@ Elle est excellente. Mais pas sure d'avoir le mana. Ou pas assez haut.
 Elle connait deja : les seuils, les chiffres, les classes, les histoires de revelation, les tutorats, les legendes du rang I qui sauve une famille, les monstres sacres comme Rose.
 
 Pour elle, Marjory et Rose ne sont pas "les grandes reines". Elles sont : **la preuve que la structure reconnait parfois vraiment le sommet.**
+
+Elle ne les imagine pas d'abord comme des visages.
+Plutot comme une rumeur de justesse qui passe a travers l'ecole, les classements, les histoires de revelation reussie, les humiliations des enfants bien nes et les silences des maitres.
 
 ### Ce que cette vie raconterait
 - Une annee d'ecole avant le seizieme anniversaire
@@ -71,6 +74,9 @@ Elle sait qu'un rang I de guerre vaut pour la cour plus qu'elle. Mais elle sait 
 Elle ne deteste pas l'aristocratie. **Elle la mesure en tonnes.**
 
 Pour elle, Marjory et Rose sont : deux climats de sommet, des forces reelles, mais aussi des signatures qui changent un budget, une route, une campagne d'hiver, la demande en pierre de mana, la pression sur les ateliers.
+
+Elle les voit comme des absences actives.
+Des etres qu'on ne croise presque jamais, mais dont une note, un retard, une preference de materiau ou une correction de doctrine deplacent soudain des centaines de charges, des semaines de travail et l'humeur logistique d'une saison entiere.
 
 ### Ce que cette vie raconterait
 - Une crise de fourrage apres un hiver sec
@@ -113,6 +119,10 @@ Il gere des dossiers ou :
 
 Pour lui, Marjory et Rose sont : **les deux seules formes assez hautes pour donner a ce chaos une tenue.**
 
+Il sait qu'on parle souvent du sommet comme d'une abstraction flatteuse.
+Lui sait mieux.
+Dans son metier, le sommet est ce qui empeche qu'une maison eclate tout a fait sous l'inegalite des durees, des races et des memoires.
+
 ### Ce que cette vie raconterait
 - Un gros proces d'heritage mixte
 - Un drame de famille
@@ -150,6 +160,11 @@ Elle voit :
 - que la vraie guerre se joue dans les vassaux, les cultures, les ports, les talents, les mariages, les retards, les penuries, les classes revelees, les routes et les formes de civilisation
 
 Pour elle, Marjory et Rose sont : **non pas des reines humaines, mais une anomalie historique qu'il faut contenir sans la provoquer.**
+
+De toutes les Quatre Vies, c'est elle qui comprend le plus clairement ce point :
+le monde humain ordinaire ne devrait pas, selon les vieilles mesures, produire deux etres de cette altitude a la fois.
+Le danger n'est donc pas seulement leur puissance.
+Le danger est l'effet de croyabilite historique qu'elles donnent soudain a une forme humaine de souverainete que les autres blocs jugeraient volontiers illegitime si elle n'etait pas deja reelle.
 
 ### Ce que cette vie raconterait
 - Une annee de lecture du Haut Royaume depuis Hyjal

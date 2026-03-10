@@ -110,6 +110,8 @@ Represente **la MAISON** qui possede l'Empire. L'intimite du pouvoir.
 | **Joints** | Runiques — etancheite sonore et magique |
 | **Inscriptions** | Memoire — la porte "sait" qui est autorise |
 
+> *On ne passe pas une porte. On traverse une decision ancienne.*
+
 ### Ecuries imperiales
 
 | Element | Description |
@@ -118,6 +120,36 @@ Represente **la MAISON** qui possede l'Empire. L'intimite du pouvoir.
 | **Sols** | Draines et chauffes — pas d'humidite |
 | **Plaques emaillees** | Une par monture : nom, age, lignage, temperament, blessures |
 | **Noeuds runiques** | De calme — les montures restent sereines |
+| **Selleries** | Plus parfaites que des tresors de duches |
+| **Lumiere** | Basse, modulee, pour ne jamais blesser l'oeil nocturne |
+| **Crochets d'equipement** | Classes selon ordre d'intervention |
+
+> Une ecurie imperiale marjoryenne doit sentir le foin noble, le cuir juste, la proprete animale, jamais l'abandon.
+
+---
+
+## GALERIE DYNASTIQUE
+
+### Salle du trone des souvenirs
+
+Lieu ou :
+
+- armures des ancetres
+- bannieres de campagne
+- lames
+- lettres
+- sceaux
+- portraits
+- fragments de pierre de champs de bataille
+
+sont mis en ordre pour former une **theologie de la lignee**.
+
+Ce lieu doit etre plus impressionnant qu'un tresor.
+
+Pourquoi :
+
+- un tresor montre ce qu'on possede
+- une galerie dynastique montre ce qui nous a rendus capables de posseder
 
 ---
 

@@ -19,6 +19,44 @@ L'Empire Cadifor n'est pas un royaume medieval ordinaire. C'est un **proto-socia
 
 ---
 
+## Le sommet comme climat social
+
+La sociologie du Haut Royaume ne se comprend pas seulement par :
+
+- ses institutions
+- ses classes
+- ses routes
+- ses hierarchies
+
+Elle se comprend aussi par un fait plus difficile :
+la plupart des sujets vivent sous des souveraines qu'ils ne verront jamais ou presque,
+mais dont ils sentent partout la forme.
+
+Le ressenti juste n'est ni la foi simple, ni l'affection monarchique ordinaire, ni la terreur nue.
+
+C'est un melange de :
+
+- distance
+- preuve
+- gratitude structurelle
+- peur de n'etre pas a la hauteur
+- soulagement qu'un tel sommet existe vraiment
+
+Autrement dit :
+
+le peuple ne se rapporte pas seulement a `Marjory / Rose` comme a deux personnes.
+Il se rapporte a elles comme a la garantie lointaine que le monde reste encore tenu plus haut que lui.
+
+Formule :
+
+> *Chez les Cadifor, le peuple ne vit pas sous une idole absente ; il vit sous la preuve rare et presque insoutenable qu'il existe encore, au sommet, des etres plus formes que lui pour tenir le monde.*
+
+Cette nuance est essentielle.
+Le Haut Royaume ne repose pas sur une sacralite mensongere.
+Il repose sur une **excellence reelle**, rarement vue, mais suffisamment incarnee pour produire partout des effets de tenue.
+
+---
+
 ## L'egalite des sexes
 
 ### Pas une conquete — un fait civilisationnel

@@ -49,11 +49,22 @@
 - Meme role strategique que Gwen a Kul Tiras : routes commerciales, tarifs, richesse redirigee
 - Mais dans un registre different : la **foi** plutot que le commerce
 - Le sang Trollbane de Stormgarde sera crucial : c'est par cette alliance que la Victorieuse aura son "troisieme sang"
+- June rappelle en profondeur qu'un empire ne peut pas vivre uniquement de ses exceptions : il lui faut aussi des lignes, de la tenue, des formes transmissibles et des etres capables de les porter sans theatre
+
+### June a rendu mythique les Cadifor chez les Stormgarde
+
+June ne s'est pas seulement mariée à Stormgarde — **elle a rendu mythique les Cadifor chez les Trollbane**. Sa présence, sa beauté, sa foi, sa tenue Cadifor ont imprégné la culture stormgardienne de légende.
+
+**Ses 5 fils ont irrigué la lignée Trollbane** : pendant des générations, le sang Cadifor circula dans les veines des princes de Stormgarde, transformant lentement mais sûrement la perception de cette maison.
+
+Quand Llane Wrynn rencontra Andrea (la future mère de l'Erudite), la réputation des Cadifor précédait déjà la négociation. June avait ouvert la voie.
 
 ### Heritage long terme
 - Le mariage Cadifor-Stormgarde produit la lignee Trollbane qui se melange a la famille
-- **Johnson Trollbane**, futur epoux matrilineaire de la Victorieuse, descend de cette alliance
+- **Johnson Trollbane**, futur epoux matrilineaire d'Andrea II, descend de cette alliance
+- **5 fils** — leurs descendants portent encore le sang Cadifor dans les veines stormgardiennes
 - Sans June a Stormgarde, la Reine aux Trois Sangs n'aurait jamais existe
+- **La qualité supérieure de l'éducation Cadifor** : les fils de June ont été élevés selon les méthodes cadiforiennes, créant une aristocratie stormgardienne distincte
 
 ---
 
@@ -84,3 +95,5 @@
 ## CITATION
 
 > *"La plus belle, la plus sensible, la plus pudique — et paladin rang 8 a 16 ans."*
+
+> *"June est l'une de ces femmes dont depend le fait qu'un empire ne finisse pas par croire que l'exception suffit a tout."*

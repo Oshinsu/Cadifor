@@ -66,6 +66,27 @@ La guerre totale entre le Haut Royaume et l'Empire Kaldorei serait une **folie d
 - Attaquer l'une peut declencher une **reaction en chaine**
 - C'est la "dissuasion nucleaire" d'Azeroth — personne ne veut etre celui qui provoque l'avalanche
 
+### Ce que signifie concretement la dissuasion
+
+Le Haut Royaume peut tenir tete aux autres blocs majeurs, mais il ne vit pas dans une geopolitique de confort.
+
+Une guerre totale pourrait attirer :
+
+- l'Empire kaldorei
+- l'Alliance
+- la Horde
+- des tribus majeures de Norfendre
+- certaines forces zandalaries
+- la coalition marchande
+- et, selon l'equilibre du moment, des empires pandarens
+
+Autrement dit :
+
+- chaque annexion compte
+- chaque mauvais signal compte
+- chaque vassal sert aussi de tampon geopolitique
+- chaque guerre locale peut devenir guerre de terrassement
+
 ### Le debat interne kaldorei
 Faut-il :
 - preparer la guerre ?
@@ -101,9 +122,49 @@ Le royaume de Stormwind n'existe plus comme structure administrative — juste "
 
 ---
 
+## Geopolitique de la rarete souveraine
+
+Les autres puissances ne lisent pas seulement le Haut Royaume a travers :
+
+- ses armees
+- ses ports
+- ses chiffres
+- ses alliances
+
+Elles le lisent aussi a travers un fait plus derangeant :
+au sommet de cette machine se tiennent deux consciences presque trop hautes pour l'echelle humaine ordinaire.
+
+Cette rarete change la geopolitique elle-meme.
+
+Pourquoi :
+
+- un sommet rare rend le calcul adverse plus instable
+- une souveraine presque jamais vue devient plus difficile a banaliser diplomatiquement
+- une apparition directe de `Marjory` ou de `Rose` vaut parfois autant qu'un deplacement d'armee
+- la simple possibilite qu'elles lisent plus vite que les autres blocs leurs propres transformations force chacun a gouverner avec une prudence supplementaire
+
+Les sujets du Haut Royaume le sentent comme une garantie.
+Les puissances exterieures le sentent comme une anomalie.
+
+Dans les deux cas, l'effet est le meme :
+la hauteur du sommet modifie la lecture du monde avant meme qu'un ordre soit donne.
+
+Formule :
+
+> *Le Haut Royaume n'est pas seulement redoute parce qu'il est vaste ; il l'est parce qu'au sommet de sa vastitude se trouvent deux etres dont l'altitude rend le monde moins sur de ses propres calculs.*
+
+---
+
 ## La machine cadiforienne vue de l'exterieur
 
 > *"Avant, je voyais surtout : un empire immense gouverne par des etres hors norme.*
 > *Maintenant, je vois : une civilisation de gestion du rare, de hierarchisation du talent, d'assimilation culturelle, de violence meritocratique et de retenue geopolitique — au sommet de laquelle se trouvent deux etres presque trop grands pour la structure qu'ils tiennent."*
 
 La peur que Shaelune (stratege kaldorei) eprouve n'est pas celle d'une armee. C'est la peur d'une **machine civilisationnelle** qui apprend plus vite que les millenaires ne l'avaient prevu.
+
+Cette peur tient au fait que le Haut Royaume est a la fois :
+
+- une grande puissance territoriale
+- une machine de gestion du rare
+- une civilisation d'assimilation
+- et un sommet humain porte par deux consciences presque trop hautes pour leur espece

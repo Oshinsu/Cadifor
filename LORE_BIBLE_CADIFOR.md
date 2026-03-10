@@ -65,21 +65,23 @@
 | 676 | Andrea I l'Erudite monte sur le trone |
 | 676-710 | Grande expansion vers la Sylve de l'Est |
 | ~700s | Mariage matrilineaire Andrea (fille de l'Erudite) x Llane Wrynn |
-| ~704 | Naissance d'Andrea la Juste |
-| 710 | Mort d'Andrea l'Erudite. Andrea la Juste monte a 13 ans |
-| 717 | Andrea la Juste a 13 ans, reine de Sylve de l'Est (attestee par screenshot) |
-| 734 | Naissance d'Andrea la Victorieuse (Reine aux Trois Sangs) |
+| 704.3.4 | Naissance d'Andrea la Juste |
+| 710.11.4 | Mort d'Andrea Cadifor, mere d'Andrea la Juste |
+| 710.12.6 | Mort d'Andrea l'Erudite. Andrea la Juste monte a 6 ans sur le trone de Sylve de l'Est |
+| 720 | Andrea la Juste atteint 16 ans : Dip 14, Mar 16, Int 20, Intr 5, Eru 11, rang 5, CP 33 |
+| 730 | Mariage matrilineaire avec Johnson Trollbane |
+| 732 | Naissance d'Andrea la Victorieuse (Reine aux Trois Sangs) |
 | 739 | Andrea la Juste a 35 ans, Haute Reine d'Azeroth |
+| 740-742 | Guerre civile contre Ysena Wrynn, puis paix blanche |
 | 767 | Mort d'Andrea la Juste apres 57 ans de regne |
 
 ## Ere Imperiale Premiere (767-825)
 | Annee | Evenement |
 |-------|-----------|
 | 767 | Andrea la Victorieuse (Reine aux Trois Sangs) monte sur le trone |
-| ~755-756 | Guerre civile : Bradney de Stormwind tente de placer Ariana Wrynn sur le trone |
-| ~756 | Victoire. Andrea II recupere les royaumes de Stormwind et des Morasses Noires |
 | ~770 | Bataille d'Allerton (27 199 vs 15 067) |
-| ~786 | Andrea II surnommee "la Victorieuse", peut recreer de nombreux royaumes |
+| ~780s | Recuperation de Stormgarde et extension sudiste |
+| ~786 | Andrea III surnommee "la Victorieuse", peut recreer de nombreux royaumes |
 | ~786 | Rose deja active politiquement (guerre de revendication coloniale) |
 | ~790s | Dislocation d'alliance, Lordaeron sous Taelan l'Ancien (sargerite) |
 | ~800s | Purge de Lordaeron, unification totale de l'Empire |
@@ -223,20 +225,18 @@
 ## ANDREA LA VICTORIEUSE - "La Reine aux Trois Sangs" / "Brise-Couronnes"
 - **Role** : Pivot historique supreme, unificatrice de l'Empire
 - **Titre** : Haute Reine d'Azeroth
-- **Naissance** : 24 septembre 734
+- **Naissance** : 732
 - **Mort** : 815
 - **Rang** : Mage rang 7 (a 16 ans), Mage Legendaire a 58 ans
 - **Stats a 16 ans** : Diplomatie 14, Martial 7, Intendance 14, Intrigue 1, Erudition 10, CP 55
 - **Trait** : Humble, charitable, honnete, batisseuse de fortune
 - **Classe WoW** : Mage Arcane/Frost
 - **Score de combat (au pic)** : 93/100
-- **Les "Trois Sangs"** : Cadifor + Wrynn + Trollbane (via Johnson Trollbane, epoux matrilineaire)
-- **Fratrie complete (6 personnes)** :
-  - De sang Cadifor : Andrea elle-meme, Gautmar Cadifor (ne ~737), Celestria Cadifor (nee ~739)
-  - Demi-soeurs Wrynn (du remariage de Llane) : Anastasia Wrynn (loyale, commandante d'Azeroth), Ariana Wrynn (instrument de rebellion), Brigitte Wrynn
+- **Parents** : Andrea la Juste et Johnson Trollbane
+- **Les "Trois Sangs"** : Cadifor + Wrynn + Trollbane (via Johnson Trollbane, son pere)
 - **Biographie** :
-  - Guerre civile ~755-756 : Bradney de Stormwind tente de placer Ariana Wrynn sur le trone
-  - Victoire : recupere Stormwind, Morasses Noires
+  - Herite d'un monde deja transforme par la guerre civile d'Andrea la Juste contre Ysena Wrynn
+  - Recoit un capital imperial deja accumule, une couture Trollbane deja preparee et une direction centralisatrice deja pensee
   - Plus tard : recupere Stormgarde, Gurubashi
   - Purge de Lordaeron (sargerite sous Taelan l'Ancien)
   - Supprime tous les titres royaux, ne garde que "Empire d'Azeroth"
@@ -635,13 +635,11 @@
 | Johnson Trollbane | Epoux matrilineaire, 3e sang | A |
 | Ardwyn "la Colombe" | Reine de Baie-du-Butin (51 ans) | A |
 | Prince Allison de Baie-du-Butin | Heritier de l'Empire (20 ans) | A- |
-| Ariana Wrynn | Demi-soeur, instrument de rebellion | A- |
-| Anastasia Wrynn | Demi-soeur loyale, commandante d'Azeroth | B+/A- |
+| Ysena Wrynn | Reine de Stormwind, Morasses Noires et Gurubashi ; grande rivale d'Andrea II | A+ |
 | Ulfar Ymironsson | Chef vrykul, 108 CP, brillant stratege, Odyn | B+/A- |
 | Empereur Rong de Shek'mag | Empereur mogu, 118 ans, religion du Vide astral | B+/A- |
 | Leonid de Stormgarde | Ne ~811/812, mort 846 (age 34) | - |
 | Selina Parker | Aristocrate rebelle capturee (guerre civile) | - |
-| Bradney | Roi de Stormwind rebelle, emprisonne a vie | - |
 | Taelan l'Ancien | Lordaeron sargerite, purge | - |
 
 ## Les "Quatre Filles d'Acier" - Resume Thematique

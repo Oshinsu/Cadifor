@@ -16,6 +16,27 @@ La vraie question est : **"peut-on l'avoir sans creer une absurdite d'echelle, d
 
 ---
 
+## Le cheval comme centre moral
+
+Chez les Cadifor, le cheval ne reste pas important par inertie aristocratique.
+Il reste sacre parce que la maison descend d'une lignee de marechaux humains qui a pense le monde :
+
+- en selle
+- par la campagne
+- par la ligne
+- par le choc
+- par la fatigue
+- par la vitesse humaine et animale
+
+Autrement dit :
+
+- le cheval n'est pas la monture par defaut
+- il est la monture de verite
+- les autres montures rappellent l'etendue de l'Empire
+- le cheval, lui, rappelle ce qui a fonde le droit de le tenir
+
+---
+
 ## Roster imperial
 
 ### A. Montures terrestres de masse noble / militaire
@@ -58,18 +79,36 @@ La vraie question est : **"peut-on l'avoir sans creer une absurdite d'echelle, d
 ### Marjory
 | Type | Monture | Justification |
 |------|---------|---------------|
-| **Terrestre** | **Swift Zulian Tiger** | Souverain, fauve, rare, ancien, style sans etre demonstratif, charge de conquete maitrisee |
-| **Volante** | **Grand Griffon imperial ancien** | Le plus "juste" — presque impossible, vieux, immense, parfaitement dresse, plus noble qu'un dragon parce qu'il dit l'Empire sans provoquer la cosmologie |
+| **Terrestre de prestige** | **Swift Zulian Tiger** | Souverain, fauve, rare, ancien, charge de conquete maitrisee. Il ne sert pas a aller plus vite ; il rappelle qu'une part du monde sauvage a ete domestiquee sans devenir commune. |
+| **Volante de prestige** | **Grand Griffon imperial ancien** | Le plus "juste" — presque impossible, vieux, immense, parfaitement dresse, plus noble qu'un dragon parce qu'il dit l'Empire sans provoquer la cosmologie |
 
 > *"Marjory doit paraitre inevitable."*
+
+Noyau monte recommande :
+
+- `1` grand destrier dynastique de guerre
+- `1` coursier de ceremonie / inspection
+- `1 a 2` warhorses de reserve
+- `1` Swift Zulian Tiger
+- `1` grand griffon imperial ancien
+- acces exceptionnel a un drake stipendié si besoin, jamais comme monture habituelle
 
 ### Rose
 | Type | Monture | Justification |
 |------|---------|---------------|
-| **Terrestre** | Tigre partage / Razzashi exceptionnel / Nightsaber rarissime | Au choix selon symbolique — marquer sa difference |
-| **Volante** | **Proto-drake noir / obsidien / orageux** ou drake lie par pacte | Plus au bord du monde que Marjory — plus transgressif |
+| **Terrestre de prestige** | **Swift Razzashi Raptor** | Plus rapide, plus nerveux, plus agressif, plus imprevisible. La ou le tigre de Marjory dit souverainete froide, le raptor de Rose dit vitesse, coup et intelligence predatrice encore vive. |
+| **Volante de prestige** | **Proto-drake personnel** | Plus au bord du monde que Marjory — plus transgressif, mais sans tomber dans l'absurdite du vrai dragon adulte "monture" |
 
 > *"Rose peut paraitre presque excessive."*
+
+Noyau monte recommande :
+
+- `2 a 3` chevaux nobles
+- `2` warhorses
+- `1` coursier rapide
+- `1` Swift Razzashi Raptor
+- `1` proto-drake personnel
+- acces ponctuel a certains drakes noirs stipendiés selon pacte ou entrainement
 
 ---
 
@@ -80,7 +119,7 @@ La vraie question est : **"peut-on l'avoir sans creer une absurdite d'echelle, d
 | Type | Nombre | Conditions |
 |------|--------|-----------|
 | Proto-drakes de Norfendre | 2-4 | Base insulaire au sud de Norfendre |
-| Jeunes drakes noirs / obsidiens | 1-2 | Regime de pacte, pas d'asservissement |
+| Drakes noirs / obsidiens stipendiés | 3-6 | Regime de pacte, pas d'asservissement |
 | Dragonhawks d'exception | 1-2 | Anomalies precieuses, pas escadron |
 | Sujets exotiques pandarens | 1-2 | Si ouverture pandarene solide |
 | Hippogriffe de tres haut rang | 1 | Eventuellement |
@@ -90,6 +129,106 @@ La vraie question est : **"peut-on l'avoir sans creer une absurdite d'echelle, d
 2. **Jamais de cavalerie draconique de masse**
 3. **Toujours un service specialise** de dresseurs / mages / veterinaires / palefreniers draconiques
 4. **Toujours une justification politique ou dynastique** a chaque individu
+
+---
+
+## Drakes noirs stipendiés
+
+La bonne grammaire n'est pas celle du cheptel.
+
+Ces drakes ne sont pas :
+
+- des betes asservies
+- des montures de garage
+- une reserve draconique banale
+
+Ils sont :
+
+- des presences integrees a l'Empire par pacte
+- des allies mineurs ou clients de luxe
+- des invites permanents a haut cout
+- parfois des montures exceptionnelles, jamais ordinaires
+
+Leur logique dynastique vient aussi du precedent d'Onyxia dans le lore Cadifor : apres la destruction de son antre, certains drakes fuient, disparaissent, reparaissent plus tard, et quelques-uns trouvent avantage a frequenter la cour imperiale.
+
+Le nom le plus juste est :
+
+- `drakes noirs stipendiés de la cour`
+- ou plus beau encore : `drakes pensionnaires de New Avalon`
+
+Ils recoivent :
+
+- or
+- gemmes
+- viande
+- securite
+- territoire
+- soins
+- prestige
+
+En echange, ils pretent :
+
+- presence
+- service ponctuel
+- lien dynastique
+- terreur symbolique
+- parfois monte exceptionnelle
+
+---
+
+## Hierarchie symbolique des montures
+
+### Premier cercle : l'ordre imperial
+
+- cheval
+- warhorse
+- griffon
+
+Ce sont les montures du noyau civilise.
+
+### Deuxieme cercle : l'expansion imperiale
+
+- raptors gurubashi / razzashi
+- beliers nains
+- kodos
+- mecanotrotteurs
+- quelques hawkstriders
+- quelques ours de guerre
+
+Ce sont les montures de la diversite dominee.
+
+### Troisieme cercle : la dramaturgie imperiale
+
+- tigre zulien
+- proto-drakes
+- quelques dragonhawks rarissimes
+- drakes noirs stipendiés
+- quelques sabres tres rares
+
+Ce sont les montures qui ne servent plus seulement au deplacement, mais a la mise en scene d'un autre degre de monde.
+
+---
+
+## Roster de cour imperiale
+
+### Cour imperiale / tresor vivant
+
+- `3 a 5` griffons de tres haut rang
+- `2 a 4` proto-drakes
+- `3 a 6` petits drakes noirs stipendiés
+- `1` Swift Zulian Tiger dynastique
+- `1 a 3` raptors d'exception
+- quelques saber cats et montures politiques tres rares
+
+### Formule la plus juste
+
+> *Chez les Cadifor, le cheval est sacre parce qu'il rappelle la verite de la lignee.*
+>
+> *Les autres montures existent pour rappeler l'etendue de l'Empire.*
+>
+> *Marjory monte ce qui devient imperial sous elle.*
+>
+> *Rose monte ce qui reste encore un peu trop vif pour tout a fait s'y resoudre.*
 
 ---
 

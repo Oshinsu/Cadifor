@@ -105,6 +105,33 @@ Rose ajoute a cette perception quelque chose de plus terrible : la **comprehensi
 
 ---
 
+## V bis. La profondeur dynastique arcane
+
+Rose n'emerge pas ex nihilo.
+
+Pour comprendre a quel point sa conscience est haute, il faut voir que la maison Cadifor a deja cesse, avant elle, d'etre seulement une puissance royale et dynastique.
+
+Un premier basculement se produit avec Andrea la Victorieuse :
+
+- elle n'est pas seulement une reine puissante
+- elle inaugure le nouveau style de grandeur cadiforienne
+- la lignee cesse d'etre seulement une puissance royale
+- elle devient aussi une **puissance arcanique souveraine**
+
+Apres elle vient Banni Cadifor, Haut Roi-mage de rang 9, qui lance carrement la dynastie des archimages.
+
+Cela change la lecture de Rose :
+
+- elle herite de Marjory, bien sur
+- mais elle herite aussi d'une maison deja transfiguree en profondeur par l'arcane
+- sa conscience absolue pousse a l'extreme une lignee qui avait deja appris a regner non seulement par le sang, la guerre et la forme, mais par la souverainete magique elle-meme
+
+Autrement dit :
+
+> *Rose n'est pas seulement l'Absolue d'une vieille dynastie royale ; elle est l'aboutissement d'une maison qui avait deja commence, plusieurs generations avant elle, a arcaniser sa propre definition de la grandeur.*
+
+---
+
 ## VI. L'arcanum chez Rose : l'ecriture meme du reel
 
 Un grand mage maitrise les ecoles d'arcane. Rose voit ce que beaucoup d'archimages n'osent regarder : que les "ecoles" sont peut-etre d'abord des **decoupages pedagogiques**, pas les articulations ultimes du reel.

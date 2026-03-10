@@ -61,6 +61,45 @@
 
 ---
 
+## DOCTRINE DES ARTEFACTS S / S+
+
+Le bloc d'artefacts le plus dangereux de la dynastie n'est pas public.
+Il est conserve dans une armurerie secrete connue seulement de la souveraine et de l'heritiere.
+
+Principes :
+
+- un objet `S` ou `S+` n'est pas seulement puissant ; il porte une logique de guerre, de forme, de cout et de porteur
+- les Cadifor ne distribuent pas tout ce qu'ils possedent
+- certaines reliques sont conservees non par avarice, mais pour maintenir la mesure de ce que l'Empire pourrait encore faire
+- l'Empire ne garde pas seulement des reliques anciennes ; il produit des syntheses imperiales apres comprehension
+
+Exemples de noms d'usage confirms :
+
+- `Cendre-Juste`
+- `Carapace d'Aprefange`
+- `Ecoute de Silithus`
+- `Poing de Feu-Roi`
+- `Gants de Sept Coutures`
+- `Diademe de Salle Claire`
+- `Ligne d'Aberthol`
+- `Selle du Premier Siege`
+
+Sources de synthese implicites :
+
+- `Molten Core` pour la tenue a la chaleur et certains metaux de fond
+- `BWL` pour la discipline des metaux noirs et les logiques draconiques
+- `AQ40 / Ahn'Qiraj` pour la memoire de vibration, la chitine et certaines lectures de choc
+
+Regle de classement :
+
+- `S` : artefact de rang supreme, mais dependant encore beaucoup du porteur juste
+- `S+` : artefact ou armure dont la forme approche un sommet de civilisation et de guerre
+
+L'exemple le plus important n'est pas le plus haut objet.
+C'est l'anneau d'etude conserve de Marjory avant le trone : peut-etre `A`, peut-etre `B`, mais dangereux parce qu'il rappelle qu'avant trente-deux artefacts classes `S` et `S+`, il suffit d'un esprit parfait et d'une volonte de siege pour faire honte a un siecle entier.
+
+---
+
 ## NOTES SUR LES BUILDS
 
 ### Guerriers (Aberthol, Viki)

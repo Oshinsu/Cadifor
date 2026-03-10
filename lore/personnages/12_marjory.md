@@ -11,7 +11,7 @@
 | **Role dynastique** | Sublimation de l'Empire — mere de Rose |
 | **Titre** | Haute Reine d'Azeroth (titre correct : "Haut Royaume", pas "Empire") |
 | **Naissance** | ~873/874 |
-| **Mort** | 943.9.14 (au combat, age 69) |
+| **Mort** | 943.9.14 (au combat, age 69, lors de la coalition du nord de Stormwind) |
 | **Duree de regne** | 34 ans, 2 mois, 25 jours (909.6.20 — 943.9.14) |
 | **Ascendance** | Petite-fille de Banni (via un cousin mage legendaire) |
 | **Enfants** | Rose (~906), Arwyn (~908) |
@@ -85,9 +85,13 @@
 - **Permettent salon, bibliotheque, magie, et presque la guerre** — polyvalence absolue
 
 ### Mort au combat
-- Morte a **69 ans** sur le champ de bataille
-- Pas dans un lit, pas empoisonnee, pas de vieillesse — **au combat**
-- A 69 ans et rang 10, elle meurt en combattant — preuve de la violence du monde
+- Morte a **69 ans** lors d'une **operation de decapitation imperiale** au nord de `Stormwind`
+- Pas une simple razzia : sabotage interne, barrieres desactivees, `griffons` abattus, coalition preparee depuis `25 ans`
+- `Marjory` sort avec environ `5 000` hommes de `Stormwind` pour sauver les villes et bourgs du nord
+- En face : environ `10 000` ennemis, avec un noyau de commandants presque aberrant : `1` rogue legendaire, `2` guerriers legendaires, `1` pretre des ombres `10`, `1` chasseur `9`, `1` chaman `9`, `1` demoniste `8`, `1` necromancien `7-8`
+- A ses cotes : un **pretre des ombres rang 10** et un **druide rang 10**, preuve que la bataille monte jusqu'au tres haut sommet
+- Elle meurt **heroïquement** apres une bataille totale, en emportant au moins `3` monstres de sommet
+- Sa mort n'est donc pas celle d'une vieille mage qui cede ; c'est **la derniere danse** d'une souveraine parfaite qui se lache enfin completement
 
 ---
 
@@ -114,6 +118,12 @@
   - La stabilite (34 ans de regne parfait)
   - L'arme (Atiesh, transmis)
 - Rose la depasse sur TOUS les axes — mais reconnait que sans Marjory, rien n'aurait ete possible
+- La difference la plus juste entre elles n'est pas une simple hierarchie de puissance :
+  - Marjory demeure superieure en **equilibre civilisateur**
+  - Rose pousse la meme excellence jusqu'a la **totalisation**
+- Formule la plus nette :
+  - Marjory est la **mere imperiale parfaite**
+  - Rose est la **fille imperiale totale**
 
 ---
 
