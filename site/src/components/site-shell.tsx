@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Lenis from "lenis";
-import { Menu, ScrollText, X } from "lucide-react";
+import { Menu, ScrollText, Search, X } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 
 const navLinks = [
@@ -70,6 +70,12 @@ export function SiteShell() {
                 {link.label}
               </Link>
             ))}
+            <Link
+              href="/recherche"
+              className="rounded-full border border-white/10 p-2 text-stone-400 transition hover:border-amber-300/30 hover:text-stone-100"
+            >
+              <Search className="size-4" />
+            </Link>
           </nav>
 
           <button
@@ -102,6 +108,13 @@ export function SiteShell() {
                   {link.label}
                 </Link>
               ))}
+              <Link
+                href="/recherche"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block rounded-xl px-4 py-3 text-sm uppercase tracking-[0.2em] text-amber-200 transition hover:bg-white/5"
+              >
+                Recherche
+              </Link>
             </div>
           </motion.nav>
         )}
