@@ -49,8 +49,8 @@ export function SiteShell() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
           <Link href="/" className="flex items-center gap-3 text-stone-100">
-            <div className="flex size-10 items-center justify-center rounded-full border border-amber-300/40 bg-amber-300/10">
-              <ScrollText className="size-4 text-amber-300" />
+            <div className="flex size-10 items-center justify-center rounded-full border border-violet-300/40 bg-violet-300/10">
+              <ScrollText className="size-4 text-violet-300" />
             </div>
             <div>
               <p className="font-serif text-lg tracking-[0.18em] uppercase">Cadifor</p>
@@ -72,7 +72,7 @@ export function SiteShell() {
             ))}
             <Link
               href="/recherche"
-              className="rounded-full border border-white/10 p-2 text-stone-400 transition hover:border-amber-300/30 hover:text-stone-100"
+              className="rounded-full border border-white/10 p-2 text-stone-400 transition hover:border-violet-300/30 hover:text-stone-100"
             >
               <Search className="size-4" />
             </Link>
@@ -81,7 +81,7 @@ export function SiteShell() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="rounded-full border border-white/10 p-2 text-stone-300 transition hover:border-amber-300/30 md:hidden"
+            className="rounded-full border border-white/10 p-2 text-stone-300 transition hover:border-violet-300/30 md:hidden"
           >
             {mobileMenuOpen ? <X className="size-4" /> : <Menu className="size-4" />}
           </button>
@@ -111,7 +111,7 @@ export function SiteShell() {
               <Link
                 href="/recherche"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block rounded-xl px-4 py-3 text-sm uppercase tracking-[0.2em] text-amber-200 transition hover:bg-white/5"
+                className="block rounded-xl px-4 py-3 text-sm uppercase tracking-[0.2em] text-violet-200 transition hover:bg-white/5"
               >
                 Recherche
               </Link>

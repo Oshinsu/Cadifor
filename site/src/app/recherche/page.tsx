@@ -4,12 +4,15 @@ import {
   getCollection,
   type CollectionKey,
 } from "@/lib/content";
+import type { FactionKey } from "@/lib/colors";
 
 type SearchEntry = {
   slug: string;
   title: string;
   excerpt: string;
   collection: CollectionKey;
+  faction: FactionKey;
+  readingTime: number;
 };
 
 function buildSearchIndex(): SearchEntry[] {
@@ -27,6 +30,8 @@ function buildSearchIndex(): SearchEntry[] {
           title: entry.title,
           excerpt: entry.excerpt,
           collection,
+          faction: entry.faction,
+          readingTime: entry.readingTime,
         });
       }
     }
@@ -41,7 +46,7 @@ export default function RecherchePage() {
   return (
     <main className="mx-auto max-w-5xl px-6 pb-24 pt-12">
       <div className="mb-10 max-w-3xl">
-        <p className="text-xs uppercase tracking-[0.24em] text-stone-500">
+        <p className="text-xs uppercase tracking-[0.24em] text-cyan-300/60">
           Corpus
         </p>
         <h1 className="font-serif text-5xl text-stone-50">Recherche</h1>

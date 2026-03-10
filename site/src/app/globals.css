@@ -18,11 +18,32 @@ body {
   min-height: 100vh;
 }
 
+/* ─── Selection ────────────────────────────────────────────────── */
 ::selection {
-  background: rgba(245, 158, 11, 0.3);
-  color: #fef3c7;
+  background: rgba(139, 92, 246, 0.3);
+  color: #ede9fe;
 }
 
+/* ─── Scrollbar ────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* ─── Grain overlay for hero sections ──────────────────────────── */
 .grain {
   position: relative;
 }
@@ -32,10 +53,61 @@ body {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  opacity: 0.09;
+  opacity: 0.06;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
   background-size: 24px 24px;
   mask-image: radial-gradient(circle at center, black, transparent 85%);
+}
+
+/* ─── Prose scene — immersive reading mode ─────────────────────── */
+.prose-scene {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: #d6d3d1;
+}
+
+.prose-scene p {
+  margin-bottom: 1.5em;
+  text-indent: 1.5em;
+}
+
+.prose-scene p:first-of-type {
+  text-indent: 0;
+}
+
+.prose-scene p:first-of-type::first-letter {
+  font-size: 3.2em;
+  float: left;
+  line-height: 0.85;
+  margin-right: 0.08em;
+  margin-top: 0.05em;
+  color: #a78bfa;
+  font-weight: 600;
+}
+
+.prose-scene blockquote {
+  border-left: 2px solid rgba(139, 92, 246, 0.4);
+  padding-left: 1.5em;
+  margin: 2em 0;
+  font-style: italic;
+  color: #a8a29e;
+}
+
+.prose-scene em {
+  color: #c4b5fd;
+}
+
+.prose-scene strong {
+  color: #fafaf9;
+  font-weight: 600;
+}
+
+.prose-scene hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin: 3em auto;
+  max-width: 120px;
 }
