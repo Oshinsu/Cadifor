@@ -600,6 +600,74 @@ const phase2_expanded: ImagePrompt[] = [
       `A fortified ducal town where forest and river meet. Darrow — the secular ducal node of the Eastern Sylve, the political frame around Nouvelle-Avalon. Stone walls following the contour of a river bend. A modest castle with round towers and a central keep — not palatial but solid, built for administration and defense. Below the castle, a market town with timber-frame buildings, a stone bridge over the river, mills along the bank. The Eastern Sylve forest presses close on three sides. River barges loaded with timber and grain. The town is prosperous but not grand — it is a working capital, not a showpiece. Autumn colors in the surrounding forest. No people. Morning light, river mist.`
     ),
   },
+  // ── GURUBASHI / ZUL'GURUB (tropical ruins) ──
+  {
+    id: "location_gurubashi_zulgurub",
+    phase: 2,
+    refs: [],
+    outputDir: "locations",
+    aspectRatio: "16:9",
+    prompt: withStyle(
+      `Ruins of an ancient troll temple swallowed by tropical jungle. Zul'Gurub in the Gurubashi territory — now an imperial province. Massive stepped pyramids of moss-covered stone rising through a dense canopy of vines, ferns, and giant tropical trees. Carved serpent and raptor motifs along crumbling walls. A stone causeway leads through shallow green water toward the main temple. Raptors — Razzashi breed, sleek predators with iridescent green-and-crimson plumage — perch on the temple steps. The jungle is hot, humid, alive with the sound of insects and bird calls. Shafts of green-gold light through the canopy. A small imperial garrison flag — violet and cyan — hangs from a watchtower built into the ruins. Ancient and modern coexisting uneasily. No people. Midday tropical light, oppressive heat visible in the air shimmer.`
+    ),
+  },
+  // ── NORTHREND (glacial continent) ──
+  {
+    id: "location_northrend",
+    phase: 2,
+    refs: [],
+    outputDir: "locations",
+    aspectRatio: "21:9",
+    prompt: withStyle(
+      `A vast glacial continent seen from the deck of a ship approaching shore. Northrend — the frozen unknown beyond the empire's reach. Towering ice cliffs at the coastline, snow-covered mountains behind, an aurora borealis rippling green and violet across a twilight sky. The sea is dark grey, dotted with icebergs. On the shore, faint signs of habitation — distant fires, a structure that could be a vyrkul longhouse of massive proportions. The scale is inhuman — everything is larger, colder, more hostile than the human world. The continent does not invite. It warns. No ships in the harbor — only the viewer's vessel. The edge of the known world. No people visible. Twilight, aurora, extreme cold.`,
+      "21:9"
+    ),
+  },
+  // ── QUEL'THALAS (elven kingdom) ──
+  {
+    id: "location_quelthalas",
+    phase: 2,
+    refs: [],
+    outputDir: "locations",
+    aspectRatio: "16:9",
+    prompt: withStyle(
+      `The border of an ancient elven kingdom seen from the human side. Quel'Thalas — the high elven realm, ancient beyond human memory. A shimmering barrier of golden light marks the border — not a wall but a statement. Beyond it, towers of white stone and living wood rise above golden-leaved trees in perpetual autumn. The architecture is impossibly graceful — spires that seem to grow rather than be built, bridges of crystal between towers, gardens visible on elevated terraces. From the human side: a rough stone road ending at the barrier. Imperial messengers would wait here, at the threshold of a civilization that was ancient when humanity was young. The contrast is deliberate: human stone road meets elven light. No people. Late afternoon, golden light from the elven side, cooler blue from the human side.`
+    ),
+  },
+  // ── KUL TIRAS (maritime power) ──
+  {
+    id: "location_kul_tiras",
+    phase: 2,
+    refs: [],
+    outputDir: "locations",
+    aspectRatio: "16:9",
+    prompt: withStyle(
+      `A great maritime city on a stormy archipelago. Kul Tiras — the allied naval power, bound to the empire through marriage. A fortified harbor city built on cliffs above churning grey sea. Stone quays lined with warships — tall-masted men-of-war with deep hulls, built for ocean warfare. Lighthouses on rocky headlands. The architecture is heavy, salt-weathered stone — built to resist storms, not to impress visitors. Rope bridges connect harbor buildings. Dry docks where new ships take shape. The sky is stormy — dark clouds, wind, spray. This is a city that smells of salt and tar. A place where the fleet IS the nation. Green Cadifor and blue Kul Tiras banners fly side by side on the admiralty building. No people. Storm approaching, dramatic light breaking through clouds.`
+    ),
+  },
+  // ── PANDARIE (devastated continent) ──
+  {
+    id: "location_pandarie_ruins",
+    phase: 2,
+    refs: [],
+    outputDir: "locations",
+    aspectRatio: "21:9",
+    prompt: withStyle(
+      `Ruins of a once-great civilization consumed by void corruption. Pandarie — the devastated eastern continent. Shattered pagoda-style temples of jade and red lacquer, half-collapsed, overgrown with black crystalline growths that pulse with faint violet light. The sky is wrong — a sickly purple-grey, the sun barely visible through a haze of necromantic energy. What were once rice terraces and garden complexes are now fields of ash and corruption. In the distance, the silhouette of a massive fortress — one of the three necro-void empires: dark spires of obsidian reaching into the poisoned sky. The beauty of the original pandaren civilization is still visible beneath the corruption — graceful arches, carved dragons, elegant proportions — making the devastation more heartbreaking. No people. An entire world extinguished. Grey-violet light, oppressive atmosphere.`,
+      "21:9"
+    ),
+  },
+  // ── UNIVERSITE D'HURLEVENT (interior) ──
+  {
+    id: "location_universite_hurlevent",
+    phase: 2,
+    refs: ["materials_imperial_palette"],
+    outputDir: "locations",
+    aspectRatio: "16:9",
+    prompt: withStyle(
+      `Interior of a great imperial university lecture hall. The Université d'Hurlevent — where the empire's administrators, bankers, and fiscal experts are trained. A tiered amphitheater of dark polished wood, curved benches rising steeply around a central lectern. Behind the lectern: an enormous slate board covered in economic diagrams — currency flows, trade routes, banking formulae. Tall arched windows cast scholarly light across the room. Bookshelves line the walls between windows. The architecture speaks of serious intellectual purpose — not decorative, not austere, but purposeful. This is where the real power of empire is taught: money, credit, and administration. Globe instruments and navigational tools visible on side tables. No people. Morning light, chalk dust in the air.`
+    ),
+  },
 ];
 
 // Export expanded for external use
@@ -659,6 +727,49 @@ const phase3: ImagePrompt[] = [
     aspectRatio: "16:9",
     prompt: withStyle(
       `The Stormwind throne room from ref 3, packed with hundreds of figures. At center, the woman Rose from refs 1-2 stands before the throne, receiving the crown. She is perfectly still while the officiant (an elderly bishop in white-gold vestments) places a thin white-gold circlet on her dark hair. Her expression: serene acceptance of something that was always inevitable. Not triumph — assumption. The crowd: hundreds of nobles, military commanders, foreign dignitaries, all watching with varying mixtures of awe, calculation, and submission. Shafts of mineral-crystal light fall from the vault above like divine sanction. The scale of the room dwarfs everyone except her. Keep Rose's face EXACTLY matching references. Wide establishing shot. Cathedral light from above, warm reflected gold from marble. Epic scale, intimate emotion.`
+    ),
+  },
+  // 3.05 — Bataille de Yielden
+  {
+    id: "scene_bataille_yielden",
+    phase: 3,
+    refs: [
+      "portrait_andrea_juste_mature",
+      "location_col_de_yielden",
+    ],
+    outputDir: "scenes",
+    aspectRatio: "21:9",
+    prompt: withStyle(
+      `A medieval battle in full fury at a mountain pass. The Battle of Yielden — Andrea II's crushing victory. The empress from ref 1 stands on the southern ridge, mounted on a grey warhorse, commanding. Below her, the pass is chaos: 20,000 soldiers clashing on rocky ground. Imperial archers rain arrows from the forest-covered slope. At center, heavy infantry with pikes collide in a wall of steel. In the northern sky, griffon riders wheel and dive against hippogriff defenders. Mages send arcane barrages — blue-white light arcing across the battlefield. The rebel lines are breaking — soldiers fleeing. Smoke, dust, blood on stone. The tactical genius visible: every terrain feature exploited. Keep Andrea's face EXACTLY matching reference. Ultrawide establishing shot. Dawn light, cold blue shadows in the pass, warm gold on the peaks.`,
+      "21:9"
+    ),
+  },
+  // 3.06 — Grand Bal de la Réconciliation
+  {
+    id: "scene_grand_bal",
+    phase: 3,
+    refs: [
+      "portrait_andrea_juste_mature",
+      "location_stormwind_throne_room",
+    ],
+    outputDir: "scenes",
+    aspectRatio: "16:9",
+    prompt: withStyle(
+      `A great victory ball in a royal palace. The Grand Bal de la Réconciliation — Stormwind celebrating after the Bradney rebellion. The throne room from ref 2 transformed: hundreds of candles, banners of violet and cyan, tables laden with feast. At center, the empress Andrea II from ref 1, now dancing with her brother Gautmar — both laughing, for once unguarded, the weight of command briefly set aside. Around them, nobles, soldiers, and courtiers in their finest. Musicians on a raised gallery. Children running between the tables. Wine flowing. The atmosphere is genuine joy — not courtly performance, but real celebration. For one night, the dynasty is a family, not a machine. Keep Andrea's face EXACTLY matching reference. Warm golden interior lighting, candle glow, movement blur on dancers.`
+    ),
+  },
+  // 3.07 — Viki et les loups albinos
+  {
+    id: "scene_viki_loups",
+    phase: 3,
+    refs: [
+      "portrait_viki_bust",
+      "location_riviere_argelan",
+    ],
+    outputDir: "scenes",
+    aspectRatio: "16:9",
+    prompt: withStyle(
+      `A young girl facing a pack of albino wolves by a forest river at dawn. Viki Cadifor at age 8-9 — already abnormally at ease in the wild. The girl: small, wiry, auburn hair tangled, wearing rough frontier clothing, barefoot in the mud. She stands with her weight forward, not afraid — curious, excited even. Across the shallow river from ref 2, three albino wolves with white fur and yellow eyes watch her. One has its ears forward — not aggressive, assessing. The moment is primal: a human child and apex predators reading each other. The river is cold and fast, mist on the water. Ancient trees overhead. The scene says: this girl will become the greatest warrior of her age. Keep the girl's coloring matching the warrior woman from ref 1 but younger. Cold blue-grey dawn light, mist, wild atmosphere.`
     ),
   },
 ];
