@@ -1,15 +1,17 @@
 import Link from "next/link";
-import { ArrowRight, BookOpenText, Crown, ScrollText } from "lucide-react";
+import { ArrowRight, BookOpenText, Crown, Globe, MapPin, ScrollText } from "lucide-react";
 import { EntryCard } from "@/components/cards";
 import {
   encyclopaediaCollections,
   getCollection,
+  getCollectionDescription,
   getCollectionLabel,
   getFeaturedScene,
   getPdfProgressDocument,
   getSceneCandidates,
   getSiteDocuments,
   getTopCharacters,
+  getTotalEntryCount,
 } from "@/lib/content";
 
 export default function HomePage() {
@@ -56,7 +58,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mt-14 grid gap-6 md:grid-cols-3">
+      <section className="mt-14 grid gap-6 md:grid-cols-5">
         {[
           {
             label: "Personnages",
@@ -69,10 +71,18 @@ export default function HomePage() {
             icon: ScrollText,
           },
           {
-            label: "Corpus systeme",
-            value: encyclopaediaCollections
-              .map((collection) => getCollection(collection).length)
-              .reduce((total, count) => total + count, 0),
+            label: "Nations",
+            value: getCollection("nations").length,
+            icon: Globe,
+          },
+          {
+            label: "Villes",
+            value: getCollection("villes").length,
+            icon: MapPin,
+          },
+          {
+            label: "Total corpus",
+            value: getTotalEntryCount(),
             icon: BookOpenText,
           },
         ].map((item) => (
@@ -184,14 +194,12 @@ export default function HomePage() {
           {encyclopaediaCollections.map((collection) => {
             const count = getCollection(collection).length;
 
+            if (count === 0) return null;
+
             return (
               <Link
                 key={collection}
-                href={
-                  collection === "meta"
-                    ? "/canon/notation-scenes"
-                    : `/encyclopedie?focus=${collection}`
-                }
+                href="/encyclopedie"
                 className="rounded-[1.5rem] border border-white/8 bg-white/[0.03] p-6 transition hover:border-amber-300/25"
               >
                 <div className="text-xs uppercase tracking-[0.24em] text-stone-500">
@@ -200,8 +208,11 @@ export default function HomePage() {
                 <div className="mt-2 font-serif text-3xl text-stone-50">
                   {getCollectionLabel(collection)}
                 </div>
-                <div className="mt-3 text-sm leading-7 text-stone-400">
-                  {count} entrees actuellement derivees depuis `lore/`.
+                <div className="mt-2 text-sm leading-7 text-stone-400">
+                  {getCollectionDescription(collection)}
+                </div>
+                <div className="mt-3 text-xs text-stone-500">
+                  {count} entrees
                 </div>
               </Link>
             );

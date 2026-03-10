@@ -8,7 +8,13 @@ export type CollectionKey =
   | "sections"
   | "factions"
   | "annexes"
-  | "meta";
+  | "meta"
+  | "cultures"
+  | "duches"
+  | "nations"
+  | "territoires"
+  | "villes"
+  | "economie";
 
 export type LoreEntry = {
   slug: string;
@@ -21,18 +27,24 @@ export type LoreEntry = {
 
 type CollectionConfig = {
   key: CollectionKey;
-  directory: string[];
+  directories: string[][];
 };
 
 const LORE_ROOT = path.resolve(process.cwd(), "..", "lore");
 
 const COLLECTIONS: CollectionConfig[] = [
-  { key: "personnages", directory: ["personnages"] },
-  { key: "scenes", directory: ["meta", "scenes"] },
-  { key: "sections", directory: ["sections"] },
-  { key: "factions", directory: ["factions"] },
-  { key: "annexes", directory: ["annexes"] },
-  { key: "meta", directory: ["meta"] },
+  { key: "personnages", directories: [["personnages"]] },
+  { key: "scenes", directories: [["meta", "scenes"], ["scenes"]] },
+  { key: "sections", directories: [["sections"]] },
+  { key: "factions", directories: [["factions"]] },
+  { key: "annexes", directories: [["annexes"]] },
+  { key: "meta", directories: [["meta"]] },
+  { key: "cultures", directories: [["cultures"]] },
+  { key: "duches", directories: [["duches"]] },
+  { key: "nations", directories: [["nations"]] },
+  { key: "territoires", directories: [["territoires"]] },
+  { key: "villes", directories: [["villes"]] },
+  { key: "economie", directories: [["economie"]] },
 ];
 
 function toTitleFromSlug(slug: string) {
@@ -62,7 +74,8 @@ function extractExcerpt(content: string) {
         line.length > 0 &&
         !line.startsWith("#") &&
         line !== "---" &&
-        !line.startsWith(">"),
+        !line.startsWith(">") &&
+        !line.startsWith("|"),
     );
 
   return cleanedLines.slice(0, 3).join(" ").slice(0, 260);
@@ -84,9 +97,7 @@ function readMarkdownFile(filePath: string, collection: CollectionKey): LoreEntr
   };
 }
 
-function readCollection(config: CollectionConfig) {
-  const directoryPath = path.join(LORE_ROOT, ...config.directory);
-
+function readDirectory(directoryPath: string, collection: CollectionKey) {
   if (!fs.existsSync(directoryPath)) {
     return [] as LoreEntry[];
   }
@@ -95,9 +106,25 @@ function readCollection(config: CollectionConfig) {
     .readdirSync(directoryPath, { withFileTypes: true })
     .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
     .map((entry) =>
-      readMarkdownFile(path.join(directoryPath, entry.name), config.key),
-    )
-    .sort((a, b) => a.title.localeCompare(b.title, "fr"));
+      readMarkdownFile(path.join(directoryPath, entry.name), collection),
+    );
+}
+
+function readCollection(config: CollectionConfig) {
+  const seen = new Set<string>();
+  const entries: LoreEntry[] = [];
+
+  for (const dir of config.directories) {
+    const directoryPath = path.join(LORE_ROOT, ...dir);
+    for (const entry of readDirectory(directoryPath, config.key)) {
+      if (!seen.has(entry.slug)) {
+        seen.add(entry.slug);
+        entries.push(entry);
+      }
+    }
+  }
+
+  return entries.sort((a, b) => a.title.localeCompare(b.title, "fr"));
 }
 
 export function getCollection(collection: CollectionKey) {
@@ -181,8 +208,51 @@ export function getCollectionLabel(collection: CollectionKey) {
       return "Annexes";
     case "meta":
       return "Meta";
+    case "cultures":
+      return "Cultures";
+    case "duches":
+      return "Duches";
+    case "nations":
+      return "Nations";
+    case "territoires":
+      return "Territoires";
+    case "villes":
+      return "Villes";
+    case "economie":
+      return "Economie";
     default:
       return "Corpus";
+  }
+}
+
+export function getCollectionDescription(collection: CollectionKey) {
+  switch (collection) {
+    case "personnages":
+      return "Souverains, consorts, commandants et figures de seuil de la dynastie Cadifor.";
+    case "scenes":
+      return "Scenes canoniques du corpus : diners, batailles, duels, bals et moments fondateurs.";
+    case "sections":
+      return "Systemes transversaux : geopolitique, armee, religion, architecture, heraldique.";
+    case "factions":
+      return "Nations externes, duchés rivaux, personnages secondaires et ennemis.";
+    case "annexes":
+      return "Comparaisons, equipements, differences avec le lore officiel, style narratif.";
+    case "meta":
+      return "Dossiers d'analyse, etats du monde, mecaniques CK2 et notes d'auteur.";
+    case "cultures":
+      return "Cultures de l'Empire : azerothienne, cadiforienne, lordaeronienne, stormgardienne.";
+    case "duches":
+      return "Duches et fiefs majeurs du Haut Royaume.";
+    case "nations":
+      return "Nations du monde d'Azeroth, alliees, neutres ou rivales de l'Empire.";
+    case "territoires":
+      return "Regions, provinces et territoires sous domination ou influence imperiale.";
+    case "villes":
+      return "Cites, forteresses et lieux de pouvoir du monde Cadifor.";
+    case "economie":
+      return "Systemes economiques, routes commerciales et doctrines financieres.";
+    default:
+      return "Entrees du corpus.";
   }
 }
 
@@ -190,6 +260,18 @@ export const encyclopaediaCollections: CollectionKey[] = [
   "personnages",
   "sections",
   "factions",
+  "cultures",
+  "duches",
+  "nations",
+  "territoires",
+  "villes",
+  "economie",
   "annexes",
   "meta",
 ];
+
+export function getTotalEntryCount() {
+  return encyclopaediaCollections
+    .map((collection) => getCollection(collection).length)
+    .reduce((total, count) => total + count, 0);
+}
