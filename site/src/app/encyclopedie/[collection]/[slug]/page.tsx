@@ -4,7 +4,6 @@ import { ArrowLeft, Clock, FileText } from "lucide-react";
 import { Markdown } from "@/components/markdown";
 import { FactionBadge } from "@/components/faction-badge";
 import { getTierColor } from "@/lib/colors";
-import { getCollectionTheme } from "@/lib/colors";
 import {
   encyclopaediaCollections,
   getCollection,
@@ -39,7 +38,6 @@ export default async function EntryPage({ params }: EntryPageProps) {
     notFound();
   }
 
-  const theme = getCollectionTheme(collection);
   const allInCollection = getCollection(collection);
   const currentIndex = allInCollection.findIndex((e) => e.slug === slug);
   const prevEntry = currentIndex > 0 ? allInCollection[currentIndex - 1] : null;
@@ -47,29 +45,24 @@ export default async function EntryPage({ params }: EntryPageProps) {
 
   return (
     <main className="mx-auto max-w-6xl px-6 pb-24 pt-8">
-      {/* ─── Breadcrumbs ─────────────────────────────────────── */}
-      <nav className="mb-6 flex items-center gap-2 text-xs text-stone-500">
-        <Link href="/encyclopedie" className="transition hover:text-stone-300">
-          Encyclopedie
-        </Link>
-        <span>/</span>
-        <Link
-          href="/encyclopedie"
-          className={`transition hover:text-stone-300 ${theme.iconColor}`}
-        >
-          {getCollectionLabel(collection)}
-        </Link>
-        <span>/</span>
-        <span className="text-stone-400">{entry.title}</span>
-      </nav>
+      {/* ─── Back link ────────────────────────────────────────── */}
+      <Link
+        href="/encyclopedie"
+        className="mb-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+      >
+        <ArrowLeft className="size-3" />
+        Encyclopedie
+      </Link>
 
-      <div className="grid gap-8 lg:grid-cols-[1fr_280px]">
-        {/* ─── Main content ────────────────────────────────────── */}
+      <div className="grid gap-10 lg:grid-cols-[1fr_260px]">
+        {/* ─── Main content ──────────────────────────────────── */}
         <div>
           {/* Header */}
-          <div className="mb-10 rounded-[2rem] border border-white/8 bg-white/[0.03] p-8">
+          <div className="animate-fade-up relative mb-12 overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-[var(--gold-faint)] p-8 md:p-10">
+            <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--gold)]/25 to-transparent" />
+
             <div className="mb-4 flex flex-wrap items-center gap-3">
-              <span className={`text-xs uppercase tracking-[0.24em] ${theme.iconColor}`}>
+              <span className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]">
                 {getCollectionLabel(collection)}
               </span>
               {entry.faction !== "imperial" && (
@@ -82,7 +75,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
               )}
             </div>
 
-            <h1 className="font-serif text-5xl leading-tight text-stone-50">
+            <h1 className="font-serif text-5xl leading-tight text-[var(--ivory)]">
               {entry.title}
             </h1>
 
@@ -110,17 +103,17 @@ export default async function EntryPage({ params }: EntryPageProps) {
           {/* Body */}
           <Markdown content={entry.body} />
 
-          {/* ─── Prev / Next navigation ──────────────────────────── */}
+          {/* ─── Prev / Next ─────────────────────────────────── */}
           <div className="mt-16 grid gap-4 md:grid-cols-2">
             {prevEntry ? (
               <Link
                 href={`/encyclopedie/${collection}/${prevEntry.slug}`}
-                className="group rounded-2xl border border-white/8 bg-white/[0.03] p-5 transition hover:border-white/15"
+                className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5"
               >
                 <span className="text-[10px] uppercase tracking-[0.2em] text-stone-600">
                   Precedent
                 </span>
-                <p className="mt-1 font-serif text-lg text-stone-200 transition group-hover:text-amber-200">
+                <p className="mt-1 font-serif text-lg text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                   {prevEntry.title}
                 </p>
               </Link>
@@ -128,12 +121,12 @@ export default async function EntryPage({ params }: EntryPageProps) {
             {nextEntry ? (
               <Link
                 href={`/encyclopedie/${collection}/${nextEntry.slug}`}
-                className="group rounded-2xl border border-white/8 bg-white/[0.03] p-5 text-right transition hover:border-white/15"
+                className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5 text-right"
               >
                 <span className="text-[10px] uppercase tracking-[0.2em] text-stone-600">
                   Suivant
                 </span>
-                <p className="mt-1 font-serif text-lg text-stone-200 transition group-hover:text-amber-200">
+                <p className="mt-1 font-serif text-lg text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                   {nextEntry.title}
                 </p>
               </Link>
@@ -141,17 +134,9 @@ export default async function EntryPage({ params }: EntryPageProps) {
           </div>
         </div>
 
-        {/* ─── Sidebar ─────────────────────────────────────────── */}
+        {/* ─── Sidebar ───────────────────────────────────────── */}
         <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
-          <Link
-            href="/encyclopedie"
-            className="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-stone-500 transition hover:text-stone-300"
-          >
-            <ArrowLeft className="size-3" />
-            Retour
-          </Link>
-
-          <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-5">
+          <div className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5">
             <p className="mb-3 text-[10px] uppercase tracking-[0.2em] text-stone-600">
               Dans cette collection
             </p>
@@ -160,10 +145,10 @@ export default async function EntryPage({ params }: EntryPageProps) {
                 <Link
                   key={e.slug}
                   href={`/encyclopedie/${collection}/${e.slug}`}
-                  className={`block truncate rounded-lg px-3 py-1.5 text-xs transition ${
+                  className={`block truncate rounded-lg px-3 py-1.5 text-xs transition-colors duration-200 ${
                     e.slug === slug
-                      ? "bg-white/10 text-stone-100"
-                      : "text-stone-500 hover:bg-white/5 hover:text-stone-300"
+                      ? "bg-[var(--gold)]/10 text-[var(--gold-light)]"
+                      : "text-stone-500 hover:bg-white/[0.04] hover:text-stone-300"
                   }`}
                 >
                   {e.title}

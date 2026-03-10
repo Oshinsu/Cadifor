@@ -28,11 +28,10 @@ const body = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Cadifor — Haut Royaume d'Azeroth",
+    default: "Cadifor — Le Haut Royaume",
     template: "%s — Cadifor",
   },
-  description:
-    "Encyclopedie vivante du Haut Royaume de Cadifor. Quatre siecles de dynastie, de lore et de scenes canoniques.",
+  description: "Encyclopedie vivante du Haut Royaume de Cadifor. 997 pages de lore, une dynastie de quatre siecles.",
 };
 
 export default function RootLayout({
@@ -43,9 +42,19 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${display.variable} ${body.variable} bg-stone-950 font-sans text-stone-100 antialiased`}
+        className={`${display.variable} ${body.variable} bg-[#0a0908] font-sans text-stone-200 antialiased`}
       >
-        <div className="min-h-screen bg-[radial-gradient(ellipse_at_top,_rgba(139,92,246,0.12),_transparent_28%),radial-gradient(ellipse_at_bottom_right,_rgba(34,211,238,0.08),_transparent_22%),linear-gradient(180deg,_#0c0a09_0%,_#110e0c_42%,_#0c0a09_100%)]">
+        <div className="relative min-h-screen">
+          <div
+            className="pointer-events-none fixed inset-0 -z-10"
+            style={{
+              background: [
+                "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212,168,83,0.10), transparent 60%)",
+                "radial-gradient(ellipse 60% 40% at 90% 80%, rgba(120,80,40,0.06), transparent 50%)",
+                "linear-gradient(180deg, #0a0908 0%, #0d0b09 30%, #0a0908 100%)",
+              ].join(", "),
+            }}
+          />
           <SiteShell />
           {children}
           <SiteFooter />

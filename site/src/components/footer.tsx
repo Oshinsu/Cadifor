@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ScrollText } from "lucide-react";
 import {
   encyclopaediaCollections,
   getCollection,
@@ -10,34 +9,28 @@ export function SiteFooter() {
   const totalEntries = getTotalEntryCount();
   const sceneCount = getCollection("scenes").length;
   const characterCount = getCollection("personnages").length;
-  const nationCount = getCollection("nations").length;
 
   return (
-    <footer className="border-t border-white/6 bg-stone-950/80">
-      <div className="mx-auto max-w-7xl px-6 py-14">
-        <div className="grid gap-10 md:grid-cols-4">
+    <footer className="relative mt-24 border-t border-white/[0.04]">
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--gold)]/10 to-transparent" />
+
+      <div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="grid gap-12 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
           <div>
-            <Link href="/" className="flex items-center gap-3 text-stone-100">
-              <div className="flex size-9 items-center justify-center rounded-full border border-violet-300/40 bg-violet-300/10">
-                <ScrollText className="size-3.5 text-violet-300" />
+            <Link href="/" className="group inline-flex items-center gap-3">
+              <div className="flex size-8 items-center justify-center rounded-lg border border-[var(--gold)]/20 bg-[var(--gold)]/[0.05]">
+                <span className="font-serif text-sm font-bold text-[var(--gold)]">C</span>
               </div>
-              <div>
-                <p className="font-serif text-lg tracking-[0.18em] uppercase">Cadifor</p>
-                <p className="text-[10px] uppercase tracking-[0.2em] text-stone-500">
-                  Haut Royaume
-                </p>
-              </div>
+              <span className="font-serif text-lg tracking-[0.15em] text-stone-200">CADIFOR</span>
             </Link>
-            <p className="mt-4 text-xs leading-6 text-stone-500">
-              Encyclopedie vivante du corpus Cadifor.
+            <p className="mt-5 max-w-xs text-[0.8rem] leading-relaxed text-stone-500">
+              Encyclopedie vivante du Haut Royaume. Corpus derive de 997 pages de lore brut.
               Mod Warcraft: Guardians of Azeroth pour Crusader Kings 2.
             </p>
           </div>
 
           <div>
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.24em] text-stone-400">
-              Navigation
-            </p>
+            <p className="mb-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-stone-500">Navigation</p>
             <div className="space-y-3">
               {[
                 { href: "/scenes", label: "Scenes" },
@@ -46,11 +39,7 @@ export function SiteFooter() {
                 { href: "/dossiers", label: "Dossiers" },
                 { href: "/recherche", label: "Recherche" },
               ].map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="block text-sm text-stone-500 transition hover:text-stone-200"
-                >
+                <Link key={link.href} href={link.href} className="block text-[0.84rem] text-stone-500 transition-colors duration-300 hover:text-stone-200">
                   {link.label}
                 </Link>
               ))}
@@ -58,53 +47,35 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.24em] text-stone-400">
-              Canon
-            </p>
+            <p className="mb-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-stone-500">Canon</p>
             <div className="space-y-3">
-              {[
-                { href: "/canon/progression-pdf", label: "Progression PDF" },
-                { href: "/canon/notation-scenes", label: "Notation des scenes" },
-              ].map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="block text-sm text-stone-500 transition hover:text-stone-200"
-                >
-                  {link.label}
-                </Link>
-              ))}
+              <Link href="/canon/progression-pdf" className="block text-[0.84rem] text-stone-500 transition-colors duration-300 hover:text-stone-200">Progression PDF</Link>
+              <Link href="/canon/notation-scenes" className="block text-[0.84rem] text-stone-500 transition-colors duration-300 hover:text-stone-200">Notation des scenes</Link>
             </div>
           </div>
 
           <div>
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.24em] text-stone-400">
-              Corpus
-            </p>
-            <div className="space-y-2">
+            <p className="mb-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-stone-500">Corpus</p>
+            <div className="space-y-3">
               {[
                 { label: "Entrees", value: totalEntries },
                 { label: "Personnages", value: characterCount },
                 { label: "Scenes", value: sceneCount },
-                { label: "Nations", value: nationCount },
                 { label: "Collections", value: encyclopaediaCollections.length },
-              ].map((item) => (
-                <div key={item.label} className="flex items-baseline justify-between">
-                  <span className="text-xs text-stone-500">{item.label}</span>
-                  <span className="font-serif text-lg text-stone-200">{item.value}</span>
+              ].map((stat) => (
+                <div key={stat.label} className="flex items-baseline justify-between">
+                  <span className="text-[0.8rem] text-stone-500">{stat.label}</span>
+                  <span className="font-serif text-lg text-stone-300">{stat.value}</span>
                 </div>
               ))}
             </div>
           </div>
         </div>
 
-        <div className="mt-12 flex items-center justify-center gap-4 border-t border-white/6 pt-6">
-          <div className="flex items-center gap-2">
-            <div className="size-1.5 rounded-full bg-violet-500" />
-            <div className="size-1.5 rounded-full bg-cyan-400" />
-          </div>
-          <p className="text-center text-xs text-stone-600">
-            Haut Royaume de Cadifor — 997 pages de lore brut — Point de divergence : annee 583
+        <div className="divider-fade mt-14 mb-8" />
+        <div className="flex flex-col items-center gap-2 text-center">
+          <p className="text-[0.72rem] tracking-[0.12em] text-stone-600">
+            Haut Royaume de Cadifor — Point de divergence : annee 583
           </p>
         </div>
       </div>
