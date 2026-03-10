@@ -38,6 +38,46 @@ Source : lot 5 (`5f57f349`, `fc0d14a3`)
 
 ---
 
+## Analyse : la bascule nécromantique
+
+L'événement central de 953 est le passage de Rose du statut de **Mage légendaire X** à celui de **Nécromancien légendaire X**.
+
+Ce n'est pas une corruption. C'est une décision.
+
+Rose ne se contente pas d'être la plus érudite, une grande mage, une souveraine parfaite. Elle décide d'aller chercher l'un des arts les plus dangereux, les plus lourds moralement et symboliquement, et elle le maîtrise jusqu'au rang légendaire.
+
+La logique roseenne est claire : *"Je suis déjà au sommet du licite. Je vais donc explorer aussi l'interdit, parce que je peux, parce que je comprends, parce que je veux savoir."*
+
+### Ce que ça change
+
+- **Marjory** était la perfection ordonnée.
+- **Rose** devient la perfection ordonnée qui ose franchir une ligne.
+
+La morale commune n'est plus tout à fait faite pour elle — non parce qu'elle serait mauvaise par nature, mais parce qu'elle se situe dans un niveau de puissance, de sécurité et d'intelligence où elle commence à traiter les tabous comme des problèmes techniques.
+
+### Érudition 36 — première du monde
+
+En 953, Rose dépasse en érudition tous les rois-dragons, dragons-aspects, elfes millénaires, Tyrande, les héritiers de Cenarius, les anciens de guerre et les sages de plusieurs millénaires d'expérience. Ce score cesse d'être représentable par le langage politique normal.
+
+### Continuité impériale
+
+Malgré la bascule, l'Empire tient :
+
+- **42 600 or** en trésor
+- Prestige 6120 (en hausse par rapport à 950)
+- Pactes 34 (en hausse par rapport aux 28 de 950)
+- La couronne tient le monde par le haut, sans compression
+
+Rose gouverne comme quelqu'un qui comprend qu'un empire immense doit être tenu, pas compressé.
+
+### Le monde extérieur en 953
+
+- L'Empire Shek'mag sous Rong (118 ans, Vide astral) est le principal bloc continental non-azerothien visible
+- Les sièges en cours montrent que l'Empire n'est pas en paix totale — des poches de résistance ou d'expansion subsistent
+- Ka'dixar, annexé sous la sphère azérothienne, confirme que l'Empire n'est plus seulement continental : il est extraterritorial
+
+---
+
 ## Formule
 
-> *En 953, Rose achève sa double transcendance : Mage X cède la place à Nécromancien X. L'Empire tient, les sièges continuent.*
+> *En 953, Rose achève sa double transcendance : Mage X cède la place à Nécromancien X. Le sommet savant devient sommet transgressif. L'Empire tient, les sièges continuent, et l'érudition 36 dépasse tout ce que le monde connaît.*

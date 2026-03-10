@@ -1,23 +1,38 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Manrope } from "next/font/google";
+import localFont from "next/font/local";
 import { SiteShell } from "@/components/site-shell";
+import { SiteFooter } from "@/components/footer";
 import "./globals.css";
 
-const display = Cormorant_Garamond({
-  subsets: ["latin"],
+const display = localFont({
+  src: [
+    { path: "../fonts/cormorant-garamond-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../fonts/cormorant-garamond-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "../fonts/cormorant-garamond-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "../fonts/cormorant-garamond-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-display",
-  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
-const body = Manrope({
-  subsets: ["latin"],
+const body = localFont({
+  src: [
+    { path: "../fonts/manrope-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../fonts/manrope-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "../fonts/manrope-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "../fonts/manrope-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-body",
-  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Cadifor",
-  description: "Application editoriale et encyclopedique pour le corpus Cadifor.",
+  title: {
+    default: "Cadifor — Haut Royaume d'Azeroth",
+    template: "%s — Cadifor",
+  },
+  description:
+    "Encyclopedie vivante du Haut Royaume de Cadifor. Quatre siecles de dynastie, de lore et de scenes canoniques.",
 };
 
 export default function RootLayout({
@@ -30,9 +45,10 @@ export default function RootLayout({
       <body
         className={`${display.variable} ${body.variable} bg-stone-950 font-sans text-stone-100 antialiased`}
       >
-        <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(245,158,11,0.16),_transparent_24%),radial-gradient(circle_at_bottom_right,_rgba(56,189,248,0.12),_transparent_22%),linear-gradient(180deg,_#0c0a09_0%,_#120f0d_42%,_#0c0a09_100%)]">
+        <div className="min-h-screen bg-[radial-gradient(ellipse_at_top,_rgba(139,92,246,0.12),_transparent_28%),radial-gradient(ellipse_at_bottom_right,_rgba(34,211,238,0.08),_transparent_22%),linear-gradient(180deg,_#0c0a09_0%,_#110e0c_42%,_#0c0a09_100%)]">
           <SiteShell />
           {children}
+          <SiteFooter />
         </div>
       </body>
     </html>

@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ArrowLeft, ArrowRight, Clock, FileText } from "lucide-react";
 import { Markdown } from "@/components/markdown";
 import { getCollection, getEntry } from "@/lib/content";
 
@@ -18,16 +20,82 @@ export default async function ScenePage({ params }: ScenePageProps) {
     notFound();
   }
 
+  const allScenes = getCollection("scenes");
+  const currentIndex = allScenes.findIndex((s) => s.slug === slug);
+  const prevScene = currentIndex > 0 ? allScenes[currentIndex - 1] : null;
+  const nextScene = currentIndex < allScenes.length - 1 ? allScenes[currentIndex + 1] : null;
+
   return (
-    <main className="mx-auto max-w-4xl px-6 pb-24 pt-12">
-      <div className="mb-10 rounded-[2rem] border border-white/8 bg-white/[0.03] p-8">
-        <p className="text-xs uppercase tracking-[0.24em] text-amber-200">Scene</p>
-        <h1 className="mt-3 font-serif text-5xl text-stone-50">{scene.title}</h1>
-        <p className="mt-4 text-sm uppercase tracking-[0.22em] text-stone-500">
-          Source : {scene.sourcePath}
+    <main className="mx-auto max-w-4xl px-6 pb-24 pt-8">
+      {/* Breadcrumb */}
+      <nav className="mb-6 flex items-center gap-2 text-xs text-stone-500">
+        <Link href="/scenes" className="flex items-center gap-1.5 transition hover:text-stone-300">
+          <ArrowLeft className="size-3" />
+          Scenes
+        </Link>
+        <span>/</span>
+        <span className="text-stone-400">{scene.title}</span>
+      </nav>
+
+      {/* Header */}
+      <div className="mb-12 rounded-[2rem] border border-amber-300/15 bg-amber-300/[0.04] p-8 md:p-12">
+        <p className="mb-3 text-xs uppercase tracking-[0.24em] text-amber-200">
+          Scene canonique
         </p>
+        <h1 className="font-serif text-5xl leading-tight text-stone-50 md:text-6xl">
+          {scene.title}
+        </h1>
+        <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-300">
+          {scene.excerpt}
+        </p>
+
+        <div className="mt-8 flex items-center gap-6 text-xs text-stone-500">
+          <span className="flex items-center gap-1.5">
+            <Clock className="size-3" />
+            {scene.readingTime} min de lecture
+          </span>
+          <span className="flex items-center gap-1.5">
+            <FileText className="size-3" />
+            {scene.wordCount.toLocaleString("fr")} mots
+          </span>
+          <span className="text-stone-600">{scene.sourcePath}</span>
+        </div>
       </div>
-      <Markdown content={scene.body} />
+
+      {/* Body — immersive reading mode */}
+      <article className="prose-scene">
+        <Markdown content={scene.body} />
+      </article>
+
+      {/* Prev / Next */}
+      <div className="mt-16 grid gap-4 md:grid-cols-2">
+        {prevScene ? (
+          <Link
+            href={`/scenes/${prevScene.slug}`}
+            className="group rounded-2xl border border-white/8 bg-white/[0.03] p-5 transition hover:border-amber-300/20"
+          >
+            <span className="text-[10px] uppercase tracking-[0.2em] text-stone-600">
+              Scene precedente
+            </span>
+            <p className="mt-1 font-serif text-lg text-stone-200 transition group-hover:text-amber-200">
+              {prevScene.title}
+            </p>
+          </Link>
+        ) : <div />}
+        {nextScene ? (
+          <Link
+            href={`/scenes/${nextScene.slug}`}
+            className="group rounded-2xl border border-white/8 bg-white/[0.03] p-5 text-right transition hover:border-amber-300/20"
+          >
+            <span className="text-[10px] uppercase tracking-[0.2em] text-stone-600">
+              Scene suivante
+            </span>
+            <p className="mt-1 font-serif text-lg text-stone-200 transition group-hover:text-amber-200">
+              {nextScene.title}
+            </p>
+          </Link>
+        ) : null}
+      </div>
     </main>
   );
 }
