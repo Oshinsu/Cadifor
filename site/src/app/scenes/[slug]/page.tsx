@@ -27,25 +27,24 @@ export default async function ScenePage({ params }: ScenePageProps) {
 
   return (
     <main className="mx-auto max-w-4xl px-6 pb-24 pt-8">
-      {/* Breadcrumb */}
-      <nav className="mb-6 flex items-center gap-2 text-xs text-stone-500">
-        <Link href="/scenes" className="flex items-center gap-1.5 transition hover:text-stone-300">
-          <ArrowLeft className="size-3" />
-          Scenes
-        </Link>
-        <span>/</span>
-        <span className="text-stone-400">{scene.title}</span>
-      </nav>
+      {/* Back link */}
+      <Link
+        href="/scenes"
+        className="mb-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+      >
+        <ArrowLeft className="size-3" />
+        Scenes
+      </Link>
 
       {/* Header */}
-      <div className="mb-12 rounded-[2rem] border border-amber-300/15 bg-amber-300/[0.04] p-8 md:p-12">
-        <p className="mb-3 text-xs uppercase tracking-[0.24em] text-amber-200">
+      <div className="animate-fade-up mb-14 overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-[var(--gold-faint)] p-8 md:p-12">
+        <p className="mb-3 text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]">
           Scene canonique
         </p>
-        <h1 className="font-serif text-5xl leading-tight text-stone-50 md:text-6xl">
+        <h1 className="font-serif text-5xl leading-tight text-[var(--ivory)] md:text-6xl">
           {scene.title}
         </h1>
-        <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-300">
+        <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-400">
           {scene.excerpt}
         </p>
 
@@ -62,8 +61,8 @@ export default async function ScenePage({ params }: ScenePageProps) {
         </div>
       </div>
 
-      {/* Body — immersive reading mode */}
-      <article className="prose-scene">
+      {/* Body */}
+      <article>
         <Markdown content={scene.body} />
       </article>
 
@@ -72,12 +71,12 @@ export default async function ScenePage({ params }: ScenePageProps) {
         {prevScene ? (
           <Link
             href={`/scenes/${prevScene.slug}`}
-            className="group rounded-2xl border border-white/8 bg-white/[0.03] p-5 transition hover:border-amber-300/20"
+            className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5"
           >
             <span className="text-[10px] uppercase tracking-[0.2em] text-stone-600">
               Scene precedente
             </span>
-            <p className="mt-1 font-serif text-lg text-stone-200 transition group-hover:text-amber-200">
+            <p className="mt-1 font-serif text-lg text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
               {prevScene.title}
             </p>
           </Link>
@@ -85,12 +84,12 @@ export default async function ScenePage({ params }: ScenePageProps) {
         {nextScene ? (
           <Link
             href={`/scenes/${nextScene.slug}`}
-            className="group rounded-2xl border border-white/8 bg-white/[0.03] p-5 text-right transition hover:border-amber-300/20"
+            className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5 text-right"
           >
             <span className="text-[10px] uppercase tracking-[0.2em] text-stone-600">
               Scene suivante
             </span>
-            <p className="mt-1 font-serif text-lg text-stone-200 transition group-hover:text-amber-200">
+            <p className="mt-1 font-serif text-lg text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
               {nextScene.title}
             </p>
           </Link>
