@@ -45,6 +45,15 @@ type CollectionConfig = {
 
 const LORE_ROOT = path.resolve(process.cwd(), "..", "lore");
 
+/** Slugs to exclude from collections (index/navigation files, not real entries) */
+const EXCLUDED_SLUGS = new Set([
+  "00_INDEX",
+  "00_index",
+  "INDEX",
+  "README",
+  "readme",
+]);
+
 const COLLECTIONS: CollectionConfig[] = [
   { key: "personnages", directories: [["personnages"]] },
   { key: "scenes", directories: [["meta", "scenes"], ["scenes"]] },
@@ -183,7 +192,7 @@ function readDirectory(directoryPath: string, collection: CollectionKey) {
 
   return fs
     .readdirSync(directoryPath, { withFileTypes: true })
-    .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".md") && !EXCLUDED_SLUGS.has(path.basename(entry.name, ".md")))
     .map((entry) =>
       readMarkdownFile(path.join(directoryPath, entry.name), collection),
     );
