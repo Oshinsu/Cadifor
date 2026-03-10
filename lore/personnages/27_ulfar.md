@@ -12,7 +12,9 @@
 | **Religion** | Devot d'Odyn |
 | **Qualites** | Brillant stratege |
 | **Region** | Northrend (etat initial preserve — pas de Roi-Liche) |
+| **Date attestee** | 3 decembre 950 |
 | **En 950** | 38 ans, survivant coalition 943 (screen lot 4) |
+| **Cour** | 58 |
 | **Grade Lore** | B+ / A- |
 
 ---

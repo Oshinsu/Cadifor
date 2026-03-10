@@ -9,6 +9,7 @@
 |-------|--------|
 | **Race** | Mogu |
 | **Age** | 118 ans |
+| **Date attestee** | 26 novembre 953 |
 | **Religion** | Vide astral |
 | **Empire** | Shek'mag |
 | **Voisins** | Xin'ze, Shen |
@@ -21,6 +22,7 @@
 - Divinite principale : L'Ombre
 - Divinites malefiques : Le Chaos
 - Texte sacre : Le Grimoire noir
+- Autorite morale : 25
 - Doctrine : magie du Vide pour le Bien, utilisation prudente
 
 ---

@@ -16,7 +16,7 @@ Source : lot 5 (`5f57f349`, `fc0d14a3`)
 
 - **47 ans**
 - Événement « Apprentissage terminé » : **perte Mage légendaire X**, **gain Nécromancien légendaire X**
-- Stats : Erudition 36 (72), CP 88
+- Stats : Dip 19 (60), Martial 18 (60), Intendance 13 (50), Intrigue 12 (42), **Erudition 36 (72)**, CP 88
 - Vassaux 72, Cour 35, Pactes 34
 
 ### 2. Conflits en cours
@@ -32,8 +32,9 @@ Source : lot 5 (`5f57f349`, `fc0d14a3`)
 
 ### 4. Player realm
 
-- Or 42.6K, Levies 37 739, Naval 1252
-- Sièges : Malaya, Moncorruble
+- Or 42.6K, Piété 2471, Prestige 6120
+- Levies 37 739, Naval 1252
+- Sièges : Malaya 0%, Moncorruble 4%
 
 ---
 

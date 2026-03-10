@@ -25,6 +25,32 @@
 
 ---
 
+## Recomposition marjoryenne du haut Empire
+
+La totalisation d'`Andrea III` ne doit pas etre projetee telle quelle jusqu'en `950`.
+
+Correctif tardif ferme :
+
+- `Marjory` remet en place plusieurs **couronnes vassales**
+- la raison n'est pas ideologique mais pratique : **trop de vassaux a gerer**
+- elle place majoritairement des `Cadifor` sur ces trones
+- `Rose` conserve directement `Morasses Noires`, seul royaume reste en domaine propre de la couronne
+
+Le haut Empire de `950` doit donc etre lu comme un **corps unique a plusieurs couronnes internes**, pas comme une simple nappe administrative parfaitement plate.
+
+Couronnes attestables dans cette phase :
+
+- `Lordaeron`
+- `Hautebrande`
+- `Stormgarde`
+- `Crins-de-Givre`
+- `Baie-du-Butin`
+- `Gurubashi`
+- `Kezan`
+- `Morasses Noires` (titre direct de `Rose`)
+
+---
+
 ## Avant l'unification cadiforienne
 
 Avant la grande phase d'integration, il faut distinguer soigneusement trois niveaux qui ont longtemps ete confondus dans les versions anciennes du lore :
@@ -143,13 +169,15 @@ ils grandissent parfois contre des ordres deja efficaces mais juges insuffisants
 
 | Nation | Region | Notes |
 |--------|--------|-------|
-| **Kaldorei** | Kalimdor | Elfes de la nuit. Contacts rares. Source de nightsabers. |
-| **Cercle Cenarien** | Kalimdor | Druides. Relations limitees. |
-| **Confederation gobeline** | Iles/Northrend | Ile du Butin. Commerce. |
+| **Kaldorei** | Kalimdor | Grande puissance externe. Environ `80 %` de `Kalimdor` sous domination `Tyrande / Cenarius`. |
+| **Cercle Cenarien** | Kalimdor | Druides. Couvre avec les `Kaldorei` la majeure partie de `Kalimdor`. |
+| **Confederation gobeline** | Northrend | Sphere commerciale repliee au nord apres perte de `Kezan`, `Baie-du-Butin` et `Ile du Butin`. |
 | **Northrend** | Nord | **Etat initial preserve** — pas de Roi-Liche, pas de Peste. Vyrkul, dragons, geants, trolls. Screen lot 4 (950) : Ulduar, Tahlenal, Sillereach, Snowrift, An'mokius, Hussar, Rohadal. |
-| **Uldum** | Sud-est Azeroth | Enclave distincte visible en 950 (screen lot 4). Lot 5 : dans le domaine direct de Rose en 953. |
+| **Uldum** | Sud de Kalimdor | Empire tres puissant du sud-kalimdorien. Visible aussi dans les ecrans tardifs. |
 | **Xin'ze / Shen** | Sud / Est | Royaumes visibles en 953-958 (lot 5). Voisins de Shek'mag. |
 | **Shek'mag** | Centre-est | Empire d'Empereur Rong (118 ans), religion Vide astral. |
+| **Ile du Butin** | Ouest de Baie-du-Butin | Royaume vyrkul independant. Ne pas confondre avec `Baie-du-Butin`. |
+| **Pandarie** | Sud-ouest lointain | Trois grands empires necro-void. `Ka'dixar` au sud-ouest donne au roi de `Lordaeron`. |
 | **Marché-au-Bois** | — | Lieu de siège hostile en 953 (lot 5, 38%). |
 | **Baradin** | — | Lieu de siège hostile en 958 (lot 5, 0%). |
 

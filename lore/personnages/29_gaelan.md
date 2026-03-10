@@ -8,7 +8,7 @@
 | Champ | Valeur |
 |-------|--------|
 | **Evenement** | Envoie un « cadeau indesirable » a Rose Cadifor |
-| **Date** | 958 (screen lot 5) |
+| **Date** | 20 mai 958 / 25 avril 958 (screens lot 5) |
 | **Note** | Personnage secondaire, incident diplomatique mineur |
 
 ---

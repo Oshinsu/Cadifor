@@ -21,6 +21,7 @@
 - Leonid est un souverain stormgardien posterieur a Johnson (lignee Trollbane)
 - Sa mort met fin a une guerre en cours — probablement conflit avec l'Empire ou un voisin
 - Succession impliquee (« Heritage lors d'une succession » dans le log)
+- Le log associe explicitement sa disparition a l'arret du conflit : « Notre adversaire n'est plus. La guerre s'arrete. »
 - Place exacte dans la chaine genealogique a preciser (successeur de qui ?)
 
 ---

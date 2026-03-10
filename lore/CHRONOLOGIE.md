@@ -152,6 +152,7 @@
 | ~906 | Naissance de Rose | Sa fille. La future Absolue. |
 | ~908 | Naissance d'Arwyn | 2e fille. Future reine de Baie-du-Butin. |
 | 909-943 | **L'ere de sublimation** | Architecte des palais imperiaux. Creatrice de la culture materielle supreme des Cadifor. La "doctrine Marjory" en architecture : "chaque matiere forcee a devenir plus intelligente qu'elle-meme." |
+| ~920-940 | **Marjory restaure des couronnes vassales** | Le centre ne peut plus gerer seul l'exces de vassaux. Marjory remet en place plusieurs royaumes internes, majoritairement confies a des `Cadifor`, afin de deleguer sans disloquer l'Empire. |
 | ~925 | Rose atteint rang S+ | A seulement 19 ans. Phenomene sans precedent. |
 | ~930s | Construction des palais imperiaux | Stormwind (7 strates), New Avalon (intimite). Lampes marjoryennes, tables runiques, ecuries a plaques emaillees. |
 | 943.9.14 | **Mort de Marjory au combat** | Age 69. Coalition preparee depuis 25 ans : sabotage interne, barrieres coupees, nord de `Stormwind` pille, `Marjory` sort avec ~5 000 hommes et tombe apres une bataille totale en emportant plusieurs monstres de sommet. |
@@ -167,6 +168,7 @@
 |-------|-----------|---------|
 | 943 | **Rose monte sur le trone** | ~37 ans. Mage X + Necro X. Erudition 36 : PLUS HAUTE DE TOUTES LES RACES. Martial 18. Score 104/100 — rang SS hors categorie. |
 | ~945 | Rose atteint la double transcendance | Necromancienne Legendaire rang 10 apres 2 ans d'etude privee. Ne s'habille pas en necromancienne : necromancy invisible, elegante. |
+| 943-950 | **Empire de couronnes vassales** | Sous `Rose`, l'Empire n'est plus un bloc entierement plat : `Lordaeron`, `Hautebrande`, `Stormgarde`, `Crins-de-Givre`, `Baie-du-Butin`, `Gurubashi`, `Kezan` vivent comme couronnes deleguees, tandis que `Morasses Noires` reste royaume direct de la couronne. |
 | 950.12.3 | **Snapshot Rose** | Screen CK2 lot 4 : 44 ans, 174K troupes, 4 549 flottes, 72 vassaux, Erudition 36 (72), arbre 374 membres. Ulfar 38 ans, CP 108, survivant coalition 943. |
 | 950 | **Duel amical Rose vs Arwyn** | Demonstration de hierarchie cosmique. Rose se retient enormement. Arwyn fait reculer Rose d'un demi-pas avec une Nova Sacree. |
 | 950 | Sortie incognito en taverne | Rose et Arwyn au bar. "On ne la voit jamais." Rose choisit de rester humaine malgre sa capacite de transcendance. |

@@ -8,6 +8,7 @@
 | Champ | Valeur |
 |-------|--------|
 | **Titre** | Seigneur de Lordaeron |
+| **Date attestee** | 786 |
 | **Age atteste** | 116 ans en 786 |
 | **Religion** | **Sargerite** — impose l'heresie a Lordaeron |
 | **Resultat** | Purge complete par Andrea la Victorieuse |

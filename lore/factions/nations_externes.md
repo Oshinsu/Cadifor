@@ -29,12 +29,12 @@ Le lien avec Gwen fait de Kul Tiras une extension indirecte du "Deal d'Aberthol"
 
 | Champ | Valeur |
 |-------|--------|
-| **Statut** | Branche cadiforienne souveraine |
+| **Statut** | Couronne vassale de l'Empire en `950` |
 | **Dirigeante** | Arwyn "la Colombe" |
 | **Nature** | Place marchande, carrefour, puissance de marge |
 | **Importance** | Le prince Allison, fils d'Arwyn, est heritier imperial designe |
 
-Baie-du-Butin occupe une position plus subtile que Kul Tiras. Ce n'est pas seulement une alliee ; c'est une branche laterale assez forte pour redevenir centrale.
+Baie-du-Butin occupe une position plus subtile que Kul Tiras. Ce n'est pas, a l'epoque tardive, une nation externe pure : c'est une **couronne interne deleguee**, issue de la restauration des royaumes vassaux sous `Marjory`.
 
 Dans une monarchie elective cognatique, cette possibilite n'est pas un accident. Elle est l'une des preuves les plus fines de la souplesse dynastique Cadifor : l'heritier peut remonter du bord.
 
@@ -136,14 +136,21 @@ Il faut donc la lire comme :
 
 | Champ | Valeur |
 |-------|--------|
-| **Statut** | Contact rare |
+| **Statut** | Grande puissance externe majeure |
 | **Region** | Kalimdor |
 | **Nature** | Civilisation ancienne, memoire longue, souverainete organique |
 | **Lien notable** | Source possible de nightsabers et de prestige rarissime |
+| **Correction tardive** | Environ `80 %` de `Kalimdor` sous domination `Tyrande` / `Cenarius` |
 
 Les Kaldorei comptent parmi les rares peuples devant lesquels l'Empire humain ne peut pas se contenter de paraitre vaste. Il lui faut paraitre ancien en intention.
 
 Les echanges restent rares, et c'est logique : entre une civilisation qui sedimente par millenaires et une autre qui compresse l'histoire en quelques generations de genie, la mefiance n'est pas un accident. C'est presque une etiquette.
+
+Le correctif tardif impose en plus une lecture claire :
+
+- la majeure partie de `Kalimdor` n'est pas une zone blanche ouverte a toutes les conquetes
+- elle est deja tenue par un bloc `kaldorei / cenarien` massif
+- les prises azérothiennes a l'ouest de `Kalimdor` doivent donc etre lues comme des penetrations de marge, pas comme une maitrise du continent
 
 ### Cercle Cenarien
 
@@ -160,18 +167,60 @@ Le Cercle Cenarien pense en regeneration, cycles, terrains, desequilibres vivant
 
 | Champ | Valeur |
 |-------|--------|
-| **Statut** | Interlocuteur commercial |
-| **Zones** | Ile du Butin, circuits maritimes, relais nordiques |
+| **Statut** | Sphere commerciale deplacee |
+| **Zones** | Northrend, circuits maritimes, relais nordiques |
 | **Nature** | Rentabilite mobile, negociations a couches |
 | **Risque** | Confusion entre commerce et fiscalite parasite |
 
 Avec les gobelins, le commerce est toujours exact jusqu'au moment ou il devient une extraction deguisee. C'est l'une des raisons pour lesquelles Kezan demande une surveillance fine : non pour punir le profit, mais pour distinguer le prix de la prise d'otage.
 
-Les screens confirment que cette sphere ne se reduit pas a une couleur mineure :
+Le correctif tardif oblige a corriger la carte :
+
+- la `Confederation marchande gobeline` s'est **repliee en Northrend**
+- ce repli suit la perte de `Kezan`, de `Baie-du-Butin` et de `l'Ile du Butin`
+
+Les screens confirment en outre que cette sphere ne se reduit pas a une couleur mineure :
 
 - une `Coalition marchande` gobeline existe encore comme acteur politique lisible
 - son poids est maritime avant d'etre continental
 - elle doit etre pensee comme une puissance de circuits, de ports et d'interfaces, pas comme un simple marche ambulant
+
+### Ile du Butin
+
+| Champ | Valeur |
+|-------|--------|
+| **Statut** | Royaume vyrkul independant |
+| **Position** | A l'ouest de `Baie-du-Butin` |
+| **Lecture** | Verrou maritime distinct ; ne pas confondre avec `Baie-du-Butin` |
+
+L'`Ile du Butin` ne doit plus etre lue comme simple hub gobelin.
+Le correctif tardif la donne sous **domination vyrkul**.
+
+### Uldum
+
+| Champ | Valeur |
+|-------|--------|
+| **Statut** | Empire sud-kalimdorien puissant |
+| **Region** | Sud de `Kalimdor` |
+| **Lecture** | Puissance neutre mais lourde ; pas simple enclave decorative |
+
+`Uldum` doit etre pense comme un bloc encore tres consistant du sud de `Kalimdor`, et non comme un simple nom de carte.
+
+### Pandarie
+
+| Champ | Valeur |
+|-------|--------|
+| **Statut** | Monde externe fragmenté en grands blocs necro-void |
+| **Religion dominante** | Vide astral, groupe necrotique |
+| **Etat humain/pandaren** | Pandarens presque eradiques |
+| **Peuples restants** | Mantides, Mogus corrompus |
+| **Point azérothien** | `Ka'dixar`, au sud-ouest, donne au roi de `Lordaeron` |
+
+Le noyau ferme est simple :
+
+- `Pandarie` n'est pas un lointain exotique intact
+- trois grands empires s'y partagent l'espace
+- `Ka'dixar` y sert de point d'ancrage azérothien, sans autoriser a inventer le reste
 
 ### Northrend
 

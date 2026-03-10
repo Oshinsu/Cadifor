@@ -10,9 +10,11 @@
 | **Titre** | Prince de Baie-du-Butin |
 | **Role** | Heritier du Haut royaume de Azeroth (950) |
 | **Age en 950** | 20 ans |
+| **Autres heritages** | Royaume de Baie-du-Butin, Haute seigneurie de Rivage des Anciens, Main de Tyr |
 | **Parents** | Arwyn "la Colombe" et Roi Allisson 'le Juke' |
 | **Epoux** | Sidney Felbind |
 | **Chef religieux** | Eveque Dominus de Baie-du-Butin |
+| **Residence** | Cour de Tudu (Wild Cape) |
 | **Grade Lore** | A- |
 | **Note** | Monarchie elective : peut "remonter" d'une branche non-centrale |
 

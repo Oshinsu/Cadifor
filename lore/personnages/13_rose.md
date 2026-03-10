@@ -96,6 +96,10 @@ L'événement « Apprentissage terminé » montre explicitement :
 - Rose **perd** le trait « Mage légendaire X »
 - Rose **obtient** le trait « Nécromancien légendaire X »
 - À 47 ans, la double transcendance est achevée
+- Stats visibles : Dip 19 (60), Martial 18 (60), Intendance 13 (50), Intrigue 12 (42), **Érudition 36 (72)**, CP 88
+- Vassaux 72, Cour 35, Pactes 34
+- Sièges hostiles : `Nouvelle-Avalon` 0%, `Marché-au-Bois` 38%
+- Sur l'écran du `26 novembre 953`, le domaine joueur affiche encore : Or `42.6K`, Piété `2471`, Prestige `6120`, Levies `37 739`, Naval `1252`
 
 ### Double transcendance — La Nécromancie Invisible
 

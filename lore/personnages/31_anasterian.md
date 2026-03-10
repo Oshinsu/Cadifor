@@ -9,6 +9,7 @@
 |-------|--------|
 | **Race** | Elfe de sang / Haut-elfe |
 | **Titre** | Roi de Quel'Thalas |
+| **Age atteste en screen** | 792 ans en 793 |
 | **Age de regne** | ~2800 ans (toujours vivant dans l'AU — ne meurt pas face a Arthas) |
 | **Relation** | Tension avec l'Empire (nightsabers, anciennes guerres d'Aberthol) |
 | **Note** | L'une des rares entites dont la duree de vie depasse le systeme Cadifor |

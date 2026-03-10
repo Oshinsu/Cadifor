@@ -58,6 +58,7 @@ Autrement dit :
 | `167-173` | sondee | memoire `Heleris Sunspire`, monnaie, credit, reconstruction | haut mais a recanoniser avec prudence | utile pour les doctrines de `monnaie_et_credit.md` et l'economie tardive |
 | `175-178` | sondee | precisions supplementaires sur le `Denier imperial`, ateliers de frappe, `LCI`, `CCM`, pedagogie populaire et banques mixtes | bon | utile pour densifier `monnaie_et_credit.md` sans reprendre toute la bibliographie fictive |
 | `179-220` | sondee | prolongement `Heleris` : inclusion economique, `Maisons du Commerce`, audit, sanctions publiques, gouvernance du credit | bon mais a filtrer | utile pour `monnaie_et_credit.md`, `sections/economie.md`, `sections/education.md` et `personnages/34_heleris.md` |
+| `220+` | sondee | corrections tardives sur la carte politique de `950` : `Marjory`, couronnes vassales, `Baie-du-Butin`, `Morasses Noires`, expansions ouest | **tres haut** | utile pour `12_marjory.md`, `sections/geopolitique.md`, `factions/nations_externes.md`, `etat_du_monde_950.md`, `CHRONOLOGIE.md` et `meta/marjory_et_les_couronnes_vassales.md` |
 
 ---
 
@@ -227,6 +228,7 @@ Ordre recommande :
 5. ~~`114-116`~~ ✅ **FAIT** — **CORRECTIONS PRIORITAIRES** : Sylve de l'Est = coeur paladin (violet/bleu or), PAS sylvain elfique. Morasses Noires = noir/or, troupes regulieres + assassins
 6. ~~`133-166`~~ ✅ **FAIT** — appareil administratif, universitaire et fiscal du haut Empire
 7. ~~`167-220`~~ ✅ **FAIT** — dossier `Heleris` ferme comme source prudente ; monnaie, credit, inclusion, audit et gouvernance recales
+8. ~~`220+`~~ ✅ **FAIT** — correction majeure : `Marjory` restaure les couronnes vassales ; `950` doit etre lu comme empire recompose, non comme bloc plat
 
 ---
 

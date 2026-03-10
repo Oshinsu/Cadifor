@@ -31,7 +31,7 @@
 | A- | Prince Allison |
 | B+ | Andrea la Juste (2e) |
 
-## Fiches secondaires (15-34)
+## Fiches secondaires (15-37)
 
 | Fichier | Personnage |
 |---------|------------|
@@ -55,6 +55,9 @@
 | `32_demi_soeurs_wrynn.md` | Demi-soeurs Wrynn |
 | `33_commandants_950.md` | Commandants (950) |
 | `34_heleris.md` | Heleris Sunspire |
+| `35_obert_iv.md` | Obert IV de Kul Tiras |
+| `36_raeniatin.md` | Raeniatin |
+| `37_rorax.md` | Rorax |
 
 ## Generation Fondatrice (pre-600)
 

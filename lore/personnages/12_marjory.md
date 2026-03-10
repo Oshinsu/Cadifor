@@ -84,6 +84,34 @@
 - Broderies presque invisibles, fils de mithril dans les ourlets
 - **Permettent salon, bibliotheque, magie, et presque la guerre** — polyvalence absolue
 
+### La restauration des couronnes vassales
+
+Le correctif tardif le plus important sur `Marjory` est politique :
+elle ne pousse pas la centralisation d'`Andrea III` jusqu'au bloc parfaitement plat.
+Elle la **replie intelligemment**.
+
+Le noyau ferme est le suivant :
+
+- le trop-plein de vassaux devient trop lourd a gerer depuis le centre
+- `Marjory` **remet en place plusieurs couronnes vassales**
+- elle place majoritairement des `Cadifor` sur ces trones
+- elle laisse a `Rose` un seul royaume conserve en domaine direct : `Morasses Noires`
+
+Lecture juste :
+
+> *Marjory comprend qu'un empire trop intelligent peut finir par gouverner des territoires vides d'amour-propre ; elle restaure donc des couronnes pour deleguer sans perdre la main.*
+
+Vers `950`, cette recomposition explique la presence de plusieurs rois et reines internes :
+
+- `Lordaeron`
+- `Hautebrande`
+- `Stormgarde`
+- `Crins-de-Givre`
+- `Baie-du-Butin`
+- `Gurubashi`
+- `Kezan`
+- et `Morasses Noires`, garde par `Rose` comme base directe
+
 ### Mort au combat
 - Morte a **69 ans** lors d'une **operation de decapitation imperiale** au nord de `Stormwind`
 - Pas une simple razzia : sabotage interne, barrieres desactivees, `griffons` abattus, coalition preparee depuis `25 ans`

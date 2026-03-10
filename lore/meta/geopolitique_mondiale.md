@@ -13,7 +13,7 @@ Le Haut Royaume Cadifor est immense. Mais il n'est **pas seul**. Le monde d'Azer
 ### 1. Le Haut Royaume Cadifor
 | Attribut | Detail |
 |----------|--------|
-| **Territoire** | Lordaeron, Sylve de l'Est, Hautebrande, Stormgarde, Stormwind, Morasses Noires, Gurubashi, Kul Tiras, parts de Kalimdor (Duche Kolkar), presences en Norfendre et Pandarie |
+| **Territoire** | Lordaeron, Sylve de l'Est, Hautebrande, Stormgarde, Stormwind, Morasses Noires, Gurubashi, Kezan, Baie-du-Butin, Crins-de-Givre, parts de Kalimdor (`Kolkar` / `Gelkis`) et point d'ancrage a `Ka'dixar` |
 | **Population** | ~12.7 millions d'habitants |
 | **Villes/Chateaux** | 700+ cites, chateaux, temples |
 | **Systeme** | Monarchie meritocratique, proto-socialiste technomagique |
@@ -23,7 +23,7 @@ Le Haut Royaume Cadifor est immense. Mais il n'est **pas seul**. Le monde d'Azer
 ### 2. L'Empire Kaldorei
 | Attribut | Detail |
 |----------|--------|
-| **Territoire** | Environ 3/4 de Kalimdor |
+| **Territoire** | Environ 80 % de Kalimdor |
 | **Nature** | Empire millenaire, ecologique et militaire |
 | **Force** | Immense — la plus ancienne puissance d'Azeroth |
 | **Vision du Haut Royaume** | "Deux mortelles en train d'atteindre une capacite de structuration du monde qui n'aurait pas du appartenir a l'humain" |
@@ -44,8 +44,8 @@ Le Haut Royaume Cadifor est immense. Mais il n'est **pas seul**. Le monde d'Azer
 ### 5. Confederation gobeline
 | Attribut | Detail |
 |----------|--------|
-| **Statut** | Commerce neutre |
-| **Hub** | Ile du Butin |
+| **Statut** | Sphere repliee en Northrend |
+| **Hub** | Relais nordiques apres perte de Kezan, Baie-du-Butin et Ile du Butin |
 | **Volume** | Moyen |
 
 ---
