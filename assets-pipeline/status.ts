@@ -5,7 +5,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { ALL_PROMPTS, getPromptsByPhase } from "./prompts.js";
+import { ALL_PROMPTS, getPromptsByPhase } from "./prompts.ts";
 
 const MANIFEST_PATH = path.resolve(import.meta.dirname, "manifest.json");
 const SITE_ASSETS_DIR = path.resolve(import.meta.dirname, "../site/public/assets");

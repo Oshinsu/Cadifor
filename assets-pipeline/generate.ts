@@ -12,7 +12,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { ALL_PROMPTS, getPromptsByPhase, getPromptById, type ImagePrompt } from "./prompts.js";
+import { ALL_PROMPTS, getPromptsByPhase, getPromptById, type ImagePrompt } from "./prompts.ts";
 
 // ─── CONFIG ─────────────────────────────────────────────────────────────────
 
