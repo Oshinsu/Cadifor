@@ -81,7 +81,7 @@ Sous-blocs deja confirms dans cette vague :
 - `974-975` : cout humain et consequences politiques du verdict de talent
 - `976-979` : doctrine Ebonlocke / Clairbois, corbeau, retenue, selection mondaine
 
-### Vague 3 — Bloc Hautes Reprises
+### Vague 3 — Bloc Hautes Reprises [VERIFIE]
 
 Plages :
 
@@ -89,10 +89,14 @@ Plages :
 
 Sorties attendues :
 
-- relecture de `duel_hautes_reprises.md`
-- extraction de phrases doctrinales sur guerre, verite, correction, ivresse de la guerre
+- relecture de `duel_hautes_reprises.md` — **VERIFIE** : fichier deja complet, scene integrale presente
+- extraction de phrases doctrinales sur guerre, verite, correction, ivresse de la guerre — **FAIT** : `doctrines_guerre_hautes_reprises.md` cree
 
-### Vague 4 — Bloc carnets et interiorite haute
+Fichiers verifies/crees :
+- `scenes/duel_hautes_reprises.md` — complet, aucun ajout necessaire
+- `doctrines_guerre_hautes_reprises.md` — NOUVEAU : doctrines de combat, ivresse de la guerre, correction de lignage, protocole du duel souverain, deux styles de combat (souverainete de forme vs lecture profonde)
+
+### Vague 4 — Bloc carnets et interiorite haute [VERIFIE]
 
 Plages :
 
@@ -100,9 +104,9 @@ Plages :
 
 Sorties attendues :
 
-- enrichissement de `carnets_secrets.md`
-- enrichissement de `conscience_rose.md`
-- correction fine de `style_litteraire_approfondi.md`
+- enrichissement de `carnets_secrets.md` — **VERIFIE** : fichier deja complet (carnets Marjory et Rose integraux)
+- enrichissement de `conscience_rose.md` — **VERIFIE** : fichier deja complet
+- correction fine de `style_litteraire_approfondi.md` — **VERIFIE** : fichier deja complet, citations du duel presentes
 
 ### Vague 5 — Remontee ouverte
 

@@ -135,6 +135,16 @@ Chaque membre de la maison grandit dans cette vérité :
 Le fils de Rose n'est pas "rejeté". Il est élevé dans une vérité plus dure et plus haute :
 > *"Tu es un Cadifor de très haut rang, susceptible d'être choisi — ou non."*
 
+### La Maternité Blessée de Rose
+
+Rose n'a pas perdu la maternité. Elle a perdu la **spontanéité maternelle**.
+
+Son fils n'est pas élevé comme un "prince héritier automatique". Il est élevé comme un Cadifor de très haut rang, susceptible d'être choisi — ou non. La succession cadiforienne est au mérite : chaque enfant Cadifor est en concurrence avec des dizaines voire des centaines d'autres enfants de la maison.
+
+Rose a porté la logique dynastique jusque dans sa chair. Elle a dû choisir entre être mère et produire un héritier impérial stable. Elle a donné un héritier au monde, mais pas l'enfance simple qu'elle aurait voulu lui donner.
+
+> *"La femme la plus puissante du monde peut lever des armées, réformer des royaumes, penser la mort — mais elle ne peut pas récupérer les années où son propre enfant l'a connue d'abord comme Majesté."*
+
 ---
 
 ## Citations Doctrinales

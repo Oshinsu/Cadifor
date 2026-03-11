@@ -143,7 +143,22 @@ Le correctif tardif sur `950` ajoute un cadre mondial plus ferme :
 - `Pandarie` est partagee entre **trois grands empires** de matrice necro-void
 - `Ka'dixar`, au sud-ouest de `Pandarie`, est rattache a la sphere azérothienne via le roi de `Lordaeron`
 
-### 10. Conflits en cours
+### 10. Légalisation encadrée des arts sombres
+
+Sous Rose, les arts sombres deviennent légaux mais strictement contrôlés par la cour :
+
+- **Magie noire** : légale sous supervision impériale
+- **Nécromancie** : discipline impériale sous contrôle, pas une licence anarchique — Rose en est l'archétype
+- **Démonisme** : légal sous encadrement
+- **Prêtrise des ombres** : légale sous encadrement
+
+Le règne de Rose marque une forme de **magocratie éclairée** où la nécromancie est acceptée sous contrôle. Rose elle-même incarne cette doctrine : sa nécromancie n'est pas une transgression mais une extension disciplinée de la souveraineté magique impériale.
+
+> *"Le cadre impérial est déjà en place ; Rose le surcentralise intellectuellement. La nécromancie devient une discipline impériale sous contrôle, pas une licence anarchique."*
+
+L'usage **privé** de la nécromancie reste en revanche sévèrement interdit — Rose elle-même ayant durci cette interdiction après sa propre transgression secrète.
+
+### 11. Conflits en cours
 
 Icônes de sièges hostiles visibles sur la carte — période de troubles malgré la puissance.
 

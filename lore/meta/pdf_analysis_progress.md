@@ -17,9 +17,9 @@ Aucune page n'est comptee si elle n'a pas ete relue de maniere suffisamment nett
 
 ## Etat global verifie
 
-- Pages verifiees : `215 / 997`
-- Pourcentage verifie : `21.6%`
-- Pages non encore verifiees : `782 / 997`
+- Pages verifiees : `254 / 997`
+- Pourcentage verifie : `25.5%`
+- Pages non encore verifiees : `743 / 997`
 
 Mode de calcul :
 
@@ -47,7 +47,8 @@ Mode de calcul :
 - `974-975` = 2 pages
 - `976-979` = 4 pages
 
-Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3 + 3 + 11 + 6 + 3 + 2 + 4 = 215`
+- `51-89` = 39 pages
+Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3 + 3 + 11 + 6 + 3 + 2 + 4 + 39 = 254`
 
 ---
 
@@ -76,6 +77,7 @@ Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3
 | `170-180` | 11 | verifie | couple fondateur, structure affective de la famille Cadifor, densite parents-enfants | `famille_fondatrice.md`, `personnages_secondaires.md`, `02_viki.md`, `CHRONOLOGIE.md` |
 | `1-45` | 45 | verifie | bloc fondateur complet : Aberthol, Viki, Andrea la Rougissante, couches successives du pouvoir | `famille_fondatrice.md`, `machine_cadiforienne.md`, `02_viki.md`, `CHRONOLOGIE.md` |
 | `46-50` | 5 | verifie | duel Rose / Arwyn, hierarchie lisible, Lumiere et magie comme deux mains d'un meme Empire | `13_rose.md`, `14_arwyn.md` |
+| `51-89` | 39 | verifie | bible de Rose en 10 axes, chronologie du regne, doctrine du Devoir d'Effacement, cout intime (ami d'enfance / rappel necromantique / maternite blessee), tableau de puissance, scenes enfance imperiale, legalisation arts sombres, comparaison Marjory/Rose stats, geographie imperiale | `13_rose.md`, `rappel_necromantique.md`, `enfance_imperiale_rose.md`, `doctrine_cadiforienne.md`, `tableau_puissance_cadifor.md`, `etat_du_monde_950.md` |
 | `90-92` | 3 | verifie | comparaison Marjory / Rose, equilibre civilisateur contre totalisation, chronologie haute a manier avec prudence | `12_marjory.md`, `13_rose.md`, `philosophie_marjory_rose.md` |
 | `141-143` | 3 | verifie | architecture de l'armee imperiale, blocs modulaires, Magisterium de campagne, Ailes de Tirisfal | `sections/armee_imperiale.md` |
 
@@ -115,6 +117,8 @@ Principe :
 - `famille_fondatrice.md` : scene primitive de la machine cadiforienne, couple fondateur et Quatre Filles
 - `administration_du_talent.md` : revelation a 16 ans, allocation du rare, cout humain de la meritocratie magique
 - `duche_ebonlocke.md` : doctrine du corbeau, haute tenue ducale, fonction de Clairbois
+- `rappel_necromantique.md` : scene de la transgression privee de Rose, rappel de l'ami d'enfance pour 24 heures
+- `enfance_imperiale_rose.md` : trois scenes fondatrices Marjory-Rose (5 ans, 8 ans, audition Heleris)
 - `12_marjory.md` / `13_rose.md` / `14_arwyn.md` : recouture du triangle Marjory / Rose / Arwyn a partir des pages haut-imperiales
 - `sections/armee_imperiale.md` : doctrine de campagne, grands corps, guerre modulaire sous Andrea III
 

@@ -41,6 +41,38 @@ C'est le lieu qui rappelle pourquoi ce qui passe ailleurs reste encore cadiforie
 
 ---
 
+## La theocratie originelle de Main-de-Tyr
+
+> Source : `lore_cadifor_3_extracted.txt`, lignes 8387-8460. Corrections de l'auteur (canon superieur).
+
+Nouvelle-Avalon est, a l'origine, le **fief des paladins** sous la theocratie de Main-de-Tyr. C'est pour cette raison que **Terenas** y "exile" Aberthol — officiellement pour "soutenir l'Ordre sacre", en realite pour eloigner le marechal supreme de Lordaeron du centre politique lordaeronien.
+
+Ce cadre theocratique-paladin original est fondamental :
+
+- discipline de chapitres
+- terres tenues par devoir sacre
+- fiscalite liee a la dime et aux droits de passage
+- justice morale et seigneuriale melees
+- formation militaire sacree de haut niveau
+
+### L'arrachement a Main-de-Tyr
+
+Le mariage d'Aberthol avec Andrea Gahron, duchesse du Comte de Darrow, permet a terme d'**arracher Nouvelle-Avalon au domaine clerical** pour la fusionner dans le duche laic de Darrow — provoquant la rancoeur des pretres de Tyr.
+
+Plus tard, les Cadifor recuperent militairement le duche de Nouvelle-Avalon a la theocratie. Ce couronnement debouche sur la creation du **Royaume de la Sylve de l'Est**, directement a l'est de Lordaeron — un evenement majeur, pas une evolution mineure.
+
+C'est une **secession** avec Lordaeron, consolidee par l'entree dans l'**Alliance**, qui fournit la dissuasion necessaire contre les velleites de reconquete lordaeronienne.
+
+### Les Terres Sanctifiees
+
+Dans le lore Warcraft standard, ce sont les Terres des Malterres. Mais dans le lore Cadifor, elles n'ont **jamais ete corrompues**. Elles demeurent donc le **coeur de la Lumiere** — ce qui explique la piete intense du lieu, la formation des paladins d'elite, et le prestige sacre qui ne disparait jamais meme apres la laicisation politique.
+
+### Flux elfique
+
+Malgre l'hostilite de Quel'Thalas envers les Cadifor (depuis l'historique d'Aberthol), beaucoup d'elfes **fuient Quel'Thalas vers Nouvelle-Avalon**, attires par la richesse et la societe integratrice de la Sylve de l'Est.
+
+---
+
 ## Le coeur paladin
 
 Nouvelle-Avalon porte plus qu'un souvenir d'origine.
@@ -168,6 +200,30 @@ Elle touche mentalement et politiquement a :
 
 Elle ne vaut donc pas seulement comme berceau.
 Elle vaut comme charniere.
+
+### Topographie de guerre froide
+
+La position de Nouvelle-Avalon dessine une topographie de guerre froide :
+
+- a l'ouest : `Lordaeron`, humilie et furieux d'avoir perdu tout l'est d'Azeroth nord
+- au nord : `Quel'Thalas`, hostile (historique d'Aberthol), mais qui perd en meme temps des elites elfiques au profit de la richesse cadiforienne
+- au sud : `Stormgarde`, militarisee, loyaliste
+- au centre oriental : `Nouvelle-Avalon`, coeur de la Lumiere
+
+Cette disposition rend le lieu strategiquement capital : c'est le verrou du triangle nordique.
+
+### Economie de frontiere militarisee
+
+Sous `Viki`, Nouvelle-Avalon devient la premiere vraie economie de frontiere militarisee :
+
+- peages d'Est
+- forges
+- elevage de chevaux de guerre
+- salines et reserves de bois
+- droit sur les relais de route
+- taxes de securite
+
+Nouvelle-Avalon devient alors non seulement sainte, mais rentable parce qu'elle securise l'Est.
 
 Le lieu regarde :
 

@@ -150,6 +150,58 @@ Il tient moins par l'eclat d'un point unique que par une capacite a relier, filt
 
 ---
 
+## L'Assise des Forets
+
+L'`Assise des Forets` est le premier grand code sylvain, codifie sous `Andrea I l'Erudite` (667-710).
+
+Il regle :
+
+- droits de chasse
+- droits d'affouage
+- exploitation du bois
+- justice des clairieres
+- limites des domaines sacres
+- droits de passage
+- competences des chapitres paladins
+- privileges des villages forestiers
+
+Ce code est fondamental :
+la Sylve de l'Est n'est pas juste un royaume forestier poetique.
+C'est un royaume ou la foret elle-meme devient objet de droit public.
+
+---
+
+## Repartition du pouvoir sous la royaute sylvaine
+
+Sous les premiers souverains sylvains, le pouvoir se distribue en quatre poles :
+
+| Pole | Fonction |
+|------|----------|
+| `Nouvelle-Avalon` | Capitale royale et palatine |
+| `Darrow` | Capitale nobiliaire et memorielle |
+| `Main-de-Tyr` | Coeur spirituel et ordre de formation paladine |
+| `Route de l'Est` | Axe fiscal-militaire |
+
+---
+
+## Ressources economiques
+
+L'economie sylvaine repose sur la double nature du royaume : tampon strategique et carrefour nord-est.
+
+Ressources attestees :
+
+- bois nobles
+- resines
+- chevaux
+- peaux
+- fer leger
+- droits de route
+- taxes de transit entre `Lordaeron`, `Quel'Thalas` et le Sud
+
+La Sylve devient riche parce qu'elle est a la fois tampon strategique, carrefour nord-est, et espace integre et stable.
+
+---
+
 ## Sous Andrea l'Erudite
 
 Le royaume garde la marque de sa fondatrice politique.
