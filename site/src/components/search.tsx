@@ -25,6 +25,11 @@ const COLLECTION_FILTERS: { key: CollectionKey | "all"; label: string }[] = [
   { key: "factions", label: "Factions" },
   { key: "territoires", label: "Territoires" },
   { key: "sections", label: "Sections" },
+  { key: "cultures", label: "Cultures" },
+  { key: "duches", label: "Duches" },
+  { key: "economie", label: "Economie" },
+  { key: "annexes", label: "Annexes" },
+  { key: "meta", label: "Meta" },
 ];
 
 function getEntryHref(entry: SearchEntry) {

@@ -1,7 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Clock } from "lucide-react";
 import type { LoreEntry } from "@/lib/content";
 import { resolveEntryImage } from "@/lib/images";
+import { getFactionTheme } from "@/lib/colors";
 
 type EntryCardProps = {
   entry: LoreEntry;
@@ -10,6 +12,8 @@ type EntryCardProps = {
 
 export function EntryCard({ entry, href }: EntryCardProps) {
   const imagePath = resolveEntryImage(entry.slug, entry.collection);
+  const showFaction = entry.faction !== "imperial" && entry.collection === "personnages";
+  const factionTheme = showFaction ? getFactionTheme(entry.faction) : null;
 
   return (
     <Link
@@ -37,6 +41,11 @@ export function EntryCard({ entry, href }: EntryCardProps) {
           <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-stone-500">
             {entry.collection}
           </span>
+          {factionTheme && (
+            <span className={`rounded-full border px-2 py-0.5 text-[9px] uppercase tracking-[0.15em] ${factionTheme.borderTint} ${factionTheme.textAccent}`}>
+              {factionTheme.label}
+            </span>
+          )}
           <span className="h-px flex-1 bg-white/[0.04]" />
         </div>
 
@@ -48,7 +57,12 @@ export function EntryCard({ entry, href }: EntryCardProps) {
           {entry.excerpt}
         </p>
 
-        <div className="mt-6 text-[10px] tracking-[0.15em] text-stone-600 transition-colors duration-300 group-hover:text-stone-500">
+        <div className="mt-6 flex items-center gap-3 text-[10px] tracking-[0.15em] text-stone-600 transition-colors duration-300 group-hover:text-stone-500">
+          <span className="flex items-center gap-1">
+            <Clock className="size-2.5" />
+            {entry.readingTime} min
+          </span>
+          <span className="h-3 w-px bg-stone-700/50" />
           <span className="uppercase">{entry.sourcePath.split("/").pop()?.replace(".md", "")}</span>
         </div>
       </div>

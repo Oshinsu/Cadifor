@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Command, Search } from "lucide-react";
+import { ChevronRight, Command, Search } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Encyclopedie",
@@ -67,9 +67,13 @@ export default function EncyclopediePage() {
                       {getCollectionDescription(collection)}
                     </p>
                   </div>
-                  <span className={`shrink-0 rounded-full border ${theme.accentBorder} bg-white/[0.03] px-4 py-1.5 text-[10px] uppercase tracking-[0.2em] ${theme.iconColor}`}>
+                  <Link
+                    href={`/encyclopedie/${collection}`}
+                    className={`inline-flex shrink-0 items-center gap-1.5 rounded-full border ${theme.accentBorder} bg-white/[0.03] px-4 py-1.5 text-[10px] uppercase tracking-[0.2em] ${theme.iconColor} transition-all duration-300 hover:bg-white/[0.06]`}
+                  >
                     {entries.length} entrees
-                  </span>
+                    <ChevronRight className="size-3" />
+                  </Link>
                 </div>
               </div>
 

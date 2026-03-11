@@ -86,7 +86,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
         <Breadcrumbs items={[
           { label: "Accueil", href: "/" },
           { label: "Encyclopedie", href: "/encyclopedie" },
-          { label: getCollectionLabel(collection), href: "/encyclopedie" },
+          { label: getCollectionLabel(collection), href: `/encyclopedie/${collection}` },
           { label: entry.title },
         ]} />
 
