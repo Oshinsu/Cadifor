@@ -103,8 +103,42 @@ Son gout des seuils, des franchissements et des savoirs interdits. Elle va toujo
 ### 5. Humanisme de la limite choisie
 Son renoncement superieur, sa grande decision. Elle **pourrait** depasser l'humain. Elle **choisit** de rester. Ce choix est plus grand que toute transcendance.
 
+C'est le grand renversement de Rose. Apres avoir ete tentee par :
+
+- la totalite
+- le depassement
+- l'immortalite
+- la sortie de l'espece
+- l'exception absolue
+
+elle choisit finalement :
+
+- de rester humaine
+- d'accepter la finitude
+- d'habiter sa condition
+- non par defaut, mais par **joie haute**
+
+Son courant final est un **humanisme de la finitude consentie**. Et c'est ce qui la rend peut-etre encore plus grande que son propre genie. La limite humaine n'est pas un defaut ; c'est une appartenance. C'est quelque chose que Marjory n'a pas besoin de formuler au meme degre, parce que Rose le produit d'elle-meme.
+
 ### 6. Metaphysique tragique de l'heritage
 Sa conscience de ce qu'une vie, meme immense, ne peut achever seule. Transmission imparfaite, inachevement, fragilite des mondes apres les grands etres.
+
+Rose sait mieux que presque tout le monde qu'une conscience unique ne peut pas tout porter pour toujours. Elle sait :
+
+- ce qu'elle voit
+- ce qui lui survivra mal
+- ce qu'aucun autre ne comprendra completement
+- ce qu'il reste d'inacheve
+
+Donc sa philosophie devient aussi une pensee du :
+
+- relais
+- manque
+- transmission imparfaite
+- inachevement
+- fragilite des mondes apres les grands etres
+
+Elle n'est pas seulement une philosophe du vrai. **Elle devient une philosophe de ce que le vrai coute a laisser derriere soi.**
 
 ---
 
