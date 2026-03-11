@@ -14,8 +14,9 @@
 | **Naissance** | 590 |
 | **Mort** | 661 |
 | **Age au deces** | 71 ans |
-| **Conjoint** | Aucun — jamais mariee |
-| **Enfants** | Aucun |
+| **Conjoint** | Non verrouille — le mythe dit "jamais mariee" |
+| **Enfants** | **Vara** (fille, confirmee par screenshot d'arbre dynastique) |
+| **Petits-enfants** | Lianne, Viki (homonyme), Mitchel (via Vara) |
 | **Pere** | Aberthol Cadifor |
 | **Mere** | Andrea Gahron, Duchesse de Darrow |
 | **Soeurs** | Gwen (~582), June (~584), Andrea la Rougissante (595, +5 ans) |
@@ -117,12 +118,19 @@ Sa propre intronisation fut un melange de liesse contenue et de soulagement coll
 - Ce geste formalise une intuition deja familiale : la qualite dynastique vaut plus que la simple mecanique de naissance
 - Il vient aussi de l'experience personnelle de Viki : elle sait ce qu'il en coute de tenir une architecture de titres trop fine pour etre laissee a la simple inertie genealogique
 
-### Pourquoi Viki ne s'est jamais mariee
-Aberthol refusait de marier Viki car ce n'est pas une genie. Il jugeait qu'elle etait "incapable de transmettre le flambeau du genie". En revanche, il accepta que Gwen et June se marient car leurs enfants n'entreraient pas dans la succession Cadifor — leurs lignees iraient ailleurs. La durete d'Aberthol sur la qualite de son sang explique pourquoi Viki resta celibataire et sans enfant.
+### Pourquoi Viki ne s'est jamais mariee (mythe vs archive)
+
+**Version memorielle :** Aberthol refusait de marier Viki car ce n'est pas une genie. Il jugeait qu'elle etait "incapable de transmettre le flambeau du genie". En revanche, il accepta que Gwen et June se marient car leurs enfants n'entreraient pas dans la succession Cadifor — leurs lignees iraient ailleurs.
+
+**Correction par screenshots (canon superieur) :** Les arbres dynastiques CK2 montrent clairement sous Viki une fille nommee **Vara**, et sous Vara trois enfants : **Lianne**, **Viki** (homonyme), **Mitchel**. Viki a donc bel et bien une descendance.
+
+La legende de Viki a probablement ecrase sa maternite dans la memoire posterieure. Le mythe a retenu la guerriere, la marechale, la force, l'heritiere virile d'Aberthol — mais a oublie la mere. C'est exactement comme dans les vraies histoires dynastiques : la memoire officielle simplifie.
+
+> *On croyait Viki presque sterile de l'Histoire. Les screenshots montrent qu'elle a une descendance, donc que meme son mythe a ete simplifie par la memoire.*
 
 ### Mort (661)
 - 661 : Mort apres **29 ans** de regne ducal, **51 ans** de regne sur New Avalon
-- Jamais mariee, pas d'enfant
+- Le mythe dit "jamais mariee, pas d'enfant" — les screenshots montrent une descendance reelle (Vara, puis petits-enfants)
 - Elle mourut en pleine campagne, lors d'une chevauchee vers l'Est, foudroyee par une fievre tombee d'une nuit glacee. On la retrouva dans sa tente, seule, le regard tourne vers le ciel noir, comme si elle avait apercu quelque chose qu'aucun vivant ne peut voir.
 - Elle avait 71 ans, l'age exact de la duchesse-mere qu'elle avait tant attendue pour regner.
 
@@ -173,7 +181,7 @@ Sur une dalle de pierre a l'entree du donjon de Nouvelle-Avalon, on peut encore 
 ## POSITIONNEMENT DANS LA DYNASTIE
 
 - **Role** : La consolidatrice. Elle stabilise ce que son pere a cree et prepare le terrain pour la mutation intellectuelle d'Andrea
-- **Ce qui la rend unique** : Elle est la seule souveraine a ne jamais se marier et a ne laisser aucun descendant direct. Son heritage passe par le *systeme*, pas par le sang.
-- **Paradoxe** : La plus puissante guerriere de la lignee (95/100) est aussi celle qui a gouverne le plus longtemps sans jamais fonder de branche.
+- **Ce qui la rend unique** : La memoire officielle l'a longtemps presentee comme sans descendance. Les screenshots revelent qu'elle a une fille (Vara) et des petits-enfants (Lianne, Viki, Mitchel). Son heritage passe donc aussi par le sang, mais la legende a prefere retenir la guerriere plutot que la mere.
+- **Paradoxe** : La plus puissante guerriere de la lignee (95/100) est aussi celle dont la maternite a ete la plus effacee par le mythe.
 - **Lecture juste** : Viki n'est pas l'ambition impatiente ; elle est la force tenue en laisse
 - **Grandeur morale** : elle repond au desordre du couple fondateur par la tenue, non par la revendication

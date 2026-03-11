@@ -50,10 +50,15 @@
 
 ## BIOGRAPHIE
 
-### Le surnom
-- **"Le Cruel" acquis AVANT le trone** — consacre pendant le regne
-- Ce n'est pas une reputation gagnee par le pouvoir, c'est un caractere inné
-- La cruaute n'est pas un defaut politique : c'est un *outil* de gouvernance
+### Le surnom — correction canonique majeure
+
+- **"Le Cruel" existait deja avant son accession au trone** — le pouvoir ne l'a pas produit, il l'a consacre
+- Son accession n'est donc pas un accident de temperament : c'est un choix delibere de civilisation
+- Le systeme imperial a accepte, voulu ou tolere qu'un prince deja repute dur monte au sommet
+- Cela signifie que l'Empire traversait un moment de tension ou on n'a pas voulu un sage, mais un coupeur
+- Sa reputation pre-trone change completement sa lecture : Benjamin est moins "tyran faconne par le pouvoir" et davantage un prince redoute dont la montee dit quelque chose sur l'etat de l'Empire a ce moment
+
+> Source : correction auteur dans `lore_cadifor_3_extracted.txt`, ligne 30760 : *"le cruel pour benjamin etait un surnom qu'il avait deja avant d'etre empereur"*
 
 ### Style de gouvernance
 - **Plus brutal** que son pere Banni

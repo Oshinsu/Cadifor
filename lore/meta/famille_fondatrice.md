@@ -140,21 +140,27 @@ C'est un dispositif de puissance qui a reussi a produire de la continuite sans p
 
 ---
 
-## Les Quatre Filles comme reponses au desordre originel
+## Les filles d'Aberthol : cinq, pas quatre
 
-Les Quatre Filles ne prolongent pas le couple parental de la meme maniere.
-Elles repondent chacune a une faille differente du noyau fondateur.
+### Correction canonique (screenshots > memoire)
 
-La fratrie presente une proportionnalite presque inverse entre force martiale et intellectualisme :
+Les arbres dynastiques CK2 montrent clairement **cinq filles** d'Aberthol, pas quatre :
 
 | Fille | Rang | Classe | Position |
 |-------|------|--------|----------|
 | `Viki` | 10 | Guerriere legendaire | Ainee, heritiere, comtesse de Nouvelle-Avalon |
 | `Gwen` | 8 | Guerriere | Reine-consort de Kul Tiras |
+| `Gloria` | — | — | Branche externe (blason distinct), enfants : Jaiden, Alex, Parr |
 | `June` | 8 | Paladin | Reine-consort de Stormgarde |
-| `Andrea la Rougissante` | 6 | Guerriere experte | 4e fille, genie politique |
+| `Andrea la Rougissante` | 6 | Guerriere experte | 5e fille, genie politique |
 
-Les quatre soeurs s'entendaient remarquablement bien, sans rivalite frontale. Les duos les plus forts etaient `Gwen / June` (ultra complices, meme rang) et `Viki / Andrea` (la lame et la ruse).
+Le mythe des "quatre filles d'acier" est donc une **compression memorielle**, pas la realite biologique totale.
+
+Gloria est la fille progressivement effacee du grand recit — celle qui n'est pas entree dans la legende au meme titre que les quatre autres. Son blason est distinct des maritimes et des stormgardiens, suggerant une integration de maison differente, peut-etre moins mythifiee mais bien reelle. Ses enfants (Jaiden, Alex, Parr) confirment une vraie branche dynastique.
+
+> *Une dynastie reelle produit toujours des figures mythifiees, des figures fonctionnelles, et des figures progressivement effacees. La legende cadiforienne a selectionne ses propres heroines, au detriment d'une branche pourtant bien reelle.*
+
+Les cinq soeurs s'entendaient remarquablement bien, sans rivalite frontale. Les duos les plus forts etaient `Gwen / June` (ultra complices, meme rang) et `Viki / Andrea` (la lame et la ruse).
 
 ### Viki
 
@@ -162,7 +168,7 @@ Viki est la tenue, mais aussi l'explosion.
 
 Elle ne doit pas etre lue comme une statue austere. C'est la force joyeuse : temeraire, guerriere, explosive, drole, sans gene. Musclee, presque "masculine" au regard des codes de cour, franche, capable de boire avec les soldats, d'insulter comme eux, de rire trop fort, et de ne jamais avoir eu besoin de jouer a la grande dame pour etre aimee.
 
-Elle est la fille qui a le plus absorbe `Aberthol` dans son corps : pas son intelligence ni sa vision dynastique, mais son allure de conquete. Ce qui explique pourquoi elle ne se marie pas, meurt sans enfant, et finit presque devoree par la fonction guerriere.
+Elle est la fille qui a le plus absorbe `Aberthol` dans son corps : pas son intelligence ni sa vision dynastique, mais son allure de conquete. Ce qui explique pourquoi la legende la raconte comme celibataire et sans enfant — bien que les screenshots revelent une descendance reelle (Vara, puis petits-enfants Lianne, Viki, Mitchel). Le mythe a prefere retenir la guerriere pure.
 
 Sa grandeur ne tient pas a l'impatience de regner, mais a sa capacite a laisser la maison devenir plus grande qu'elle sans la forcer.
 
