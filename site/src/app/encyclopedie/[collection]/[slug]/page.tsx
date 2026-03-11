@@ -17,6 +17,7 @@ import {
   getCollection,
   getCollectionLabel,
   getEntry,
+  getRelatedEntries,
   type CollectionKey,
 } from "@/lib/content";
 
@@ -75,6 +76,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
   const nextEntry = currentIndex < allInCollection.length - 1 ? allInCollection[currentIndex + 1] : null;
 
   const tocItems = extractTocFromMarkdown(entry.body);
+  const relatedEntries = getRelatedEntries(entry, 6);
 
   return (
     <>
@@ -211,6 +213,27 @@ export default async function EntryPage({ params }: EntryPageProps) {
               aspectRatio="aspect-[16/9]"
               sizes="260px"
             />
+          )}
+
+          {/* Related entries (cross-references) */}
+          {relatedEntries.length > 0 && (
+            <div className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5">
+              <p className="mb-3 text-[10px] uppercase tracking-[0.2em] text-[var(--gold)]/60">
+                References croisees
+              </p>
+              <div className="space-y-1">
+                {relatedEntries.map((r) => (
+                  <Link
+                    key={`${r.collection}/${r.slug}`}
+                    href={r.collection === "scenes" ? `/scenes/${r.slug}` : `/encyclopedie/${r.collection}/${r.slug}`}
+                    className="block truncate rounded-lg px-3 py-1.5 text-xs text-stone-500 transition-colors duration-200 hover:bg-white/[0.04] hover:text-stone-300"
+                  >
+                    <span className="text-[9px] uppercase tracking-wider text-stone-600">{r.collection} </span>
+                    {r.title}
+                  </Link>
+                ))}
+              </div>
+            </div>
           )}
 
           <div className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5">

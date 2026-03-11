@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    viewTransition: true,
+  },
   turbopack: {
     root: path.resolve(__dirname),
   },
