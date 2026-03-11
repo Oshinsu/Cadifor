@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site-shell";
 import { SiteFooter } from "@/components/footer";
 import { CardGlowTracker } from "@/components/card-glow";
 import { ScrollRevealProvider } from "@/components/scroll-reveal";
+import { BackToTop } from "@/components/back-to-top";
 import "./globals.css";
 
 const display = localFont({
@@ -62,6 +63,7 @@ export default function RootLayout({
           <SiteFooter />
           <CardGlowTracker />
           <ScrollRevealProvider />
+          <BackToTop />
         </div>
       </body>
     </html>

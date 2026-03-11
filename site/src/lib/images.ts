@@ -28,10 +28,13 @@ const SCENE_MAP: Record<string, string> = {
   bal_de_clairbois: "scene_rose_entering_clairbois.png",
   mort_marjory_ulfar: "scene_marjory_death.png",
   viki_loups_albinos: "scene_viki_loups.png",
+  soiree_de_lignee: "scene_rose_coronation.png",
+  fragment_apocryphe_livre_de_rose: "scene_rose_coronation.png",
 };
 
-// ─── Location mapping: ville/territoire slug → location image ────────────
+// ─── Location mapping: ville/territoire/nation/duche slug → location image ──
 const LOCATION_MAP: Record<string, string> = {
+  // Villes
   stormwind: "location_stormwind_city.png",
   lordaeron: "location_lordaeron_city.png",
   nouvelle_avalon: "location_nouvelle_avalon_exterior.png",
@@ -43,6 +46,23 @@ const LOCATION_MAP: Record<string, string> = {
   old_town: "location_stormwind_old_town.png",
   baie_du_butin: "location_baie_du_butin.png",
   jinthaalor: "location_gurubashi_zulgurub.png",
+  // Nations
+  gilneas: "location_gilneas_wall.png",
+  ironforge: "location_ironforge_exterior.png",
+  kaldorei: "location_kaldorei_forest.png",
+  kul_tiras: "location_kul_tiras.png",
+  northrend: "location_northrend.png",
+  pandarie: "location_pandarie_ruins.png",
+  quelthalas: "location_quelthalas.png",
+  ile_du_butin: "location_baie_du_butin.png",
+  // Territoires
+  hautebrande: "location_hautebrande.png",
+  morasses_noires: "location_morasses_noires.png",
+  sylve_de_l_est: "location_sylve_de_lest.png",
+  gurubashi: "location_gurubashi_zulgurub.png",
+  // Duches
+  duche_kolkar: "location_duche_kolkar.png",
+  duche_ebonlocke: "location_clairbois_exterior.png",
 };
 
 // ─── Public helpers ──────────────────────────────────────────────────────
@@ -76,8 +96,8 @@ export function resolveEntryImage(
     }
   }
 
-  // Villes / territoires → location
-  if (collection === "villes" || collection === "territoires") {
+  // Geographic collections → location
+  if (collection === "villes" || collection === "territoires" || collection === "nations" || collection === "duches") {
     const file = LOCATION_MAP[slug];
     if (file && assetExists(`locations/${file}`)) {
       return `locations/${file}`;

@@ -9,7 +9,8 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { extractTocFromMarkdown } from "@/lib/toc";
 import { FactionBadge } from "@/components/faction-badge";
 import { getTierColor } from "@/lib/colors";
-import { resolveEntryImage, resolveCharacterGallery } from "@/lib/images";
+import { resolveEntryImage, resolveCharacterGallery, resolveLocationGallery } from "@/lib/images";
+import { GalleryGrid } from "@/components/lightbox";
 import {
   encyclopaediaCollections,
   getCollection,
@@ -169,30 +170,24 @@ export default async function EntryPage({ params }: EntryPageProps) {
           <TableOfContents items={tocItems} />
 
           {/* Portrait gallery for characters */}
-          {collection === "personnages" && (() => {
-            const gallery = resolveCharacterGallery(slug);
-            if (gallery.length === 0) return null;
-            return (
-              <div className="overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <p className="px-5 pt-5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
-                  Portraits
-                </p>
-                <div className="mt-3 grid grid-cols-2 gap-1 p-2">
-                  {gallery.map((img) => (
-                    <div key={img} className="relative aspect-[3/4] overflow-hidden rounded-lg">
-                      <Image
-                        src={`/assets/${img}`}
-                        alt=""
-                        fill
-                        className="object-cover"
-                        sizes="130px"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            );
-          })()}
+          {collection === "personnages" && (
+            <GalleryGrid
+              images={resolveCharacterGallery(slug)}
+              label="Portraits"
+              aspectRatio="aspect-[3/4]"
+              sizes="130px"
+            />
+          )}
+
+          {/* Location gallery for geographic collections */}
+          {(collection === "villes" || collection === "territoires" || collection === "nations" || collection === "duches") && (
+            <GalleryGrid
+              images={resolveLocationGallery(slug)}
+              label="Vues"
+              aspectRatio="aspect-[16/9]"
+              sizes="260px"
+            />
+          )}
 
           <div className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5">
             <p className="mb-3 text-[10px] uppercase tracking-[0.2em] text-stone-600">
