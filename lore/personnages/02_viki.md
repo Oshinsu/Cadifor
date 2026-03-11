@@ -178,6 +178,22 @@ Sur une dalle de pierre a l'entree du donjon de Nouvelle-Avalon, on peut encore 
 
 ---
 
+## VOIX INTERIEURE — Telle que Viki l'aurait dite
+
+Je suis nee ainee, et cela veut dire qu'on m'a prete un destin avant meme de me connaitre. Je n'etais pas seulement une fille bien nee dans la ligne de base ; j'etais la premiere reponse politique a une question que le monde posait deja a mon pere : que vaut une maison quand le guerrier qui l'a fondee n'engendre pas de fils ? Le monde pensait peut-etre y voir un manque. Il a tres vite compris qu'il y voyait autre chose : moi.
+
+Je n'ai jamais souffert d'etre nee fille. J'etais le fils qu'il n'avait jamais eu. Je ne le formule pas avec honte. C'etait visible pour tout le monde. J'aimais monter, j'aimais le bruit des hommes autour d'un feu, j'aimais rire plus fort qu'on ne l'attend d'une fille de maison, j'aimais la gene que cela produisait chez les trop polis. Je n'ai jamais cru qu'une femme devait se rapetisser pour garder son mystere. Mon mystere, s'il y en eut un, vint au contraire de cette franchise : je n'avais pas honte d'occuper l'espace.
+
+Mon pere et moi, a nous deux, etions deja une aberration historique pour l'espace humain du Nord. Deux guerriers legendaires a la meme table.
+
+Je suis restee celibataire. Sans enfant declare. Ce n'etait pas un drame, ni une lacune. C'etait presque une consequence logique. J'ai ressemble trop fort a mon pere pour devenir matrice d'une autre vie. J'etais faite pour tenir, pas pour transmettre par le ventre. La maison, je l'ai prolongee autrement : en preparant le passage a mieux que moi dans l'ordre du futur. Avoir compris que le vrai pouvoir n'est pas de garder le sommet, mais de savoir quand l'on doit s'effacer pour que la maison continue de monter.
+
+J'aimais la biere plus que le vin, les viandes grillees, les plats qu'on peut manger debout, les chants de troupe qui finissent mal, les chevaux nerveux, le cuir bien entretenu, le vent avant l'orage. Je riais facilement, surtout avec les soldats et avec Gwen. Avec June, je devenais plus douce. Avec Andrea, plus attentive. Elle etait celle qui me rendait pensable a moi-meme.
+
+Si l'on me demande ce que j'ai ete, je reponds simplement : l'ainee. Et cela veut tout dire. Pas parce que j'aurais ete la plus grande en tout. Mais parce qu'il fallait que quelqu'un porte d'abord le nom assez haut pour que les autres puissent ensuite le transformer en royaume, en alliance, en justice, en code, puis en empire. Je n'ai pas bati la totalite de la maison. J'ai bati son aplomb. Et cela suffit a ma paix.
+
+---
+
 ## POSITIONNEMENT DANS LA DYNASTIE
 
 - **Role** : La consolidatrice. Elle stabilise ce que son pere a cree et prepare le terrain pour la mutation intellectuelle d'Andrea
