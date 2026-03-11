@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { SiteShell } from "@/components/site-shell";
 import { SiteFooter } from "@/components/footer";
+import { CardGlowTracker } from "@/components/card-glow";
+import { ScrollRevealProvider } from "@/components/scroll-reveal";
 import "./globals.css";
 
 const display = localFont({
@@ -58,6 +60,8 @@ export default function RootLayout({
           <SiteShell />
           {children}
           <SiteFooter />
+          <CardGlowTracker />
+          <ScrollRevealProvider />
         </div>
       </body>
     </html>

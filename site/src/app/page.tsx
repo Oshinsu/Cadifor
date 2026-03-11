@@ -115,7 +115,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Dynasty timeline strip ──────────────────────────── */}
-      <section className="mt-20">
+      <section className="mt-20" data-reveal>
         <div className="mb-8">
           <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
             Lignee
@@ -211,7 +211,7 @@ export default function HomePage() {
       )}
 
       {/* ─── Top characters ──────────────────────────────────── */}
-      <section className="mt-20">
+      <section className="mt-20" data-reveal>
         <div className="mb-8 flex items-end justify-between gap-6">
           <div>
             <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
@@ -239,7 +239,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Scenes ──────────────────────────────────────────── */}
-      <section className="mt-20">
+      <section className="mt-20" data-reveal>
         <div className="mb-8 flex items-end justify-between gap-6">
           <div>
             <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
@@ -263,7 +263,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Collections overview ────────────────────────────── */}
-      <section className="mt-20">
+      <section className="mt-20" data-reveal>
         <div className="mb-8">
           <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
             Graphe du corpus

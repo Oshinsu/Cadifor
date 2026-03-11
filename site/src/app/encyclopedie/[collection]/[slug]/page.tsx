@@ -1,8 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Clock, FileText } from "lucide-react";
+import { Clock, FileText } from "lucide-react";
 import { Markdown } from "@/components/markdown";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ReadingProgress } from "@/components/reading-progress";
+import { TableOfContents } from "@/components/table-of-contents";
+import { extractTocFromMarkdown } from "@/lib/toc";
 import { FactionBadge } from "@/components/faction-badge";
 import { getTierColor } from "@/lib/colors";
 import { resolveEntryImage, resolveCharacterGallery } from "@/lib/images";
@@ -45,16 +49,19 @@ export default async function EntryPage({ params }: EntryPageProps) {
   const prevEntry = currentIndex > 0 ? allInCollection[currentIndex - 1] : null;
   const nextEntry = currentIndex < allInCollection.length - 1 ? allInCollection[currentIndex + 1] : null;
 
+  const tocItems = extractTocFromMarkdown(entry.body);
+
   return (
-    <main className="mx-auto max-w-6xl px-6 pb-24 pt-8">
-      {/* ─── Back link ────────────────────────────────────────── */}
-      <Link
-        href="/encyclopedie"
-        className="mb-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
-      >
-        <ArrowLeft className="size-3" />
-        Encyclopedie
-      </Link>
+    <>
+      <ReadingProgress />
+      <main className="mx-auto max-w-6xl px-6 pb-24 pt-8">
+        {/* ─── Breadcrumbs ────────────────────────────────────── */}
+        <Breadcrumbs items={[
+          { label: "Accueil", href: "/" },
+          { label: "Encyclopedie", href: "/encyclopedie" },
+          { label: getCollectionLabel(collection), href: "/encyclopedie" },
+          { label: entry.title },
+        ]} />
 
       <div className="grid gap-10 lg:grid-cols-[1fr_260px]">
         {/* ─── Main content ──────────────────────────────────── */}
@@ -158,6 +165,9 @@ export default async function EntryPage({ params }: EntryPageProps) {
 
         {/* ─── Sidebar ───────────────────────────────────────── */}
         <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
+          {/* Table of contents */}
+          <TableOfContents items={tocItems} />
+
           {/* Portrait gallery for characters */}
           {collection === "personnages" && (() => {
             const gallery = resolveCharacterGallery(slug);
@@ -211,6 +221,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
           </div>
         </aside>
       </div>
-    </main>
+      </main>
+    </>
   );
 }

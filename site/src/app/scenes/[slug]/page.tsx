@@ -1,8 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight, Clock, FileText } from "lucide-react";
+import { Clock, FileText } from "lucide-react";
 import { Markdown } from "@/components/markdown";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ReadingProgress } from "@/components/reading-progress";
 import { getCollection, getEntry } from "@/lib/content";
 import { resolveEntryImage } from "@/lib/images";
 
@@ -28,15 +30,15 @@ export default async function ScenePage({ params }: ScenePageProps) {
   const nextScene = currentIndex < allScenes.length - 1 ? allScenes[currentIndex + 1] : null;
 
   return (
-    <main className="mx-auto max-w-4xl px-6 pb-24 pt-8">
-      {/* Back link */}
-      <Link
-        href="/scenes"
-        className="mb-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
-      >
-        <ArrowLeft className="size-3" />
-        Scenes
-      </Link>
+    <>
+      <ReadingProgress />
+      <main className="mx-auto max-w-4xl px-6 pb-24 pt-8">
+        {/* Breadcrumbs */}
+        <Breadcrumbs items={[
+          { label: "Accueil", href: "/" },
+          { label: "Scenes", href: "/scenes" },
+          { label: scene.title },
+        ]} />
 
       {/* Header with scene illustration */}
       {(() => {
@@ -119,6 +121,7 @@ export default async function ScenePage({ params }: ScenePageProps) {
           </Link>
         ) : null}
       </div>
-    </main>
+      </main>
+    </>
   );
 }

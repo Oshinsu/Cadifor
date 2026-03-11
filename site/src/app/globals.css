@@ -175,3 +175,76 @@ body { min-height: 100vh; }
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+/* ─── Scroll-triggered reveal ─────────────────────────────── */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+[data-reveal].revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-reveal="left"] { transform: translateX(-28px) translateY(0); }
+[data-reveal="left"].revealed { transform: translateX(0); }
+[data-reveal="right"] { transform: translateX(28px) translateY(0); }
+[data-reveal="right"].revealed { transform: translateX(0); }
+[data-reveal="scale"] { transform: scale(0.95); }
+[data-reveal="scale"].revealed { transform: scale(1); }
+
+/* ─── Smooth image loading ────────────────────────────────── */
+img[loading="lazy"] {
+  transition: opacity 0.4s ease;
+}
+
+/* ─── Scrollbar styling ───────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(212,168,83,0.15);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(212,168,83,0.3); }
+
+/* ─── Table of contents ───────────────────────────────────── */
+.toc-link {
+  position: relative;
+  padding-left: 1rem;
+  transition: color 0.2s ease;
+}
+.toc-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  transform: translateY(-50%);
+  transition: background 0.2s ease;
+}
+.toc-link:hover::before,
+.toc-link.active::before { background: var(--gold); }
+.toc-link.active { color: var(--gold-light); }
+
+/* ─── Prose typography refinements ────────────────────────── */
+.prose-imperial h1 { font-size: 2.25rem; line-height: 1.2; color: var(--ivory); }
+.prose-imperial h3 {
+  margin-top: 1.8em;
+  color: var(--gold-light);
+  font-size: 1.2rem;
+}
+.prose-imperial h4 {
+  margin-top: 1.5em;
+  color: var(--ivory);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.prose-imperial > p:first-of-type { font-size: 1.1rem; }
+.prose-imperial > p:first-of-type::first-line { color: var(--ivory); }
+
+/* ─── Breadcrumb styling ──────────────────────────────────── */
+.breadcrumb-separator { color: rgba(255,255,255,0.15); }
