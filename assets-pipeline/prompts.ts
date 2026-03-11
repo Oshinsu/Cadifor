@@ -846,7 +846,7 @@ const phase3: ImagePrompt[] = [
     ],
     outputDir: "scenes",
     aspectRatio: "16:9",
-    shotType: "interior" as ShotType,
+    shotType: "interior",
     prompt: withStyle(
       `The imperial dining hall from the reference image, now occupied. At the head of the table, the silver-haired empress Marjory from ref 1 sits with surgical precision, lifting a fork as if performing architecture. To her right, the dark-haired younger woman Rose from ref 2 — serene, luminous, watching everything with eyes that traverse. Across from Rose, the fair-haired priestess Arwyn from ref 3, the warmest presence at the table. Other nobles line the table — 12 figures in rich but restrained clothing. Floating light spheres illuminate the scene with golden warmth. The 15-course meal is mid-service — silver cloches, crystal goblets catching light, white linen runners with silver embroidery. The atmosphere is thick with unspoken politics. Every gesture is loaded. Keep all character faces EXACTLY matching their reference images. Wide establishing shot. Warm golden interior lighting, rich depth of field.`,
       "interior"
@@ -862,7 +862,7 @@ const phase3: ImagePrompt[] = [
     ],
     outputDir: "scenes",
     aspectRatio: "16:9",
-    shotType: "interior" as ShotType,
+    shotType: "interior",
     prompt: withStyle(
       `The Clairbois ballroom from ref 3, now filled with 40-50 nobles in formal evening dress. Shot from behind the crowd — we see their backs, their heads turning. At the far doorway, the woman Rose from refs 1-2 is entering. She is backlit by warm corridor light. She is merely walking. But the room's center of gravity has shifted. Nobles in the foreground have frozen mid-conversation, mid-gesture. A woman's wine glass hovers halfway to her lips. A man has forgotten to close his mouth. Rose's silhouette: perfect posture, flowing midnight-grey robes, faint luminous quality to her skin. "When she entered, it was not the noise that changed. It was the axis." Keep Rose's face EXACTLY matching reference images. Wide anamorphic. Warm candlelight interior, depth of field separating foreground from background.`,
       "interior"
@@ -890,7 +890,7 @@ const phase3: ImagePrompt[] = [
     ],
     outputDir: "scenes",
     aspectRatio: "16:9",
-    shotType: "interior" as ShotType,
+    shotType: "interior",
     prompt: withStyle(
       `The Stormwind throne room from ref 3, packed with hundreds of figures. At center, the woman Rose from refs 1-2 stands before the throne, receiving the crown. She is perfectly still while the officiant (an elderly bishop in white-gold vestments) places a thin white-gold circlet on her dark hair. Her expression: serene acceptance of something that was always inevitable. Not triumph — assumption. The crowd: hundreds of nobles, military commanders, foreign dignitaries, all watching with varying mixtures of awe, calculation, and submission. Shafts of mineral-crystal light fall from the vault above like divine sanction. The scale of the room dwarfs everyone except her. Keep Rose's face EXACTLY matching references. Wide establishing shot. Cathedral light from above, warm reflected gold from marble. Epic scale, intimate emotion.`,
       "interior"
@@ -906,7 +906,7 @@ const phase3: ImagePrompt[] = [
     ],
     outputDir: "scenes",
     aspectRatio: "21:9",
-    shotType: "battle" as ShotType,
+    shotType: "battle",
     prompt: withStyle(
       `A medieval battle in full fury at a mountain pass. The Battle of Yielden — Andrea II's crushing victory. The empress from ref 1 stands on the southern ridge, mounted on a grey warhorse, commanding. Below her, the pass is chaos: 20,000 soldiers clashing on rocky ground. Imperial archers rain arrows from the forest-covered slope. At center, heavy infantry with pikes collide in a wall of steel. In the northern sky, griffon riders wheel and dive against hippogriff defenders. Mages send arcane barrages — blue-white light arcing across the battlefield. The rebel lines are breaking — soldiers fleeing. Smoke, dust, blood on stone. The tactical genius visible: every terrain feature exploited. Keep Andrea's face EXACTLY matching reference. Ultrawide establishing shot. Dawn light, cold blue shadows in the pass, warm gold on the peaks.`,
       "battle",
@@ -923,7 +923,7 @@ const phase3: ImagePrompt[] = [
     ],
     outputDir: "scenes",
     aspectRatio: "16:9",
-    shotType: "interior" as ShotType,
+    shotType: "interior",
     prompt: withStyle(
       `A great victory ball in a royal palace. The Grand Bal de la Réconciliation — Stormwind celebrating after the Bradney rebellion. The throne room from ref 2 transformed: hundreds of candles, banners of violet and cyan, tables laden with feast. At center, the empress Andrea II from ref 1, now dancing with her brother Gautmar — both laughing, for once unguarded, the weight of command briefly set aside. Around them, nobles, soldiers, and courtiers in their finest. Musicians on a raised gallery. Children running between the tables. Wine flowing. The atmosphere is genuine joy — not courtly performance, but real celebration. For one night, the dynasty is a family, not a machine. Keep Andrea's face EXACTLY matching reference. Warm golden interior lighting, candle glow, movement blur on dancers.`,
       "interior"
@@ -939,7 +939,7 @@ const phase3: ImagePrompt[] = [
     ],
     outputDir: "scenes",
     aspectRatio: "16:9",
-    shotType: "landscape" as ShotType,
+    shotType: "landscape",
     prompt: withStyle(
       `A young girl facing a pack of albino wolves by a forest river at dawn. Viki Cadifor at age 8-9 — already abnormally at ease in the wild. The girl: small, wiry, auburn hair tangled, wearing rough frontier clothing, barefoot in the mud. She stands with her weight forward, not afraid — curious, excited even. Across the shallow river from ref 2, three albino wolves with white fur and yellow eyes watch her. One has its ears forward — not aggressive, assessing. The moment is primal: a human child and apex predators reading each other. The river is cold and fast, mist on the water. Ancient trees overhead. The scene says: this girl will become the greatest warrior of her age. Keep the girl's coloring matching the warrior woman from ref 1 but younger. Cold blue-grey dawn light, mist, wild atmosphere.`,
       "landscape"
@@ -974,7 +974,7 @@ const phase4: ImagePrompt[] = [
     ],
     outputDir: "scenes",
     aspectRatio: "21:9",
-    shotType: "portrait" as ShotType,
+    shotType: "portrait",
     prompt: withStyle(
       `A horizontal composite showing four generations of rulers in profile, overlapping slightly. From left to right: the elderly warrior Aberthol from ref 3, the warrior woman Viki from ref 4, the silver-haired empress Marjory from ref 1, and the dark-haired young queen Rose from ref 2. Each in profile, facing right, as if time flowing forward. Background: gradient from dawn (left, warm) to dusk (right, cool). Keep all faces EXACTLY matching their references. Dramatic side lighting on each face, unified background gradient.`,
       "portrait",
