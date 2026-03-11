@@ -44,6 +44,720 @@
       "generatedAt": "2026-03-11T01:00:13.019Z",
       "model": "google/gemini-3-pro-image-preview",
       "attempt": 1
+    },
+    {
+      "id": "portrait_viki_bust",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_viki_bust.png",
+      "generatedAt": "2026-03-11T02:02:16.988Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_andrea_rougissante_bust",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_andrea_rougissante_bust.png",
+      "generatedAt": "2026-03-11T02:02:37.823Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_andrea_juste_young",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_andrea_juste_young.png",
+      "generatedAt": "2026-03-11T02:02:59.447Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_andrea_juste_mature",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_andrea_juste_young"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_andrea_juste_mature.png",
+      "generatedAt": "2026-03-11T02:03:23.487Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_andrea_victorieuse_bust",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_andrea_victorieuse_bust.png",
+      "generatedAt": "2026-03-11T02:03:48.349Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_marjory_formal",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_marjory_formal.png",
+      "generatedAt": "2026-03-11T02:04:10.166Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_marjory_dining",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_marjory_formal"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_marjory_dining.png",
+      "generatedAt": "2026-03-11T02:04:33.478Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_marjory_armor_ceremony",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_marjory_formal"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_marjory_armor_ceremony.png",
+      "generatedAt": "2026-03-11T02:04:53.687Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_marjory_campaign",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_marjory_formal"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_marjory_campaign.png",
+      "generatedAt": "2026-03-11T02:05:16.843Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_marjory_death",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_marjory_formal",
+        "portrait_marjory_armor_ceremony"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_marjory_death.png",
+      "generatedAt": "2026-03-11T02:05:52.519Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_rose_formal",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_rose_formal.png",
+      "generatedAt": "2026-03-11T02:06:15.384Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_rose_throne",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_rose_formal"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_rose_throne.png",
+      "generatedAt": "2026-03-11T02:06:39.613Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_rose_intimate",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_rose_formal"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_rose_intimate.png",
+      "generatedAt": "2026-03-11T02:07:03.885Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_rose_arcane",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_rose_formal"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_rose_arcane.png",
+      "generatedAt": "2026-03-11T02:07:26.728Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_rose_entering",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_rose_formal"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_rose_entering.png",
+      "generatedAt": "2026-03-11T02:07:48.864Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_arwyn_bust",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_arwyn_bust.png",
+      "generatedAt": "2026-03-11T02:08:12.848Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_banni_bust",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_banni_bust.png",
+      "generatedAt": "2026-03-11T02:08:35.242Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_benjamin_bust",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_benjamin_bust.png",
+      "generatedAt": "2026-03-11T02:08:56.144Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_llane_bust",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_llane_bust.png",
+      "generatedAt": "2026-03-11T02:09:18.962Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_stormwind_throne_room",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette",
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_stormwind_throne_room.png",
+      "generatedAt": "2026-03-11T02:09:49.556Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_imperial_dining_hall",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette",
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_imperial_dining_hall.png",
+      "generatedAt": "2026-03-11T02:10:11.299Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_nouvelle_avalon_interior",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_nouvelle_avalon_interior.png",
+      "generatedAt": "2026-03-11T02:10:31.448Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_clairbois_ballroom",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_clairbois_ballroom.png",
+      "generatedAt": "2026-03-11T02:10:55.292Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_stormwind_city",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_stormwind_city.png",
+      "generatedAt": "2026-03-11T02:11:19.271Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_stormwind_harbor",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_stormwind_harbor.png",
+      "generatedAt": "2026-03-11T02:11:43.306Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_stormwind_old_town",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_stormwind_old_town.png",
+      "generatedAt": "2026-03-11T02:12:06.018Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_nouvelle_avalon_exterior",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_nouvelle_avalon_exterior.png",
+      "generatedAt": "2026-03-11T02:12:29.094Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_nouvelle_avalon_cathedral",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_nouvelle_avalon_cathedral.png",
+      "generatedAt": "2026-03-11T02:12:53.632Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_sylve_de_lest",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_sylve_de_lest.png",
+      "generatedAt": "2026-03-11T02:13:16.341Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_riviere_argelan",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_riviere_argelan.png",
+      "generatedAt": "2026-03-11T02:13:36.921Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_lordaeron_city",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_lordaeron_city.png",
+      "generatedAt": "2026-03-11T02:14:00.308Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_lordaeron_throne_room",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_lordaeron_throne_room.png",
+      "generatedAt": "2026-03-11T02:14:21.426Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_stormgarde_fortress",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_stormgarde_fortress.png",
+      "generatedAt": "2026-03-11T02:14:50.928Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_karazhan_tower",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_karazhan_tower.png",
+      "generatedAt": "2026-03-11T02:15:16.378Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_karazhan_library",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_karazhan_library.png",
+      "generatedAt": "2026-03-11T02:15:38.665Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_kezan_port",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_kezan_port.png",
+      "generatedAt": "2026-03-11T02:15:58.769Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_gilneas_wall",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_gilneas_wall.png",
+      "generatedAt": "2026-03-11T02:16:21.010Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_ironforge_exterior",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_ironforge_exterior.png",
+      "generatedAt": "2026-03-11T02:16:41.112Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_col_de_yielden",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_col_de_yielden.png",
+      "generatedAt": "2026-03-11T02:17:07.638Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_duche_kolkar",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_duche_kolkar.png",
+      "generatedAt": "2026-03-11T02:17:34.494Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_kaldorei_forest",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_kaldorei_forest.png",
+      "generatedAt": "2026-03-11T02:17:53.924Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_morasses_noires",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_morasses_noires.png",
+      "generatedAt": "2026-03-11T02:18:21.506Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_hautebrande",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_hautebrande.png",
+      "generatedAt": "2026-03-11T02:18:51.615Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_clairbois_exterior",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_clairbois_exterior.png",
+      "generatedAt": "2026-03-11T02:19:15.640Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_baie_du_butin",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_baie_du_butin.png",
+      "generatedAt": "2026-03-11T02:19:42.619Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_darrow",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_darrow.png",
+      "generatedAt": "2026-03-11T02:20:06.085Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_gurubashi_zulgurub",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_gurubashi_zulgurub.png",
+      "generatedAt": "2026-03-11T02:20:27.351Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_northrend",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_northrend.png",
+      "generatedAt": "2026-03-11T02:20:50.866Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_quelthalas",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_quelthalas.png",
+      "generatedAt": "2026-03-11T02:21:13.020Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_kul_tiras",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_kul_tiras.png",
+      "generatedAt": "2026-03-11T02:21:39.810Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_pandarie_ruins",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_pandarie_ruins.png",
+      "generatedAt": "2026-03-11T02:22:02.259Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "location_universite_hurlevent",
+      "phase": 2,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "materials_imperial_palette"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/locations/location_universite_hurlevent.png",
+      "generatedAt": "2026-03-11T02:22:25.430Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "scene_diner_imperial",
+      "phase": 3,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_marjory_dining",
+        "portrait_rose_formal",
+        "portrait_arwyn_bust",
+        "location_imperial_dining_hall"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/scenes/scene_diner_imperial.png",
+      "generatedAt": "2026-03-11T02:22:55.055Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "scene_rose_entering_clairbois",
+      "phase": 3,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_rose_entering",
+        "portrait_rose_formal",
+        "location_clairbois_ballroom"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/scenes/scene_rose_entering_clairbois.png",
+      "generatedAt": "2026-03-11T02:23:14.955Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "scene_marjory_death",
+      "phase": 3,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_marjory_death",
+        "portrait_marjory_armor_ceremony"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/scenes/scene_marjory_death.png",
+      "generatedAt": "2026-03-11T02:23:48.610Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "scene_rose_coronation",
+      "phase": 3,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_rose_formal",
+        "portrait_rose_throne",
+        "location_stormwind_throne_room"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/scenes/scene_rose_coronation.png",
+      "generatedAt": "2026-03-11T02:24:25.323Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "scene_bataille_yielden",
+      "phase": 3,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_andrea_juste_mature",
+        "location_col_de_yielden"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/scenes/scene_bataille_yielden.png",
+      "generatedAt": "2026-03-11T02:25:01.810Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "scene_grand_bal",
+      "phase": 3,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_andrea_juste_mature",
+        "location_stormwind_throne_room"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/scenes/scene_grand_bal.png",
+      "generatedAt": "2026-03-11T02:25:27.503Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "scene_viki_loups",
+      "phase": 3,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_viki_bust",
+        "location_riviere_argelan"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/scenes/scene_viki_loups.png",
+      "generatedAt": "2026-03-11T02:26:06.536Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "hero_homepage",
+      "phase": 4,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "location_stormwind_throne_room",
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/scenes/hero_homepage.png",
+      "generatedAt": "2026-03-11T02:26:33.118Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "header_personnages",
+      "phase": 4,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_marjory_formal",
+        "portrait_rose_formal",
+        "portrait_aberthol_bust",
+        "portrait_viki_bust"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/scenes/header_personnages.png",
+      "generatedAt": "2026-03-11T02:27:04.162Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
     }
   ],
   "pending": []

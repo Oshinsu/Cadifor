@@ -18,7 +18,7 @@ import { ALL_PROMPTS, getPromptsByPhase, getPromptById, type ImagePrompt } from 
 // ─── CONFIG ─────────────────────────────────────────────────────────────────
 
 // Loaded lazily after .env is parsed in main()
-let OPENROUTER_API_KEY: string | undefined = "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";
+let OPENROUTER_API_KEY: string | undefined = "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";
 const MODEL = "google/gemini-3-pro-image-preview"; // Nano Banana Pro via OpenRouter
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
@@ -348,7 +348,8 @@ async function main() {
     }
   }
 
-  OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+  // .env overrides hardcoded key; hardcoded key is the fallback
+  OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || OPENROUTER_API_KEY;
   if (!OPENROUTER_API_KEY && !dryRun) {
     console.error("❌ OPENROUTER_API_KEY not set.");
     console.error("   Create assets-pipeline/.env with: OPENROUTER_API_KEY=sk-or-v1-...");
