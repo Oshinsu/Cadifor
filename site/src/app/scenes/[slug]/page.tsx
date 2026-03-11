@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -14,6 +15,28 @@ type ScenePageProps = {
 
 export async function generateStaticParams() {
   return getCollection("scenes").map((scene) => ({ slug: scene.slug }));
+}
+
+export async function generateMetadata({ params }: ScenePageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const scene = getEntry("scenes", slug);
+  if (!scene) return {};
+
+  const image = resolveEntryImage(slug, "scenes");
+  const description = scene.excerpt || `${scene.title} — Scene canonique du Haut Royaume de Cadifor.`;
+
+  return {
+    title: scene.title,
+    description,
+    openGraph: {
+      title: `${scene.title} — Cadifor`,
+      description,
+      type: "article",
+      ...(image && {
+        images: [{ url: `/assets/${image}`, width: 1200, height: 630, alt: scene.title }],
+      }),
+    },
+  };
 }
 
 export default async function ScenePage({ params }: ScenePageProps) {

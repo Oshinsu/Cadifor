@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import { SearchView } from "@/components/search";
+
+export const metadata: Metadata = {
+  title: "Recherche",
+  description: "Recherche dans l'encyclopedie du Haut Royaume de Cadifor.",
+};
 import {
   encyclopaediaCollections,
   getCollection,

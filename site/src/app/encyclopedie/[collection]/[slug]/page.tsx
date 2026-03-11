@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -30,6 +31,29 @@ export async function generateStaticParams() {
       slug: entry.slug,
     })),
   );
+}
+
+export async function generateMetadata({ params }: EntryPageProps): Promise<Metadata> {
+  const { collection, slug } = await params;
+  const entry = getEntry(collection, slug);
+  if (!entry) return {};
+
+  const image = resolveEntryImage(slug, collection);
+  const collectionLabel = getCollectionLabel(collection);
+  const description = entry.excerpt || `${entry.title} — ${collectionLabel} du Haut Royaume de Cadifor.`;
+
+  return {
+    title: entry.title,
+    description,
+    openGraph: {
+      title: `${entry.title} — Cadifor`,
+      description,
+      type: "article",
+      ...(image && {
+        images: [{ url: `/assets/${image}`, width: 1200, height: 630, alt: entry.title }],
+      }),
+    },
+  };
 }
 
 export default async function EntryPage({ params }: EntryPageProps) {

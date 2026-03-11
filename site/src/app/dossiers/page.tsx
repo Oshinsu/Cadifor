@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, BookOpenText, Crown, Globe, Scroll } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Dossiers",
+  description: "Les dossiers thematiques du Haut Royaume de Cadifor — entrees editoriales et parcours guides a travers l'univers.",
+};
 
 const dossiers = [
   {
