@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Clock, FileText } from "lucide-react";
 import { Markdown } from "@/components/markdown";
 import { getCollection, getEntry } from "@/lib/content";
+import { resolveEntryImage } from "@/lib/images";
 
 type ScenePageProps = {
   params: Promise<{ slug: string }>;
@@ -36,30 +38,52 @@ export default async function ScenePage({ params }: ScenePageProps) {
         Scenes
       </Link>
 
-      {/* Header */}
-      <div className="animate-fade-up mb-14 overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-[var(--gold-faint)] p-8 md:p-12">
-        <p className="mb-3 text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]">
-          Scene canonique
-        </p>
-        <h1 className="font-serif text-5xl leading-tight text-[var(--ivory)] md:text-6xl">
-          {scene.title}
-        </h1>
-        <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-400">
-          {scene.excerpt}
-        </p>
+      {/* Header with scene illustration */}
+      {(() => {
+        const sceneImage = resolveEntryImage(slug, "scenes");
+        return (
+          <div className="animate-fade-up relative mb-14 overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-[var(--gold-faint)]">
+            {sceneImage && (
+              <>
+                <div className="relative h-64 w-full md:h-80">
+                  <Image
+                    src={`/assets/${sceneImage}`}
+                    alt={scene.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 896px) 100vw, 896px"
+                    priority
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[rgb(12,10,9)] via-[rgb(12,10,9)]/40 to-transparent" />
+                </div>
+              </>
+            )}
+            <div className="relative p-8 md:p-12">
+              <p className="mb-3 text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]">
+                Scene canonique
+              </p>
+              <h1 className="font-serif text-5xl leading-tight text-[var(--ivory)] md:text-6xl">
+                {scene.title}
+              </h1>
+              <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-400">
+                {scene.excerpt}
+              </p>
 
-        <div className="mt-8 flex items-center gap-6 text-xs text-stone-500">
-          <span className="flex items-center gap-1.5">
-            <Clock className="size-3" />
-            {scene.readingTime} min de lecture
-          </span>
-          <span className="flex items-center gap-1.5">
-            <FileText className="size-3" />
-            {scene.wordCount.toLocaleString("fr")} mots
-          </span>
-          <span className="text-stone-600">{scene.sourcePath}</span>
-        </div>
-      </div>
+              <div className="mt-8 flex items-center gap-6 text-xs text-stone-500">
+                <span className="flex items-center gap-1.5">
+                  <Clock className="size-3" />
+                  {scene.readingTime} min de lecture
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <FileText className="size-3" />
+                  {scene.wordCount.toLocaleString("fr")} mots
+                </span>
+                <span className="text-stone-600">{scene.sourcePath}</span>
+              </div>
+            </div>
+          </div>
+        );
+      })()}
 
       {/* Body */}
       <article>

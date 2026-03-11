@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { LoreEntry } from "@/lib/content";
+import { resolveEntryImage } from "@/lib/images";
 
 type EntryCardProps = {
   entry: LoreEntry;
@@ -7,30 +9,48 @@ type EntryCardProps = {
 };
 
 export function EntryCard({ entry, href }: EntryCardProps) {
+  const imagePath = resolveEntryImage(entry.slug, entry.collection);
+
   return (
     <Link
       href={href}
-      className="card-imperial group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.025] p-7"
+      className="card-imperial group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.025]"
     >
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--gold)]/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+      {/* Thumbnail */}
+      {imagePath && (
+        <div className="relative h-44 w-full overflow-hidden">
+          <Image
+            src={`/assets/${imagePath}`}
+            alt={entry.title}
+            fill
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[rgb(12,10,9)] via-transparent to-transparent" />
+        </div>
+      )}
 
-      <div className="mb-4 flex items-center gap-3">
-        <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-stone-500">
-          {entry.collection}
-        </span>
-        <span className="h-px flex-1 bg-white/[0.04]" />
-      </div>
+      <div className="p-7">
+        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--gold)]/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
-      <h3 className="mb-3 font-serif text-[1.65rem] leading-tight text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
-        {entry.title}
-      </h3>
+        <div className="mb-4 flex items-center gap-3">
+          <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-stone-500">
+            {entry.collection}
+          </span>
+          <span className="h-px flex-1 bg-white/[0.04]" />
+        </div>
 
-      <p className="line-clamp-3 text-[0.84rem] leading-relaxed text-stone-400/90">
-        {entry.excerpt}
-      </p>
+        <h3 className="mb-3 font-serif text-[1.65rem] leading-tight text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+          {entry.title}
+        </h3>
 
-      <div className="mt-6 text-[10px] tracking-[0.15em] text-stone-600 transition-colors duration-300 group-hover:text-stone-500">
-        <span className="uppercase">{entry.sourcePath.split("/").pop()?.replace(".md", "")}</span>
+        <p className="line-clamp-3 text-[0.84rem] leading-relaxed text-stone-400/90">
+          {entry.excerpt}
+        </p>
+
+        <div className="mt-6 text-[10px] tracking-[0.15em] text-stone-600 transition-colors duration-300 group-hover:text-stone-500">
+          <span className="uppercase">{entry.sourcePath.split("/").pop()?.replace(".md", "")}</span>
+        </div>
       </div>
     </Link>
   );

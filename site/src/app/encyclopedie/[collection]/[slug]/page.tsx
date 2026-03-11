@@ -1,9 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, FileText } from "lucide-react";
 import { Markdown } from "@/components/markdown";
 import { FactionBadge } from "@/components/faction-badge";
 import { getTierColor } from "@/lib/colors";
+import { resolveEntryImage, resolveCharacterGallery } from "@/lib/images";
 import {
   encyclopaediaCollections,
   getCollection,
@@ -57,48 +59,68 @@ export default async function EntryPage({ params }: EntryPageProps) {
       <div className="grid gap-10 lg:grid-cols-[1fr_260px]">
         {/* ─── Main content ──────────────────────────────────── */}
         <div>
-          {/* Header */}
-          <div className="animate-fade-up relative mb-12 overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-[var(--gold-faint)] p-8 md:p-10">
-            <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--gold)]/25 to-transparent" />
+          {/* Header with image */}
+          {(() => {
+            const headerImage = resolveEntryImage(slug, collection);
+            return (
+              <div className="animate-fade-up relative mb-12 overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-[var(--gold-faint)]">
+                {headerImage && (
+                  <div className="relative h-56 w-full md:h-72">
+                    <Image
+                      src={`/assets/${headerImage}`}
+                      alt={entry.title}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 1024px) 100vw, 740px"
+                      priority
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[rgb(12,10,9)] via-[rgb(12,10,9)]/40 to-transparent" />
+                  </div>
+                )}
+                <div className="relative p-8 md:p-10">
+                  <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--gold)]/25 to-transparent" />
 
-            <div className="mb-4 flex flex-wrap items-center gap-3">
-              <span className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]">
-                {getCollectionLabel(collection)}
-              </span>
-              {entry.faction !== "imperial" && (
-                <FactionBadge faction={entry.faction} size="sm" />
-              )}
-              {entry.tier && (
-                <span className={`inline-flex rounded-full border px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider ${getTierColor(entry.tier)}`}>
-                  Tier {entry.tier}
-                </span>
-              )}
-            </div>
+                  <div className="mb-4 flex flex-wrap items-center gap-3">
+                    <span className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]">
+                      {getCollectionLabel(collection)}
+                    </span>
+                    {entry.faction !== "imperial" && (
+                      <FactionBadge faction={entry.faction} size="sm" />
+                    )}
+                    {entry.tier && (
+                      <span className={`inline-flex rounded-full border px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider ${getTierColor(entry.tier)}`}>
+                        Tier {entry.tier}
+                      </span>
+                    )}
+                  </div>
 
-            <h1 className="font-serif text-5xl leading-tight text-[var(--ivory)]">
-              {entry.title}
-            </h1>
+                  <h1 className="font-serif text-5xl leading-tight text-[var(--ivory)]">
+                    {entry.title}
+                  </h1>
 
-            {entry.epithet && (
-              <p className="mt-2 text-lg italic text-stone-400">{entry.epithet}</p>
-            )}
+                  {entry.epithet && (
+                    <p className="mt-2 text-lg italic text-stone-400">{entry.epithet}</p>
+                  )}
 
-            {entry.dates && (
-              <p className="mt-3 text-sm text-stone-500">{entry.dates}</p>
-            )}
+                  {entry.dates && (
+                    <p className="mt-3 text-sm text-stone-500">{entry.dates}</p>
+                  )}
 
-            <div className="mt-6 flex items-center gap-6 text-xs text-stone-500">
-              <span className="flex items-center gap-1.5">
-                <Clock className="size-3" />
-                {entry.readingTime} min de lecture
-              </span>
-              <span className="flex items-center gap-1.5">
-                <FileText className="size-3" />
-                {entry.wordCount.toLocaleString("fr")} mots
-              </span>
-              <span className="text-stone-600">{entry.sourcePath}</span>
-            </div>
-          </div>
+                  <div className="mt-6 flex items-center gap-6 text-xs text-stone-500">
+                    <span className="flex items-center gap-1.5">
+                      <Clock className="size-3" />
+                      {entry.readingTime} min de lecture
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <FileText className="size-3" />
+                      {entry.wordCount.toLocaleString("fr")} mots
+                    </span>
+                    <span className="text-stone-600">{entry.sourcePath}</span>
+                  </div>
+                </div>
+              </div>
+            );
+          })()}
 
           {/* Body */}
           <Markdown content={entry.body} />
@@ -136,6 +158,32 @@ export default async function EntryPage({ params }: EntryPageProps) {
 
         {/* ─── Sidebar ───────────────────────────────────────── */}
         <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
+          {/* Portrait gallery for characters */}
+          {collection === "personnages" && (() => {
+            const gallery = resolveCharacterGallery(slug);
+            if (gallery.length === 0) return null;
+            return (
+              <div className="overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02]">
+                <p className="px-5 pt-5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+                  Portraits
+                </p>
+                <div className="mt-3 grid grid-cols-2 gap-1 p-2">
+                  {gallery.map((img) => (
+                    <div key={img} className="relative aspect-[3/4] overflow-hidden rounded-lg">
+                      <Image
+                        src={`/assets/${img}`}
+                        alt=""
+                        fill
+                        className="object-cover"
+                        sizes="130px"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            );
+          })()}
+
           <div className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5">
             <p className="mb-3 text-[10px] uppercase tracking-[0.2em] text-stone-600">
               Dans cette collection
