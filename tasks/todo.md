@@ -30,13 +30,15 @@
 - [x] SEO: static metadata on all listing/static pages (encyclopedie, scenes, chronologie, recherche, dossiers, canon)
 - [x] Accessibility: skip-to-content link, ARIA labels on nav/mobile menu/lightbox
 - [x] Verified lazy-loading (Next.js `Image` defaults to `loading="lazy"` — already correct)
+- [x] View Transitions API (experimental, CSS fade-in/fade-out on navigation)
+- [x] Cross-reference sidebar: `getRelatedEntries()` scans body for title mentions, shows "References croisees" in sidebar
 
 ## Backlog
 
 - [ ] Add more image mappings as new lore entries are created
 - [x] Image lightbox (click to zoom) on portrait gallery
 - [x] Back-to-top button for long articles
-- [ ] Smooth page transitions with View Transitions API
+- [x] Smooth page transitions with View Transitions API
 - [ ] PWA manifest + offline support
 - [x] SEO: dynamic og:image per entry from portraits/scenes
 - [x] Performance: lazy-load below-fold images (verified — Next.js default)
