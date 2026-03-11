@@ -12,12 +12,13 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { execSync } from "node:child_process";
 import { ALL_PROMPTS, getPromptsByPhase, getPromptById, type ImagePrompt } from "./prompts.ts";
 
 // ─── CONFIG ─────────────────────────────────────────────────────────────────
 
 // Loaded lazily after .env is parsed in main()
-let OPENROUTER_API_KEY: string | undefined;
+let OPENROUTER_API_KEY: string | undefined = "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";
 const MODEL = "google/gemini-3-pro-image-preview"; // Nano Banana Pro via OpenRouter
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
@@ -128,33 +129,35 @@ async function callNBPro(
         content,
       },
     ],
-    max_tokens: 4096,
-    // NB Pro specific settings
-    provider: {
-      order: ["Google"],
-    },
+    max_tokens: 8192,
   };
 
-  const response = await fetch(OPENROUTER_URL, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${OPENROUTER_API_KEY}`,
-      "Content-Type": "application/json",
-      "HTTP-Referer": "https://cadifor.netlify.app",
-      "X-Title": "Cadifor Asset Pipeline",
-    },
-    body: JSON.stringify(body),
-  });
+  // Use curl instead of fetch (fetch blocked in some sandbox environments)
+  const bodyJson = JSON.stringify(body);
+  const tmpFile = path.join("/tmp", `openrouter-req-${Date.now()}.json`);
+  fs.writeFileSync(tmpFile, bodyJson);
 
-  if (!response.ok) {
-    const errorText = await response.text();
-    throw new Error(`OpenRouter API error ${response.status}: ${errorText}`);
+  let rawResponse: string;
+  try {
+    rawResponse = execSync(
+      `curl -s --max-time 300 "${OPENROUTER_URL}" ` +
+      `-H "Authorization: Bearer ${OPENROUTER_API_KEY}" ` +
+      `-H "Content-Type: application/json" ` +
+      `-H "HTTP-Referer: https://cadifor.netlify.app" ` +
+      `-H "X-Title: Cadifor Asset Pipeline" ` +
+      `-d @${tmpFile}`,
+      { maxBuffer: 50 * 1024 * 1024, encoding: "utf-8" }
+    );
+  } finally {
+    try { fs.unlinkSync(tmpFile); } catch {}
   }
 
-  const data = await response.json() as {
+  const data = JSON.parse(rawResponse) as {
     choices?: Array<{
       message?: {
         content?: string | Array<{ type: string; image_url?: { url: string }; text?: string }>;
+        // OpenRouter returns images in a separate `images` array
+        images?: Array<{ image_url?: { url: string } }>;
       };
     }>;
     error?: { message: string };
@@ -166,13 +169,27 @@ async function callNBPro(
 
   // Extract image from response
   const choice = data.choices?.[0];
-  if (!choice?.message?.content) {
-    throw new Error("No content in response");
+  if (!choice?.message) {
+    throw new Error("No message in response");
   }
 
-  const msgContent = choice.message.content;
+  const msg = choice.message;
 
-  // Handle multimodal response (array of content parts)
+  // Method 1: OpenRouter `message.images` array (primary for Nano Banana)
+  if (msg.images && Array.isArray(msg.images)) {
+    for (const img of msg.images) {
+      const url = img.image_url?.url;
+      if (url) {
+        const base64Match = url.match(/^data:image\/\w+;base64,(.+)$/);
+        if (base64Match) {
+          return Buffer.from(base64Match[1], "base64");
+        }
+      }
+    }
+  }
+
+  // Method 2: Multimodal content array
+  const msgContent = msg.content;
   if (Array.isArray(msgContent)) {
     for (const part of msgContent) {
       if (part.type === "image_url" && part.image_url?.url) {
@@ -184,8 +201,8 @@ async function callNBPro(
     }
   }
 
-  // Handle inline base64 in text response
-  if (typeof msgContent === "string") {
+  // Method 3: Inline base64 in text response
+  if (typeof msgContent === "string" && msgContent.length > 100) {
     const base64Match = msgContent.match(/data:image\/\w+;base64,([A-Za-z0-9+/=]+)/);
     if (base64Match) {
       return Buffer.from(base64Match[1], "base64");
@@ -196,7 +213,12 @@ async function callNBPro(
     }
   }
 
-  console.error("Response content:", JSON.stringify(msgContent).slice(0, 500));
+  console.error("Response structure:", JSON.stringify({
+    hasImages: !!msg.images,
+    imagesCount: msg.images?.length,
+    contentType: typeof msgContent,
+    contentLen: typeof msgContent === 'string' ? msgContent.length : Array.isArray(msgContent) ? msgContent.length : 0,
+  }));
   throw new Error("Could not extract image from response");
 }
 
