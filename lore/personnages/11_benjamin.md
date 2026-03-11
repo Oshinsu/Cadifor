@@ -77,6 +77,36 @@
 - Pendant ces 50 ans, personne ne conteste le trone
 - La peur est un stabilisateur efficace
 
+### Expansion territoriale et resserrement
+
+Benjamin n'est pas seulement un roi de maintien interieur. Il est un roi de **resserrement par extension**. Sa logique : etendre pour fixer, absorber pour simplifier, vassaliser pour eviter les zones grises.
+
+Territoires renforces ou annexes sous son regne :
+- **Hurlevent** : reprise en main stricte du vieux coeur Wrynn symbolique, pleinement integre a la domination cadiforienne
+- **Karazhan** : controle des lieux de savoir et de seuil magique, coherent avec son statut de Mage X
+- **Lordaeron** : durcissement de l'emprise cadiforienne sur cet espace deja brise sous Andrea III
+- **Kezan** : annexion des zones commerciales et portuaires du Sud
+- **Baie-du-Butin** : devient vassale de plein droit
+
+La prise de Kezan et de la Baie-du-Butin est revelatrice : Benjamin comprend que la puissance imperiale ne se tient pas seulement par les epees et les forets, mais par les ports, l'or, les circuits de commerce et les acces maritimes. En un sens, il **militarise l'economie imperiale**.
+
+### Rapport a la magie : pas un sage, un souverain-outil
+
+Contrairement a Rose ou meme a Marjory, Benjamin n'est pas un mage de sublime. C'est un **mage de gouvernement brutal**. Sa magie sert le siege, la dissuasion, la terreur, la vitesse d'execution, la compression des revoltes.
+
+Il appartient a la generation qui fait comprendre au continent que le trone Cadifor n'est plus seulement dynastique, militaire et imperial — il est aussi **legendairement arcanique**. Se rebeller contre Benjamin ne signifie plus seulement affronter des armees. Cela signifie affronter un souverain-mage de rang X.
+
+### La cruaute comme doctrine
+
+"Le Cruel" ne signifie pas forcement sadique. Il signifie d'abord : **implacable, non negociable, non sentimental dans l'exercice de la souverainete**. Benjamin ne pardonne pas :
+- les demi-fidelites
+- les autonomies arrogantes
+- les revoltes qu'on nomme "traditions"
+- les villes qui confondent richesse et droit de se soustraire
+- les seigneurs qui croient que la distance avec la capitale produit de l'impunite
+
+Chez lui, la cruaute est une forme de **prophylaxie imperiale**.
+
 ---
 
 ## HERITAGE
