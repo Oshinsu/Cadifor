@@ -76,7 +76,7 @@ export function SiteShell() {
             </div>
           </Link>
 
-          <nav className="hidden items-center gap-1 md:flex">
+          <nav aria-label="Navigation principale" className="hidden items-center gap-1 md:flex">
             {navLinks.map((link) => {
               const active = isActive(link.href, pathname);
               return (
@@ -109,6 +109,8 @@ export function SiteShell() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
+            aria-expanded={mobileMenuOpen}
             className="rounded-lg border border-white/[0.06] p-2.5 text-stone-400 transition hover:border-[var(--border-gold)] hover:text-stone-100 md:hidden"
           >
             {mobileMenuOpen ? <X className="size-4" /> : <Menu className="size-4" />}
@@ -123,6 +125,7 @@ export function SiteShell() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            aria-label="Navigation mobile"
             className="sticky top-[65px] z-40 overflow-hidden border-b border-white/[0.04] bg-[#0a0908]/95 backdrop-blur-2xl md:hidden"
           >
             <div className="mx-auto max-w-7xl space-y-0.5 px-6 py-3">

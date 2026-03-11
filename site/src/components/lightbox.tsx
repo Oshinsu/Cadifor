@@ -37,6 +37,9 @@ export function Lightbox({ images, initialIndex = 0, onClose }: LightboxProps) {
 
   return (
     <div
+      role="dialog"
+      aria-modal="true"
+      aria-label="Visionneuse d'images"
       className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-sm"
       onClick={onClose}
     >
