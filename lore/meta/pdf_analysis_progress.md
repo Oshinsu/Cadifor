@@ -17,9 +17,9 @@ Aucune page n'est comptee si elle n'a pas ete relue de maniere suffisamment nett
 
 ## Etat global verifie
 
-- Pages verifiees : `215 / 997`
-- Pourcentage verifie : `21.6%`
-- Pages non encore verifiees : `782 / 997`
+- Pages verifiees : `452 / 997`
+- Pourcentage verifie : `45.3%`
+- Pages non encore verifiees : `545 / 997`
 
 Mode de calcul :
 
@@ -47,7 +47,10 @@ Mode de calcul :
 - `974-975` = 2 pages
 - `976-979` = 4 pages
 
-Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3 + 3 + 11 + 6 + 3 + 2 + 4 = 215`
+- `51-89` = 39 pages
+- `93-140` = 48 pages
+- `450-600` = 150 pages
+Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3 + 3 + 11 + 6 + 3 + 2 + 4 + 39 + 48 + 150 = 452`
 
 ---
 
@@ -76,8 +79,11 @@ Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3
 | `170-180` | 11 | verifie | couple fondateur, structure affective de la famille Cadifor, densite parents-enfants | `famille_fondatrice.md`, `personnages_secondaires.md`, `02_viki.md`, `CHRONOLOGIE.md` |
 | `1-45` | 45 | verifie | bloc fondateur complet : Aberthol, Viki, Andrea la Rougissante, couches successives du pouvoir | `famille_fondatrice.md`, `machine_cadiforienne.md`, `02_viki.md`, `CHRONOLOGIE.md` |
 | `46-50` | 5 | verifie | duel Rose / Arwyn, hierarchie lisible, Lumiere et magie comme deux mains d'un meme Empire | `13_rose.md`, `14_arwyn.md` |
+| `51-89` | 39 | verifie | bible de Rose en 10 axes, chronologie du regne, doctrine du Devoir d'Effacement, cout intime (ami d'enfance / rappel necromantique / maternite blessee), tableau de puissance, scenes enfance imperiale, legalisation arts sombres, comparaison Marjory/Rose stats, geographie imperiale | `13_rose.md`, `rappel_necromantique.md`, `enfance_imperiale_rose.md`, `doctrine_cadiforienne.md`, `tableau_puissance_cadifor.md`, `etat_du_monde_950.md` |
 | `90-92` | 3 | verifie | comparaison Marjory / Rose, equilibre civilisateur contre totalisation, chronologie haute a manier avec prudence | `12_marjory.md`, `13_rose.md`, `philosophie_marjory_rose.md` |
 | `141-143` | 3 | verifie | architecture de l'armee imperiale, blocs modulaires, Magisterium de campagne, Ailes de Tirisfal | `sections/armee_imperiale.md` |
+| `93-140` | 48 | verifie | tableau de puissance combat pur, echelle de duel /100 avec regles auteur (legendaire >90, Rose SS 104), batailles legendaires (Chenefrange, loups albinos, Ulfar Sjostrom, duel Rose/Arwyn, Trois Cendres), economie/guildes/banques/PIB sous Marjory, evolution administrative Aberthol-Rose, corrections auteur (Viki espiegle, purge = casus belli opportuniste, theocratie Main-de-Tyr, secession Sylve de l'Est, Terres des Malterres non corrompues, flux elfique vers NA) | `tableau_puissance_cadifor.md`, `sections/economie.md`, `sections/armee_imperiale.md`, `meta/evolution_administrative.md`, `meta/nouvelle_avalon.md` |
+| `450-600` | 150 | verifie | doctrine anti-corruption, 9 ministeres imperiaux sous Marjory, 9 courtisans legendaires, classes civiles imperiales (R&D magique), session massive de screenshots CK2 avec corrections auteur : guerre civile azerothienne (phases 755-845+), fratrie d'Andrea II (6 membres), batailles de Yelden/Crestbourg/Allerton, correction Viki a une descendance (Vara + petits-enfants), correction 5 filles d'Aberthol (ajout Gloria), correction surnom Benjamin pre-accession, distinction Andrea II pivot reel / Andrea III pivot iconique | `meta/ministeres_imperiaux.md` (cree), `meta/classes_civiles_imperiales.md` (cree), `meta/guerre_civile_azerothienne.md` (cree), `personnages/02_viki.md` (enrichi), `personnages/11_benjamin.md` (enrichi), `meta/famille_fondatrice.md` (enrichi) |
 
 ---
 
@@ -115,8 +121,14 @@ Principe :
 - `famille_fondatrice.md` : scene primitive de la machine cadiforienne, couple fondateur et Quatre Filles
 - `administration_du_talent.md` : revelation a 16 ans, allocation du rare, cout humain de la meritocratie magique
 - `duche_ebonlocke.md` : doctrine du corbeau, haute tenue ducale, fonction de Clairbois
+- `rappel_necromantique.md` : scene de la transgression privee de Rose, rappel de l'ami d'enfance pour 24 heures
+- `enfance_imperiale_rose.md` : trois scenes fondatrices Marjory-Rose (5 ans, 8 ans, audition Heleris)
 - `12_marjory.md` / `13_rose.md` / `14_arwyn.md` : recouture du triangle Marjory / Rose / Arwyn a partir des pages haut-imperiales
-- `sections/armee_imperiale.md` : doctrine de campagne, grands corps, guerre modulaire sous Andrea III
+- `sections/armee_imperiale.md` : doctrine de campagne, grands corps, guerre modulaire sous Andrea III, Bataille des Trois Cendres
+- `meta/evolution_administrative.md` : cinq phases d'evolution administrative d'Aberthol a Rose, corrections auteur sur theocratie et secession
+- `meta/ministeres_imperiaux.md` : 9 ministeres imperiaux sous Marjory, 9 courtisans legendaires, organigramme bureaucratique complet
+- `meta/classes_civiles_imperiales.md` : fonctions civiles des classes WoW sous Marjory, industrialisation intellectuelle de la magie
+- `meta/guerre_civile_azerothienne.md` : guerre civile d'Andrea II (755-770+), rebellion de Bradney, confiscation Stormwind/Morasses, repliques sous Banni (845)
 
 ---
 

@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Clock, FileText } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Chronologie",
+  description: "La chronologie complete du Haut Royaume de Cadifor — quatre siecles de regne, de la Fondation a l'Empire de Rose.",
+};
 import { Markdown } from "@/components/markdown";
+import { ReadingProgress } from "@/components/reading-progress";
 import { getChronologyDocument } from "@/lib/content";
 
 const ERAS = [
@@ -20,8 +27,10 @@ export default function ChronologiePage() {
   }
 
   return (
-    <main className="mx-auto max-w-5xl px-6 pb-24 pt-12">
-      {/* Header */}
+    <>
+      <ReadingProgress />
+      <main className="mx-auto max-w-5xl px-6 pb-24 pt-12">
+        {/* Header */}
       <div className="animate-fade-up mb-10 overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-[var(--gold-faint)] p-8 md:p-10">
         <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]">
           Ligne du temps
@@ -62,6 +71,7 @@ export default function ChronologiePage() {
 
       {/* Body */}
       <Markdown content={chronology.body} />
-    </main>
+      </main>
+    </>
   );
 }

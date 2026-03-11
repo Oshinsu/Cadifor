@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { SiteShell } from "@/components/site-shell";
 import { SiteFooter } from "@/components/footer";
+import { CardGlowTracker } from "@/components/card-glow";
+import { ScrollRevealProvider } from "@/components/scroll-reveal";
+import { BackToTop } from "@/components/back-to-top";
 import "./globals.css";
 
 const display = localFont({
@@ -55,9 +58,20 @@ export default function RootLayout({
               ].join(", "),
             }}
           />
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-[var(--gold)] focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-[var(--deep)]"
+          >
+            Aller au contenu
+          </a>
           <SiteShell />
-          {children}
+          <div id="main-content">
+            {children}
+          </div>
           <SiteFooter />
+          <CardGlowTracker />
+          <ScrollRevealProvider />
+          <BackToTop />
         </div>
       </body>
     </html>

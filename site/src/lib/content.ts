@@ -322,6 +322,89 @@ export function getTotalEntryCount() {
     .reduce((total, count) => total + count, 0);
 }
 
+/**
+ * Find entries from other collections that are mentioned in the given entry's body.
+ * Returns up to `limit` related entries sorted by mention frequency.
+ */
+/**
+ * Find entries that are most frequently mentioned across the entire corpus.
+ * Useful for "most referenced" sections on homepage.
+ */
+export function getMostReferencedEntries(limit = 6): LoreEntry[] {
+  const allEntries: LoreEntry[] = [];
+  for (const collection of encyclopaediaCollections) {
+    allEntries.push(...getCollection(collection));
+  }
+
+  const scores = new Map<string, { entry: LoreEntry; score: number }>();
+
+  for (const source of allEntries) {
+    const bodyLower = source.body.toLowerCase();
+    for (const target of allEntries) {
+      if (target.slug === source.slug && target.collection === source.collection) continue;
+      if (target.title.length < 4) continue;
+
+      const titleLower = target.title.toLowerCase();
+      if (bodyLower.includes(titleLower)) {
+        const key = `${target.collection}/${target.slug}`;
+        const existing = scores.get(key);
+        if (existing) {
+          existing.score++;
+        } else {
+          scores.set(key, { entry: target, score: 1 });
+        }
+      }
+    }
+  }
+
+  return [...scores.values()]
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map((c) => c.entry);
+}
+
+export function getRelatedEntries(entry: LoreEntry, limit = 6): LoreEntry[] {
+  const bodyLower = entry.body.toLowerCase();
+  const candidates: { entry: LoreEntry; score: number }[] = [];
+
+  for (const collection of encyclopaediaCollections) {
+    for (const candidate of getCollection(collection)) {
+      // Skip self
+      if (candidate.slug === entry.slug && candidate.collection === entry.collection) continue;
+
+      // Skip very short titles that cause false positives
+      if (candidate.title.length < 4) continue;
+
+      const titleLower = candidate.title.toLowerCase();
+      // Count mentions of this entry's title in the body
+      let count = 0;
+      let pos = 0;
+      while ((pos = bodyLower.indexOf(titleLower, pos)) !== -1) {
+        count++;
+        pos += titleLower.length;
+      }
+
+      if (count > 0) {
+        candidates.push({ entry: candidate, score: count });
+      }
+    }
+  }
+
+  // Sort by frequency, deduplicate by slug
+  candidates.sort((a, b) => b.score - a.score);
+  const seen = new Set<string>();
+  const result: LoreEntry[] = [];
+  for (const c of candidates) {
+    const key = `${c.entry.collection}/${c.entry.slug}`;
+    if (!seen.has(key)) {
+      seen.add(key);
+      result.push(c.entry);
+      if (result.length >= limit) break;
+    }
+  }
+  return result;
+}
+
 export function getCollectionIcon(collection: CollectionKey): string {
   const icons: Record<CollectionKey, string> = {
     personnages: "crown",

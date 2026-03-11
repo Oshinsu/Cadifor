@@ -106,3 +106,40 @@ Souvent sous-estimée car "moins puissante" que Rose. Mais Arwyn est **fondament
 ---
 
 > *"Si les Cadifor sont une fusée, chaque génération est un étage. Rose est la mise en orbite."*
+
+---
+
+## Echelle de Duel Pur /100 (Combat Only)
+
+Cette echelle mesure **uniquement la capacite en duel 1v1**, sans armee, sans prestige politique, sans poids historique.
+
+**Regles de l'auteur :**
+- Un rang legendaire (10) = obligatoirement au-dessus de 90
+- Un rang 9 = entre 85 et 90
+- Rose depasse le plafond de 100 (rang SS, pas simplement rang S)
+
+| Rang | Cadifor | Note /100 | Classe / Rang | Base canon |
+|------|---------|-----------|---------------|------------|
+| **1** | **Rose Cadifor** | **104** (SS) | Mage X + Necromancienne X | Martial 18, Erudition 36, double transcendance magique. Duel detaille contre Arwyn (950) avec arsenal complet : Blink, Mage Armor, Frost Nova, Arcane Missiles, Frostbolt, Counterspell, touches necromantiques. |
+| **2** | **Marjory la Sage** | **97** | Mage legendaire rang 10 | Mage souverain parfait, sommet magique pur avant Rose. Magie imperiale geometrique, propre. |
+| **2** | **Aberthol Cadifor** | **97** | Guerrier legendaire rang 10 | Absolu guerrier pur. Vainqueur du chef gnoll a Chenefrange, marechal de Lordaeron. Violence fondatrice a l'etat brut. |
+| **4** | **Viki Cadifor** | **95** | Guerriere legendaire rang 10 | Guerriere espiegle, bonne vivante, adoree du rang. Abat seule des loups albinos a 16 ans. |
+| **5** | **Benjamin le Cruel** | **94** | Mage X | Mage d'ecrasement offensif, moins subtil que Marjory. Expansion Sud. |
+| **6** | **Andrea III la Victorieuse** | **93** | Mage rang 7 puis legendaire a 58 ans | Montee progressive, immense a maturite. Plus empire-guerre que duel chirurgical. |
+| **7** | **Banni Cadifor** | **88** | Mage IX | Fondateur de la dynastie des archimages. Rang 9 = fourchette 85-90. |
+| **8** | **June Cadifor** | **84** | Paladin rang 8 | Tres haute combattante sacree. Discipline, protection, pression morale. |
+| **9** | **Gwen Cadifor** | **82** | Guerriere rang 8 | Haute combattante, moins documentee que June. |
+| **10** | **Andrea I l'Erudite** | **80** | Grand Chasseur rang 7 | Combattante technique, traque, terrain, precision. |
+| **11** | **Andrea II la Juste** | **78** | Guerriere rang 5, CP 33 | Martial 16, CP 33 (seule valeur CP chiffree retrouvee hors Rose). Excellente, pas mythique. |
+| **12** | **Arwyn Cadifor** | **76** | Grande pretresse rang 7 | Martial 9 seulement. Survie sacree, dissipation, resilience. Pas tueuse. |
+| **13** | **Andrea la Rougissante** | **72** | Guerriere experte rang 6 | Genie politique, mais en duel pur elle reste dans la bonne zone, pas la zone monstrueuse. |
+
+### Note sur la correction Viki
+
+**Correction de l'auteur (canon superieur)** : Viki n'est PAS une statue de guerre austere. Elle est **espiegle, bonne vivante, proche des soldats, capable de boire des bieres avec eux** sans perdre un gramme de majeste.
+
+Le bon contraste :
+- a la cour : sobre, patiente, disciplinee, presque minerale
+- en campagne : descend de cheval, tape dans le dos des cavaliers, boit une biere, rigole trop fort, dort presque comme eux
+
+> *"Aberthol = la violence fondatrice a l'etat pur. Viki = la guerriere legendaire espiegle, bonne vivante, adoree du rang."*

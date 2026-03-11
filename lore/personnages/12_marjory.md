@@ -237,9 +237,75 @@ Marjory tient un carnet secret — feuillets d'ecriture tres sure, chaque phrase
 
 ---
 
+## LA QUINTESSENCE IMPERIALE
+
+Marjory est probablement la plus purement imperiale de toutes les souveraines Cadifor. Si la question est "qui incarne le mieux l'Empire Cadifor a son apogee civilisee ?", la reponse est Marjory — pas Rose, pas Andrea III.
+
+### Le style LVMH
+
+Marjory donne l'impression d'avoir ete **vieille des la naissance**. Pas vieille au sens fane. Vieille au sens :
+- deja formee
+- deja responsable
+- deja severe
+- deja hierarchique
+- deja incapable d'etre mediocre
+
+Avec 34 d'erudition, elle n'est pas "une grande femme savante". Elle est deja a un niveau ou elle concurrence des etres ayant des siecles, voire des millenaires d'avance de vie, d'experience ou de culture. Elle a grandi comme **joyau de l'Empire**, comme objet de projection, presque comme un instrument de perfection.
+
+Son luxe n'est pas plaisir : c'est **discipline visible**. Le beau comme preuve d'ordre. La severite comme esthetique de la perfection.
+
+### Le the comme rituel de maitrise
+
+Marjory adore le the. Mais chez elle, le the n'est pas une douceur, c'est un **rituel de maitrise** :
+- Temperature exacte
+- Porcelaine exacte
+- Silence exact
+- Heure exacte
+- Geste exact
+
+Meme sa detente donne l'impression d'un protocole.
+
+### Portrait physique et aura
+
+- Grande, tres droite
+- Silhouette mince mais dense, pas fragile
+- Visage ferme, tres controle
+- Beaute froide, presque intemporelle
+- Quelque chose d'"adulte depuis toujours"
+- Traits nets, pommettes hautes, bouche fine
+- Regard calme mais dur
+- Vetements impeccables, tissus somptueux mais jamais criards
+- Couleurs imperiales sobres, riches, profondes
+
+Son aura : **responsabilite souveraine deja accomplie**. Quand elle entre dans une piece, on ne pense pas "voila une reine" ni "voila une archimage". On pense : "voila l'Empire quand il est bien tenu."
+
+Sa demarche meme rend l'anonymat impossible. La ou Rose pourrait passer inapercue dans un bar avec un capuchon, Marjory ne le pourrait jamais.
+
+### Difference fondamentale avec Rose
+
+- **Marjory impose.** Rose contient.
+- L'une occupe l'espace. L'autre peut **choisir** de ne pas l'occuper — et c'est justement ca qui la rend plus terrifiante encore.
+- Marjory est ecrasante comme une salle du trone.
+- Rose est ecrasante comme une intelligence qui pourrait etre partout et n'a besoin de rien pour se faire obeir une fois qu'elle parle.
+
+Rose est la "copie parfaite" de sa mere, mais une copie qui a **digere Marjory au point de pouvoir devenir autre chose**. Rose est plus humaine — drole, attachante, elle rigole, elle a des amis, elle a des defauts. Parce que la rigueur n'est plus chez elle un effort visible : elle est devenue organique.
+
+Marjory est la **perfection tenue**. Rose est la **perfection integree**.
+
+### Classement comparatif
+
+En **"Empire pur"** : 1. Marjory / 2. Rose / 3. Andrea III / 4. Rougissante
+
+En **"matrice politique"** : 1. Rougissante / 2. Marjory / 3. Andrea III / 4. Rose
+
+En **"sommet absolu"** : 1. Rose / 2. Marjory / 3. Andrea III / 4. Rougissante
+
+---
+
 ## POSITIONNEMENT
 
 - Score 97/100 : egal a Aberthol, le fondateur. Le debut et la fin du cycle se rejoignent.
 - Si Rose n'existait pas, Marjory serait le **sommet absolu** de la dynastie.
 - Son merite historique est *superieur* a celui de Rose : elle a du **creer la forme sans l'avoir recue**.
 - *"Je suis plus meritante historiquement. J'ai du devenir Marjory sans avoir eu Marjory pour mere."* — Carnet secret
+- Elle est la **quintessence imperiale** : le point ou puissance, magie, hierarchie, luxe, rigueur, delegation, culture et transmission tiennent ensemble sans encore deborder dans le sublime monstrueux

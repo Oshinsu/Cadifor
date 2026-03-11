@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { Search } from "lucide-react";
+import { ChevronRight, Command, Search } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Encyclopedie",
+  description: "Toutes les entrees de l'encyclopedie du Haut Royaume de Cadifor — personnages, factions, nations, villes, territoires et plus.",
+};
 import { EntryCard } from "@/components/cards";
+import { getCollectionTheme } from "@/lib/colors";
 import {
   encyclopaediaCollections,
   getCollection,
@@ -32,6 +39,9 @@ export default function EncyclopediePage() {
         >
           <Search className="size-4" />
           Rechercher
+          <kbd className="hidden items-center gap-0.5 rounded border border-[var(--gold)]/15 bg-[var(--gold)]/[0.06] px-1.5 py-0.5 text-[10px] text-[var(--gold)]/60 lg:inline-flex">
+            <Command className="size-2.5" />K
+          </kbd>
         </Link>
       </div>
 
@@ -40,26 +50,32 @@ export default function EncyclopediePage() {
           const entries = getCollection(collection);
           if (entries.length === 0) return null;
 
+          const theme = getCollectionTheme(collection);
           return (
-            <section key={collection}>
-              <div className="mb-6 flex items-end justify-between gap-4">
-                <div>
-                  <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
-                    {collection}
-                  </p>
-                  <h2 className="font-serif text-4xl text-[var(--ivory)]">
-                    {getCollectionLabel(collection)}
-                  </h2>
-                  <p className="mt-2 max-w-2xl text-sm leading-7 text-stone-500">
-                    {getCollectionDescription(collection)}
-                  </p>
+            <section key={collection} data-reveal>
+              <div className={`relative mb-6 overflow-hidden rounded-2xl border ${theme.accentBorder} bg-white/[0.02] p-6`}>
+                <div className={`pointer-events-none absolute inset-0 bg-gradient-to-r ${theme.gradient}`} />
+                <div className="relative flex items-end justify-between gap-4">
+                  <div>
+                    <p className={`text-[10px] uppercase tracking-[0.25em] ${theme.iconColor}/60`}>
+                      {collection}
+                    </p>
+                    <h2 className="font-serif text-4xl text-[var(--ivory)]">
+                      {getCollectionLabel(collection)}
+                    </h2>
+                    <p className="mt-2 max-w-2xl text-sm leading-7 text-stone-500">
+                      {getCollectionDescription(collection)}
+                    </p>
+                  </div>
+                  <Link
+                    href={`/encyclopedie/${collection}`}
+                    className={`inline-flex shrink-0 items-center gap-1.5 rounded-full border ${theme.accentBorder} bg-white/[0.03] px-4 py-1.5 text-[10px] uppercase tracking-[0.2em] ${theme.iconColor} transition-all duration-300 hover:bg-white/[0.06]`}
+                  >
+                    {entries.length} entrees
+                    <ChevronRight className="size-3" />
+                  </Link>
                 </div>
-                <span className="shrink-0 rounded-full border border-[var(--gold)]/15 bg-[var(--gold)]/[0.06] px-4 py-1.5 text-[10px] uppercase tracking-[0.2em] text-[var(--gold)]">
-                  {entries.length} entrees
-                </span>
               </div>
-
-              <div className="divider-fade mb-6" />
 
               <div className="stagger grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 {entries.map((entry) => (

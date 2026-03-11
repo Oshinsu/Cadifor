@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowRight,
   BookOpenText,
@@ -8,12 +9,14 @@ import {
   ScrollText,
 } from "lucide-react";
 import { EntryCard, StatCard } from "@/components/cards";
+import { resolveEntryImage } from "@/lib/images";
 import {
   encyclopaediaCollections,
   getCollection,
   getCollectionDescription,
   getCollectionLabel,
   getFeaturedScene,
+  getMostReferencedEntries,
   getSceneCandidates,
   getTopCharacters,
   getTotalEntryCount,
@@ -42,11 +45,23 @@ export default function HomePage() {
   const villeCount = getCollection("villes").length;
   const sceneCount = getCollection("scenes").length;
   const characterCount = getCollection("personnages").length;
+  const mostReferenced = getMostReferencedEntries(6);
 
   return (
     <main className="mx-auto max-w-7xl px-6 pb-24 pt-10">
       {/* ─── Hero ─────────────────────────────────────────────── */}
       <section className="grain relative overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-black/20 px-8 py-24 md:px-14">
+        {/* Hero background image */}
+        <Image
+          src="/assets/scenes/hero_homepage.png"
+          alt=""
+          fill
+          className="pointer-events-none object-cover opacity-20"
+          sizes="100vw"
+          priority
+        />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[rgb(12,10,9)] via-[rgb(12,10,9)]/80 to-transparent" />
+
         {/* Corner accents */}
         <div className="pointer-events-none absolute left-6 top-6 size-16 border-l border-t border-[var(--gold)]/20" />
         <div className="pointer-events-none absolute bottom-6 right-6 size-16 border-b border-r border-[var(--gold)]/20" />
@@ -57,7 +72,13 @@ export default function HomePage() {
 
         <div className="relative max-w-4xl">
           <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-[var(--gold)]/25 bg-[var(--gold)]/[0.08] px-4 py-2 text-xs uppercase tracking-[0.25em] text-[var(--gold-light)]">
-            <div className="flex size-6 items-center justify-center rounded border border-[var(--gold)]/30 bg-[var(--gold)]/[0.1] font-serif text-[10px] font-bold text-[var(--gold)]">C</div>
+            <Image
+              src="/assets/heraldry/heraldry_cadifor_sigil.png"
+              alt="Blason Cadifor"
+              width={24}
+              height={24}
+              className="opacity-80"
+            />
             Maison Cadifor — 583 a.p.
           </div>
 
@@ -102,7 +123,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Dynasty timeline strip ──────────────────────────── */}
-      <section className="mt-20">
+      <section className="mt-20" data-reveal>
         <div className="mb-8">
           <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
             Lignee
@@ -112,27 +133,44 @@ export default function HomePage() {
 
         <div className="overflow-x-auto pb-4">
           <div className="flex gap-3" style={{ minWidth: "max-content" }}>
-            {DYNASTY_TIMELINE.map((ruler, i) => (
-              <Link
-                key={ruler.slug}
-                href={`/encyclopedie/personnages/${ruler.slug}`}
-                className="card-imperial group relative flex w-36 shrink-0 flex-col rounded-2xl border border-white/[0.06] bg-white/[0.025] p-4"
-              >
-                <div className="absolute -top-px left-1/2 h-[2px] w-8 -translate-x-1/2 rounded-full bg-[var(--gold)]/30" />
-                <span className="mb-1 text-[10px] uppercase tracking-[0.2em] text-stone-600">
-                  {i + 1}e
-                </span>
-                <span className="font-serif text-lg text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
-                  {ruler.name}
-                </span>
-                <span className="text-[11px] italic text-stone-500">
-                  {ruler.epithet}
-                </span>
-                <span className="mt-auto pt-2 text-[10px] text-stone-600">
-                  {ruler.years}
-                </span>
-              </Link>
-            ))}
+            {DYNASTY_TIMELINE.map((ruler, i) => {
+              const portrait = resolveEntryImage(ruler.slug, "personnages");
+              return (
+                <Link
+                  key={ruler.slug}
+                  href={`/encyclopedie/personnages/${ruler.slug}`}
+                  className="card-imperial group relative flex w-36 shrink-0 flex-col overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.025]"
+                >
+                  <div className="absolute -top-px left-1/2 h-[2px] w-8 -translate-x-1/2 rounded-full bg-[var(--gold)]/30" />
+                  {portrait && (
+                    <div className="relative h-28 w-full overflow-hidden">
+                      <Image
+                        src={`/assets/${portrait}`}
+                        alt={ruler.name}
+                        fill
+                        className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                        sizes="144px"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[rgb(12,10,9)] via-transparent to-transparent" />
+                    </div>
+                  )}
+                  <div className="flex flex-1 flex-col p-4">
+                    <span className="mb-1 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+                      {i + 1}e
+                    </span>
+                    <span className="font-serif text-lg text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+                      {ruler.name}
+                    </span>
+                    <span className="text-[11px] italic text-stone-500">
+                      {ruler.epithet}
+                    </span>
+                    <span className="mt-auto pt-2 text-[10px] text-stone-600">
+                      {ruler.years}
+                    </span>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -140,31 +178,48 @@ export default function HomePage() {
       {/* ─── Featured scene ───────────────────────────────────── */}
       {featuredScene && (
         <section className="mt-20">
-          <Link
-            href={`/scenes/${featuredScene.slug}`}
-            className="card-imperial group block overflow-hidden rounded-[2rem] border border-white/[0.06] bg-[var(--gold)]/[0.03]"
-          >
-            <div className="p-10 md:p-14">
-              <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.25em] text-[var(--gold)]">
-                Scene d&apos;entree
-              </p>
-              <h2 className="font-serif text-4xl text-[var(--ivory)] transition-colors duration-300 group-hover:text-[var(--gold-light)] md:text-5xl">
-                {featuredScene.title}
-              </h2>
-              <p className="mt-5 max-w-3xl text-base leading-8 text-stone-400">
-                {featuredScene.excerpt}
-              </p>
-              <span className="mt-8 inline-flex items-center gap-2 text-sm uppercase tracking-[0.18em] text-[var(--gold)]/80 transition-colors duration-300 group-hover:text-[var(--gold)]">
-                Lire la scene
-                <ArrowRight className="size-4" />
-              </span>
-            </div>
-          </Link>
+          {(() => {
+            const sceneImage = resolveEntryImage(featuredScene.slug, "scenes");
+            return (
+              <Link
+                href={`/scenes/${featuredScene.slug}`}
+                className="card-imperial group relative block overflow-hidden rounded-[2rem] border border-white/[0.06] bg-[var(--gold)]/[0.03]"
+              >
+                {sceneImage && (
+                  <>
+                    <Image
+                      src={`/assets/${sceneImage}`}
+                      alt=""
+                      fill
+                      className="pointer-events-none object-cover opacity-25 transition-transform duration-700 group-hover:scale-105"
+                      sizes="(max-width: 1280px) 100vw, 1280px"
+                    />
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[rgb(12,10,9)] via-[rgb(12,10,9)]/60 to-transparent" />
+                  </>
+                )}
+                <div className="relative p-10 md:p-14">
+                  <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.25em] text-[var(--gold)]">
+                    Scene d&apos;entree
+                  </p>
+                  <h2 className="font-serif text-4xl text-[var(--ivory)] transition-colors duration-300 group-hover:text-[var(--gold-light)] md:text-5xl">
+                    {featuredScene.title}
+                  </h2>
+                  <p className="mt-5 max-w-3xl text-base leading-8 text-stone-400">
+                    {featuredScene.excerpt}
+                  </p>
+                  <span className="mt-8 inline-flex items-center gap-2 text-sm uppercase tracking-[0.18em] text-[var(--gold)]/80 transition-colors duration-300 group-hover:text-[var(--gold)]">
+                    Lire la scene
+                    <ArrowRight className="size-4" />
+                  </span>
+                </div>
+              </Link>
+            );
+          })()}
         </section>
       )}
 
       {/* ─── Top characters ──────────────────────────────────── */}
-      <section className="mt-20">
+      <section className="mt-20" data-reveal>
         <div className="mb-8 flex items-end justify-between gap-6">
           <div>
             <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
@@ -192,7 +247,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Scenes ──────────────────────────────────────────── */}
-      <section className="mt-20">
+      <section className="mt-20" data-reveal>
         <div className="mb-8 flex items-end justify-between gap-6">
           <div>
             <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
@@ -215,8 +270,38 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─── Most referenced entries ──────────────────────────── */}
+      {mostReferenced.length > 0 && (
+        <section className="mt-20" data-reveal>
+          <div className="mb-8 flex items-end justify-between gap-6">
+            <div>
+              <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
+                Nœuds du corpus
+              </p>
+              <h2 className="font-serif text-4xl text-[var(--ivory)]">Les plus cites</h2>
+            </div>
+            <Link
+              href="/recherche"
+              className="text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+            >
+              Rechercher
+            </Link>
+          </div>
+
+          <div className="stagger grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+            {mostReferenced.map((entry) => (
+              <EntryCard
+                key={`${entry.collection}/${entry.slug}`}
+                entry={entry}
+                href={entry.collection === "scenes" ? `/scenes/${entry.slug}` : `/encyclopedie/${entry.collection}/${entry.slug}`}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* ─── Collections overview ────────────────────────────── */}
-      <section className="mt-20">
+      <section className="mt-20" data-reveal>
         <div className="mb-8">
           <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
             Graphe du corpus
@@ -232,7 +317,7 @@ export default function HomePage() {
             return (
               <Link
                 key={collection}
-                href="/encyclopedie"
+                href={`/encyclopedie/${collection}`}
                 className="card-imperial group relative overflow-hidden rounded-[1.5rem] border border-white/[0.06] bg-white/[0.02] p-7"
               >
                 <div className="relative">

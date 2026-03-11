@@ -14,8 +14,9 @@
 | **Naissance** | 590 |
 | **Mort** | 661 |
 | **Age au deces** | 71 ans |
-| **Conjoint** | Aucun — jamais mariee |
-| **Enfants** | Aucun |
+| **Conjoint** | Non verrouille — le mythe dit "jamais mariee" |
+| **Enfants** | **Vara** (fille, confirmee par screenshot d'arbre dynastique) |
+| **Petits-enfants** | Lianne, Viki (homonyme), Mitchel (via Vara) |
 | **Pere** | Aberthol Cadifor |
 | **Mere** | Andrea Gahron, Duchesse de Darrow |
 | **Soeurs** | Gwen (~582), June (~584), Andrea la Rougissante (595, +5 ans) |
@@ -117,12 +118,19 @@ Sa propre intronisation fut un melange de liesse contenue et de soulagement coll
 - Ce geste formalise une intuition deja familiale : la qualite dynastique vaut plus que la simple mecanique de naissance
 - Il vient aussi de l'experience personnelle de Viki : elle sait ce qu'il en coute de tenir une architecture de titres trop fine pour etre laissee a la simple inertie genealogique
 
-### Pourquoi Viki ne s'est jamais mariee
-Aberthol refusait de marier Viki car ce n'est pas une genie. Il jugeait qu'elle etait "incapable de transmettre le flambeau du genie". En revanche, il accepta que Gwen et June se marient car leurs enfants n'entreraient pas dans la succession Cadifor — leurs lignees iraient ailleurs. La durete d'Aberthol sur la qualite de son sang explique pourquoi Viki resta celibataire et sans enfant.
+### Pourquoi Viki ne s'est jamais mariee (mythe vs archive)
+
+**Version memorielle :** Aberthol refusait de marier Viki car ce n'est pas une genie. Il jugeait qu'elle etait "incapable de transmettre le flambeau du genie". En revanche, il accepta que Gwen et June se marient car leurs enfants n'entreraient pas dans la succession Cadifor — leurs lignees iraient ailleurs.
+
+**Correction par screenshots (canon superieur) :** Les arbres dynastiques CK2 montrent clairement sous Viki une fille nommee **Vara**, et sous Vara trois enfants : **Lianne**, **Viki** (homonyme), **Mitchel**. Viki a donc bel et bien une descendance.
+
+La legende de Viki a probablement ecrase sa maternite dans la memoire posterieure. Le mythe a retenu la guerriere, la marechale, la force, l'heritiere virile d'Aberthol — mais a oublie la mere. C'est exactement comme dans les vraies histoires dynastiques : la memoire officielle simplifie.
+
+> *On croyait Viki presque sterile de l'Histoire. Les screenshots montrent qu'elle a une descendance, donc que meme son mythe a ete simplifie par la memoire.*
 
 ### Mort (661)
 - 661 : Mort apres **29 ans** de regne ducal, **51 ans** de regne sur New Avalon
-- Jamais mariee, pas d'enfant
+- Le mythe dit "jamais mariee, pas d'enfant" — les screenshots montrent une descendance reelle (Vara, puis petits-enfants)
 - Elle mourut en pleine campagne, lors d'une chevauchee vers l'Est, foudroyee par une fievre tombee d'une nuit glacee. On la retrouva dans sa tente, seule, le regard tourne vers le ciel noir, comme si elle avait apercu quelque chose qu'aucun vivant ne peut voir.
 - Elle avait 71 ans, l'age exact de la duchesse-mere qu'elle avait tant attendue pour regner.
 
@@ -170,10 +178,26 @@ Sur une dalle de pierre a l'entree du donjon de Nouvelle-Avalon, on peut encore 
 
 ---
 
+## VOIX INTERIEURE — Telle que Viki l'aurait dite
+
+Je suis nee ainee, et cela veut dire qu'on m'a prete un destin avant meme de me connaitre. Je n'etais pas seulement une fille bien nee dans la ligne de base ; j'etais la premiere reponse politique a une question que le monde posait deja a mon pere : que vaut une maison quand le guerrier qui l'a fondee n'engendre pas de fils ? Le monde pensait peut-etre y voir un manque. Il a tres vite compris qu'il y voyait autre chose : moi.
+
+Je n'ai jamais souffert d'etre nee fille. J'etais le fils qu'il n'avait jamais eu. Je ne le formule pas avec honte. C'etait visible pour tout le monde. J'aimais monter, j'aimais le bruit des hommes autour d'un feu, j'aimais rire plus fort qu'on ne l'attend d'une fille de maison, j'aimais la gene que cela produisait chez les trop polis. Je n'ai jamais cru qu'une femme devait se rapetisser pour garder son mystere. Mon mystere, s'il y en eut un, vint au contraire de cette franchise : je n'avais pas honte d'occuper l'espace.
+
+Mon pere et moi, a nous deux, etions deja une aberration historique pour l'espace humain du Nord. Deux guerriers legendaires a la meme table.
+
+Je suis restee celibataire. Sans enfant declare. Ce n'etait pas un drame, ni une lacune. C'etait presque une consequence logique. J'ai ressemble trop fort a mon pere pour devenir matrice d'une autre vie. J'etais faite pour tenir, pas pour transmettre par le ventre. La maison, je l'ai prolongee autrement : en preparant le passage a mieux que moi dans l'ordre du futur. Avoir compris que le vrai pouvoir n'est pas de garder le sommet, mais de savoir quand l'on doit s'effacer pour que la maison continue de monter.
+
+J'aimais la biere plus que le vin, les viandes grillees, les plats qu'on peut manger debout, les chants de troupe qui finissent mal, les chevaux nerveux, le cuir bien entretenu, le vent avant l'orage. Je riais facilement, surtout avec les soldats et avec Gwen. Avec June, je devenais plus douce. Avec Andrea, plus attentive. Elle etait celle qui me rendait pensable a moi-meme.
+
+Si l'on me demande ce que j'ai ete, je reponds simplement : l'ainee. Et cela veut tout dire. Pas parce que j'aurais ete la plus grande en tout. Mais parce qu'il fallait que quelqu'un porte d'abord le nom assez haut pour que les autres puissent ensuite le transformer en royaume, en alliance, en justice, en code, puis en empire. Je n'ai pas bati la totalite de la maison. J'ai bati son aplomb. Et cela suffit a ma paix.
+
+---
+
 ## POSITIONNEMENT DANS LA DYNASTIE
 
 - **Role** : La consolidatrice. Elle stabilise ce que son pere a cree et prepare le terrain pour la mutation intellectuelle d'Andrea
-- **Ce qui la rend unique** : Elle est la seule souveraine a ne jamais se marier et a ne laisser aucun descendant direct. Son heritage passe par le *systeme*, pas par le sang.
-- **Paradoxe** : La plus puissante guerriere de la lignee (95/100) est aussi celle qui a gouverne le plus longtemps sans jamais fonder de branche.
+- **Ce qui la rend unique** : La memoire officielle l'a longtemps presentee comme sans descendance. Les screenshots revelent qu'elle a une fille (Vara) et des petits-enfants (Lianne, Viki, Mitchel). Son heritage passe donc aussi par le sang, mais la legende a prefere retenir la guerriere plutot que la mere.
+- **Paradoxe** : La plus puissante guerriere de la lignee (95/100) est aussi celle dont la maternite a ete la plus effacee par le mythe.
 - **Lecture juste** : Viki n'est pas l'ambition impatiente ; elle est la force tenue en laisse
 - **Grandeur morale** : elle repond au desordre du couple fondateur par la tenue, non par la revendication

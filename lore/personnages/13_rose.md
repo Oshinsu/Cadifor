@@ -108,6 +108,7 @@ L'événement « Apprentissage terminé » montre explicitement :
 Le mauvais choix serait de la coder en "reine noire", robe funèbre, aura morbide. Ce serait vulgaire par rapport à son niveau. Le bon choix, c'est l'inverse : sa nécromancie est une **profondeur invisible**. Elle ne l'affiche pas. Elle l'a intégrée. Elle l'a domestiquée. Elle l'a purifiée par la méthode.
 
 - Elle convertit seule son art de mage en nécromancie légendaire en **2 ans d'étude privée**
+- Pendant cette conversion, elle s'interdit d'user de nécromancie pendant **un trimestre entier** pour vérifier qu'elle reste maîtresse d'elle-même — l'épreuve éthique du trimestre
 - Elle le fait **sans perdre son éthique** — fondamental
 - **Rose n'est pas une femme corrompue par la mort.** C'est une femme qui a porté jusque dans le domaine de la mort la rigueur d'une impératrice sage.
 
@@ -212,11 +213,21 @@ La relation fusionnelle : **la seule personne qui voit Rose comme une soeur, pas
 
 > *"Tout le monde te voit comme un sommet... Moi, tu restes la fille qui me tenait la main quand j'avais peur des statues dans les jardins."* — Arwyn
 
+### Le Rappel Nécromantique
+
+A l'apogée de sa maîtrise nécromantique, Rose commet l'unique transgression privée de sa vie : elle rappelle l'ami d'enfance mort contre les Kolkar pour **vingt-quatre heures exactement**. Elle pleure comme une enfant dans ses bras, rit d'une bêtise d'enfance, puis le laisse repartir. C'est elle qui rompt le cercle.
+
+Après cela, elle durcit l'interdiction de l'usage privé de la nécromancie — non par hypocrisie, mais parce qu'elle sait désormais, dans sa chair, que si on y cède deux fois, on ne revient plus du côté des vivants.
+
+> *"Un tombeau entrouvert une seule nuit."*
+
+*(Scène complète dans `lore/meta/scenes/rappel_necromantique.md`)*
+
 ### Le Coût Intime — L'Ami d'Enfance
 
 **La blessure fondatrice de Rose.**
 
-Avant le sommet, il y avait l'adolescence. Rose jeune — plus arrogante, plus sûre d'elle, plus tranchante, convaincue qu'elle pouvait tout comprendre avant les autres. Une perfection qui n'avait encore jamais été brisée.
+Avant le sommet, il y avait l'adolescence. Rose jeune — plus arrogante, plus sûre d'elle, plus tranchante, convaincue qu'elle pouvait tout comprendre avant les autres. Une perfection qui n'avait encore jamais été brisée. Pas vaniteuse vulgaire, pas méchante gratuitement — mais persuadée d'être faite pour le sommet, et pas encore assez blessée pour mesurer le prix humain du sommet. Elle imitait la dureté de sa mère **avant d'en comprendre la nécessité**.
 
 **L'ami d'enfance.** Un garçon de son âge, camarade d'apprentissage, compagnon de campagnes d'adolescence. Celui qui :
 - Ne se laissait pas écraser par elle
@@ -407,6 +418,10 @@ Rose tient un carnet secret — plus vaste, plus fragmentaire, plus speculatif, 
 ---
 
 ## SCENES MAJEURES
+
+### L'Enfance Impériale
+Trois scènes fondatrices de la relation Marjory-Rose : la leçon de la bibliothèque (5 ans), le premier conseil de guerre (8 ans), et l'audition d'Heleris Sunspire (950). Chacune révèle la différence entre Rose (vitesse, intelligence brute) et Marjory (tenue du monde, patience).
+*(Scènes complètes dans `lore/meta/scenes/enfance_imperiale_rose.md`)*
 
 ### Le Duel des Hautes Reprises
 Duel d'entrainement contre Marjory au Palais des Hautes Reprises (concu par Rose a 12 ans). Devant temoins de la haute cour. Resultat : double mort simultanee — lame de Rose au bord de la gorge de Marjory, pointe de Marjory contre le sternum de Rose.

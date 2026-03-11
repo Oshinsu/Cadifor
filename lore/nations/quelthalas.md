@@ -21,9 +21,22 @@
 - Le calcul diplomatique d'`Anasterian` est celui d'un souverain dont l'horizon temporel depasse celui de n'importe quel empereur humain. Il peut se permettre d'attendre, de laisser une generation de `Cadifor` echouer la ou la suivante reussira, ou inversement. Cette patience structurelle donne a `Quel'Thalas` un avantage strategique que la puissance militaire seule ne mesure pas.
 - Le royaume doit etre lu comme un voisin durable et calculateur, non comme une marge folklorique. Son alliance tendue avec l'Empire est un equilibre maintenu par les deux parties, ou chacun sait que la rupture couterait plus cher que la coexistence.
 
+## Hostilite envers les Cadifor
+
+`Quel'Thalas` deteste les `Cadifor` au vu de l'historique d'`Aberthol`. La relation est structurellement menacante, mais moderee par un phenomene inverse : beaucoup d'elfes fuient `Quel'Thalas` vers `Nouvelle-Avalon`, attires par la richesse cadiforienne et par une societe integratrice.
+
+Des familles elfiques anti-Horde ou fideles a Azeroth emigrent vers la `Sylve de l'Est`, ce qui confirme la reputation d'espace riche, stable et integrateur de la zone cadiforienne. Ce drainage de talent elfique est une source de tension supplementaire : `Quel'Thalas` perd une partie de ses elites au profit d'un voisin qu'il n'aime pas.
+
+La relation s'inscrit dans une topographie de guerre froide ou `Nouvelle-Avalon` se trouve au centre d'un triangle hostile :
+
+- a l'ouest : `Lordaeron`, humilie et furieux d'avoir perdu tout l'est d'Azeroth nord
+- au nord : `Quel'Thalas`, menaçant mais qui perd ses elites
+- au sud : `Stormgarde`, militarisee, loyaliste
+
 ## Sources
 
 - `lore/factions/nations_externes.md`
 - `lore/sections/geopolitique.md`
 - `lore/sections/economie.md`
 - `lore/meta/angles_morts_et_cites_economie.md`
+- `lore/meta/lore_cadifor_3_extracted.txt` (lignes 8400-8810)

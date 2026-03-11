@@ -432,6 +432,98 @@ Mais la doctrine, elle, reste stable.
 
 ---
 
+## La Bataille des Trois Cendres — Purge de Lordaeron
+
+> Source : `lore_cadifor_3_extracted.txt`, lignes 7076-7678. Noyau canon PDF + reconstruction militaire. Corrections de l'auteur : la purge est l'exploitation d'une **revolution sargerite interne** comme casus belli d'annexion.
+
+### Contexte canon
+
+Andrea III profite d'une revolution sargerite interne a Lordaeron pour declencher une guerre de purification qui est aussi, deliberement, une guerre d'annexion. L'ancienne haute noblesse lordaeronienne est dechue, les reliques rapatriees a Stormwind, le royaume reconfigure au profit du centre imperial.
+
+### Lieu
+
+Grande plaine au sud-ouest de Lordaeron-Capitale, entre les voies de Tirisfal et les routes cerealieres d'Andorhal. Nom : les **Trois Cendres** — pour la cendre des autels sargerites brules, la cendre des moissons incendiees par les fanatiques, et la cendre politique de l'ancien Lordaeron.
+
+### Force imperiale engagee
+
+| Element | Effectif |
+|---------|----------|
+| Total mobilise pour la campagne | 146 000 |
+| Combattants sur le champ principal | 96 000 |
+| Infanterie lourde imperiale | 22 000 |
+| Infanterie moyenne de ligne | 18 000 |
+| Infanterie legere / tirailleurs | 11 000 |
+| Cavalerie lourde | 12 000 |
+| Cavalerie legere | 9 000 |
+| Paladins, pretres de bataille, chapelains de purification | 6 500 |
+| Mages de guerre et ingenieurs arcaniques | 5 200 |
+| Gryphonniers | 1 100 |
+| Servants d'artillerie et armes de siege | 2 400 |
+| Reserves tactiques immediates | 8 800 |
+
+### L'armee lordaeronienne sargerite
+
+| Element | Effectif |
+|---------|----------|
+| **Total** | **74 000** |
+| Nobles et hommes d'armes lordaeroniens | 20 000 |
+| Fantassins leves | 16 000 |
+| Fanatiques du culte sargerite | 8 000 |
+| Cavaliers noirs | 6 000 |
+| Warlocks / adeptes de cercle | 4 500 |
+| Pretres renegats | 2 000 |
+| Betes invoquees / gardiens demonises | 1 500 |
+| Reserves urbaines et milices de sanctuaire | 16 000 |
+
+Commandement ennemi : **Roi Taelan l'Ancien**, souverain sargerite, siege derriere la ligne pres de l'**Autel des Sept Cendres** (point rituel qui stabilise les invocations). Doctrine ennemie : lignes denses, moindre souci des pertes, foyers rituels pour maintenir les ailes.
+
+### Doctrines tactiques speciales
+
+**La Grille de Stormgarde** — doctrine de formation :
+- l'infanterie n'est jamais en mur continu
+- avance en blocs espaces de 20 a 30 metres
+- chaque bloc lie a un duo de chapelains, 2-4 mages, un officier de signaux, un sous-groupe de sapeurs
+- avantages : difficile a aneantir d'un seul sort, elasticite sous pression magique, corridors pour cavalerie, passage des sorts allies sans tuer sa propre ligne
+
+**Le Marteau a Triple Anneau** — manoeuvre d'encerclement :
+- 1er anneau : fixation par infanterie lourde
+- 2e anneau : encerclement leger + archers + cavalerie mobile
+- 3e anneau : magie, siege, genie, destruction des points rituels
+
+Le but : **desosser le systeme adverse**, pas seulement gagner le front.
+
+### Armes de siege
+
+| Type | Quantite | Role |
+|------|----------|------|
+| Balistes runiques lourdes | 64 | Destruction de murailles et noeuds de protection |
+| Trebuchets a pots de sel sacre | 28 | Bombardement purifiant |
+| Tourne-cieux (anti-aeriens) | 12 | Repoussent demons ailes et montures corrompues |
+| Chars de pavis | 40 | Couverture des sapeurs |
+| Beliers sanctifies | 18 | Cassent les portes rituelles sans corruption |
+
+### Services de renseignement
+
+| Branche | Role |
+|---------|------|
+| **Le Voile Cadiforien** | Contre-espionnage et brouillage |
+| **Les Lanternes de Tirisfal** | Eclaireurs de terrain, lecture de routes, captation des rumeurs |
+| **Le Registre Noir** | Carte des maisons compromises, pretres suspects, lignees a dechoir apres victoire |
+
+### Deroulement en sept phases
+
+1. **Le Voile** — avant l'aube : contre-brouillard du Magisterium, reconnaissance gryphon haute, construction silencieuse de digues, ponts et plateformes de balistes
+2. **Premier Choc** — le Marteau de Stormgarde frappe frontalement, volontairement "ancienne ecole", pour appater l'ennemi. Johnson Trollbane mene. Taelan jette sa cavalerie noire trop tot.
+3. **Ouverture des Cellules** — les blocs lourds s'ecartent, les cellules magiques s'ouvrent. Les warlocks visent une masse qui n'est plus la. Halarion Voss declenche les 36 Cellules de Rupture. Les autels secondaires tombent.
+4. **Les Gryphons** — Maela Griffeciel lance les Ailes de Tirisfal sur l'arriere rituel. Frappe chirurgicale : grenades saintes, fioles de dissipation, pointes d'argent runique. L'armee ennemie perd son rythme spirituel.
+5. **Andrea III entre en jeu** — la Garde de Hurlevent avance avec la Reserve Royale de Haute Sorcellerie. Magie de champ : bris d'ancrages rituels, coupes d'onde dans les liens demoniaques, ecrasement des noyaux fanatiques. Elle attaque ce qui tient l'ennemi ensemble, pas les hommes d'abord.
+6. **Fermeture du Triple Anneau** — l'autel craque, effondrement. Cavalerie legere coupe les routes de fuite, fantassins lourds refoulent, chapelains marquent les groupes irrecuperables, genie demantele les points de feu.
+7. **La Decision** — Andrea III interdit la poursuite aveugle. Encerclement, tri des prisonniers, mise a mort des cadres cultuels irreversibles, saisie des archives, protection des reliques utiles, execution politique.
+
+> *"Aux Trois Cendres, Andrea III ne remporta pas seulement une victoire de campagne ; elle demontra qu'a partir de son regne, l'Empire d'Azeroth n'etait plus une somme de royaumes, mais un organisme capable de juger, d'isoler et de dissoudre les formes politiques devenues incompatibles avec lui."*
+
+---
+
 ## Formules canoniques
 
 > *Le vrai gigantisme imperial n'est pas d'abord dans la ligne de front ; il est dans la capacite a faire tenir tout ce qui permet a la ligne de front d'exister.*

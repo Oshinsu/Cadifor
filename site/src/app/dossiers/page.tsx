@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, BookOpenText, Crown, Globe, Scroll } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Dossiers",
+  description: "Les dossiers thematiques du Haut Royaume de Cadifor — entrees editoriales et parcours guides a travers l'univers.",
+};
 
 const dossiers = [
   {
@@ -9,6 +16,7 @@ const dossiers = [
       "Entree editoriale par la scene-matrice : pouvoir, filiation, gout, doctrine et architecture du monde en une seule table.",
     tag: "Scene",
     icon: Scroll,
+    image: "/assets/scenes/scene_diner_imperial.png",
   },
   {
     title: "La machine cadiforienne",
@@ -17,6 +25,7 @@ const dossiers = [
       "Comment la dynastie a construit un systeme de gouvernance, de talent et de succession qui a tenu quatre siecles.",
     tag: "Dossier",
     icon: Crown,
+    image: "/assets/locations/location_stormwind_throne_room.png",
   },
   {
     title: "Etats du monde",
@@ -25,6 +34,7 @@ const dossiers = [
       "Photographie geopolitique d'Azeroth a l'avenement de Rose : empires, factions, equilibres et menaces.",
     tag: "Geopolitique",
     icon: Globe,
+    image: "/assets/locations/location_stormwind_city.png",
   },
   {
     title: "Le traite roseen",
@@ -33,6 +43,7 @@ const dossiers = [
       "Le traite philosophique en sept livres de Rose : conscience, pouvoir, ethique et condition du souverain absolu.",
     tag: "Philosophie",
     icon: BookOpenText,
+    image: "/assets/locations/location_karazhan_library.png",
   },
   {
     title: "Progression du PDF",
@@ -41,6 +52,7 @@ const dossiers = [
       "Vue systeme du chantier de lecture, des plages verifiees et du travail restant sur les 997 pages fondatrices.",
     tag: "Systeme",
     icon: Scroll,
+    image: "/assets/locations/location_nouvelle_avalon_cathedral.png",
   },
   {
     title: "Notation des scenes",
@@ -49,6 +61,7 @@ const dossiers = [
       "Grille marjoryenne de force dramatique, ordre de reecriture et priorites canoniques.",
     tag: "Canon",
     icon: Scroll,
+    image: "/assets/scenes/scene_grand_bal.png",
   },
 ];
 
@@ -86,23 +99,37 @@ export default function DossiersPage() {
           <Link
             key={dossier.title}
             href={dossier.href}
-            className="card-imperial group overflow-hidden rounded-[2rem] border border-white/[0.06] bg-white/[0.025] p-7"
+            className="card-imperial group overflow-hidden rounded-[2rem] border border-white/[0.06] bg-white/[0.025]"
           >
-            <div className="mb-4 flex items-center gap-3">
-              <dossier.icon className="size-4 text-[var(--gold)]/70" />
-              <span className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
-                {dossier.tag}
-              </span>
-            </div>
-            <h2 className="font-serif text-3xl text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
-              {dossier.title}
-            </h2>
-            <p className="mt-4 text-sm leading-7 text-stone-500">
-              {dossier.description}
-            </p>
-            <div className="mt-5 flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-stone-600 transition-colors duration-300 group-hover:text-[var(--gold)]">
-              Lire
-              <ArrowRight className="size-3" />
+            {dossier.image && (
+              <div className="relative h-36 w-full overflow-hidden">
+                <Image
+                  src={dossier.image}
+                  alt=""
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[rgb(12,10,9)] via-[rgb(12,10,9)]/50 to-transparent" />
+              </div>
+            )}
+            <div className="p-7">
+              <div className="mb-4 flex items-center gap-3">
+                <dossier.icon className="size-4 text-[var(--gold)]/70" />
+                <span className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
+                  {dossier.tag}
+                </span>
+              </div>
+              <h2 className="font-serif text-3xl text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+                {dossier.title}
+              </h2>
+              <p className="mt-4 text-sm leading-7 text-stone-500">
+                {dossier.description}
+              </p>
+              <div className="mt-5 flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-stone-600 transition-colors duration-300 group-hover:text-[var(--gold)]">
+                Lire
+                <ArrowRight className="size-3" />
+              </div>
             </div>
           </Link>
         ))}

@@ -262,6 +262,33 @@ Avec `Andrea III`, elle devient autre chose :
 - une puissance ou sang, couronnes, armee, legitimite et magie commencent enfin a coincider
 - une dynastie qui ne fait plus seulement tenir un Empire, mais qui **parait naturellement faite pour l'incarner**
 
+### Vraie mere des archimages
+
+Le document dit que `Banni` "lance la dynastie des archimages". Mais sur le plan narratif profond, Banni institutionnalise ; Andrea III **inaugure**.
+
+C'est elle, la premiere, qui montre qu'une tres grande souveraine Cadifor peut etre :
+- au sommet politique
+- au sommet dynastique
+- au sommet territorial
+- et entrer deja dans une trajectoire d'archimage
+
+Banni fondera la dynastie des archimages comme ligne reconnue, nommee, revendiquee. Mais Andrea III est la premiere a faire comprendre a tout le monde que la magie de tres haut niveau n'est plus un appendice du pouvoir cadiforien : elle en devient une forme centrale.
+
+- `Banni` = pere de la dynastie des archimages **en droit**
+- `Andrea III` = mere reelle des archimages **en fait**
+
+Et c'est plus fort, parce qu'elle le fait tout en restant reine de chair, de guerre, de succession, pas comme un mage retire dans sa tour.
+
+### Relations avec ses parents
+
+**Avec sa mere Andrea II :**
+Le lien est tres fort, mais jamais relache. Andrea II aime Andrea III avec une intensite presque politique. Elle ne veut pas seulement qu'elle soit brillante ; elle veut qu'elle soit capable de survivre a l'echelle que sa naissance lui impose. Leur relation est faite de grande tendresse retenue, d'exigence tres elevee, de formation precoce, et de cette peur silencieuse propre aux meres de lignee : "ai-je mis au monde un avenir trop lourd pour un seul etre ?"
+
+Andrea II ressemble a sa bisaieule Andrea Gahron plus qu'a n'importe quelle autre Andrea : une femme blessee, decentree, traversee par des puissances trop grandes, dont la lignee finit par la depasser.
+
+**Avec son pere Johnson Trollbane :**
+Plus affectif, plus immediatement attendri, plus simple dans son amour, mais aussi plus absent par devoir ou decalage de place. Andrea III sent que son pere l'aime profondement, peut-etre meme avec plus de spontaneite que sa mere. Mais elle sent aussi qu'il porte en lui une forme d'exil — le titre cache encore un exil interieur, heritier d'un royaume qui ne voulait pas vraiment de lui.
+
 ### Pourquoi Banni s'explique par elle
 
 Le regne de `Banni` ne tombe pas du ciel.
