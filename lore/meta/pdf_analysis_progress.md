@@ -17,9 +17,9 @@ Aucune page n'est comptee si elle n'a pas ete relue de maniere suffisamment nett
 
 ## Etat global verifie
 
-- Pages verifiees : `254 / 997`
-- Pourcentage verifie : `25.5%`
-- Pages non encore verifiees : `743 / 997`
+- Pages verifiees : `302 / 997`
+- Pourcentage verifie : `30.3%`
+- Pages non encore verifiees : `695 / 997`
 
 Mode de calcul :
 
@@ -48,7 +48,8 @@ Mode de calcul :
 - `976-979` = 4 pages
 
 - `51-89` = 39 pages
-Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3 + 3 + 11 + 6 + 3 + 2 + 4 + 39 = 254`
+- `93-140` = 48 pages
+Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3 + 3 + 11 + 6 + 3 + 2 + 4 + 39 + 48 = 302`
 
 ---
 
@@ -80,6 +81,7 @@ Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3
 | `51-89` | 39 | verifie | bible de Rose en 10 axes, chronologie du regne, doctrine du Devoir d'Effacement, cout intime (ami d'enfance / rappel necromantique / maternite blessee), tableau de puissance, scenes enfance imperiale, legalisation arts sombres, comparaison Marjory/Rose stats, geographie imperiale | `13_rose.md`, `rappel_necromantique.md`, `enfance_imperiale_rose.md`, `doctrine_cadiforienne.md`, `tableau_puissance_cadifor.md`, `etat_du_monde_950.md` |
 | `90-92` | 3 | verifie | comparaison Marjory / Rose, equilibre civilisateur contre totalisation, chronologie haute a manier avec prudence | `12_marjory.md`, `13_rose.md`, `philosophie_marjory_rose.md` |
 | `141-143` | 3 | verifie | architecture de l'armee imperiale, blocs modulaires, Magisterium de campagne, Ailes de Tirisfal | `sections/armee_imperiale.md` |
+| `93-140` | 48 | verifie | tableau de puissance combat pur, echelle de duel /100 avec regles auteur (legendaire >90, Rose SS 104), batailles legendaires (Chenefrange, loups albinos, Ulfar Sjostrom, duel Rose/Arwyn, Trois Cendres), economie/guildes/banques/PIB sous Marjory, evolution administrative Aberthol-Rose, corrections auteur (Viki espiegle, purge = casus belli opportuniste, theocratie Main-de-Tyr, secession Sylve de l'Est, Terres des Malterres non corrompues, flux elfique vers NA) | `tableau_puissance_cadifor.md`, `sections/economie.md`, `sections/armee_imperiale.md`, `meta/evolution_administrative.md`, `meta/nouvelle_avalon.md` |
 
 ---
 
@@ -120,7 +122,8 @@ Principe :
 - `rappel_necromantique.md` : scene de la transgression privee de Rose, rappel de l'ami d'enfance pour 24 heures
 - `enfance_imperiale_rose.md` : trois scenes fondatrices Marjory-Rose (5 ans, 8 ans, audition Heleris)
 - `12_marjory.md` / `13_rose.md` / `14_arwyn.md` : recouture du triangle Marjory / Rose / Arwyn a partir des pages haut-imperiales
-- `sections/armee_imperiale.md` : doctrine de campagne, grands corps, guerre modulaire sous Andrea III
+- `sections/armee_imperiale.md` : doctrine de campagne, grands corps, guerre modulaire sous Andrea III, Bataille des Trois Cendres
+- `meta/evolution_administrative.md` : cinq phases d'evolution administrative d'Aberthol a Rose, corrections auteur sur theocratie et secession
 
 ---
 
