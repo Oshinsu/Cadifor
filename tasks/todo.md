@@ -22,13 +22,20 @@
 - [x] Polish CSS (scrollbar, typography, prose refinements)
 - [x] Create CLAUDE.md + tasks/lessons.md
 
+## Completed — Session 2 (2026-03-11)
+
+- [x] Commit pages 450-600 extraction (10 new lore files, 4 enriched)
+- [x] SEO: `generateMetadata` on encyclopedia entries (title, description, og:image)
+- [x] SEO: `generateMetadata` on scene pages (title, description, og:image)
+- [x] SEO: static metadata on all listing/static pages (encyclopedie, scenes, chronologie, recherche, dossiers, canon)
+
 ## Backlog
 
 - [ ] Add more image mappings as new lore entries are created
-- [ ] Image lightbox (click to zoom) on portrait gallery
-- [ ] Back-to-top button for long articles
+- [x] Image lightbox (click to zoom) on portrait gallery
+- [x] Back-to-top button for long articles
 - [ ] Smooth page transitions with View Transitions API
 - [ ] PWA manifest + offline support
-- [ ] SEO: dynamic og:image per entry from portraits/scenes
+- [x] SEO: dynamic og:image per entry from portraits/scenes
 - [ ] Performance: lazy-load below-fold images
 - [ ] Accessibility audit (ARIA labels, skip nav, contrast)
