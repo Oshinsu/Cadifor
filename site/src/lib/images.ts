@@ -32,6 +32,19 @@ const SCENE_MAP: Record<string, string> = {
   fragment_apocryphe_livre_de_rose: "scene_rose_coronation.png",
 };
 
+// Fallback: scene slug → location image (when no direct scene image exists)
+const SCENE_LOCATION_FALLBACK: Record<string, string> = {
+  bataille_old_town: "location_stormwind_old_town.png",
+  bataille_chenefrange_aberthol: "location_hautebrande.png",
+  duels_soeurs_nouvelle_avalon: "location_nouvelle_avalon_exterior.png",
+  enfance_imperiale_rose: "location_nouvelle_avalon_interior.png",
+  armurerie_secrete: "location_stormwind_throne_room.png",
+  ecuries_imperiales: "location_nouvelle_avalon_cathedral.png",
+  duel_hautes_reprises: "location_stormgarde_fortress.png",
+  rappel_necromantique: "location_karazhan_library.png",
+  bataille_trois_cendres: "location_col_de_yielden.png",
+};
+
 // ─── Location mapping: ville/territoire/nation/duche slug → location image ──
 const LOCATION_MAP: Record<string, string> = {
   // Villes
@@ -88,11 +101,23 @@ export function resolveEntryImage(
     }
   }
 
-  // Scenes → scene illustration
+  // Scenes → scene illustration, with location fallback
   if (collection === "scenes") {
     const file = SCENE_MAP[slug];
     if (file && assetExists(`scenes/${file}`)) {
       return `scenes/${file}`;
+    }
+    const fallback = SCENE_LOCATION_FALLBACK[slug];
+    if (fallback && assetExists(`locations/${fallback}`)) {
+      return `locations/${fallback}`;
+    }
+  }
+
+  // Sections / factions → try location map as well
+  if (collection === "sections" || collection === "factions" || collection === "cultures" || collection === "economie") {
+    const file = LOCATION_MAP[slug];
+    if (file && assetExists(`locations/${file}`)) {
+      return `locations/${file}`;
     }
   }
 
@@ -125,6 +150,28 @@ export function resolveCharacterGallery(slug: string): string[] {
     }
   }
   return images;
+}
+
+/**
+ * Return all images organized by category for the gallery page.
+ */
+export function getAllImages(): {
+  portraits: string[];
+  locations: string[];
+  scenes: string[];
+  heraldry: string[];
+} {
+  const result = { portraits: [] as string[], locations: [] as string[], scenes: [] as string[], heraldry: [] as string[] };
+
+  const categories = ["portraits", "locations", "scenes", "heraldry"] as const;
+  for (const cat of categories) {
+    const dir = path.join(ASSETS_DIR, cat);
+    if (!fs.existsSync(dir)) continue;
+    const files = fs.readdirSync(dir).filter((f) => f.endsWith(".png")).sort();
+    result[cat] = files.map((f) => `${cat}/${f}`);
+  }
+
+  return result;
 }
 
 /**

@@ -16,6 +16,7 @@ import {
   getCollectionDescription,
   getCollectionLabel,
   getFeaturedScene,
+  getMostReferencedEntries,
   getSceneCandidates,
   getTopCharacters,
   getTotalEntryCount,
@@ -44,6 +45,7 @@ export default function HomePage() {
   const villeCount = getCollection("villes").length;
   const sceneCount = getCollection("scenes").length;
   const characterCount = getCollection("personnages").length;
+  const mostReferenced = getMostReferencedEntries(6);
 
   return (
     <main className="mx-auto max-w-7xl px-6 pb-24 pt-10">
@@ -70,7 +72,13 @@ export default function HomePage() {
 
         <div className="relative max-w-4xl">
           <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-[var(--gold)]/25 bg-[var(--gold)]/[0.08] px-4 py-2 text-xs uppercase tracking-[0.25em] text-[var(--gold-light)]">
-            <div className="flex size-6 items-center justify-center rounded border border-[var(--gold)]/30 bg-[var(--gold)]/[0.1] font-serif text-[10px] font-bold text-[var(--gold)]">C</div>
+            <Image
+              src="/assets/heraldry/heraldry_cadifor_sigil.png"
+              alt="Blason Cadifor"
+              width={24}
+              height={24}
+              className="opacity-80"
+            />
             Maison Cadifor — 583 a.p.
           </div>
 
@@ -262,6 +270,36 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─── Most referenced entries ──────────────────────────── */}
+      {mostReferenced.length > 0 && (
+        <section className="mt-20" data-reveal>
+          <div className="mb-8 flex items-end justify-between gap-6">
+            <div>
+              <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
+                Nœuds du corpus
+              </p>
+              <h2 className="font-serif text-4xl text-[var(--ivory)]">Les plus cites</h2>
+            </div>
+            <Link
+              href="/recherche"
+              className="text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+            >
+              Rechercher
+            </Link>
+          </div>
+
+          <div className="stagger grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+            {mostReferenced.map((entry) => (
+              <EntryCard
+                key={`${entry.collection}/${entry.slug}`}
+                entry={entry}
+                href={entry.collection === "scenes" ? `/scenes/${entry.slug}` : `/encyclopedie/${entry.collection}/${entry.slug}`}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* ─── Collections overview ────────────────────────────── */}
       <section className="mt-20" data-reveal>
         <div className="mb-8">
@@ -279,7 +317,7 @@ export default function HomePage() {
             return (
               <Link
                 key={collection}
-                href="/encyclopedie"
+                href={`/encyclopedie/${collection}`}
                 className="card-imperial group relative overflow-hidden rounded-[1.5rem] border border-white/[0.06] bg-white/[0.02] p-7"
               >
                 <div className="relative">

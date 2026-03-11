@@ -326,6 +326,43 @@ export function getTotalEntryCount() {
  * Find entries from other collections that are mentioned in the given entry's body.
  * Returns up to `limit` related entries sorted by mention frequency.
  */
+/**
+ * Find entries that are most frequently mentioned across the entire corpus.
+ * Useful for "most referenced" sections on homepage.
+ */
+export function getMostReferencedEntries(limit = 6): LoreEntry[] {
+  const allEntries: LoreEntry[] = [];
+  for (const collection of encyclopaediaCollections) {
+    allEntries.push(...getCollection(collection));
+  }
+
+  const scores = new Map<string, { entry: LoreEntry; score: number }>();
+
+  for (const source of allEntries) {
+    const bodyLower = source.body.toLowerCase();
+    for (const target of allEntries) {
+      if (target.slug === source.slug && target.collection === source.collection) continue;
+      if (target.title.length < 4) continue;
+
+      const titleLower = target.title.toLowerCase();
+      if (bodyLower.includes(titleLower)) {
+        const key = `${target.collection}/${target.slug}`;
+        const existing = scores.get(key);
+        if (existing) {
+          existing.score++;
+        } else {
+          scores.set(key, { entry: target, score: 1 });
+        }
+      }
+    }
+  }
+
+  return [...scores.values()]
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map((c) => c.entry);
+}
+
 export function getRelatedEntries(entry: LoreEntry, limit = 6): LoreEntry[] {
   const bodyLower = entry.body.toLowerCase();
   const candidates: { entry: LoreEntry; score: number }[] = [];
