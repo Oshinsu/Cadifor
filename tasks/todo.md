@@ -28,6 +28,8 @@
 - [x] SEO: `generateMetadata` on encyclopedia entries (title, description, og:image)
 - [x] SEO: `generateMetadata` on scene pages (title, description, og:image)
 - [x] SEO: static metadata on all listing/static pages (encyclopedie, scenes, chronologie, recherche, dossiers, canon)
+- [x] Accessibility: skip-to-content link, ARIA labels on nav/mobile menu/lightbox
+- [x] Verified lazy-loading (Next.js `Image` defaults to `loading="lazy"` — already correct)
 
 ## Backlog
 
@@ -37,5 +39,5 @@
 - [ ] Smooth page transitions with View Transitions API
 - [ ] PWA manifest + offline support
 - [x] SEO: dynamic og:image per entry from portraits/scenes
-- [ ] Performance: lazy-load below-fold images
-- [ ] Accessibility audit (ARIA labels, skip nav, contrast)
+- [x] Performance: lazy-load below-fold images (verified — Next.js default)
+- [x] Accessibility audit (ARIA labels, skip nav, contrast)
