@@ -1,0 +1,19 @@
+{
+  "name": "cadifor-assets-pipeline",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "tsx generate.ts",
+    "generate:phase": "tsx generate.ts --phase",
+    "generate:single": "tsx generate.ts --id",
+    "status": "tsx status.ts"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}

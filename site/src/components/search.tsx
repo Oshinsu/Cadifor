@@ -54,7 +54,7 @@ export function SearchView({ entries }: { entries: SearchEntry[] }) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Rechercher un personnage, une scene, un lieu..."
-          className="w-full rounded-2xl border border-white/10 bg-white/[0.04] py-4 pl-14 pr-6 text-lg text-stone-100 placeholder-stone-600 outline-none transition focus:border-violet-400/40 focus:bg-white/[0.06]"
+          className="w-full rounded-2xl border border-white/[0.08] bg-white/[0.03] py-4 pl-14 pr-6 text-lg text-stone-100 placeholder-stone-600 outline-none transition-all duration-300 focus:border-[var(--gold)]/30 focus:bg-white/[0.05] focus:shadow-[0_0_30px_rgba(212,168,83,0.06)]"
           autoFocus
         />
       </div>
@@ -70,13 +70,13 @@ export function SearchView({ entries }: { entries: SearchEntry[] }) {
           <Link
             key={`${entry.collection}/${entry.slug}`}
             href={getEntryHref(entry)}
-            className="group block rounded-2xl border border-white/6 bg-white/[0.02] px-6 py-4 transition hover:border-violet-300/20 hover:bg-white/[0.04]"
+            className="card-imperial group block rounded-2xl border border-white/[0.06] bg-white/[0.02] px-6 py-4"
           >
             <div className="flex items-baseline gap-4">
-              <h3 className="font-serif text-xl text-stone-100 transition group-hover:text-violet-200">
+              <h3 className="font-serif text-xl text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                 {entry.title}
               </h3>
-              <span className="shrink-0 text-xs uppercase tracking-[0.2em] text-stone-600">
+              <span className="shrink-0 text-[10px] uppercase tracking-[0.2em] text-stone-600">
                 {entry.collection}
               </span>
               <span className="ml-auto flex shrink-0 items-center gap-1 text-[10px] text-stone-600">

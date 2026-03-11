@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "generated": [
+    {
+      "id": "heraldry_cadifor_sigil",
+      "phase": 0,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/heraldry/heraldry_cadifor_sigil.png",
+      "generatedAt": "2026-03-11T00:58:40.639Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "materials_imperial_palette",
+      "phase": 0,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [],
+      "outputPath": "/home/user/Cadifor/site/public/assets/heraldry/materials_imperial_palette.png",
+      "generatedAt": "2026-03-11T00:59:02.670Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_aberthol_bust",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "heraldry_cadifor_sigil"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_aberthol_bust.png",
+      "generatedAt": "2026-03-11T00:59:50.553Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    },
+    {
+      "id": "portrait_aberthol_throne",
+      "phase": 1,
+      "prompt": "This image is for a dark political fantasy encyclopedia — a medieval empire built on intelligence, dynasty, and arcane power. The aesthetic is grounded realism, never fantasy kitsch. Every material, s...",
+      "refs": [
+        "portrait_aberthol_bust"
+      ],
+      "outputPath": "/home/user/Cadifor/site/public/assets/portraits/portrait_aberthol_throne.png",
+      "generatedAt": "2026-03-11T01:00:13.019Z",
+      "model": "google/gemini-3-pro-image-preview",
+      "attempt": 1
+    }
+  ],
+  "pending": []
+}
