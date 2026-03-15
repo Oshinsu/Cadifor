@@ -54,7 +54,7 @@ Sa structure dynastique est deja exceptionnelle :
 
 ### Traits
 - Humble, charitable, honnete, batisseuse de fortune
-- **Intrigue 1** : ouvertement sincere, pas une manipulatrice — sa force est la vision, pas la ruse
+- **Intrigue 1** : dans un environnement ultra prolixe en intrigues, c'est un **refus souverain de la ruse**. Andrea III ne joue pas le jeu des cours — elle le supprime. Elle gagne non en intriguant mieux, mais en rendant l'intrigue obsolete par la force du resultat. Ce n'est pas de la naivete. C'est une declaration.
 
 ---
 
@@ -104,7 +104,7 @@ En une nuit, tout le monde comprit que l'histoire humaine venait de changer :
 
 Ce fut l'eveil de la legende : **"L'Enfant aux Trois Sceaux"**.
 
-### Les Trois Sangs
+### Les Trois Sangs — une bombe a fragmentation dynastique
 Andrea est le produit de :
 1. **Sang Cadifor** : la lignee fondatrice, 200 ans de cumulation
 2. **Sang Wrynn** : la royaute d'Azeroth, via le mariage matrilineaire organise par l'Erudite
@@ -112,14 +112,25 @@ Andrea est le produit de :
 
 Trois maisons royales dans une seule souveraine. C'est le "Deal d'Aberthol" qui porte ses fruits deux siecles plus tard.
 
-Mais elle n'herite pas seulement d'un sang.
-Elle herite aussi d'un **capital imperial deja accumule** par Andrea la Juste : une architecture de domination, une duree stabilisee, un appareil assez solide pour que son propre genie puisse l'epaissir au lieu de devoir le fonder seul.
+Mais **il ne faut pas lire cette triple heritage comme un confort**. Trois couronnes non unifiees. Trois sangs qui ne sont pas encore un Empire mais un **champ de mines dynastique**. Le sang Cadifor dit "j'ai la methode". Le sang Wrynn dit "j'ai la legitimite". Le sang Trollbane dit "j'ai la guerre". Et les trois tirent dans des directions differentes parce que Stormgarde, Azeroth et la Sylve de l'Est ne sont pas des allies naturels — ce sont des couronnes rivales qui se retrouvent dans le meme corps par accident de mariage.
 
-Elle recoit ainsi une triple preparation :
+Andrea III nait dans un environnement **ultra instable, ultra prolixe en termes de lore et d'intrigue** :
+- Sa mere Andrea la Juste a fait une guerre civile contre Ysena Wrynn et l'a perdue (paix blanche)
+- Son pere Johnson Trollbane porte un exil interieur — un roi de Stormgarde qui n'etait pas voulu par son propre royaume
+- La cour d'Azeroth grouille d'intrigues Wrynn
+- Les demi-soeurs complotent (Ariana finira exilee)
+- Bradney se revoltera
+- Le sargeritisme ronge Lordaeron de l'interieur
 
-- **Cadifor** : la lignee fondatrice
-- **Wrynn** : la legitimite royale d'Azeroth
-- **Stormwind centre / New Avalon matrice** : un Empire deja centre sans avoir oublie sa reserve familiale de densite
+**Andrea III ne recoit pas un Empire. Elle recoit un champ de mines avec trois couronnes dessus, et tout le monde attend de voir laquelle explose en premier.**
+
+### La totalisatrice de chaos
+
+L'erreur de lecture la plus courante sur Andrea III est de la traiter comme une heritiere confortable. C'est faux. Elle ne recoit pas un Empire — elle recoit un **chaos** qu'elle transforme en architecture.
+
+La purge sargerite n'est pas un acte de force gratuit — c'est la neutralisation d'une menace existentielle qui aurait pu disloquer l'ensemble. La suppression des titres n'est pas de l'autoritarisme satisfait — c'est la seule solution pour empecher que les trois sangs retournent chacun vers sa couronne d'origine.
+
+La friction n'est pas a l'interieur d'Andrea III (comme chez la Rougissante). Elle est **partout autour d'elle** — et elle est juste assez forte pour la contenir. La ou Andrea la Rougissante se bat avec elle-meme, Andrea la Victorieuse se bat avec trois mondes qui refusent de devenir un seul.
 
 ### Ce qu'elle recoit vraiment de sa mere
 
@@ -353,3 +364,19 @@ moins legendaire dans la memoire, mais capitale pour que l'oeuvre de `Andrea III
 - Elle est la **premiere mage legendaire** du sommet `Cadifor`, pas `Banni`
 - `Banni` doit etre lu comme la mise en doctrine dynastique d'un changement de dimension qu'elle a deja rendu reel
 - Score S++ : seule Rose la depasse, et Rose n'aurait pas existe sans elle
+
+---
+
+## COMPARATIF
+
+### vs. la Rougissante
+La Rougissante invente le jeu. La Victorieuse le rend inutile. La Rougissante est un meilleur personnage. La Victorieuse est un plus grand souverain. Ce ne sont pas les memes competitions.
+
+### vs. Andrea des Lisieres
+L'Erudite colonise les marges et ajoute des pieces au jeu. La Victorieuse retourne le plateau et dit : il n'y a plus qu'un seul jeu. L'Erudite est plus attachante. La Victorieuse est plus necessaire. L'Erudite est une aventure. La Victorieuse est un aboutissement.
+
+### vs. Marjory
+Marjory est le correctif d'Andrea III. Andrea III supprime les couronnes — acte de force brute, meme s'il est brillant. Marjory restaure les couronnes — acte beaucoup plus intelligent, parce qu'il comprend que la centralisation pure finit par vider les territoires de leur amour-propre. Mais la Victorieuse est la **condition de possibilite** de Marjory, exactement comme Marjory est la condition de possibilite de Rose.
+
+### La scene manquante
+Ce qui manque a Andrea III : une scene. Le soir ou elle, a 76 ans, mage legendaire, Imperatrice du continent, prend la decision de dissoudre tous les royaumes dans un seul nom. Ce soir-la, il y a forcement quelqu'un en face d'elle qui lui dit : "C'est irreversible." Et elle repond quelque chose qui la definit enfin. Pas comme resultat. Comme personne. Sans cette scene, elle est le plus grand souverain du lore. Avec cette scene, elle pourrait devenir le personnage le plus tragique — celle qui a tout reussi et qui, au moment de tout fondre en un, comprend que la totalite est une forme de solitude.

@@ -1,426 +1,343 @@
-# LE DINER IMPERIAL — Marjory et Rose a table
+# DÎNER IMPÉRIAL — Version fusionnée v2
 
-> *S'il fallait ouvrir toute l'oeuvre par une seule scene, ce pourrait etre celle-ci : non parce qu'elle explique le Haut Royaume, mais parce qu'elle le laisse paraitre deja sous sa forme la plus exacte.*
+La salle à manger impériale n'était pas vaste. Elle était exacte.
 
----
+Dans d'autres palais, la grandeur se mesure au volume, à la hauteur des voûtes, à la masse des marbres, à la dépense visible. Ici, rien n'écrasait. Tout dominait.
 
-## Contexte
+Les colonnes de pierre pâle, veinées de bleu froid, semblaient moins soutenir le plafond que l'obliger à la tenue. Entre elles alternaient cartes maritimes enluminées, panneaux d'obsidienne polie, reliefs de victoire et miroirs d'arcane endormis, si purs qu'ils ne réfléchissaient pas les corps mais la qualité de leur présence. Des globes de lumière flottaient à hauteur d'homme selon des circuits si bien calculés qu'aucun visage n'y recevait d'ombre disgracieuse. Plus loin, les bougies dérivaient comme si le feu lui-même connaissait l'étiquette.
 
-**Lieu** : Salle a manger imperiale du palais de New Avalon (ou Stormwind).
-**Moment** : Un soir sans ceremonie publique, donc un soir de gouvernement reel.
-**Nature** : Un diner de travail entre les numeros 1 et 2 du Haut Royaume — mere et fille en apparence, mais a cette altitude chaque phrase est un decret, chaque silence une politique, chaque correction une transmission de souverainete.
-**Rose** : 22 ans, deja mage legendaire, 36 en erudition — plus haute intelligence connue de toutes les races.
-**Marjory** : Haute Reine, mage legendaire, 34 en erudition — 1er EX AEQUO MONDIAL avant Rose. Plus meritante historiquement que sa fille : elle a du devenir Marjory sans avoir eu Marjory pour mere.
-**Enjeu** : Kezan, Kolkar, Kul Tiras, doctrine technologique, donjons de rang A, formation de guerre, surveillance des grands esprits. Rien qui ressemble a une crise immediate. Tout ce qui ressemble a un siecle.
-**Cuisinier** : Hadrien Voss, premier cuisinier du continent, que la moitie du monde appelle "le second chancelier" et l'autre "le pape des sauces".
-**Personnel** : Dames de cour, maitres d'hotel, scribes silencieux, jeunes valets, servantes, sommeliers, decoupeurs, et une proportion exacte de roturiers. L'edit de Marjory impose 30% minimum de non-nobles dans les charges du palais — non comme concession morale, mais comme principe administratif : une cour qui ne respirait qu'a travers la noblesse finissait par s'intoxiquer de sa propre abstraction.
+La table était taillée dans une seule dalle de pierre sombre, extraite d'une carrière impériale dont l'exploitation, trois règnes auparavant, avait été déclarée affaire de souveraineté. Sa surface buvait la lumière. On y avait posé, non une nappe, mais de longs chemins de lin blanc brodé d'argent, si fins qu'on eût dit du givre discipliné.
 
-> **Note de l'auteur** : Ce n'est PAS une mere qui fait cours a sa fille. C'est une discussion entre 34 et 36 en erudition, quasi mystique. Marjory gouverne, elle a l'experience du trone, elle est deja au-dessus des rois-dragons. Rose ne lui apprend rien ; elles pensent ensemble a la meme altitude.
+Quinze mets de très haut ordre y seraient servis ce soir-là. Non par ostentation. Par syntaxe.
 
----
+Le grand cuisinier impérial, Hadrien Voss, tenait qu'un dîner pour deux consciences de ce rang relevait moins de la cuisine que de la composition. La saveur devait soutenir la pensée, parfois la relancer, parfois la trancher, jamais l'alourdir.
 
-## Le lieu
+On ouvrit donc sur des huîtres froides de Kul Tiras, posées sur glace pilée mêlée de fenouil marin. Puis vinrent des bouchées presque invisibles de chair blanche relevées d'un poivre de Kezan si cher qu'un grain mal employé eût suffi à irriter un argentier. Un consommé clair de faisan, des asperges blanches de Lordaeron à peine fumées, un saumon gras du nord, des langoustines tièdes, une terrine de caille et prune sombre ; plus loin attendaient les viandes, les pains rares, les fruits, les glaces, les sucres, la fin.
 
-La salle a manger imperiale n'etait pas vaste. Elle etait d'une taille qui rendait la vastitude presque vulgaire.
+Le service tenait la distance exacte. Dames de cour, maîtres d'hôtel, deux scribes, une femme de charge du commun, trois jeunes serviteurs, quatre servants de cuisine. L'édit de Marjory imposait qu'au palais la roture fût visible, non par bonté, mais pour éviter qu'une maison ne prenne sa propre abstraction pour le réel — et ne finisse par s'en intoxiquer.
 
-Dans d'autres palais, la grandeur se mesure au volume, a la hauteur des voutes, a la masse des marbres, a l'ecrasement decoratif des ors. Ici, rien n'ecrasait. Tout dominait.
+Marjory était déjà assise.
 
-Les colonnes de pierre pale, veinees de bleu froid, semblaient moins soutenir le plafond que le persuader de rester a sa place. Entre elles, les panneaux muraux alternaient tableaux de victoire, cartes maritimes enluminees, reliefs d'obsidienne polie et grands miroirs d'arcane dormant, si purs qu'ils ne reflechissaient pas tant les corps que la qualite de leur presence. Dans les angles, des globes de lumiere, suspendus sans chaine visible, derivaient lentement a hauteur d'homme selon des circuits si parfaitement calcules que leurs croisements ne produisaient jamais d'ombre disgracieuse sur les visages. Les bougies, plus nombreuses, flottaient a la peripherie de la piece a la maniere d'un cortege stellaire maintenu par un sort d'etiquette ancien — une magie de cour, discrete, qui ne disait jamais "regardez-moi", mais "rien ici n'est abandonne au hasard".
+Chez elle, tout paraissait avoir atteint sa coupe finale. La robe bleu cendre, longue, presque sévère jusqu'à l'insolence, n'appelait pas le regard ; elle l'éduquait. À sa gorge, rien de superflu : une simple ligne de pierres pâles prises dans un or très mince, assez parfaite pour interdire le commentaire. Son visage ne devait rien au pouvoir. Le pouvoir, au contraire, semblait n'avoir fait que rejoindre une forme qui l'attendait depuis toujours.
 
-La table, longue sans exces, n'etait pas de bois mais d'une pierre sombre unique, extraite d'une carriere imperiale dont l'exploitation avait ete, trois regnes auparavant, classee affaire de souverainete. Sa surface, polie jusqu'a une matite profonde, absorbait la lumiere au lieu de la renvoyer brutalement. On y avait pose, non une nappe couvrante, mais des chemins de lin blanc brode d'argent, si fins que le tissu paraissait avoir ete tisse a partir de givre.
+Rose entra sans empressement.
 
-Au-dessus de la table, entre les bougies, circulaient des cristaux de garde ou dormaient les vieux refus du palais : poison, ecoute, intrusion, alteration, invocation, lachete.
+À vingt-deux ans, elle portait encore cette apparence de jeunesse que la plupart des êtres gardent dans leurs traits et perdent dans le regard. Chez elle, l'inverse s'était produit. Le visage restait souple, presque trop vivant ; le regard, lui, avait déjà cette netteté des consciences à qui le monde arrive plus vite qu'aux autres. Sa robe, plus claire que celle de sa mère, jouait entre l'ivoire et un gris de perle si léger qu'il pouvait passer pour une absence de couleur. À ses doigts, plusieurs bagues discrètes, toutes trop simples pour n'être que de l'ornement. Sous l'étoffe, à la ceinture, l'ombre d'une lame courte. Cadifor, jusque dans la politesse.
 
----
+Elle s'assit.
 
-## Le menu
+Le premier vin fut versé. Un blanc sec des côtes impériales, minéral, presque austère.
 
-Ce soir-la, quinze mets de tres haut ordre y seraient servis. Non par ostentation. Par syntaxe.
+Marjory prit l'huître, la goûta, puis dit :
 
-- Huitres froides de Kul Tiras sur glace pilee melee de fenouil marin
-- Bouchees de chair blanche, relevees d'un poivre de Kezan si cher qu'un seul grain mal depense eut fait froncer le sourcil d'un argentier
-- Consomme limpide de faisan et de racines rares d'Hautebrande
-- Asperges blanches de Lordaeron, a peine fumees, au sel mineral
-- Saumon gras du nord, tranche a la seconde pres
-- Langoustines tiedes des routes de Butin, huile claire aux herbes marines
-- Terrine legere de caille et prune sombre
-- Legumes d'hiver confits au beurre noisette
-- Esturgeon de riviere en croute fine, fenouil fondant, sauce claire au vin blanc et poivre long de Kezan
-- Sanglier glace au miel sec, sauce reduite, poivre noir, chair dense, presque sombre
-- Sorbet d'agrumes, tres froid, presque brutal — pour remettre la bouche a zero
-- Glace pilee, creme legere, sucre brun, orange confite, muscade de Kezan
-- Pains chauds parfumes a la muscade de Kezan
-- Fromages d'altitude
-- Fruits acides des routes meridionales
+— Hadrien s'est enfin souvenu que Kul Tiras n'a jamais produit que deux choses de grand goût : les huîtres et les amiraux morts.
 
-> *L'ensemble n'annoncait pas un diner, mais une civilisation ayant decide que le gout, lui aussi, devait obeir.*
+Rose approcha sa fourchette. L'huître se souleva d'elle-même, glissa sans effort jusqu'à sa bouche, y entra comme si la gravité avait reçu de nouveaux ordres.
 
----
+— Trois, dit-elle. Vous oubliez leur orgueil. Il se marie bien au sel, à condition de le servir très froid.
 
-## Les tenues
+Le coin de la bouche de Marjory bougea.
 
-**Marjory** : Robe d'un bleu si contenu qu'il en devenait presque gris, a la coupe d'une purete impitoyable. Aucun bijou inutile, aucune surcharge. Le diademe qu'elle portait, leger et pourtant fatal, ne brillait pas : il tenait la lumiere comme une pensee sure tient un argument inferieur. Son visage, d'une beaute souveraine et severe, n'etait pas celui d'une femme embellie par le pouvoir ; c'etait un visage que le pouvoir avait trouve deja pret.
+— Les routes de Kezan ont pris du retard.
 
-**Rose** : A vingt-deux ans, elle possedait encore quelque chose que Marjory avait depasse depuis longtemps : une souplesse visible de jeunesse, une grace mobile, un reste d'elan dans le corps. Mais cette impression ne durait jamais. Des qu'elle levait les yeux, on sentait que la jeunesse n'etait chez elle qu'une donnee chronologique, pas une categorie reelle. Son regard n'ecrasait pas ; il traversait.
+Rose ne toucha pas au dossier posé près de son assiette.
 
----
+— Deux jours annoncés. Quatre réels. — Quatre et demi. — Ils ont maquillé la rupture de cargaison par l'assurance ? — Ils ont maquillé une négociation par l'assurance.
 
-## LA SCENE
+Rose prit son couteau. La lame se réchauffa au contact de son mana — non par effet spectaculaire, mais jusqu'au point où le saumon accepterait de s'ouvrir sans déchirer sa structure. Marjory remarqua le geste.
 
-Elles ne commencaient jamais par la politique. Elles commencaient par quelque chose de plus serieux : une bouchee juste.
+— Tu chauffes un peu trop haut.
 
-### I. Les huitres — Kezan et les mensonges coordonnes
+Rose leva à peine les yeux.
 
-Les serviteurs verserent le premier vin. Un blanc sec des cotes imperiales, mineral, presque austere.
+— Seulement si l'on mange comme un médecin.
 
-Marjory prit une huitre, la gouta, puis dit :
-— Hadrien continue a sauver l'Empire de la vulgarite.
+Marjory fit glisser son propre couteau sur le saumon, sans magie visible. Le métal trancha plus proprement encore.
 
-Rose huma un instant le vin, puis repondit :
-— Il le sauve surtout des cuisiniers.
+— La matière se laisse mieux gouverner quand on n'a pas besoin de la séduire.
 
-Le coin de la bouche de Marjory bougea. Chez elle, cela suffisait a signaler l'amusement.
+Rose goûta.
 
-— Les routes de Kezan ont encore pris du retard, dit-elle.
+— C'est aussi votre manière de régner. — Non, dit Marjory. En politique, je séduis beaucoup. Je m'épargne seulement de l'appeler ainsi.
 
-Rose n'alla pas vers le document prepare a cote de son assiette. Elle n'en avait pas besoin.
+Un très léger silence passa.
 
-— Deux jours publiquement. Quatre reellement.
-— Quatre et demi.
-— Les gobelins ont sous-declare la rupture de cargaison ?
-— Ils ont sur-declare le cout d'assurance pour masquer une negociation.
+— Les grands principes, ajouta-t-elle, se révèlent d'abord sur les choses bien cuisinées.
 
-Rose prit son couteau a poisson. La lame, tres legerement, rougit sous ses doigts ; non de feu visible, mais d'une chaleur arcane si precise que le metal atteignit exactement la temperature necessaire pour trancher le saumon sans dechirer sa graisse. Un valet roturier, qui avait vu l'operation du coin de l'oeil, cessa de respirer une seconde.
+Le valet roturier qui versait le vin cessa de respirer un instant ; non par peur, mais parce qu'à cette table même une remarque sur un filet de poisson avait le ton de la loi.
 
-— Ils ont achete le passage, dit Rose, ou plutot rachete leur propre imprevoyance. Je dirais trois capitaines sans pavillon, deux intermediaires de Butin, un negociateur kezanien officieux, et derriere eux quelqu'un de mieux ne que tous les six.
-— Le nom, demanda Marjory.
-— Pas encore. Mais certainement pas un simple pirate. Les pirates volent. Celui-la corrige deja les marges.
+Rose reposa sa lame.
 
-### II. Les asperges — Piraterie et fiscalite parasite
+— Trois capitaines sans pavillon. Deux intermédiaires de Butin. Un négociateur officieux de Kezan. Et derrière eux quelqu'un de mieux né que les six. — Le nom. — Pas encore. Mais ce n'est pas un pirate. Les pirates volent. Celui-ci corrige déjà les marges.
 
-Marjory coupa une asperge blanche avec une lenteur presque liturgique.
-— Continue.
+Marjory coupa une asperge blanche avec lenteur.
 
-— Les routes de Kezan sont devenues trop lisibles. Pas seulement dans leur trace, dans leur logique de valeur. On sait quels navires meritent d'etre pris, lesquels peuvent etre retardes, lesquels doivent etre laisses passer pour maintenir le commerce a flot. Cela signifie que nous n'avons plus affaire a de la predation maritime, mais a une fiscalite parasite.
-— Oui.
-— Il faut donc cesser de traiter la question comme un probleme de piraterie.
-— Evidemment.
+— Continue. — Les routes de Kezan sont devenues lisibles. Pas seulement leur tracé : leur logique de valeur. On sait quels navires doivent être pris, retardés, laissés passer. Nous n'avons plus affaire à de la prédation maritime.
 
-Rose leva les yeux.
+Marjory la regarda.
+
+— Dis le mot. — Fiscalité parasite. — Oui.
+
+Rose posa la lame.
+
 — Trois mesures.
 
-Marjory inclina a peine la tete. Non pour autoriser. Pour raccourcir.
+Marjory inclina à peine la tête. Non pour autoriser. Pour abréger.
 
-— Les assurances privees de Kezan doivent perdre leur monopole discret. Leurs comptes seront compares a ceux de Hautebrande sur les six derniers mois, pas par tribunal, par rumeur controlee. Ensuite, les routes de Butin doivent etre artificiellement enrichies pendant un trimestre : plus de petits convois, moins de tresors visibles. Enfin, les deux capitaines qui survivront au prochain mois devront recevoir une proposition d'ordre, non de pardon.
-— D'ordre ? demanda Marjory.
-— Une licence de protection, repondit Rose. Les vrais predateurs maritimes sont toujours a trois decisions de devenir percepteurs.
+— Premier : on fracture le monopole discret des assurances de Kezan. Pas par tribunal. Par rumeur chiffrée. Hautebrande comparera ses livres aux leurs sur six mois ; le bruit fera le reste. Deuxième : on enrichit artificiellement les routes de Butin pendant un trimestre, petits convois, faible profit, haute visibilité. Troisième : les deux capitaines qui survivront au mois recevront une proposition d'ordre. — D'ordre ? — Une licence de protection. Les prédateurs maritimes sont toujours à trois décisions de devenir percepteurs.
 
-Marjory but une gorgee.
-— Tu as raison sur deux points. Sur le troisieme, tu es encore jeune.
+Marjory but.
 
-Rose sourit a peine.
-— Lequel ?
+— Tu as raison sur deux points. Sur le troisième, tu vas trop vite. — Lequel ? — On ne transforme pas un pirate en percepteur. On transforme d'abord sa veuve en rentière, son frère en débiteur, son second en informateur. Lui ne devient utile qu'une fois privé de la mémoire de sa liberté.
 
-— On ne transforme pas un pirate en percepteur. On transforme d'abord sa veuve en rentiere, son frere en debiteur, son second en informateur. Lui-meme ne devient utile qu'une fois ampute de sa liberte retrospective.
+Rose inclina légèrement la tête.
 
-Rose inclina legerement la tete.
-— Oui.
-— Tu allais trop vite vers la forme finale.
-— Vous aimez les detours.
-— Non. J'aime les transitions irreversibles.
+— Oui. — Tu courais déjà vers la forme finale. — Vous aimez les détours. — Non. Les transitions irréversibles.
 
-### III. Les langoustines — Kolkar et la geopolitique de l'expansion
-
-Les langoustines furent servies. Une huile claire aux herbes marines, presque invisible, en relevait la chair sans l'ecraser. Rose en porta une a ses levres avec une legere suspension du poignet ; pendant un instant, la fourchette demeura en l'air, soutenue sans effort apparent par un filet de mana si subtil qu'il eut ete grossier de le nommer levitation. Une dame de cour ajusta machinalement sa respiration a ce geste, comme si l'etiquette elle-meme obeissait a la precision magique de la table.
+Les langoustines furent servies dans une huile claire, presque invisible.
 
 Marjory dit :
+
 — Kolkar.
 
-Le mot tomba comme un caillou dans une eau noire.
+Le mot tomba sans bruit, et la pièce changea de densité.
 
-— Nous pouvons les tenir, dit Rose. La question est de savoir qui, du territoire ou du royaume, doit etre mis en dette de croissance.
-— Tu formules encore comme une theoricienne.
-— Comme une proprietaire, corrigea Rose.
+Rose ne répondit qu'après une seconde.
 
-— Lordaeron, dit Marjory. Ce n'etait pas une proposition. C'etait la mise en place de la pensee.
-— Oui. Il faut lui donner Kolkar.
-— Pourquoi ?
-— Pas pour l'encombrer d'une curiosite de Kalimdor. Pour l'obliger a se penser plus large que sa propre nostalgie. Tant qu'un royaume ne possede qu'une frontiere qu'il comprend intimement, il croit gouverner sa memoire. Des qu'on lui donne une terre qu'il ne comprend pas encore, il est force d'inventer une ambition.
+— Nous pouvons les tenir. La vraie question est de savoir quel corps doit croître à travers eux. — Le territoire ou le royaume, oui. — Lordaeron, dit Rose. Pas pour l'encombrer d'une curiosité de Kalimdor. Pour l'obliger à se penser plus large que sa propre nostalgie. Un royaume qui ne gouverne qu'une frontière qu'il comprend croit encore gouverner sa mémoire. Donnez-lui une terre qu'il ne comprend pas et il lui faudra inventer une ambition.
 
-Marjory prit une langoustine, la gouta, puis dit :
-— Et l'Empire ?
+Marjory goûta la chair d'une langoustine.
 
-— L'Empire ne doit plus faire la guerre lui-meme. Pas a cette echelle de menace. Plus pour des gains mineurs. Nous avons franchi le seuil ou le moindre comte direct declencherait la lecture maximale du monde. La coalition n'attend plus nos conquetes : elle attend notre mouvement. Donc nous devons faire croitre les royaumes pour eviter de faire avancer l'Empire en premiere ligne. Le centre reste immobile. Les couronnes poussent. Le monde voit plusieurs appetits ; il comprend trop tard qu'il s'agit encore d'un seul corps.
+— Et l'Empire ? — L'Empire ne doit plus avancer en première ligne pour des gains mineurs. Nous avons dépassé le seuil où chaque mouvement direct déclenche la lecture maximale du monde. Il faut faire croître les couronnes pour éviter de faire marcher le centre. Le centre demeure. Les royaumes poussent. Le monde voit plusieurs appétits ; il comprend trop tard qu'il s'agit d'un seul corps.
 
 Marjory posa sa fourchette.
-— Cela, dit-elle, est la phrase qu'un souverain fatigue prononce lorsqu'il croit avoir trouve une mecanique. Ce n'est pas une mecanique. C'est une morale.
-— Une morale ?
-— Oui. Toute innovation imperiale durable commence par se deguiser en procedure. La restauration des couronnes n'etait pas un truc. C'etait une anthropologie. Il fallait redonner aux rois la possibilite de se croire encore rois, afin qu'ils consentent a etre plus utiles qu'ils ne l'auraient ete reduits a l'etat de gouverneurs humilies.
 
-Rose prit le verre de sa main gauche, sans le toucher. Le cristal s'eleva d'un pouce, pivotant tres legerement dans l'air comme si la gravite elle-meme s'etait laissee convaincre.
+— Les gens croient encore que j'ai restauré les couronnes pour contenir la menace mondiale. — Ils sont gentils, dit Rose. — Ils sont utilitaires. — À cette altitude, cela revient presque au même.
 
-— Vous avez rendu les couronnes a ceux qu'il fallait maintenir dependants.
-— J'ai rendu a certains hommes leur fiction necessaire, dit Marjory. C'est plus subtil.
-— Pas une fiction, dit Rose. Une chambre de desir politiquement orientee.
+Marjory but une gorgée.
 
-Marjory, cette fois, sourit pleinement.
-— Voila. Nous parlons enfin la meme langue.
+— J'ai restauré les couronnes parce qu'un empire trop intelligent finit par gouverner des territoires vides d'amour-propre. Les hommes ne poussent vraiment que dans la fiction qu'on leur laisse habiter.
 
-### IV. L'esturgeon — Le chaman de Kul Tiras
+Rose inclina légèrement la tête.
 
-Le maitre d'hotel fit signe. Le poisson entra.
+— Vous leur avez rendu des scènes de grandeur pour qu'ils continuent de travailler à la vôtre. — J'ai rendu à certaines vanités leur forme productive. — Oui.
 
-L'esturgeon etait servi en croute fine, a peine doree, accompagne d'un bulbe de fenouil fondant et d'une sauce claire dont le parfum de vin, de citron et d'herbe seche semblait presque intellectuel.
+L'esturgeon arriva, sous croûte fine, avec fenouil fondant et sauce claire.
 
-Marjory se servit elle-meme ; elle detestait qu'on lui impose un rythme. Rose fit glisser jusqu'a elle sa propre assiette par un simple deplacement de doigts, sans plus d'affect que si elle eut rectifie l'alignement d'un texte.
+Marjory reprit :
 
-— Le chaman de Kul Tiras a ecrit vingt-sept feuillets supplementaires, dit Marjory.
-— Trente-et-un, rectifia Rose. Quatre n'etaient pas joints au paquet principal ; ils ont ete recopies separement, sans doute parce que le pretre des ombres qui le suit a juge leur contenu trop dangereux pour entrer dans la meme liasse.
-— Tu l'as lu ?
-— Pas encore. Je l'ai senti a l'odeur de l'encre.
+— Le chaman de Kul Tiras a écrit encore. — Trente-et-un feuillets. Quatre ont été séparés du paquet principal. Le prêtre des ombres qui l'accompagne a jugé leur présence dangereuse. — Tu l'as lu ? — Non. J'ai reconnu l'autre encre.
 
-Le valet qui versait le vin manqua presque son angle.
+Le valet au vin rata presque son angle.
 
-— Il ecrit toujours mieux que les colleges de Dalaran ?
-— Oui. Les colleges classent des forces. Lui decrit des souverainetes.
-— Developpe.
-— Les mages parlent d'elements comme d'energies. Les pretres parlent de symboles. Les druides de respirations. Lui parle de juridictions. C'est plus dangereux.
-— Pourquoi ?
-— Parce que si l'eau n'est plus une simple substance ni un principe, mais une juridiction, alors tout rivage devient un litige. Toute traversee un contrat. Toute pluie une intrusion potentielle de souverainete.
-— Et alors ?
-— Alors le chamanisme cesse d'etre une spiritualite peripherique. Il devient une science politique du monde materiel.
+Marjory poursuivit comme si rien n'avait eu lieu.
 
-Marjory acquiesca tres legerement.
-— Oui.
+— Il écrit toujours mieux que Dalaran ? — Oui. Les collèges classent des forces. Lui décrit des souverainetés. — Développe. — S'il a raison sur l'eau, tout rivage devient litige. Toute traversée contrat. Toute pluie intrusion de souveraineté. Alors le chamanisme cesse d'être une spiritualité périphérique. Il devient une science politique du monde matériel.
 
-— Plus loin encore. S'il a raison pour l'eau, la pierre, l'air et le feu, alors l'erreur des ecoles n'est pas seulement d'avoir mal decrit les elements. C'est d'avoir separe trop tot les regimes de l'etre. La magie, la matiere, les croyances, les rites et les formes politiques ne sont peut-etre que des decoupages locaux d'une meme couche fondamentale.
+Marjory coupa le poisson.
 
-Marjory leva les yeux, enfin. Il y eut la, entre elles, cet infime instant que personne dans la salle n'aurait su definir, mais que tous sentirent : quelque chose, dans la piece, venait de devenir plus dense.
+— Plus loin. — Si les quatre éléments obéissent à cette logique, alors l'erreur des écoles n'est pas d'avoir mal décrit les forces. C'est d'avoir séparé trop tôt les régimes de l'être.
 
-— Peut-etre, dit Marjory.
+Marjory leva enfin les yeux.
 
-Puis, apres une seconde :
-— Tu vas trop vite vers la derniere phrase.
-— Parce qu'elle est la.
-— Non. Parce qu'elle te tente.
+La salle sentit quelque chose, sans pouvoir le nommer.
+
+— Peut-être, dit-elle.
+
+Puis :
+
+— Tu vas trop vite vers la dernière phrase. — Parce qu'elle est là. — Non. Parce qu'elle te tente.
 
 Rose se tut.
 
-Marjory reprit, seche :
-— Un esprit de cette taille ne doit jamais confondre une structure vraie avec l'impatience de la totalite. Ce chaman a peut-etre vu un joint. Tu veux deja reconstruire l'edifice.
+Marjory reprit, plus sèche :
 
-Rose posa sa fourchette.
-— Et vous ?
-— Je veux l'edifice aussi. Mais je sais le prix des murs.
+— Un esprit de cette taille ne doit jamais confondre structure vraie et impatience de totalité. Ce chaman a peut-être vu un joint. Tu veux déjà reconstruire l'édifice. — Et vous ? — Je veux l'édifice aussi. Je sais seulement le prix des murs.
 
-Ce n'etait ni une remontrance ni une lecon. C'etait une phrase de souveraine a souveraine. Une phrase dite au seul etre vivant assez haut pour entendre ce que contenait le mot "mur".
+Ce n'était pas une leçon. C'était une phrase de souveraine à souveraine.
 
-### V. La terrine de caille — Le pretre des ombres Jorren Vale
-
-Le troisieme vin, plus rond, fut servi avec la terrine de caille.
-
-Rose dit :
-— Le pretre des ombres est-il toujours Jorren Vale ?
-— Oui.
-— Il n'est pas fait pour accompagner un esprit pareil trop longtemps.
-— Non.
-— Il va commencer par l'etudier, puis l'admirer, puis vouloir lui desobeir pour le sauver de lui-meme.
-— Oui.
-— Et vous le gardez quand meme ?
-— Evidemment.
-— Pourquoi ?
-
-Marjory repondit sans hesiter :
-— Parce qu'un chaman legendaire ne doit pas etre surveille par un technicien du secret. Il doit etre suivi par un autre legendaire, capable de comprendre assez pour ne pas tout reduire a un dossier, mais pas assez pour croire qu'il peut l'egaler.
-
-Rose inclina la tete.
-— C'est cruel.
-— C'est propre.
-
-### VI. Le sanglier — Hadrien et les machines
-
-Le service de viande arriva. Sanglier glace au miel sec, sauce reduite, poivre noir, chair dense, presque sombre. Le premier morceau fondit sans bruit.
+On servit la viande : sanglier glacé au miel sec, poivre noir, sauce réduite.
 
 Rose ferma les yeux une seconde.
-— Hadrien abuse de son pouvoir.
-— Oui, dit Marjory. C'est pourquoi je le paie davantage que certains ducs.
 
-Un bref eclat passa entre elles, un rire qui n'en etait presque pas un.
+— Hadrien abuse. — Oui. C'est pourquoi je le paie davantage que certains ducs.
 
-Puis Marjory reprit :
-— Les machines.
+Un rire passa entre elles, bref et propre.
 
-Rose alla chercher le document roule pose pres de son verre. Elle l'effleura a peine ; le sceau se fendit de lui-meme, proprement, sans cire brisee.
+Puis Marjory dit :
 
-— Les prix ne montent pas partout de la meme maniere. C'est ce qui est interessant.
-— Bien sur.
-— Les epices montent parce qu'on fabrique une rarete. Les machines magiques legeres montent parce qu'on fabrique une dependance. Ce n'est pas la meme economie.
+— Le petit Renaud.
 
-— Notre besoin reel, c'est la fiabilite reproductible, pas l'ingeniosite brillante. Les ports n'ont pas besoin d'une merveille qui casse en six semaines si elle demande ensuite un esprit gobelin pour la reparer. Ils ont besoin d'un treuil qui fonctionne pendant dix ans, que trois artisans de royaume puissent comprendre, demonter, refaire.
+Rose leva les yeux.
 
-— Meme chose pour les pompes, les fours, les systemes de drainage, les grues de siege assistees, les alambics a chaleur stabilisee. Rien qui tue le cheval, le griffon, la caravane, le navire ou l'ecuyer. Rien qui remplace la chair vivante. Tout ce qui augmente le rendement du vivant sans lui oter sa centralite.
+— Renaud est trop jeune. — Justement. — Il n'a que quinze ans. — Et déjà une mémoire liturgique plus propre que trois abbés de la frontière.
 
-Marjory posa ses mains sur la table.
-— C'est la phrase a garder.
+Rose réfléchit à peine.
 
-Rose reprit, plus lentement :
-— L'Empire n'a pas vocation a industrialiser le monde. Il a vocation a empecher que les outils deviennent un argument contre la vie ordinaire des royaumes.
+— Oui. Mais alors il faudra l'endurcir avant de l'envoyer. Le garçon a encore le regard trop intact.
 
-Marjory leva enfin le doigt. Un scribe s'approcha.
+Marjory reprit son couteau.
 
-— Note, dit-elle. *"Aucun dispositif finance par la couronne ne devra, dans son principe d'expansion, rendre obsoletes les montures, le fret animal, les convois aeriens vivants ou les logiques locales de ravitaillement."* Ajoute : *"La vitesse n'est pas toujours un progres ; elle devient decadence quand elle detruit les formes de mobilite sur lesquelles repose encore la texture du monde."*
+— Nous avons des guerres pour cela.
 
-Le scribe ecrivit a une vitesse febrile.
+La phrase n'avait rien de cruel. C'était simplement le monde.
 
-Rose dit, sans le regarder :
-— Ajoutez aussi : *"Une innovation imperiale qui ne peut etre reparee par un atelier de province en quinze jours ne doit pas etre consideree comme infrastructure, mais comme luxe technique."*
+Le rouleau à la droite de Rose se fendit d'un effleurement.
 
-Marjory approuva d'un leger mouvement.
-— Oui. Mets-le apres ma phrase.
+— Les machines, dit Marjory.
 
-Le scribe trembla de bonheur.
+Rose déplia le document. Le sceau s'ouvrit sans bruit.
 
-### VII. Le sorbet — Les donjons de rang A
+— Nous n'annexerons ni Forgefer, ni Gnomeregan. Il faut donc raisonner juste.
 
-Le sorbet d'agrumes arriva, tres froid, presque brutal. Hadrien avait la politesse des genies : il savait qu'apres certains echanges, le palais exigeait un effacement.
+Marjory hocha.
 
-— Les donjons de rang A, dit Marjory.
+— Le problème n'est pas le savoir-faire. Le problème est la dépendance. J'ai vu trois royaumes s'enticher d'un mécanisme nain et oublier comment on entretenait un port sans lui. — Exactement, dit Rose. Notre besoin n'est pas l'ingéniosité. C'est la fiabilité. Un treuil qui tienne dix ans et que trois artisans de royaume puissent refaire. — Et le reste ? — Seulement un luxe.
 
-Rose reposa sa cuillere.
+Marjory la regarda.
 
-— Trois confirmes. Un quatrieme probable. Le premier pense mal. Le second ment bien. Le troisieme ecoute.
-— "Pense mal" ?
-— Stratification incoherente. Occupations successives non harmonisees. Pieges trolls, reaffectation ulterieure, puis couche rituelle plus tardive. Il n'y a pas une logique du lieu, mais plusieurs. Une escouade brillante peut y mourir pour avoir eu raison trop tot.
+— Continue. — La vitesse cesse d'être un progrès dès qu'elle détruit la texture du monde. Si un outil ne peut pas être réparé par un atelier de province en quinze jours, il ne doit pas devenir infrastructure.
 
-### VIII. Les escouades de huit — Doctrine de combat
+Marjory leva un doigt. Le scribe était déjà là.
 
-— Composition ?
-— Huit.
-— Toujours huit ?
-— Toujours, pour un rang A intelligent. Cinq, c'est l'heroisme de chanson. Huit, c'est l'Etat.
+— Note. "Aucun dispositif financé par la couronne ne devra, dans son principe d'expansion, rendre obsolètes les montures, le fret animal, les convois aériens vivants ou les logiques locales de ravitaillement."
 
-Marjory ne sourit pas, mais la phrase lui plut.
-— Detaille.
+Rose, sans regarder le scribe :
 
-Rose leva la main ; au-dessus de la table, dans l'air entre les plats, une maquette translucide se forma, non par spectacle mais par commodite. Huit points lumineux apparurent, relies par des filaments tres fins.
+— Ajoutez : "Ce qui exige plus de rareté humaine que de matière utile n'est pas un progrès. C'est un luxe qui se prend pour une infrastructure."
 
-— Deux quatuors imbriques. Avant et arriere, jamais avant et apres. Le premier groupe porte le choc et lit le terrain. Le second maintient la coherence, recupere, casse les contre-sorts, ferme la fuite.
-— Classes.
-— Paladin de ligne. Druide. Demoniste. Eclaireur mobile. Puis pretre, arcaniste, second bras arme, logisticien combattant.
-— Pourquoi toujours un demoniste avec un druide ?
-— Parce qu'ils lisent deux bords contraires du meme probleme. Le druide sent ce qui vit, respire, se tord, repousse, se souvient par le terrain. Le demoniste sent ce qui attache, corrompt, lie, exige, se nourrit. Dans un donjon A, surtout s'il est ancien, les deux lectures superposees donnent la seule image a peu pres vraie.
-— Et le paladin ?
-— Il n'est pas la pour tank, dit Rose avec un mepris presque amuse. Il est la pour imposer une geometrie morale. Certains lieux cassent d'abord l'ame avant la ligne. Il faut un etre dont la simple presence dise au groupe : "la desagregation ne se fera pas ici".
+Le scribe écrivit comme on prie.
 
-Marjory prit une gorgee d'eau. Le verre revint seul vers sa place, guide par un filet de mana si sobre qu'il semblait se deplacer par convenance.
+Le sorbet arriva, très froid, presque violent. Hadrien savait qu'après certaines conversations la bouche devait être remise à zéro.
 
-### IX. Cent hommes — Doctrine de formation
+Marjory prit une cuillère.
 
-— Cent hommes, dit Marjory.
+— Les donjons de rang A.
 
-Rose fit disparaitre les huit points d'un mouvement sec. Une seconde maquette, plus large, plus complexe, se deploya au-dessus des couverts, comme un petit theatre de guerre de lumiere bleue.
+Rose reposa la sienne.
 
-— Trois noyaux. Trente-six de ligne. Vingt-quatre de mobilite active. Quarante de reserve operante et soutien. Pas de train mort.
-— "Train mort", repeta Marjory.
-— Du soutien qui ne sait pas se battre est une nostalgie administrative, dit Rose.
-— Oui.
-— Deux paladins minimum. Trois si terrain a memoire religieuse forte. Les nobles les mettent cote a cote. C'est une erreur de famille. Les paladins se croisent ; ils ne se doublent pas.
-— Le demoniste ne doit jamais etre repousse a la peripherie du groupe par pudeur morale. C'est une erreur de capitaines pieux. S'il est bien encastre entre ligne et seconde respiration, il stabilise des zones de peur que le pretre seul ne peut pas resorber assez vite.
-— Et si le commandant refuse ? demanda Marjory.
+— Trois certains. Un quatrième probable. Le premier pense mal. Le second ment bien. Le troisième écoute. — "Pense mal" ? — Stratification incohérente. Couches trolls, réaffectation ultérieure, mémoire rituelle tardive. Une escouade brillante peut y mourir pour avoir eu raison trop tôt. — Composition ? — Huit. — Toujours huit ? — Toujours, pour un rang A intelligent. Cinq, c'est la chanson. Huit, c'est l'État.
 
-Rose repondit avec douceur :
-— **Alors qu'il meure avec de tres belles raisons.**
+La phrase plut à Marjory.
 
-Cette fois Marjory rit. Vraiment. Pas fort. Mais assez pour que trois personnes dans la salle oubliassent pendant une seconde leur propre posture.
+— Détaille.
 
-### X. Le dessert — L'avertissement
+Au-dessus de la table, entre les plats, une maquette translucide se forma : huit points reliés par de minces filaments bleus.
 
-Le dernier dessert arriva : glace pilee, creme legere, sucre brun, morceaux d'orange confite, une pointe de muscade de Kezan.
+— Deux quatuors imbriqués. Jamais avant et arrière. Avant et arrière à la fois. Le premier groupe porte le choc et lit. Le second maintient la cohérence, ferme les brèches, récupère, casse les contre-sorts. — Classes. — Paladin de ligne. Druide. Démoniste. Éclaireur mobile. Puis prêtre, arcaniste, second bras armé, logisticien combattant. — Pourquoi toujours un démoniste avec un druide ? — Parce qu'ils lisent deux bords contraires du même problème. Le druide sent ce qui pousse, respire, se souvient par le terrain. Le démoniste sent ce qui attache, exige, corrompt, lie. Dans un donjon A, les deux lectures ensemble donnent la première image à peu près vraie. — Et le paladin ?
 
-Le rythme ralentit. Il fallait qu'il ralentit. Les tres grandes conversations meurent si on les laisse croire qu'elles peuvent rester indefiniment a leur propre sommet.
+Rose eut un léger mépris.
 
-Marjory gouta, puis dit :
-— Trop d'epice.
+— Il n'est pas là pour tank. Il est là pour imposer une géométrie morale. Certains lieux cassent d'abord l'âme avant la ligne.
 
-Hadrien, invisible au fond de la salle, ferma les yeux avec une noblesse tragique.
+Marjory but une gorgée d'eau ; le verre revint seul à sa place.
 
-Rose prit une bouchee.
-— Non. Juste assez pour rappeler que Kezan n'est supportable qu'a faible dose.
-— Voila qui est politiquement exact, dit Marjory.
+— Cent hommes.
 
-Un silence passa. Pas vide. Habite.
+Les huit points disparurent. Une structure plus large, plus nette, prit leur place.
 
-Puis Marjory parla sans regarder sa fille :
+— Trois noyaux. Trente-six de ligne. Vingt-quatre de mobilité active. Quarante de réserve opérante et soutien. Pas de train mort. — "Train mort." — Du soutien qui ne sait pas se battre est une nostalgie administrative. — Oui. — Deux paladins minimum. Trois si le terrain garde une mémoire religieuse forte. Les nobles les collent ensemble. C'est une erreur de famille. Les paladins se croisent ; ils ne se doublent pas. — Et le démoniste ? — Intégré, pas relégué. À la périphérie, il devient une tache morale. Enchâssé dans la structure, il devient une couture.
+
+Marjory eut ce très léger rire qui ressemblait presque à une lame.
+
+— Et si le commandant refuse le démoniste pour raison de culture ?
+
+Rose répondit avec douceur :
+
+— Alors qu'il meure dans la décoration de sa propre bêtise.
+
+Cette fois, Marjory rit vraiment. Pas longtemps. Assez pour désorganiser trois postures dans la salle.
+
+Le dernier dessert arriva : glace pilée, crème légère, sucre brun, orange confite, une pointe de muscade de Kezan.
+
+Marjory goûta.
+
+— Trop d'épice.
+
+Au fond, invisible, Hadrien encaissa la phrase comme une blessure d'honneur.
+
+Rose prit une bouchée.
+
+— Oui. Juste assez pour rappeler que Kezan n'est supportable qu'à faible dose. — Politiquement exact.
+
+Le silence qui suivit n'était pas vide. Il travaillait.
+
+Puis Marjory dit, sans la regarder :
+
 — Tu iras trop loin un jour.
 
-Dans une autre bouche, cela eut ete reproche. Ici, c'etait un constat a la fois terrible et tendre.
+Ce n'était ni reproche ni peur. Seulement un constat suffisamment haut pour n'avoir plus besoin de ton.
 
-— Oui.
-— Et tu sais deja ou.
+Rose ne protesta pas.
 
-Rose prit son verre. Le cristal resta suspendu une seconde trop longtemps.
+— Oui. — Et tu sais déjà où.
 
-— Je sais surtout a quelle vitesse on cesse de voir le bord quand on a trop longtemps vecu plus haut que les autres.
+Le cristal de son verre resta suspendu une seconde trop longtemps.
 
-Marjory tourna alors enfin les yeux vers elle. Dans cette salle, a cet instant, il n'y avait plus : ni cour, ni Empire, ni vassaux, ni ports, ni epices, ni centaures, ni theories, ni donjons. Il n'y avait plus que la seule personne au monde qui eut jamais ete assez haute pour entendre reellement ce que Rose venait de dire.
+— Je sais surtout à quelle vitesse on cesse de voir le bord quand on a trop longtemps vécu plus haut que les autres.
+
+Marjory la regarda. Dans cette salle, à cet instant, il n'y avait plus ni cour, ni Empire, ni vassaux, ni ports, ni épices, ni théories, ni donjons. Il n'y avait que la seule personne au monde assez haute pour entendre ce que Rose venait de dire.
 
 — Oui, dit Marjory.
 
-Le mot tomba avec une gravite si pure qu'il semblait avoir ete lave de tout le reste.
+Puis, plus dure :
 
-Puis elle reprit, plus seche :
-— Alors ne va jamais si vite que le retour exige une mutilation.
+— Ne laisse jamais ton génie croire qu'il a le droit de n'appartenir qu'à lui-même.
 
-Rose baissa legerement la tete.
-— Je n'ai jamais eu que vous pour repere sur ce point.
+Rose baissa légèrement la tête.
+
+— Je n'ai jamais eu que vous pour repère sur ce point.
 
 Marjory resta immobile.
-— Oui, dit-elle enfin. Et c'est precisement pourquoi je n'ai pas le droit de me tromper en te parlant.
 
-Le silence revint. Cette fois, personne dans la salle n'aurait su dire combien de temps il dura. Les bougies derivaient. Les globes de lumiere maintenaient leur rotation imperceptible. Un valet posa, sans bruit, une nouvelle carafe. Un roturier de cuisine, appele pour porter les derniers fruits, entra, s'inclina, ressortit, ignorant qu'il venait de traverser une chambre ou se jouait peut-etre davantage que dans vingt champs de bataille.
+— Oui. C'est pourquoi je n'ai pas le droit de me tromper en te parlant.
 
-### XI. Les quatre ordres
+Le silence revint. Les bougies dérivaient. Un valet changea une carafe. Un porteur de fruits entra, s'inclina, ressortit.
 
-Marjory tendit alors la main. Une carte mince, roulee, vint a elle depuis un gueridon eloigne sans qu'elle eut besoin de la toucher. Le ruban se defit de lui-meme. Kalimdor se deploya entre elles.
+Marjory tendit la main. Une carte mince quitta un guéridon éloigné et vint à elle. Le ruban se défit seul. Kalimdor se déploya entre elles.
 
-Elle prit un petit couteau de table, le fit chauffer d'un trait de mana invisible jusqu'a ce que la lame eut l'eclat exact du metal pret a la coupe, puis trancha une figue avec une proprete scandaleuse.
+Elle prit un petit couteau de table, le chauffa d'un fil de mana jusqu'à l'éclat exact du métal prêt, et trancha une figue avec une précision insultante.
 
-— Quatre ordres, dit-elle.
+— Quatre ordres.
 
-Le scribe revint presque avant d'avoir ete appele.
+Le scribe reparut presque avant l'appel.
 
-**1. Au roi de Lordaeron** : La marche kolkar lui sera cedee en usufruit militaire conditionnel. Pas comme recompense. Comme test.
-*"Tout territoire recu doit apprendre a vous agrandir sans jamais vous faire croire que vous grandissez hors de nous."*
-Rose completa : *"Le sable n'est pas une frontiere ; c'est un examen."*
+— Premier : au roi de Lordaeron. La marche kolkar lui sera cédée en usufruit militaire conditionnel. Pas comme récompense. Comme test. Écris : "Tout territoire reçu doit vous agrandir sans jamais vous laisser croire que vous grandissez hors de nous."
 
-**2. A Kezan et aux comptoirs de Butin** : Trois routes-ecrans supplementaires, petites cargaisons, rotation rapide, profits faibles, visibilite forte. Audit discret sur les assurances par les chiffres d'Hautebrande. Pas d'accusation, pas d'humiliation. Seulement la sensation, chez eux, qu'ils sont deja legerement moins seuls qu'hier.
+Rose ajouta :
 
-**3. Au pretre des ombres Jorren Vale** : Le chaman reste libre. Plus d'etau. Plus de maison visible. Double etablissement cotier. Trois lecteurs : un grammairien, un geologue liturgique, un scribe de terrain. Surtout pas un mage de college.
+— "Le sable n'est pas une frontière. C'est un examen."
 
-**4. A l'Academie de Guerre** : Essai doctrinal sur formation a huit et a cent. Trois rapports. Pas des exercices de salon. Des terrains. Des blessures. Des erreurs reelles.
+— Deuxième : à l'amirauté de Kul Tiras et aux comptoirs de Butin. Trois routes-écrans supplémentaires. Petites cargaisons, profits faibles, visibilité forte. Je veux que la piraterie intelligente y morde comme un chien blessé mord la mauvaise main.
 
-Rose se leva alors. Pas brusquement. Comme une decision qui prend corps.
+Rose :
 
-Les serviteurs reculerent d'un meme mouvement. Les bougies, presque imperceptiblement, s'ecarterent de son axe. Elle posa deux doigts sur le bord de la table. Les quatre ordres, a peine scelles, se souleverent de quelques pouces. Autour d'eux, l'air se fit plus clair, comme si la piece elle-meme retenait son souffle.
+— Et audit discret sur les assurances de Kezan, par les chiffres d'Hautebrande. Pas d'accusation. Seulement l'impression d'être un peu moins seuls qu'hier.
 
-Marjory l'observait. Il n'y avait dans ce regard ni surprise, ni admiration simple, ni ce contentement inferieur des parents qui se felicitent d'avoir bien produit. Il y avait quelque chose de bien plus rare : la reconnaissance severe d'un esprit a l'autre, la mesure exacte d'une heritiere qui n'avait plus besoin d'etre nommee pour etre deja numero deux du monde.
+— Troisième : à Jorren Vale. Le chaman reste libre. Plus d'étau. Deux établissements côtiers. Trois lecteurs. Pas plus. — Un grammairien, dit Rose. Un géologue liturgique. Un scribe de terrain. Surtout pas un mage de collège.
 
-Rose ouvrit la main. Les quatre sceaux s'embraserent d'une lumiere bleue sans chaleur. Puis disparurent — non dissous, non brules, mais **envoyes**, chacun selon une route preparee d'avance, vers le destin qu'ils devaient mettre en mouvement.
+— Quatrième : à l'Académie de Guerre. Essai doctrinal sur formations à huit et à cent. Je veux des terrains, des blessures, des erreurs vraies. Pas des salons.
 
-Le dernier eclat s'eteignit.
+Rose se leva.
 
-Marjory reprit sa serviette, s'essuya les doigts, puis dit simplement :
-— Le dessert etait un peu trop epice.
+Les serviteurs reculèrent d'un même mouvement. Les quatre ordres, à peine scellés, s'élevèrent de quelques pouces. L'air se clarifia autour d'eux.
 
-Rose, toujours debout, repondit :
-— Oui. Mais les decisions etaient bonnes.
+Marjory l'observait.
 
----
+Il n'y avait dans ce regard ni attendrissement, ni surprise, ni fierté vulgaire. Seulement la reconnaissance exacte d'un esprit capable de prendre place là où le monde n'acceptait d'ordinaire qu'un seul être.
 
-## EPILOGUE
+Rose ouvrit la main.
 
-Et dans cette salle de marbre, de magie, de froid, de luxe et d'intelligence, ou meme les sujets mineurs avaient le poids du monde, cela suffit a faire comprendre a tous ceux qui s'y trouvaient — sans qu'aucun n'eut jamais pu le formuler correctement — que le destin des siecles ne se decidait pas toujours dans le fracas.
+Les quatre sceaux s'embrasèrent d'une lumière bleue sans chaleur. Puis ils disparurent, chacun vers la route qui lui avait déjà été préparée.
 
-Parfois, il se decidait entre une mere et sa fille, a table, au moment exact ou l'on choisit quoi donner a un roi lointain, quel pirate laisser vivre, quel savant laisser libre, quelle formation essayer dans la poussiere, et combien de poivre un empire peut tolerer sans perdre le sens de sa propre mesure.
+Le dernier éclat s'éteignit.
 
-> *Les empires aiment croire qu'ils tiennent par leurs ports, leurs coffres, leurs murailles, leurs flottes et leurs archives. Ils se trompent un peu. Parfois, ils tiennent d'abord parce que deux femmes, a une table, sont encore capables de parler des choses les plus petites a une hauteur ou tout, meme une racine dans un consomme, redevient une affaire de civilisation.*
+Marjory reprit sa serviette, s'essuya les doigts, puis dit :
+
+— Le dessert était légèrement trop épicé.
+
+Rose, encore debout, répondit :
+
+— Oui. Mais le monde devrait tenir jusqu'au matin.
+
+Cela suffit.
