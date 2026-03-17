@@ -139,10 +139,10 @@ export default async function EntryPage({ params }: EntryPageProps) {
                   )}
 
                   {entry.dates && (
-                    <p className="mt-3 text-sm tabular-nums text-stone-500">{entry.dates}</p>
+                    <p className="mt-3 text-sm tabular-nums text-slate-500">{entry.dates}</p>
                   )}
 
-                  <div className="mt-6 flex flex-wrap items-center gap-6 text-xs text-stone-600">
+                  <div className="mt-6 flex flex-wrap items-center gap-6 text-xs text-slate-600">
                     <span className="flex items-center gap-1.5">
                       <Clock className="size-3" />
                       {entry.readingTime} min de lecture
@@ -151,7 +151,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
                       <FileText className="size-3" />
                       {entry.wordCount.toLocaleString("fr")} mots
                     </span>
-                    <span className="text-stone-700">{entry.sourcePath}</span>
+                    <span className="text-slate-700">{entry.sourcePath}</span>
                   </div>
                 </div>
               </div>
@@ -172,15 +172,15 @@ export default async function EntryPage({ params }: EntryPageProps) {
                   href={`/encyclopedie/${collection}/${prevEntry.slug}`}
                   className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.02] p-6"
                 >
-                  <span className="flex items-center gap-1.5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+                  <span className="flex items-center gap-1.5 text-[10px] uppercase tracking-[0.2em] text-slate-600">
                     <ArrowLeft className="size-3" />
                     Precedent
                   </span>
-                  <p className="mt-2 font-serif text-xl text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+                  <p className="mt-2 font-serif text-xl text-slate-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                     {prevEntry.title}
                   </p>
                   {prevEntry.epithet && (
-                    <p className="mt-1 text-xs italic text-stone-600">{prevEntry.epithet}</p>
+                    <p className="mt-1 text-xs italic text-slate-600">{prevEntry.epithet}</p>
                   )}
                 </Link>
               ) : <div />}
@@ -189,15 +189,15 @@ export default async function EntryPage({ params }: EntryPageProps) {
                   href={`/encyclopedie/${collection}/${nextEntry.slug}`}
                   className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.02] p-6 text-right"
                 >
-                  <span className="flex items-center justify-end gap-1.5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+                  <span className="flex items-center justify-end gap-1.5 text-[10px] uppercase tracking-[0.2em] text-slate-600">
                     Suivant
                     <ArrowRight className="size-3" />
                   </span>
-                  <p className="mt-2 font-serif text-xl text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+                  <p className="mt-2 font-serif text-xl text-slate-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                     {nextEntry.title}
                   </p>
                   {nextEntry.epithet && (
-                    <p className="mt-1 text-xs italic text-stone-600">{nextEntry.epithet}</p>
+                    <p className="mt-1 text-xs italic text-slate-600">{nextEntry.epithet}</p>
                   )}
                 </Link>
               ) : null}
@@ -241,9 +241,9 @@ export default async function EntryPage({ params }: EntryPageProps) {
                   <Link
                     key={`${r.collection}/${r.slug}`}
                     href={r.collection === "scenes" ? `/scenes/${r.slug}` : `/encyclopedie/${r.collection}/${r.slug}`}
-                    className="block truncate rounded-lg px-3 py-2 text-xs text-stone-500 transition-all duration-200 hover:bg-[var(--gold)]/[0.04] hover:text-stone-300"
+                    className="block truncate rounded-lg px-3 py-2 text-xs text-slate-500 transition-all duration-200 hover:bg-[var(--gold)]/[0.04] hover:text-slate-300"
                   >
-                    <span className="text-[9px] uppercase tracking-wider text-stone-700">{r.collection} </span>
+                    <span className="text-[9px] uppercase tracking-wider text-slate-700">{r.collection} </span>
                     {r.title}
                   </Link>
                 ))}
@@ -253,7 +253,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
 
           {/* Collection navigation */}
           <div className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5">
-            <p className="mb-4 text-[10px] uppercase tracking-[0.25em] text-stone-600">
+            <p className="mb-4 text-[10px] uppercase tracking-[0.25em] text-slate-600">
               Dans cette collection
             </p>
             <div className="space-y-1">
@@ -264,7 +264,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
                   className={`block truncate rounded-lg px-3 py-2 text-xs transition-all duration-200 ${
                     e.slug === slug
                       ? "bg-[var(--gold)]/10 text-[var(--gold-light)] font-medium"
-                      : "text-stone-500 hover:bg-white/[0.04] hover:text-stone-300"
+                      : "text-slate-500 hover:bg-white/[0.04] hover:text-slate-300"
                   }`}
                 >
                   {e.title}

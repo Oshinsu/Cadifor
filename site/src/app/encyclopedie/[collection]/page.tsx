@@ -53,7 +53,7 @@ export default async function CollectionPage({ params }: CollectionPageProps) {
         <div className="relative max-w-3xl">
           <Link
             href="/encyclopedie"
-            className="mb-6 inline-flex items-center gap-1.5 text-xs text-stone-500 transition-colors hover:text-stone-300"
+            className="mb-6 inline-flex items-center gap-1.5 text-xs text-slate-500 transition-colors hover:text-slate-300"
           >
             <ChevronLeft className="size-3" />
             Toutes les collections
@@ -63,13 +63,13 @@ export default async function CollectionPage({ params }: CollectionPageProps) {
             {collection}
           </p>
           <h1 className="font-serif text-5xl text-[var(--ivory)]">{label}</h1>
-          <p className="mt-4 text-lg leading-8 text-stone-400">
+          <p className="mt-4 text-lg leading-8 text-slate-400">
             {description}
           </p>
 
-          <div className="mt-6 flex items-center gap-6 text-xs text-stone-500">
+          <div className="mt-6 flex items-center gap-6 text-xs text-slate-500">
             <span>{entries.length} entree{entries.length !== 1 ? "s" : ""}</span>
-            <span className="h-3 w-px bg-stone-700" />
+            <span className="h-3 w-px bg-slate-700" />
             <span>{totalWords.toLocaleString("fr")} mots</span>
           </div>
         </div>
@@ -88,8 +88,8 @@ export default async function CollectionPage({ params }: CollectionPageProps) {
 
       {entries.length === 0 && (
         <div className="mt-12 text-center">
-          <p className="font-serif text-2xl text-stone-500">Aucune entree</p>
-          <p className="mt-2 text-sm text-stone-600">
+          <p className="font-serif text-2xl text-slate-500">Aucune entree</p>
+          <p className="mt-2 text-sm text-slate-600">
             Cette collection ne contient pas encore de contenu.
           </p>
         </div>

@@ -106,10 +106,10 @@ export default function HomePage() {
               <span className="absolute -bottom-2 left-0 right-0 h-px bg-gradient-to-r from-[var(--gold)]/50 via-[var(--gold)] to-[var(--gold)]/50" />
             </span>
             <br />
-            <span className="text-stone-400">de Cadifor</span>
+            <span className="text-slate-400">de Cadifor</span>
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-stone-400/90">
+          <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-400/90">
             Quatre siecles de sang, de fer et de sagesse. {totalEntries} entrees
             derivees de 997 pages de lore brut — une dynastie forgee dans la guerre,
             cimentee par l&apos;ambition, immortalisee par la plume.
@@ -126,7 +126,7 @@ export default function HomePage() {
             </Link>
             <Link
               href="/encyclopedie"
-              className="inline-flex items-center gap-3 rounded-full border border-[var(--gold)]/25 bg-[var(--gold)]/[0.04] px-8 py-4 text-sm uppercase tracking-[0.2em] text-stone-200 backdrop-blur-sm transition-all duration-300 hover:border-[var(--gold)]/40 hover:bg-[var(--gold)]/[0.08] hover:text-[var(--gold-light)]"
+              className="inline-flex items-center gap-3 rounded-full border border-[var(--gold)]/25 bg-[var(--gold)]/[0.04] px-8 py-4 text-sm uppercase tracking-[0.2em] text-slate-200 backdrop-blur-sm transition-all duration-300 hover:border-[var(--gold)]/40 hover:bg-[var(--gold)]/[0.08] hover:text-[var(--gold-light)]"
             >
               <BookOpenText className="size-4" />
               Explorer l&apos;encyclopedie
@@ -167,7 +167,7 @@ export default function HomePage() {
           <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)] md:text-5xl">
             La dynastie Cadifor
           </h2>
-          <p className="mt-3 max-w-2xl text-sm leading-7 text-stone-500">
+          <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-500">
             Onze souverains. Quatre siecles de pouvoir. Du chevalier errant au trone imperial.
           </p>
         </div>
@@ -206,13 +206,13 @@ export default function HomePage() {
                     <span className="mb-1 font-serif text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/40">
                       {["I","II","III","IV","V","VI","VII","VIII","IX","X","XI"][i]}
                     </span>
-                    <span className="font-serif text-lg text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+                    <span className="font-serif text-lg text-slate-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                       {ruler.name}
                     </span>
-                    <span className="text-[11px] italic text-stone-500">
+                    <span className="text-[11px] italic text-slate-500">
                       {ruler.epithet}
                     </span>
-                    <span className="mt-auto pt-2 text-[10px] tabular-nums text-stone-600">
+                    <span className="mt-auto pt-2 text-[10px] tabular-nums text-slate-600">
                       {ruler.years}
                     </span>
                   </div>
@@ -254,7 +254,7 @@ export default function HomePage() {
                   <h2 className="font-serif text-4xl text-[var(--ivory)] transition-colors duration-300 group-hover:text-[var(--gold-light)] md:text-5xl lg:text-6xl">
                     {featuredScene.title}
                   </h2>
-                  <p className="mt-6 max-w-3xl text-base leading-8 text-stone-400">
+                  <p className="mt-6 max-w-3xl text-base leading-8 text-slate-400">
                     {featuredScene.excerpt}
                   </p>
                   <span className="mt-10 inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/20 bg-[var(--gold)]/[0.05] px-5 py-2 text-sm uppercase tracking-[0.2em] text-[var(--gold)]/80 transition-all duration-300 group-hover:border-[var(--gold)]/40 group-hover:text-[var(--gold)]">
@@ -276,13 +276,13 @@ export default function HomePage() {
             <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)]">
               Les souverains et leurs ombres
             </h2>
-            <p className="mt-2 max-w-lg text-sm text-stone-500">
+            <p className="mt-2 max-w-lg text-sm text-slate-500">
               Ceux qui ont fait et defait le Haut Royaume.
             </p>
           </div>
           <Link
             href="/encyclopedie/personnages"
-            className="group inline-flex shrink-0 items-center gap-2 text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+            className="group inline-flex shrink-0 items-center gap-2 text-sm uppercase tracking-[0.2em] text-slate-500 transition-colors duration-300 hover:text-[var(--gold)]"
           >
             Tous les personnages
             <ArrowRight className="size-3 transition-transform duration-300 group-hover:translate-x-1" />
@@ -322,13 +322,13 @@ export default function HomePage() {
           <div>
             <p className="section-label">Chroniques</p>
             <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)]">Scenes fortes</h2>
-            <p className="mt-2 max-w-lg text-sm text-stone-500">
+            <p className="mt-2 max-w-lg text-sm text-slate-500">
               Les moments qui ont forge la legende.
             </p>
           </div>
           <Link
             href="/scenes"
-            className="group inline-flex shrink-0 items-center gap-2 text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+            className="group inline-flex shrink-0 items-center gap-2 text-sm uppercase tracking-[0.2em] text-slate-500 transition-colors duration-300 hover:text-[var(--gold)]"
           >
             Toutes les scenes
             <ArrowRight className="size-3 transition-transform duration-300 group-hover:translate-x-1" />
@@ -349,13 +349,13 @@ export default function HomePage() {
             <div>
               <p className="section-label">Noeuds du corpus</p>
               <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)]">Les plus cites</h2>
-              <p className="mt-2 max-w-lg text-sm text-stone-500">
+              <p className="mt-2 max-w-lg text-sm text-slate-500">
                 Les entrees les plus referencees a travers le corpus.
               </p>
             </div>
             <Link
               href="/recherche"
-              className="group inline-flex shrink-0 items-center gap-2 text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+              className="group inline-flex shrink-0 items-center gap-2 text-sm uppercase tracking-[0.2em] text-slate-500 transition-colors duration-300 hover:text-[var(--gold)]"
             >
               Rechercher
               <ArrowRight className="size-3 transition-transform duration-300 group-hover:translate-x-1" />
@@ -379,7 +379,7 @@ export default function HomePage() {
         <div className="mb-10">
           <p className="section-label">Graphe du corpus</p>
           <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)]">Collections</h2>
-          <p className="mt-2 max-w-lg text-sm text-stone-500">
+          <p className="mt-2 max-w-lg text-sm text-slate-500">
             {encyclopaediaCollections.length} collections thematiques. Tout le savoir du Haut Royaume, classe et indexe.
           </p>
         </div>
@@ -400,17 +400,17 @@ export default function HomePage() {
                   <div className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/50">
                     {collection}
                   </div>
-                  <div className="mt-2 font-serif text-3xl text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+                  <div className="mt-2 font-serif text-3xl text-slate-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                     {getCollectionLabel(collection)}
                   </div>
-                  <div className="mt-2 text-sm leading-7 text-stone-500">
+                  <div className="mt-2 text-sm leading-7 text-slate-500">
                     {getCollectionDescription(collection)}
                   </div>
                   <div className="mt-5 flex items-center gap-3">
                     <span className="rounded-full border border-[var(--gold)]/15 bg-[var(--gold)]/[0.06] px-3 py-1 text-[10px] uppercase tracking-[0.15em] text-[var(--gold)]">
                       {count} entrees
                     </span>
-                    <ArrowRight className="size-3 text-stone-600 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[var(--gold)]" />
+                    <ArrowRight className="size-3 text-slate-600 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[var(--gold)]" />
                   </div>
                 </div>
               </Link>

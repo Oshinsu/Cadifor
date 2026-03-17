@@ -24,7 +24,7 @@ export default function NotationScenesPage() {
         <h1 className="mt-3 font-serif text-5xl text-[var(--ivory)]">
           Notation des scenes
         </h1>
-        <p className="mt-4 text-[10px] uppercase tracking-[0.22em] text-stone-500">
+        <p className="mt-4 text-[10px] uppercase tracking-[0.22em] text-slate-500">
           Source : {notation.sourcePath}
         </p>
       </div>

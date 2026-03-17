@@ -24,7 +24,7 @@ export default function ProgressionPdfPage() {
         <h1 className="mt-3 font-serif text-5xl text-[var(--ivory)]">
           Progression du PDF fondateur
         </h1>
-        <p className="mt-4 text-[10px] uppercase tracking-[0.22em] text-stone-500">
+        <p className="mt-4 text-[10px] uppercase tracking-[0.22em] text-slate-500">
           Source : {progress.sourcePath}
         </p>
       </div>

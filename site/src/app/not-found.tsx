@@ -21,7 +21,7 @@ export default function NotFound() {
         Introuvable
       </p>
       <h1 className="mt-3 font-serif text-5xl text-[var(--ivory)]">Page absente</h1>
-      <p className="mt-4 max-w-xl text-lg leading-8 text-stone-400">
+      <p className="mt-4 max-w-xl text-lg leading-8 text-slate-400">
         Cette route n&apos;a pas encore d&apos;entree correspondante dans le corpus
         Cadifor. Le Haut Royaume ne couvre pas encore tous les chemins.
       </p>
@@ -35,7 +35,7 @@ export default function NotFound() {
         </Link>
         <Link
           href="/recherche"
-          className="inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/20 px-6 py-3 text-sm uppercase tracking-[0.18em] text-stone-200 transition-all duration-300 hover:border-[var(--gold)]/40 hover:text-[var(--gold-light)]"
+          className="inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/20 px-6 py-3 text-sm uppercase tracking-[0.18em] text-slate-200 transition-all duration-300 hover:border-[var(--gold)]/40 hover:text-[var(--gold-light)]"
         >
           <Search className="size-4" />
           Rechercher

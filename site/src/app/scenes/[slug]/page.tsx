@@ -92,11 +92,11 @@ export default async function ScenePage({ params }: ScenePageProps) {
               <h1 className="font-serif text-5xl leading-tight text-[var(--ivory)] md:text-6xl">
                 {scene.title}
               </h1>
-              <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-400">
+              <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-400">
                 {scene.excerpt}
               </p>
 
-              <div className="mt-8 flex flex-wrap items-center gap-6 text-xs text-stone-500">
+              <div className="mt-8 flex flex-wrap items-center gap-6 text-xs text-slate-500">
                 <span className="flex items-center gap-1.5">
                   <Clock className="size-3" />
                   {scene.readingTime} min de lecture
@@ -105,7 +105,7 @@ export default async function ScenePage({ params }: ScenePageProps) {
                   <FileText className="size-3" />
                   {scene.wordCount.toLocaleString("fr")} mots
                 </span>
-                <span className="text-stone-700">{scene.sourcePath}</span>
+                <span className="text-slate-700">{scene.sourcePath}</span>
               </div>
             </div>
           </div>
@@ -128,11 +128,11 @@ export default async function ScenePage({ params }: ScenePageProps) {
               href={`/scenes/${prevScene.slug}`}
               className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.02] p-6"
             >
-              <span className="flex items-center gap-1.5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+              <span className="flex items-center gap-1.5 text-[10px] uppercase tracking-[0.2em] text-slate-600">
                 <ArrowLeft className="size-3" />
                 Scene precedente
               </span>
-              <p className="mt-2 font-serif text-xl text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+              <p className="mt-2 font-serif text-xl text-slate-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                 {prevScene.title}
               </p>
             </Link>
@@ -142,11 +142,11 @@ export default async function ScenePage({ params }: ScenePageProps) {
               href={`/scenes/${nextScene.slug}`}
               className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.02] p-6 text-right"
             >
-              <span className="flex items-center justify-end gap-1.5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+              <span className="flex items-center justify-end gap-1.5 text-[10px] uppercase tracking-[0.2em] text-slate-600">
                 Scene suivante
                 <ArrowRight className="size-3" />
               </span>
-              <p className="mt-2 font-serif text-xl text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+              <p className="mt-2 font-serif text-xl text-slate-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                 {nextScene.title}
               </p>
             </Link>
