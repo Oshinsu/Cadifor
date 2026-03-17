@@ -59,6 +59,9 @@ Autrement dit :
 | `175-178` | sondee | precisions supplementaires sur le `Denier imperial`, ateliers de frappe, `LCI`, `CCM`, pedagogie populaire et banques mixtes | bon | utile pour densifier `monnaie_et_credit.md` sans reprendre toute la bibliographie fictive |
 | `179-220` | sondee | prolongement `Heleris` : inclusion economique, `Maisons du Commerce`, audit, sanctions publiques, gouvernance du credit | bon mais a filtrer | utile pour `monnaie_et_credit.md`, `sections/economie.md`, `sections/education.md` et `personnages/34_heleris.md` |
 | `220+` | sondee | corrections tardives sur la carte politique de `950` : `Marjory`, couronnes vassales, `Baie-du-Butin`, `Morasses Noires`, expansions ouest | **tres haut** | utile pour `12_marjory.md`, `sections/geopolitique.md`, `factions/nations_externes.md`, `etat_du_monde_950.md`, `CHRONOLOGIE.md` et `meta/marjory_et_les_couronnes_vassales.md` |
+| `220-330` (~l.13000-18000) | sondee | Stats Rose (Diplo 19, Martial 18, Int 13, Intr 12, Erud 36) et Arwyn (Diplo 16, Martial 9, Int 10, Intr 2, Erud 25). Heleris Sunspire biographie complete. Scene convocation Rose/Arwyn/Heleris. Reorganisation des royaumes sous Marjory. Quel'Thalas = Horde (50k). 1 seul comte en Pandarie. Menace CK2 a 84%. | **tres haut** | integre dans `14_arwyn.md`, `13_rose.md` (deja fait), `kalimdor_pandarie_950.md`, `puissances_militaires_950.md` |
+| `330-450` (~l.18000-25000) | sondee | Stats CK2 de tous les rois vassaux (Lordaeron 67k, Stromgarde 61k, Gurubashi 24k, Kezan 18k, Hautebrande 23k, etc.). Puissances Kalimdor (Kaldorei 88k, Cercle 67k, Hyjal 59k, Uldum 42k). Total elfique ~214k vs Azeroth ~220k. Demographie estimee (16-22M). Distribution des sets epiques T0-T3 par royaume. | **tres haut** | integre dans `puissances_militaires_950.md`, `kalimdor_pandarie_950.md`, `equipement_wow.md` |
+| `450-565` (~l.25000-34029) | sondee | Post-Rose : Brodie "le Juste" (53 ans, 222k, meurt a 74 en 1038). Saltain Cadifor (26 ans, Mage X, epouse Gianna Fordring). Tournoi imperial 1040. Invasion Northrend (Couronne de Glace via Stromgarde, 70% pertes ; Sholazar via Kezan). Politique des genies. Alliance gnome (Nightspark). Chroniques romanesques (prose IA, faible priorite). | **haut** | integre dans `chronologie_souverains.md`, `etat_du_monde_1038.md` (nouveau) |
 
 ---
 
@@ -229,6 +232,24 @@ Ordre recommande :
 6. ~~`133-166`~~ ✅ **FAIT** — appareil administratif, universitaire et fiscal du haut Empire
 7. ~~`167-220`~~ ✅ **FAIT** — dossier `Heleris` ferme comme source prudente ; monnaie, credit, inclusion, audit et gouvernance recales
 8. ~~`220+`~~ ✅ **FAIT** — correction majeure : `Marjory` restaure les couronnes vassales ; `950` doit etre lu comme empire recompose, non comme bloc plat
+9. ~~`220-330`~~ ✅ **FAIT** — stats Rose/Arwyn, Heleris, reorganisation royaumes, menace CK2, Quel'Thalas = Horde
+10. ~~`330-450`~~ ✅ **FAIT** — stats CK2 tous vassaux, puissances Kalimdor, demographie, distribution sets epiques
+11. ~~`450-565`~~ ✅ **FAIT** — post-Rose (Brodie, Saltain), Northrend, politique genies, prose romanesque
+
+**STATUT : 565/565 pages verifiees — PDF ORIGINAL COMPLET A 100%**
+
+---
+
+## Sorties repo nouvelles (session finale)
+
+| Fichier | Enrichissement | Source |
+|---------|---------------|--------|
+| `14_arwyn.md` | Stats corrigees : Intrigue 2, Intendance 10, Erudition 25 | l.13070-13288 |
+| `puissances_militaires_950.md` | **NOUVEAU** — donnees militaires CK2 pour tous les royaumes, hierarchie mondiale | l.17236-17560 |
+| `kalimdor_pandarie_950.md` | Enrichi avec donnees militaires Kaldorei/Cercle/Hyjal/Uldum/Pandarie | l.17431-17560, l.14761-14800 |
+| `chronologie_souverains.md` | Ajout Brodie (#12) et Saltain (#13) post-Rose | l.26171-26192, l.30908-30921 |
+| `etat_du_monde_1038.md` | **NOUVEAU** — etat du monde post-Rose, Brodie/Saltain, Northrend, conseil | l.28237-31560 |
+| `equipement_wow.md` | Ajout repartition des sets T0-T3 par royaume | l.22113-25300 |
 
 ---
 

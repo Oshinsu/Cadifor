@@ -117,3 +117,91 @@ C'est l'anneau d'etude conserve de Marjory avant le trone : peut-etre `A`, peut-
 - **Double classe** (Mage + Warlock/Necro) : n'existe pas dans le jeu
 - Symbolise que Rose **transcende le systeme** — elle ne peut pas etre contenue dans une seule classe
 - Le T3 (Frostfire Regalia) + Naxxramas = le plus haut tier existant dans Vanilla
+
+---
+
+## REPARTITION DES SETS PAR ROYAUME
+
+> Chaque set (classe + tier) n'existe qu'en **un seul exemplaire**. Les sets T1.5 (ZG) sont **tous** reserves a Zul'Gurub. Les royaumes mineurs (Crins-de-Givre, Desolace) n'ont droit qu'au T1.
+
+Source : PDF original, corrections utilisateur lignes 22113-25300.
+
+### Empire d'Azeroth (tresor imperial)
+
+| Tier | Sets |
+|------|------|
+| **T3** | Guerrier (Conquerant imperial), Pretre (Aube divine) |
+| **T2.5** | Mage (Sanctification AQ), Druide (Genese AQ), Demoniste (Plaie funeste AQ) |
+| **T2** | Paladin (Jugement imperial), Chasseur (Traque-dragon) |
+
+### Lordaeron
+
+| Tier | Sets |
+|------|------|
+| **T3** | Paladin (Jugement de la Main de Tyr) |
+| **T2.5** | Guerrier (Rempart d'Argent AQ) |
+| **T2** | Mage (Magistere de Stratholme), Pretre (Oracle de Lumiere) |
+
+### Stormgarde
+
+| Tier | Sets |
+|------|------|
+| **T3** | Chasseur (Maitre-forestier d'Arathor) |
+| **T2.5** | Voleur (Ombre d'Arathi AQ) |
+| **T2** | Pretre (Clerge de Strom), Guerrier (Colere d'Arathor) |
+
+### Kezan
+
+| Tier | Sets |
+|------|------|
+| **T3** | Voleur (Lames de la Guilde d'Or) |
+| **T2.5** | Chasseur (Fusilier gobelin AQ), Demoniste (Pacte de Vapeur AQ) |
+| **T2** | Mage (Consortium arcanique) |
+
+### Gurubashi
+
+| Tier | Sets |
+|------|------|
+| **T3** | Demoniste (Prophete du Sang) |
+| **T2** | Druide (Ronce-sauvage) |
+| **T1.5** | **Tous les sets ZG** — un champion par classe |
+
+### Morasses Noires
+
+| Tier | Sets |
+|------|------|
+| **T3** | Voleur (Lame des Brumes, Karazhan) |
+| **T2.5** | Pretre (Moine des Hameaux AQ) |
+
+### Hautebrande
+
+| Tier | Sets |
+|------|------|
+| **T3** | Mage (Thaumaturge des Hautes-Terres) |
+| **T2.5** | Guerrier (Garde-lame d'Alterac AQ) |
+
+### Baie-du-Butin
+
+| Tier | Sets |
+|------|------|
+| **T2.5** | Chasseur (Franc-tireur de la Cote AQ) |
+| **T2** | Pretre (Aumonier de l'Armada) |
+
+### Crins-de-Givre (royaume mineur)
+
+| Tier | Sets |
+|------|------|
+| **T1** | Paladin (Justicier des Plaines) |
+
+### Desolace (royaume mineur)
+
+| Tier | Sets |
+|------|------|
+| **T1** | Rogue (Ecumeur des Dunes) |
+
+### Regle de repartition
+
+- **20-30%** des sets au tresor imperial (8 sur ~36 exemplaires)
+- L'anciennete et la fidelite priment sur la puissance brute
+- Aucun doublon : chaque combinaison classe + tier n'existe qu'une fois
+- Les T0/T0.5 (10 exemplaires par classe) vont aux commandants de tous horizons

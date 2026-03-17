@@ -25,9 +25,11 @@
 | Attribut | Valeur |
 |----------|--------|
 | **Rang** | Grande Prêtresse — Rang 7 |
-| **Martial** | 9 |
-| **Diplomatie** | ~16 |
-| **Intrigue** | ~8 |
+| **Diplomatie** | 16 (bon) |
+| **Martial** | 9 (moyen) |
+| **Intendance** | 10 (moyen) |
+| **Intrigue** | 2 (nul) |
+| **Érudition** | 25 (excellent) |
 | **Score de combat** | 76/100 |
 | **Tier combat** | A |
 
@@ -46,6 +48,9 @@ Arwyn n'est pas simplement une prêtresse — c'est une **Grande Prêtresse de r
 - Souveraine de premier rang dans son propre domaine
 - Gouverne Baie-du-Butin depuis **~51 ans** (si on inclut son regne complet)
 - Grande Pretresse rang 7 : maitrise de la Lumiere sacree a un niveau exceptionnel
+- **Honnete a la limite de la naivete** : incapable de dissimuler ses emotions ou d'imaginer un coup bas (Intrigue 2)
+- **Tres cultivee** (Erudition 25) : science appliquee, concrete, solutions pratiques. Grande capacite d'admiration sincere
+- **Parole simple, directe, bienveillante**, pleine d'enthousiasme et de curiosite
 
 ### Ce que les screenshots confirment (lot 5, 3 déc 950)
 

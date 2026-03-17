@@ -211,11 +211,36 @@ Correction : le PDF zone 17600-26400 precise que Benjamin est **petit-fils** de 
 | **Statut en 950** | Regnante | forte |
 | **Rang magique** | Mage X + Necromancienne X | forte |
 
+### 12. Brodie "le Juste"
+
+| Champ | Valeur | Certitude |
+|-------|--------|-----------|
+| **Accession** | post-Rose | moyenne |
+| **Age en exercice** | 53 ans (ecrans CK2) | forte (CK2) |
+| **Mort** | `1038` (age 74) | forte (CK2) |
+| **Troupes** | ~222 000 | forte (CK2) |
+| **Rang** | Guerrier rang 6 | forte |
+| **Stats** | 20 Diplo, 11 Martial, 13 Intendance, 4 Intrigue, 16 Erudition, CP 16 | forte (CK2) |
+
+Note : successeur direct de Rose. Diplomate hors pair (20), guerrier solide, intendant competent. Son regne est une ere de consolidation.
+
+### 13. Saltain (Salain) Cadifor
+
+| Champ | Valeur | Certitude |
+|-------|--------|-----------|
+| **Accession** | `1038` (mort de Brodie) | forte (CK2) |
+| **Age a l'accession** | 26 ans | forte |
+| **Epouse** | Gianna Fordring (sang haut-elfe) | forte |
+| **Rang magique** | Mage X (legendaire, atteint a ~26 ans) | forte |
+| **Notes** | Plus jeune mage legendaire de l'histoire. Marie a Gianna Fordring. Roi de Grim Batol avant le trone imperial. |
+
+Sous Saltain : invasion de la Couronne de Glace par Stromgarde (via delegation vassale, 70% de pertes d'attrition). Conquete de Sholazar par Kezan. Premier pied d'Azeroth en Northrend.
+
 ---
 
 ## Lignee magique
 
-`Andrea III` (mage 10) > `Banni` (mage 9) > cousin intermediaire > `Benjamin` (mage 10) > `Marjory` (mage 10) > `Rose` (mage 10 + necromancienne 10)
+`Andrea III` (mage 10) > `Banni` (mage 9) > cousin intermediaire > `Benjamin` (mage 10) > `Marjory` (mage 10) > `Rose` (mage 10 + necromancienne 10) > `Brodie` (guerrier 6, pas mage) > `Saltain` (mage 10)
 
 ---
 
@@ -242,3 +267,4 @@ Correction : le PDF zone 17600-26400 precise que Benjamin est **petit-fils** de 
 - `lore/personnages/10_banni.md`
 - `lore/personnages/11_benjamin.md`
 - `lore/personnages/12_marjory.md`
+- `lore/meta/lore_cadifor_original_extracted.txt` (lignes 26171-26192 : Brodie, lignes 30908-30921 : Saltain)

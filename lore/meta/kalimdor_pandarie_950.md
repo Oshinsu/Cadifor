@@ -51,12 +51,63 @@ Regle :
 
 ---
 
-## Ce qu'il ne faut PAS fixer comme canon ferme
+## Donnees militaires confirmees (CK2 screenshots)
 
-- chiffres exacts d'armee par royaume tardif
-- intentions a long terme ("tremplin", "menace future", etc.)
-- noms non confirmes des souverains de `Lordaeron`, `Hautebrande`, `Kezan`, etc.
-- repartitions militaires detaillees par couronne vassale
+Les ecrans CK2 du PDF original fournissent des chiffres de levees maximales en temps de paix.
+
+### Kalimdor — Bloc elfique
+
+| Puissance | Dirigeant | Troupes max | Notes |
+|-----------|-----------|------------|-------|
+| **Kaldorei** | Gde Pretresse Goti "la Sainte" | **88 098** | 84 ans, suzeraine de Hyjal et du Cercle |
+| **Cercle Cenarien** | Gardien Isoraen "le Chaste" | **66 961** | 999 ans, Nightstar, vassal Kaldorei |
+| **Hyjal** | Dame Lunara "la Grande" | **59 024** | 1 134 ans, dryade, vassal Kaldorei |
+| **TOTAL ELFIQUE** | — | **~214 000** | Quasi-egalite avec Azeroth (~220 000) |
+
+Figures historiques :
+- **Tyrande "la Chaste"** : morte a 807 ans, le 24 mars 808, combat singulier
+- **Malfurion "le Sage"** : mort a 934 ans, le 9 mai 954, blessure grave
+
+### Kalimdor — Sud
+
+| Puissance | Dirigeant | Troupes max | Notes |
+|-----------|-----------|------------|-------|
+| **Uldum** | Empereur Tirwunhat II "Tueur de dieux" | **41 864** | Sethirs (hommes-lions), 65 ans |
+
+### Pandarie — Trois empires
+
+| Puissance | Dirigeant | Troupes max | Notes |
+|-----------|-----------|------------|-------|
+| **Xin'ze** | Imperatrice Zhi II | **104 861** | Plus grande armee du monde |
+| **Shek'mag** | Yimu II "l'Erudite" | **54 421** | — |
+| **Shen** | Empereur Lei (Thunder King) | **41 860** | — |
+
+### Autres puissances independantes
+
+| Puissance | Dirigeant | Troupes max | Notes |
+|-----------|-----------|------------|-------|
+| **Horde** | Deesse-reine Yuesa II | **93 257** | Inclut Quel'Thalas comme vassal |
+| **Quel'Thalas** | Haut roi Anasterian II | **76 821** | Integre a la Horde, 50k+ |
+| **Kul Tiras** | Grand pretre Gualtari III | **38 203** | Independant |
+| **Zandalar** | Dieu-roi Yarimon | **31 506** | — |
+| **Paluns** | Roi Jorgos | **26 267** | Independant |
+| **Ufrang** | Reine Disa "l'Ancienne" | **9 894** | — |
+
+### Correction sur Quel'Thalas
+
+- **Quel'Thalas existe toujours** — integre a la Horde (c'est pourquoi "HORDE" apparait sur les ecrans du nord d'Azeroth)
+- Ils ne sont **pas** avec l'Empire d'Azeroth
+
+### Correction sur Pandarie
+
+- Azeroth ne possede qu'**UN SEUL COMTE** au sud de Pandarie — pas un duche, pas un royaume. Un simple pied-a-terre pour de futures invasions
+- Donne au roi de Lordaeron
+
+---
+
+## Equilibre mondial
+
+> L'equilibre Azeroth (~220k) vs bloc elfique (~214k) est la donnee strategique centrale. Les deux superpuissances se neutralisent. L'expansion imperiale passe par les royaumes vassaux, pas par l'Empire directement (menace CK2 a 84%).
 
 ---
 
