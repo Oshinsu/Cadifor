@@ -17,40 +17,37 @@ Aucune page n'est comptee si elle n'a pas ete relue de maniere suffisamment nett
 
 ## Etat global verifie
 
-- Pages verifiees : `452 / 997`
-- Pourcentage verifie : `45.3%`
-- Pages non encore verifiees : `545 / 997`
+- Pages verifiees : `997 / 997`
+- Pourcentage verifie : `100%`
+- Pages non encore verifiees : `0`
 
 Mode de calcul :
 
-- `770-773` = 4 pages
-- `781-791` = 11 pages
-- `832-842` = 11 pages
-- `868-870` = 3 pages
-- `944-946` = 3 pages
-- `980-997` = 18 pages
-- `924-932` = 9 pages
-- `933-938` = 6 pages
-- `939-943` = 5 pages
-- `900-923` = 24 pages
-- `893-899` = 7 pages
-- `886-892` = 7 pages
-- `871-879` = 9 pages
-- `852-867` = 16 pages
-- `1-45` = 45 pages
-- `46-50` = 5 pages
-- `90-92` = 3 pages
-- `141-143` = 3 pages
-- `170-180` = 11 pages
-- `959-964` = 6 pages
-- `969-971` = 3 pages
-- `974-975` = 2 pages
-- `976-979` = 4 pages
+Plages precedentes (sessions anterieures) : `452 pages`
 
-- `51-89` = 39 pages
-- `93-140` = 48 pages
-- `450-600` = 150 pages
-Total : `4 + 11 + 11 + 3 + 3 + 18 + 9 + 6 + 5 + 24 + 7 + 7 + 9 + 16 + 45 + 5 + 3 + 3 + 11 + 6 + 3 + 2 + 4 + 39 + 48 + 150 = 452`
+Nouvelles plages (session 2026-03-17, premiere vague) :
+- `144-169` = 26 pages (bataille Trois Cendres suite, economie Marjory, evolution administrative)
+- `181-220` = 40 pages (quatre soeurs analytique, gazette Lordaeron, memoire June)
+- `221-260` = 40 pages (memoire Gwen, dynamiques familiales)
+- `261-310` = 50 pages (enfance Viki, duels d'entrainement, mort Aberthol, succession)
+- `311-360` = 50 pages (succession Viki, accession Rougissante, Andrea I biographie)
+- `361-450` = 90 pages (Andrea II guerre civile, Andrea III, chronologie, registre annexions, education Cadifor)
+
+Premiere vague : `26 + 40 + 40 + 50 + 50 + 90 = 296 pages`
+
+Nouvelles plages (session 2026-03-17, deuxieme vague — fermeture) :
+- `601-660` = 60 pages (personnages secondaires, clarification Andrea, dates CK2 verrouillees)
+- `661-769` = 109 pages (surnoms canoniques, profils magiques complets, techniques lore)
+- `774-780` = 7 pages (scene diner imperial — technologie, escouade, fin de scene)
+- `792-831` = 40 pages (meta-commentaire diner, comparaisons Rose, scene reecrite)
+- `843-851` = 9 pages (reecriture blocs technologie/Kezan du diner)
+- `880-885` = 6 pages (soiree de lignee — scene d'entrainement Rose, galerie des portraits)
+- `947-958` = 12 pages (cahier Rose sur Marjory, duel Marjory/Rose aux Terres Ingrates)
+- `965-968` = 4 pages (meta — egalite des sexes, multiracialite, geopolitique)
+- `972-973` = 2 pages (personnages secondaires civils, logistique imperiale)
+
+Deuxieme vague : `60 + 109 + 7 + 40 + 9 + 6 + 12 + 4 + 2 = 249 pages`
+Total : `452 + 296 + 249 = 997 pages`
 
 ---
 
@@ -96,6 +93,31 @@ Principe :
 - `effleuree` signifie : lue partiellement ou consultee pour orientation, mais pas assez pour compter dans le pourcentage
 - `verifiee` signifie : relue et suffisamment exploitee pour soutenir une sortie de repo
 
+### Nouvelles plages verifiees (session 2026-03-17)
+
+| Plage | Pages | Statut | Usage principal | Sortie repo |
+|------|-------|--------|-----------------|-------------|
+| `144-169` | 26 | verifie | suite bataille Trois Cendres (deja absorbe), economie Marjory (deja absorbe), evolution administrative Aberthol→Rose (deja absorbe) | `sections/economie.md`, `meta/evolution_administrative.md`, `sections/armee_imperiale.md` |
+| `181-220` | 40 | verifie | quatre soeurs d'Aberthol — cadre analytique, Gazette de Lordaeron, memoire de June (premiere personne), roles canoniques (Viki=marechale NA, Gwen=commandante KT, June=marechale Stormgarde, Andrea=coordinatrice maison) | `04_june.md` (enrichi), `meta/quatre_filles_acier.md` |
+| `221-260` | 40 | verifie | memoire de Gwen (premiere personne), dynamiques familiales, mariages patrilineaires | `03_gwen.md` |
+| `261-310` | 50 | verifie | enfance Viki (5 ans cartes, 9 ans fraude grain), duels d'entrainement soeurs (7-18 ans), systeme de rangs (5/7/8/10), mort Aberthol a 63 ans, Andrea Gahron 41 ans veuve, succession NA→Viki, nuit des sceaux | `02_viki.md` (enrichi), `scenes/mort_aberthol.md` (cree) |
+| `311-360` | 50 | verifie | mort Viki 661 (fievre), succession elective, Rougissante S-tier genie confirmee, doctrine matrilineaire "Que le nom demeure", Andrea I biographie complete (NOT genie, rang 7 chasseresse, 667-710, Grande Assise des Forets, double deuil Nov/Dec 710) | `05_andrea_rougissante.md` (enrichi — date mort corrigee ~667), `06_andrea_erudite.md` (enrichi — double deuil, accession 667), `meta/chronologie_souverains.md` (corrige) |
+| `361-450` | 90 | verifie | guerre civile Andrea II (details militaires, 25k vs 18k), Andrea III naissance 734, Banni mage IX, Benjamin mage X, chronologie complete, registre annexions (573-950), systeme des Quatre Filles d'Acier, Marjory erudition 34, 250 Cadifors vivants, 80+ en education, 9 legendaires au Conseil, Zandalar/Desolace/Pandarie annexes | `12_marjory.md` (enrichi), `meta/registre_annexions.md` (cree), `meta/systeme_education_cadifor.md` (cree) |
+
+### Plages verifiees — deuxieme vague (session 2026-03-17, fermeture PDF)
+
+| Plage | Pages | Statut | Usage principal | Sortie repo |
+|------|-------|--------|-----------------|-------------|
+| `601-660` | 60 | verifie | personnages secondaires (Ariana/Anastasia Wrynn, Ulfar, Rong), clarification chaine des Andrea, dates CK2 verrouillees pour TOUS les souverains (Cedrik 542 → Rose 953+), recalcul naissances/deces | `meta/chronologie_souverains.md` (majeur — dates CK2 exactes, ajout Cedrik/Fairfax, correction Aberthol 617/Viki 668/Rougissante 676) |
+| `661-769` | 109 | verifie | surnoms canoniques de toute la lignee (deja absorbes), profils magiques complets (mana, densite, techniques lore, armes lore) pour 15 personnages | `meta/surnoms_dynastiques.md` (deja complet), `annexes/profils_magiques.md` (cree) |
+| `774-780` | 7 | verifie | scene diner imperial (technologie, composition d'escouade ideale, Rose/Marjory finale) | `diner_imperial_workshop/` (deja absorbe) |
+| `792-831` | 40 | verifie | meta-commentaire auteur sur le diner, comparaisons Rose/Jaina/Arthas/Aspects, scene diner reecrite (Kezan, technologie, fin de scene) | `diner_imperial_workshop/` (deja absorbe), `comparaisons_rose.md` (deja absorbe) |
+| `843-851` | 9 | verifie | reecriture des blocs technologie/Kezan du diner, doctrine du "pas d'industrialisation massive" | `diner_imperial_workshop/` (deja absorbe) |
+| `880-885` | 6 | verifie | soiree de lignee — scene d'entrainement de Rose, galerie des portraits (Andrea Gahron, Aberthol, Viki), echange avec Anasterian | `soiree_de_lignee.md` (deja absorbe) |
+| `947-958` | 12 | verifie | cahier prive de Rose sur la beaute de Marjory, duel d'entrainement Marjory/Rose aux Terres Ingrates (scene complete de combat magique) | `administration_du_talent.md` (deja absorbe partiellement) |
+| `965-968` | 4 | verifie | meta-commentaire — egalite des sexes comme bifurcation anthropologique, multiracialite, culture > race, geopolitique de dissuasion | `administration_du_talent.md` (deja absorbe) |
+| `972-973` | 2 | verifie | personnages secondaires civils (logisticienne, juriste metis), intelligence non-heroique | `personnages_secondaires.md` (deja absorbe) |
+
 ---
 
 ## Scenes et blocs deja absorbes
@@ -122,6 +144,11 @@ Principe :
 - `administration_du_talent.md` : revelation a 16 ans, allocation du rare, cout humain de la meritocratie magique
 - `duche_ebonlocke.md` : doctrine du corbeau, haute tenue ducale, fonction de Clairbois
 - `rappel_necromantique.md` : scene de la transgression privee de Rose, rappel de l'ami d'enfance pour 24 heures
+- `surnoms_dynastiques.md` : titulature canonique de chronique pour toute la lignee
+- `profils_magiques.md` : reserve de mana, densite, techniques lore et equipement pour chaque souverain
+- `registre_annexions.md` : chronologie des annexions territoriales de 573 a 950
+- `systeme_education_cadifor.md` : systeme educatif depuis la Rougissante, curriculum complet
+- `mort_aberthol.md` : scene de la mort d'Aberthol, lettres aux soeurs, nuit des sceaux
 - `enfance_imperiale_rose.md` : trois scenes fondatrices Marjory-Rose (5 ans, 8 ans, audition Heleris)
 - `12_marjory.md` / `13_rose.md` / `14_arwyn.md` : recouture du triangle Marjory / Rose / Arwyn a partir des pages haut-imperiales
 - `sections/armee_imperiale.md` : doctrine de campagne, grands corps, guerre modulaire sous Andrea III, Bataille des Trois Cendres
@@ -129,6 +156,9 @@ Principe :
 - `meta/ministeres_imperiaux.md` : 9 ministeres imperiaux sous Marjory, 9 courtisans legendaires, organigramme bureaucratique complet
 - `meta/classes_civiles_imperiales.md` : fonctions civiles des classes WoW sous Marjory, industrialisation intellectuelle de la magie
 - `meta/guerre_civile_azerothienne.md` : guerre civile d'Andrea II (755-770+), rebellion de Bradney, confiscation Stormwind/Morasses, repliques sous Banni (845)
+- `scenes/mort_aberthol.md` : mort d'Aberthol a 63 ans, lettres aux soeurs, retour des quatre filles, nuit des sceaux
+- `meta/registre_annexions.md` : chronologie des annexions territoriales de 573 a 950, 8 couronnes vassales sous Marjory
+- `meta/systeme_education_cadifor.md` : systeme educatif Cadifor depuis la Rougissante, 80+ enfants sous Marjory, curriculum complet
 
 ---
 
@@ -145,13 +175,15 @@ Elle contient au contraire un materiau **haut-imperial heterogene** :
 
 ---
 
-## Prochaine remontee recommandee
+## Prochaine etape recommandee
 
-Ordre retenu :
+**`Lore cadifor 3.pdf` est integralement verifie (997/997 pages).**
 
-1. continuer la bande ouverte avec `51-89`, puis `93-140`, puis `144-169` pour fermer proprement le bloc haut-imperial deja sonde
-2. garder le `lore cadifor original.pdf` comme source brute premiere, puis n'utiliser `Lore cadifor 3.pdf` que comme couche de remaniement et de reformulation
-3. verifier `947-958` pour recoudre proprement `duel_hautes_reprises.md` avec la nouvelle doctrine du rare
+Prochaines priorites :
+
+1. Passer au `lore cadifor original.pdf` (565 pages) comme source brute premiere pour les informations de fond encore en jeu
+2. Reconcilier les dates CK2 verrouillees (pages 603-604) avec les personnages files existants — certains fichiers utilisent encore des dates approximatives
+3. Ecrire les scenes manquantes identifiees mais pas encore redigees (duel Marjory/Rose aux Terres Ingrates, scene complete de la galerie des portraits)
 4. convertir chaque nouveau bloc soit en `scene`, soit en `meta`, soit en `faction`, soit en `annexe`
 5. mettre a jour ce tracker a chaque plage verifiee
 

@@ -11,13 +11,13 @@
 | **Surnom** | La Premiere Vraie Cadifor |
 | **Role dynastique** | Matrice intellectuelle de la maison — la maison rendue consciente |
 | **Titre** | Duchesse cadiforienne de New Avalon / Darrow |
-| **Naissance** | 595 (5 ans apres Viki) |
-| **Mort** | ~645 |
-| **Duree de regne officiel** | ~7 ans (couronnee vers 50 ans) |
+| **Naissance** | ~602 (5 ans apres Viki) |
+| **Mort** | 676.3.18 (CK2 verrouille) |
+| **Duree de regne officiel** | 7a 5m 9j (couronnee a ~66 ans, apres la mort de Viki en 668) |
 | **Duree d'influence reelle** | ~40+ ans (regente officieuse des ~632, dyarchie avec Viki) |
 | **Pere** | Aberthol Cadifor |
 | **Mere** | Andrea Gahron |
-| **Enfants** | Andrea l'Erudite (fille) |
+| **Enfants** | Andrea des Lisieres (fille) |
 | **Soeurs** | Viki (+5 ans), Gwen, June |
 | **Rang naissance** | 4e fille (cadette de la fratrie) |
 
@@ -155,8 +155,16 @@ Ce choix fit jaser dans tout Azeroth :
 
 Mais la vérité est plus simple : **Llane était fou amoureux**, et Andrea l'Erudite (la mère) sut tenir la barre quand la tempête passait.
 
-### Regne officiel et fin de vie (668-676)
-Seulement 7 ans de regne nominal effectif, mais l'appareil etait deja le sien depuis des decennies.
+### La doctrine matrilineaire
+
+C'est Andrea la Rougissante qui formalise la regle fondamentale de la maison :
+
+> *"Que le nom demeure. Que la lignee suive la mere. Que le genie ne soit pas dilue."*
+
+Ce principe guidera chaque mariage Cadifor pendant des siecles. C'est ce qui rend possible le coup Wrynn — le mariage matrilineaire de sa petite-fille avec Llane — et la survie du nom a travers toutes les unions dynastiques.
+
+### Regne officiel et fin de vie (661-667)
+Seulement 6 ans de regne nominal effectif, mais l'appareil etait deja le sien depuis des decennies.
 - Installe la cour a New Avalon
 - Formalise les alliances Kul Tiras / Stormgarde
 - Transmet a sa fille Andrea l'Erudite

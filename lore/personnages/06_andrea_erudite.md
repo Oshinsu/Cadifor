@@ -10,9 +10,10 @@
 | **Nom complet** | Andrea Cadifor, dite "l'Erudite" ou "des Lisieres" |
 | **Role dynastique** | Anomalie geopolitique fondatrice — grande chasseuse devenue reine d'un royaume-cle de l'Alliance |
 | **Titre** | Duchesse de Darrow / New Avalon, puis Reine de Sylve de l'Est |
-| **Naissance** | ancienne generation cadiforienne |
-| **Mort** | 710.12.6 |
-| **Age au deces** | 73 ans |
+| **Naissance** | ~641 |
+| **Accession** | 676.3.18 (CK2 verrouille, a ~35 ans, apres la mort de sa mere) |
+| **Mort** | 710.12.6 (CK2 verrouille) |
+| **Age au deces** | ~69 ans |
 | **Mere** | Andrea la Rougissante |
 | **Enfants** | Andrea Cadifor (epouse matrilineaire de Llane Wrynn), puis les petits-enfants Andrea II, Gautmar, Celestria |
 
@@ -125,7 +126,13 @@ Llane, sans hesiter, accepta. L'acte fut redige le soir meme, scelle par tous le
 Le mariage fut celebre a Nouvelle-Avalon, dans la grande nef de chene et de verre. La mere glissa a sa fille ces mots :
 > *"Tu as gagne le cœur d'un prince, mais surtout, tu as garde la couronne du sang."*
 
-De cette union naissent `Andrea II` (704), `Gautmar` (711) et `Celestria` (713). Tous Cadifor. Tous porteurs du triple heritage.
+De cette union naissent `Andrea II` (704), `Gautmar` (707, futur comte de Lakeshire/Ogderm) et `Celestria` (709, sans titre). Tous Cadifor. Tous porteurs du triple heritage.
+
+### Le double deuil de 710
+
+La fin de l'Erudite est d'une brutalite presque shakespearienne. Sa fille unique, Andrea Cadifor, meurt le **4 novembre 710** — la cause exacte est perdue dans les archives. Andrea I, deja agee de 73 ans, ne survit que 32 jours a sa fille : elle meurt le **6 decembre 710**.
+
+Andrea II, sa petite-fille agee de 6 ans, est couronnee le jour meme de la mort de sa grand-mere. La maison saute une generation entiere. L'edifice tient parce qu'il a ete bati assez solidement pour qu'une enfant puisse en recevoir la charge sans dissolution.
 
 ---
 

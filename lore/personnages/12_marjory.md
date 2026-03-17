@@ -103,6 +103,19 @@ Quand Marjory meurt, Rose ne perd pas seulement sa mere. Elle perd le **seul cor
 - Broderies presque invisibles, fils de mithril dans les ourlets
 - **Permettent salon, bibliotheque, magie, et presque la guerre** — polyvalence absolue
 
+### L'Empire en chiffres sous Marjory
+
+| Indicateur | Valeur |
+|-----------|--------|
+| **Cadifors vivants** | ~250 (tous rangs et postes confondus) |
+| **Enfants en formation** | 80+ (ages 0-16, dans le systeme educatif Cadifor) |
+| **Legendaires au Conseil** | 9 (mages, pretres des ombres, necromancien, guerriers) |
+| **Mages rang 9-10** | 6+ (tous Cadifor) |
+| **Pretres des ombres legendaires** | 3 |
+| **Necromancien legendaire** | au moins 1 |
+| **Royaumes sous gouverne Cadifor** | 8 (Lordaeron, Hautebrande, Stormgarde, Crins-de-Givre, Baie-du-Butin, Gurubashi, Kezan, + Morasses Noires en domaine direct) |
+| **Territoires annexes** | Zandalar, Desolace (Kalimdor), penetration Pandarie (Mantid), Puits de Soleil, ile du Conquerant (sud Norfendre) |
+
 ### La restauration des couronnes vassales
 
 Le correctif tardif le plus important sur `Marjory` est politique :
