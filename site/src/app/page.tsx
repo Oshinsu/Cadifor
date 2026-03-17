@@ -7,6 +7,8 @@ import {
   Globe,
   MapPin,
   ScrollText,
+  Swords,
+  Shield,
 } from "lucide-react";
 import { EntryCard, StatCard } from "@/components/cards";
 import { resolveEntryImage } from "@/lib/images";
@@ -23,17 +25,24 @@ import {
 } from "@/lib/content";
 
 const DYNASTY_TIMELINE = [
-  { name: "Aberthol", years: "573–622", epithet: "Le Vieux Lion", slug: "01_aberthol" },
-  { name: "Viki", years: "622–673", epithet: "La Joie d'Acier", slug: "02_viki" },
-  { name: "Andrea I", years: "673–676", epithet: "La Rougissante", slug: "05_andrea_rougissante" },
-  { name: "Andrea II", years: "676–710", epithet: "L'Erudite", slug: "06_andrea_erudite" },
-  { name: "Andrea III", years: "710–767", epithet: "La Juste", slug: "07_andrea_juste" },
-  { name: "Andrea IV", years: "767–815", epithet: "La Victorieuse", slug: "08_andrea_victorieuse" },
-  { name: "Andrea V", years: "815–825", epithet: "La Juste II", slug: "09_andrea_juste_2" },
-  { name: "Banni", years: "825–859", epithet: "Le Porteur", slug: "10_banni" },
-  { name: "Benjamin", years: "859–909", epithet: "Le Cruel", slug: "11_benjamin" },
-  { name: "Marjory", years: "909–943", epithet: "L'Imperiale", slug: "12_marjory" },
-  { name: "Rose", years: "943–953+", epithet: "L'Absolue", slug: "13_rose" },
+  { name: "Aberthol", years: "573-622", epithet: "Le Vieux Lion", slug: "01_aberthol", era: "Fondation" },
+  { name: "Viki", years: "622-673", epithet: "La Joie d'Acier", slug: "02_viki", era: "Fondation" },
+  { name: "Andrea I", years: "673-676", epithet: "La Rougissante", slug: "05_andrea_rougissante", era: "Consolidation" },
+  { name: "Andrea II", years: "676-710", epithet: "L'Erudite", slug: "06_andrea_erudite", era: "Consolidation" },
+  { name: "Andrea III", years: "710-767", epithet: "La Juste", slug: "07_andrea_juste", era: "L'Age d'Or" },
+  { name: "Andrea IV", years: "767-815", epithet: "La Victorieuse", slug: "08_andrea_victorieuse", era: "L'Age d'Or" },
+  { name: "Andrea V", years: "815-825", epithet: "La Juste II", slug: "09_andrea_juste_2", era: "L'Age d'Or" },
+  { name: "Banni", years: "825-859", epithet: "Le Porteur", slug: "10_banni", era: "Tourment" },
+  { name: "Benjamin", years: "859-909", epithet: "Le Cruel", slug: "11_benjamin", era: "Fer et Sang" },
+  { name: "Marjory", years: "909-943", epithet: "L'Imperiale", slug: "12_marjory", era: "Haut Empire" },
+  { name: "Rose", years: "943-953+", epithet: "L'Absolue", slug: "13_rose", era: "Haut Empire" },
+];
+
+const CADIFOR_WISDOMS = [
+  { text: "Le regime ne veut pas seulement capter la richesse ; il veut gouverner la maniere dont elle circule, se raconte et se croit.", attribution: "Chronique imperiale" },
+  { text: "On ne brise pas un Cadifor. On le forge.", attribution: "Devise non-officielle de la Maison" },
+  { text: "Quatre siecles de sang verse, de traites signes et de couronnes prises — voila ce que coute un empire.", attribution: "Andrea III, a ses conseillers" },
+  { text: "La carte n'est pas le territoire, mais celui qui tient la plume decide ou passent les frontieres.", attribution: "Benjamin le Cruel" },
 ];
 
 export default function HomePage() {
@@ -47,66 +56,79 @@ export default function HomePage() {
   const characterCount = getCollection("personnages").length;
   const mostReferenced = getMostReferencedEntries(6);
 
+  const wisdom = CADIFOR_WISDOMS[0];
+
   return (
     <main className="mx-auto max-w-7xl px-6 pb-24 pt-10">
-      {/* ─── Hero ─────────────────────────────────────────────── */}
-      <section className="grain relative overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-black/20 px-8 py-24 md:px-14">
-        {/* Hero background image */}
+      {/* ─── Epic Hero ──────────────────────────────────────── */}
+      <section className="grain relative overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-black/30 px-8 py-28 md:px-14 md:py-36">
+        {/* Hero background */}
         <Image
           src="/assets/scenes/hero_homepage.png"
           alt=""
           fill
-          className="pointer-events-none object-cover opacity-20"
+          className="pointer-events-none object-cover opacity-30"
           sizes="100vw"
           priority
         />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[rgb(12,10,9)] via-[rgb(12,10,9)]/80 to-transparent" />
+        {/* Cinematic overlays */}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[rgb(10,9,8)] via-[rgb(10,9,8)]/85 to-transparent" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[rgb(10,9,8)] via-transparent to-[rgb(10,9,8)]/30" />
 
-        {/* Corner accents */}
-        <div className="pointer-events-none absolute left-6 top-6 size-16 border-l border-t border-[var(--gold)]/20" />
-        <div className="pointer-events-none absolute bottom-6 right-6 size-16 border-b border-r border-[var(--gold)]/20" />
+        {/* Corner accents — heraldic */}
+        <div className="pointer-events-none absolute left-6 top-6 size-20 border-l-2 border-t-2 border-[var(--gold)]/15" />
+        <div className="pointer-events-none absolute bottom-6 right-6 size-20 border-b-2 border-r-2 border-[var(--gold)]/15" />
+        <div className="pointer-events-none absolute right-6 top-6 size-12 border-r border-t border-[var(--gold)]/10" />
+        <div className="pointer-events-none absolute bottom-6 left-6 size-12 border-b border-l border-[var(--gold)]/10" />
 
-        {/* Gold radial glow */}
-        <div className="pointer-events-none absolute -right-24 -top-24 size-96 rounded-full bg-[var(--gold)]/[0.07] blur-[120px]" />
-        <div className="pointer-events-none absolute -bottom-32 -left-16 size-72 rounded-full bg-[var(--gold)]/[0.04] blur-[100px]" />
+        {/* Ambient glow */}
+        <div className="pointer-events-none absolute -right-24 -top-24 size-[500px] rounded-full bg-[var(--gold)]/[0.06] blur-[150px] animate-pulse-glow" />
+        <div className="pointer-events-none absolute -bottom-32 -left-16 size-80 rounded-full bg-[var(--gold)]/[0.03] blur-[120px]" />
 
         <div className="relative max-w-4xl">
-          <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-[var(--gold)]/25 bg-[var(--gold)]/[0.08] px-4 py-2 text-xs uppercase tracking-[0.25em] text-[var(--gold-light)]">
+          {/* Royal crest badge */}
+          <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-[var(--gold)]/20 bg-[var(--gold)]/[0.06] px-5 py-2.5 text-xs uppercase tracking-[0.3em] text-[var(--gold-light)] backdrop-blur-sm">
             <Image
               src="/assets/heraldry/heraldry_cadifor_sigil.png"
               alt="Blason Cadifor"
-              width={24}
-              height={24}
-              className="opacity-80"
+              width={28}
+              height={28}
+              className="opacity-90"
             />
-            Maison Cadifor — 583 a.p.
+            <span className="h-4 w-px bg-[var(--gold)]/20" />
+            Maison Cadifor — An 583 de l&apos;Ere Presente
           </div>
 
-          <h1 className="max-w-4xl font-serif text-5xl leading-[1.1] text-[var(--ivory)] md:text-7xl">
-            Le Haut Royaume{" "}
-            <span className="text-[var(--gold)]">
-              de Cadifor
+          <h1 className="max-w-5xl font-serif text-5xl leading-[1.05] tracking-tight text-[var(--ivory)] md:text-7xl lg:text-8xl">
+            Le Haut{" "}
+            <span className="relative inline-block text-[var(--gold)]">
+              Royaume
+              <span className="absolute -bottom-2 left-0 right-0 h-px bg-gradient-to-r from-[var(--gold)]/50 via-[var(--gold)] to-[var(--gold)]/50" />
             </span>
+            <br />
+            <span className="text-stone-400">de Cadifor</span>
           </h1>
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-400">
-            Encyclopedie vivante du Haut Royaume. {totalEntries} entrees derivees
-            de 997 pages de lore brut, organisees en {encyclopaediaCollections.length} collections.
-            Quatre siecles de dynastie, de Nouvelle-Avalon a l&apos;Empire mondial.
+          <p className="mt-8 max-w-2xl text-lg leading-8 text-stone-400/90">
+            Quatre siecles de sang, de fer et de sagesse. {totalEntries} entrees
+            derivees de 997 pages de lore brut — une dynastie forgee dans la guerre,
+            cimentee par l&apos;ambition, immortalisee par la plume.
           </p>
 
-          <div className="mt-10 flex flex-wrap gap-4">
+          <div className="mt-12 flex flex-wrap items-center gap-4">
             <Link
               href="/scenes"
-              className="inline-flex items-center gap-3 rounded-full bg-[var(--gold)] px-7 py-3.5 text-sm font-semibold uppercase tracking-[0.18em] text-[var(--deep)] shadow-lg shadow-[var(--gold)]/20 transition-all duration-300 hover:bg-[var(--gold-light)] hover:shadow-[var(--gold)]/30"
+              className="group inline-flex items-center gap-3 rounded-full bg-[var(--gold)] px-8 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-[var(--deep)] shadow-lg shadow-[var(--gold)]/25 transition-all duration-300 hover:bg-[var(--gold-light)] hover:shadow-[var(--gold)]/40 hover:shadow-xl"
             >
+              <Swords className="size-4" />
               Entrer par les scenes
-              <ArrowRight className="size-4" />
+              <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
             <Link
               href="/encyclopedie"
-              className="inline-flex items-center gap-3 rounded-full border border-[var(--gold)]/20 px-7 py-3.5 text-sm uppercase tracking-[0.18em] text-stone-200 transition-all duration-300 hover:border-[var(--gold)]/40 hover:text-[var(--gold-light)]"
+              className="inline-flex items-center gap-3 rounded-full border border-[var(--gold)]/25 bg-[var(--gold)]/[0.04] px-8 py-4 text-sm uppercase tracking-[0.2em] text-stone-200 backdrop-blur-sm transition-all duration-300 hover:border-[var(--gold)]/40 hover:bg-[var(--gold)]/[0.08] hover:text-[var(--gold-light)]"
             >
+              <BookOpenText className="size-4" />
               Explorer l&apos;encyclopedie
             </Link>
           </div>
@@ -115,20 +137,39 @@ export default function HomePage() {
 
       {/* ─── Stats ribbon ────────────────────────────────────── */}
       <section className="stagger mt-10 grid gap-4 md:grid-cols-5">
-        <StatCard label="Personnages" value={characterCount} icon={<Crown className="size-5" />} />
-        <StatCard label="Scenes" value={sceneCount} icon={<ScrollText className="size-5" />} />
+        <StatCard label="Souverains" value={characterCount} icon={<Crown className="size-5" />} />
+        <StatCard label="Scenes canoniques" value={sceneCount} icon={<ScrollText className="size-5" />} />
         <StatCard label="Nations" value={nationCount} icon={<Globe className="size-5" />} />
-        <StatCard label="Villes" value={villeCount} icon={<MapPin className="size-5" />} />
-        <StatCard label="Total corpus" value={totalEntries} icon={<BookOpenText className="size-5" />} />
+        <StatCard label="Cites" value={villeCount} icon={<MapPin className="size-5" />} />
+        <StatCard label="Corpus total" value={totalEntries} icon={<BookOpenText className="size-5" />} />
+      </section>
+
+      {/* ─── Epigraph ────────────────────────────────────────── */}
+      <section className="mt-20" data-reveal>
+        <div className="divider-ornament mb-6">
+          <span className="divider-ornament-diamond" />
+        </div>
+        <blockquote className="epigraph mx-auto max-w-3xl">
+          <p className="epigraph-text">
+            &laquo; {wisdom.text} &raquo;
+          </p>
+          <p className="epigraph-attribution">— {wisdom.attribution}</p>
+        </blockquote>
+        <div className="divider-ornament mt-6">
+          <span className="divider-ornament-diamond" />
+        </div>
       </section>
 
       {/* ─── Dynasty timeline strip ──────────────────────────── */}
       <section className="mt-20" data-reveal>
-        <div className="mb-8">
-          <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
-            Lignee
+        <div className="mb-10">
+          <p className="section-label">Lignee souveraine</p>
+          <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)] md:text-5xl">
+            La dynastie Cadifor
+          </h2>
+          <p className="mt-3 max-w-2xl text-sm leading-7 text-stone-500">
+            Onze souverains. Quatre siecles de pouvoir. Du chevalier errant au trone imperial.
           </p>
-          <h2 className="font-serif text-4xl text-[var(--ivory)]">La dynastie Cadifor</h2>
         </div>
 
         <div className="overflow-x-auto pb-4">
@@ -139,24 +180,31 @@ export default function HomePage() {
                 <Link
                   key={ruler.slug}
                   href={`/encyclopedie/personnages/${ruler.slug}`}
-                  className="card-imperial group relative flex w-36 shrink-0 flex-col overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.025]"
+                  className="card-imperial group relative flex w-40 shrink-0 flex-col overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.025]"
                 >
-                  <div className="absolute -top-px left-1/2 h-[2px] w-8 -translate-x-1/2 rounded-full bg-[var(--gold)]/30" />
+                  {/* Top accent */}
+                  <div className="absolute -top-px left-1/2 h-[2px] w-10 -translate-x-1/2 rounded-full bg-[var(--gold)]/30" />
+
+                  {/* Era badge */}
+                  <div className="absolute right-2 top-2 z-10 rounded-full bg-black/60 px-2 py-0.5 text-[8px] uppercase tracking-[0.2em] text-[var(--gold)]/60 backdrop-blur-sm">
+                    {ruler.era}
+                  </div>
+
                   {portrait && (
-                    <div className="relative h-28 w-full overflow-hidden">
+                    <div className="relative h-36 w-full overflow-hidden">
                       <Image
                         src={`/assets/${portrait}`}
                         alt={ruler.name}
                         fill
-                        className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                        sizes="144px"
+                        className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
+                        sizes="160px"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[rgb(12,10,9)] via-transparent to-transparent" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[rgb(10,9,8)] via-[rgb(10,9,8)]/20 to-transparent" />
                     </div>
                   )}
                   <div className="flex flex-1 flex-col p-4">
-                    <span className="mb-1 text-[10px] uppercase tracking-[0.2em] text-stone-600">
-                      {i + 1}e
+                    <span className="mb-1 font-serif text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/40">
+                      {["I","II","III","IV","V","VI","VII","VIII","IX","X","XI"][i]}
                     </span>
                     <span className="font-serif text-lg text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                       {ruler.name}
@@ -164,7 +212,7 @@ export default function HomePage() {
                     <span className="text-[11px] italic text-stone-500">
                       {ruler.epithet}
                     </span>
-                    <span className="mt-auto pt-2 text-[10px] text-stone-600">
+                    <span className="mt-auto pt-2 text-[10px] tabular-nums text-stone-600">
                       {ruler.years}
                     </span>
                   </div>
@@ -177,13 +225,13 @@ export default function HomePage() {
 
       {/* ─── Featured scene ───────────────────────────────────── */}
       {featuredScene && (
-        <section className="mt-20">
+        <section className="mt-20" data-reveal>
           {(() => {
             const sceneImage = resolveEntryImage(featuredScene.slug, "scenes");
             return (
               <Link
                 href={`/scenes/${featuredScene.slug}`}
-                className="card-imperial group relative block overflow-hidden rounded-[2rem] border border-white/[0.06] bg-[var(--gold)]/[0.03]"
+                className="card-imperial group relative block overflow-hidden rounded-[2rem] border border-white/[0.06] bg-[var(--gold)]/[0.02]"
               >
                 {sceneImage && (
                   <>
@@ -191,25 +239,27 @@ export default function HomePage() {
                       src={`/assets/${sceneImage}`}
                       alt=""
                       fill
-                      className="pointer-events-none object-cover opacity-25 transition-transform duration-700 group-hover:scale-105"
+                      className="pointer-events-none object-cover opacity-30 transition-all duration-1000 group-hover:scale-105 group-hover:opacity-40"
                       sizes="(max-width: 1280px) 100vw, 1280px"
                     />
-                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[rgb(12,10,9)] via-[rgb(12,10,9)]/60 to-transparent" />
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[rgb(10,9,8)] via-[rgb(10,9,8)]/70 to-transparent" />
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[rgb(10,9,8)] via-transparent to-transparent" />
                   </>
                 )}
-                <div className="relative p-10 md:p-14">
-                  <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.25em] text-[var(--gold)]">
-                    Scene d&apos;entree
-                  </p>
-                  <h2 className="font-serif text-4xl text-[var(--ivory)] transition-colors duration-300 group-hover:text-[var(--gold-light)] md:text-5xl">
+                <div className="relative p-10 md:p-16">
+                  <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/15 bg-[var(--gold)]/[0.06] px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-[var(--gold)]">
+                    <Shield className="size-3" />
+                    Scene canonique
+                  </div>
+                  <h2 className="font-serif text-4xl text-[var(--ivory)] transition-colors duration-300 group-hover:text-[var(--gold-light)] md:text-5xl lg:text-6xl">
                     {featuredScene.title}
                   </h2>
-                  <p className="mt-5 max-w-3xl text-base leading-8 text-stone-400">
+                  <p className="mt-6 max-w-3xl text-base leading-8 text-stone-400">
                     {featuredScene.excerpt}
                   </p>
-                  <span className="mt-8 inline-flex items-center gap-2 text-sm uppercase tracking-[0.18em] text-[var(--gold)]/80 transition-colors duration-300 group-hover:text-[var(--gold)]">
+                  <span className="mt-10 inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/20 bg-[var(--gold)]/[0.05] px-5 py-2 text-sm uppercase tracking-[0.2em] text-[var(--gold)]/80 transition-all duration-300 group-hover:border-[var(--gold)]/40 group-hover:text-[var(--gold)]">
                     Lire la scene
-                    <ArrowRight className="size-4" />
+                    <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
                   </span>
                 </div>
               </Link>
@@ -219,19 +269,23 @@ export default function HomePage() {
       )}
 
       {/* ─── Top characters ──────────────────────────────────── */}
-      <section className="mt-20" data-reveal>
-        <div className="mb-8 flex items-end justify-between gap-6">
+      <section className="mt-24" data-reveal>
+        <div className="mb-10 flex items-end justify-between gap-6">
           <div>
-            <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
-              Figures de seuil
+            <p className="section-label">Figures de seuil</p>
+            <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)]">
+              Les souverains et leurs ombres
+            </h2>
+            <p className="mt-2 max-w-lg text-sm text-stone-500">
+              Ceux qui ont fait et defait le Haut Royaume.
             </p>
-            <h2 className="font-serif text-4xl text-[var(--ivory)]">Personnages</h2>
           </div>
           <Link
-            href="/encyclopedie"
-            className="text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+            href="/encyclopedie/personnages"
+            className="group inline-flex shrink-0 items-center gap-2 text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
           >
-            Tout voir
+            Tous les personnages
+            <ArrowRight className="size-3 transition-transform duration-300 group-hover:translate-x-1" />
           </Link>
         </div>
 
@@ -246,20 +300,38 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─── Second epigraph ──────────────────────────────────── */}
+      <section className="mt-24" data-reveal>
+        <div className="divider-ornament mb-6">
+          <span className="divider-ornament-diamond" />
+        </div>
+        <blockquote className="epigraph mx-auto max-w-3xl">
+          <p className="epigraph-text">
+            &laquo; {CADIFOR_WISDOMS[1].text} &raquo;
+          </p>
+          <p className="epigraph-attribution">— {CADIFOR_WISDOMS[1].attribution}</p>
+        </blockquote>
+        <div className="divider-ornament mt-6">
+          <span className="divider-ornament-diamond" />
+        </div>
+      </section>
+
       {/* ─── Scenes ──────────────────────────────────────────── */}
-      <section className="mt-20" data-reveal>
-        <div className="mb-8 flex items-end justify-between gap-6">
+      <section className="mt-24" data-reveal>
+        <div className="mb-10 flex items-end justify-between gap-6">
           <div>
-            <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
-              Bibliotheque
+            <p className="section-label">Chroniques</p>
+            <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)]">Scenes fortes</h2>
+            <p className="mt-2 max-w-lg text-sm text-stone-500">
+              Les moments qui ont forge la legende.
             </p>
-            <h2 className="font-serif text-4xl text-[var(--ivory)]">Scenes fortes</h2>
           </div>
           <Link
             href="/scenes"
-            className="text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+            className="group inline-flex shrink-0 items-center gap-2 text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
           >
             Toutes les scenes
+            <ArrowRight className="size-3 transition-transform duration-300 group-hover:translate-x-1" />
           </Link>
         </div>
 
@@ -272,19 +344,21 @@ export default function HomePage() {
 
       {/* ─── Most referenced entries ──────────────────────────── */}
       {mostReferenced.length > 0 && (
-        <section className="mt-20" data-reveal>
-          <div className="mb-8 flex items-end justify-between gap-6">
+        <section className="mt-24" data-reveal>
+          <div className="mb-10 flex items-end justify-between gap-6">
             <div>
-              <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
-                Nœuds du corpus
+              <p className="section-label">Noeuds du corpus</p>
+              <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)]">Les plus cites</h2>
+              <p className="mt-2 max-w-lg text-sm text-stone-500">
+                Les entrees les plus referencees a travers le corpus.
               </p>
-              <h2 className="font-serif text-4xl text-[var(--ivory)]">Les plus cites</h2>
             </div>
             <Link
               href="/recherche"
-              className="text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
+              className="group inline-flex shrink-0 items-center gap-2 text-sm uppercase tracking-[0.2em] text-stone-500 transition-colors duration-300 hover:text-[var(--gold)]"
             >
               Rechercher
+              <ArrowRight className="size-3 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
           </div>
 
@@ -301,12 +375,13 @@ export default function HomePage() {
       )}
 
       {/* ─── Collections overview ────────────────────────────── */}
-      <section className="mt-20" data-reveal>
-        <div className="mb-8">
-          <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
-            Graphe du corpus
+      <section className="mt-24" data-reveal>
+        <div className="mb-10">
+          <p className="section-label">Graphe du corpus</p>
+          <h2 className="mt-2 font-serif text-4xl text-[var(--ivory)]">Collections</h2>
+          <p className="mt-2 max-w-lg text-sm text-stone-500">
+            {encyclopaediaCollections.length} collections thematiques. Tout le savoir du Haut Royaume, classe et indexe.
           </p>
-          <h2 className="font-serif text-4xl text-[var(--ivory)]">Collections</h2>
         </div>
 
         <div className="stagger grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -320,8 +395,9 @@ export default function HomePage() {
                 href={`/encyclopedie/${collection}`}
                 className="card-imperial group relative overflow-hidden rounded-[1.5rem] border border-white/[0.06] bg-white/[0.02] p-7"
               >
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-[var(--gold)]/[0.02] to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                 <div className="relative">
-                  <div className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
+                  <div className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/50">
                     {collection}
                   </div>
                   <div className="mt-2 font-serif text-3xl text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
@@ -330,9 +406,11 @@ export default function HomePage() {
                   <div className="mt-2 text-sm leading-7 text-stone-500">
                     {getCollectionDescription(collection)}
                   </div>
-                  <div className="mt-4 flex items-center gap-3">
-                    <span className="rounded-full border border-[var(--gold)]/15 bg-[var(--gold)]/[0.06] px-3 py-1 text-[10px] uppercase tracking-[0.15em] text-[var(--gold)]">{count} entrees</span>
-                    <ArrowRight className="size-3 text-stone-600 transition-colors duration-300 group-hover:text-[var(--gold)]" />
+                  <div className="mt-5 flex items-center gap-3">
+                    <span className="rounded-full border border-[var(--gold)]/15 bg-[var(--gold)]/[0.06] px-3 py-1 text-[10px] uppercase tracking-[0.15em] text-[var(--gold)]">
+                      {count} entrees
+                    </span>
+                    <ArrowRight className="size-3 text-stone-600 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[var(--gold)]" />
                   </div>
                 </div>
               </Link>
@@ -341,15 +419,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── Bottom quote ────────────────────────────────────── */}
-      <section className="mt-24">
-        <div className="divider-gold mb-10" />
-        <blockquote className="mx-auto max-w-3xl text-center">
-          <p className="font-serif text-2xl italic leading-relaxed text-stone-400 md:text-3xl">
-            &laquo; Le regime ne veut pas seulement capter la richesse ; il veut gouverner la maniere dont elle circule, se raconte et se croit. &raquo;
+      {/* ─── Bottom wisdom ────────────────────────────────────── */}
+      <section className="mt-28">
+        <div className="divider-ornament mb-8">
+          <span className="divider-ornament-diamond" />
+        </div>
+        <blockquote className="epigraph mx-auto max-w-3xl">
+          <p className="epigraph-text">
+            &laquo; {CADIFOR_WISDOMS[2].text} &raquo;
           </p>
+          <p className="epigraph-attribution">— {CADIFOR_WISDOMS[2].attribution}</p>
         </blockquote>
-        <div className="divider-gold mt-10" />
+        <div className="divider-ornament mt-8">
+          <span className="divider-ornament-diamond" />
+        </div>
       </section>
     </main>
   );
