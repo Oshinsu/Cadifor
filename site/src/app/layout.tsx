@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${display.variable} ${body.variable} bg-[#0a0908] font-sans text-stone-200 antialiased`}
+        className={`${display.variable} ${body.variable} bg-[#080a10] font-sans text-slate-200 antialiased`}
       >
         <div className="relative min-h-screen">
           {/* Cinematic ambient background */}
@@ -53,10 +53,10 @@ export default function RootLayout({
             className="pointer-events-none fixed inset-0 -z-10"
             style={{
               background: [
-                "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212,168,83,0.08), transparent 60%)",
-                "radial-gradient(ellipse 40% 30% at 90% 80%, rgba(139,26,26,0.04), transparent 50%)",
-                "radial-gradient(ellipse 50% 40% at 10% 60%, rgba(120,80,40,0.04), transparent 50%)",
-                "linear-gradient(180deg, #0a0908 0%, #0d0b09 30%, #0a0908 100%)",
+                "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212,168,83,0.06), transparent 60%)",
+                "radial-gradient(ellipse 40% 30% at 90% 80%, rgba(58,107,197,0.05), transparent 50%)",
+                "radial-gradient(ellipse 50% 40% at 10% 60%, rgba(124,92,191,0.04), transparent 50%)",
+                "linear-gradient(180deg, #080a10 0%, #0a0c14 30%, #080a10 100%)",
               ].join(", "),
             }}
           />

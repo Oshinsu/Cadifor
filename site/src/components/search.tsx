@@ -115,7 +115,7 @@ export function SearchView({ entries }: { entries: SearchEntry[] }) {
     <div>
       {/* Search input */}
       <div className="relative">
-        <Search className="absolute left-5 top-1/2 size-5 -translate-y-1/2 text-stone-500" />
+        <Search className="absolute left-5 top-1/2 size-5 -translate-y-1/2 text-slate-500" />
         <input
           ref={inputRef}
           type="text"
@@ -123,14 +123,14 @@ export function SearchView({ entries }: { entries: SearchEntry[] }) {
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={onKeyDown}
           placeholder="Rechercher un personnage, une scene, un lieu..."
-          className="w-full rounded-2xl border border-white/[0.08] bg-white/[0.03] py-4 pl-14 pr-12 text-lg text-stone-100 placeholder-stone-600 outline-none transition-all duration-300 focus:border-[var(--gold)]/30 focus:bg-white/[0.05] focus:shadow-[0_0_30px_rgba(212,168,83,0.06)]"
+          className="w-full rounded-2xl border border-white/[0.08] bg-white/[0.03] py-4 pl-14 pr-12 text-lg text-slate-100 placeholder-slate-600 outline-none transition-all duration-300 focus:border-[var(--gold)]/30 focus:bg-white/[0.05] focus:shadow-[0_0_30px_rgba(212,168,83,0.06)]"
           autoFocus
         />
         {query.length > 0 && (
           <button
             type="button"
             onClick={() => { setQuery(""); inputRef.current?.focus(); }}
-            className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full p-1 text-stone-500 transition-colors hover:text-stone-300"
+            className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full p-1 text-slate-500 transition-colors hover:text-slate-300"
           >
             <X className="size-4" />
           </button>
@@ -147,7 +147,7 @@ export function SearchView({ entries }: { entries: SearchEntry[] }) {
             className={`rounded-full px-3.5 py-1.5 text-[11px] uppercase tracking-[0.15em] transition-all duration-200 ${
               filter === f.key
                 ? "border border-[var(--gold)]/30 bg-[var(--gold)]/[0.1] text-[var(--gold-light)]"
-                : "border border-white/[0.06] bg-white/[0.02] text-stone-500 hover:border-white/[0.1] hover:text-stone-300"
+                : "border border-white/[0.06] bg-white/[0.02] text-slate-500 hover:border-white/[0.1] hover:text-slate-300"
             }`}
           >
             {f.label}
@@ -157,10 +157,10 @@ export function SearchView({ entries }: { entries: SearchEntry[] }) {
 
       {/* Result count */}
       {query.trim().length >= 2 && (
-        <div className="mt-4 flex items-center gap-3 text-xs text-stone-500">
+        <div className="mt-4 flex items-center gap-3 text-xs text-slate-500">
           <span>{results.length} resultat{results.length !== 1 ? "s" : ""}</span>
           {selectedIndex >= 0 && (
-            <span className="text-stone-600">
+            <span className="text-slate-600">
               Naviguez avec les fleches
             </span>
           )}
@@ -180,18 +180,18 @@ export function SearchView({ entries }: { entries: SearchEntry[] }) {
             }`}
           >
             <div className="flex items-baseline gap-4">
-              <h3 className="font-serif text-xl text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+              <h3 className="font-serif text-xl text-slate-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                 {highlightMatch(entry.title, query.trim())}
               </h3>
-              <span className="shrink-0 rounded-full border border-white/[0.06] bg-white/[0.02] px-2 py-0.5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+              <span className="shrink-0 rounded-full border border-white/[0.06] bg-white/[0.02] px-2 py-0.5 text-[10px] uppercase tracking-[0.2em] text-slate-600">
                 {entry.collection}
               </span>
-              <span className="ml-auto flex shrink-0 items-center gap-1 text-[10px] text-stone-600">
+              <span className="ml-auto flex shrink-0 items-center gap-1 text-[10px] text-slate-600">
                 <Clock className="size-2.5" />
                 {entry.readingTime} min
               </span>
             </div>
-            <p className="mt-1 line-clamp-2 text-sm leading-6 text-stone-500">
+            <p className="mt-1 line-clamp-2 text-sm leading-6 text-slate-500">
               {entry.excerpt}
             </p>
           </Link>
@@ -201,8 +201,8 @@ export function SearchView({ entries }: { entries: SearchEntry[] }) {
       {/* Empty state */}
       {query.trim().length >= 2 && results.length === 0 && (
         <div className="mt-12 text-center">
-          <p className="font-serif text-2xl text-stone-500">Aucun resultat</p>
-          <p className="mt-2 text-sm text-stone-600">
+          <p className="font-serif text-2xl text-slate-500">Aucun resultat</p>
+          <p className="mt-2 text-sm text-slate-600">
             Essayez un autre terme ou changez le filtre de collection.
           </p>
         </div>
@@ -210,10 +210,10 @@ export function SearchView({ entries }: { entries: SearchEntry[] }) {
 
       {query.trim().length < 2 && (
         <div className="mt-12 text-center">
-          <p className="text-sm text-stone-600">
+          <p className="text-sm text-slate-600">
             Saisissez au moins 2 caracteres pour lancer la recherche.
           </p>
-          <p className="mt-2 text-[10px] text-stone-700">
+          <p className="mt-2 text-[10px] text-slate-700">
             Raccourci clavier : fleches pour naviguer, Entree pour ouvrir, Echap pour effacer
           </p>
         </div>

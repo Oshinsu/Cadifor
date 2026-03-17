@@ -30,7 +30,7 @@ export function TableOfContents({ items }: { items: TocItem[] }) {
 
   return (
     <nav className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5">
-      <p className="mb-3 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+      <p className="mb-3 text-[10px] uppercase tracking-[0.2em] text-slate-600">
         Sommaire
       </p>
       <div className="space-y-1">
@@ -43,7 +43,7 @@ export function TableOfContents({ items }: { items: TocItem[] }) {
             } ${
               activeId === item.id
                 ? "active text-[var(--gold-light)]"
-                : "text-stone-500 hover:text-stone-300"
+                : "text-slate-500 hover:text-slate-300"
             }`}
           >
             {item.text}

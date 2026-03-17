@@ -59,7 +59,7 @@ export function SiteShell() {
         initial={{ opacity: 0, y: -12 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-        className={`sticky top-0 z-50 border-b bg-[#0a0908]/85 backdrop-blur-2xl backdrop-saturate-150 transition-[border-color,box-shadow] duration-500 ${
+        className={`sticky top-0 z-50 border-b bg-[#080a10]/85 backdrop-blur-2xl backdrop-saturate-150 transition-[border-color,box-shadow] duration-500 ${
           scrolled
             ? "border-[var(--gold)]/[0.1] shadow-[0_1px_20px_rgba(0,0,0,0.5)]"
             : "border-white/[0.04]"
@@ -77,10 +77,10 @@ export function SiteShell() {
               />
             </div>
             <div className="hidden sm:block">
-              <p className="font-serif text-[1.1rem] tracking-[0.18em] text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+              <p className="font-serif text-[1.1rem] tracking-[0.18em] text-slate-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                 CADIFOR
               </p>
-              <p className="text-[8px] uppercase tracking-[0.3em] text-stone-600">
+              <p className="text-[8px] uppercase tracking-[0.3em] text-slate-600">
                 Le Haut Royaume
               </p>
             </div>
@@ -93,8 +93,8 @@ export function SiteShell() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`relative rounded-lg px-3.5 py-2 text-[0.8rem] tracking-[0.08em] transition-all duration-300 hover:bg-white/[0.04] hover:text-stone-100 ${
-                    active ? "text-[var(--gold-light)]" : "text-stone-500"
+                  className={`relative rounded-lg px-3.5 py-2 text-[0.8rem] tracking-[0.08em] transition-all duration-300 hover:bg-white/[0.04] hover:text-slate-100 ${
+                    active ? "text-[var(--gold-light)]" : "text-slate-500"
                   }`}
                 >
                   {link.label}
@@ -111,10 +111,10 @@ export function SiteShell() {
             <div className="mx-3 h-5 w-px bg-white/[0.06]" />
             <Link
               href="/recherche"
-              className="flex items-center gap-2 rounded-lg px-3 py-2 text-[0.8rem] tracking-[0.08em] text-stone-500 transition-all duration-300 hover:bg-white/[0.04] hover:text-stone-100"
+              className="flex items-center gap-2 rounded-lg px-3 py-2 text-[0.8rem] tracking-[0.08em] text-slate-500 transition-all duration-300 hover:bg-white/[0.04] hover:text-slate-100"
             >
               <Search className="size-3.5" />
-              <kbd className="hidden items-center gap-0.5 rounded border border-white/[0.08] bg-white/[0.03] px-1.5 py-0.5 text-[10px] text-stone-600 lg:inline-flex">
+              <kbd className="hidden items-center gap-0.5 rounded border border-white/[0.08] bg-white/[0.03] px-1.5 py-0.5 text-[10px] text-slate-600 lg:inline-flex">
                 <Command className="size-2.5" />K
               </kbd>
             </Link>
@@ -125,7 +125,7 @@ export function SiteShell() {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label={mobileMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
             aria-expanded={mobileMenuOpen}
-            className="rounded-lg border border-white/[0.06] p-2.5 text-stone-400 transition hover:border-[var(--border-gold)] hover:text-stone-100 md:hidden"
+            className="rounded-lg border border-white/[0.06] p-2.5 text-slate-400 transition hover:border-[var(--border-gold)] hover:text-slate-100 md:hidden"
           >
             {mobileMenuOpen ? <X className="size-4" /> : <Menu className="size-4" />}
           </button>
@@ -140,7 +140,7 @@ export function SiteShell() {
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             aria-label="Navigation mobile"
-            className="sticky top-[65px] z-40 overflow-hidden border-b border-white/[0.04] bg-[#0a0908]/95 backdrop-blur-2xl md:hidden"
+            className="sticky top-[65px] z-40 overflow-hidden border-b border-white/[0.04] bg-[#080a10]/95 backdrop-blur-2xl md:hidden"
           >
             <div className="mx-auto max-w-7xl space-y-0.5 px-6 py-3">
               {navLinks.map((link) => (
@@ -148,7 +148,7 @@ export function SiteShell() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="block rounded-xl px-4 py-3 text-[0.84rem] text-stone-300 transition hover:bg-white/[0.04] hover:text-stone-100"
+                  className="block rounded-xl px-4 py-3 text-[0.84rem] text-slate-300 transition hover:bg-white/[0.04] hover:text-slate-100"
                 >
                   {link.label}
                 </Link>

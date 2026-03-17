@@ -46,7 +46,7 @@ export function GalerieContent({ allImages }: GalerieContentProps) {
             Illustrations
           </p>
           <h1 className="font-serif text-5xl text-[var(--ivory)]">Galerie</h1>
-          <p className="mt-4 text-lg leading-8 text-stone-400">
+          <p className="mt-4 text-lg leading-8 text-slate-400">
             {totalCount} illustrations generees pour le Haut Royaume de Cadifor.
             Portraits de souverains, vues de cites, scenes canoniques et blasons heraldiques.
           </p>
@@ -65,7 +65,7 @@ export function GalerieContent({ allImages }: GalerieContentProps) {
                 {images.length} image{images.length !== 1 ? "s" : ""}
               </p>
               <h2 className="font-serif text-4xl text-[var(--ivory)]">{label}</h2>
-              <p className="mt-2 text-sm text-stone-500">{subtitle}</p>
+              <p className="mt-2 text-sm text-slate-500">{subtitle}</p>
             </div>
 
             <div className={`stagger grid gap-4 ${
@@ -93,7 +93,7 @@ export function GalerieContent({ allImages }: GalerieContentProps) {
                     <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[rgb(12,10,9)] via-transparent to-transparent opacity-60" />
                   </div>
                   <div className="absolute inset-x-0 bottom-0 p-4">
-                    <p className="truncate text-sm font-medium text-stone-200 drop-shadow-lg">
+                    <p className="truncate text-sm font-medium text-slate-200 drop-shadow-lg">
                       {imageLabel(img)}
                     </p>
                   </div>

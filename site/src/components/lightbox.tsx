@@ -83,7 +83,7 @@ export function Lightbox({ images, initialIndex = 0, onClose }: LightboxProps) {
           priority
         />
         {images.length > 1 && (
-          <p className="mt-3 text-center text-xs text-stone-500">
+          <p className="mt-3 text-center text-xs text-slate-500">
             {index + 1} / {images.length}
           </p>
         )}
@@ -110,7 +110,7 @@ export function GalleryGrid({ images, aspectRatio = "aspect-[3/4]", sizes = "130
   return (
     <>
       <div className="overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-        <p className="px-5 pt-5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+        <p className="px-5 pt-5 text-[10px] uppercase tracking-[0.2em] text-slate-600">
           {label}
         </p>
         <div className={`mt-3 grid ${aspectRatio === "aspect-[16/9]" ? "gap-1" : "grid-cols-2 gap-1"} p-2`}>

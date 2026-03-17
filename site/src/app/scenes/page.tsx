@@ -34,12 +34,12 @@ export default function ScenesPage() {
             Chroniques canoniques
           </div>
           <h1 className="font-serif text-5xl text-[var(--ivory)] md:text-6xl">Scenes</h1>
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-stone-400">
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-400">
             Les scenes canoniques du corpus Cadifor : diners imperiaux, duels,
             bals, batailles et moments fondateurs. Chaque scene est un point
             d&apos;entree dans la legende.
           </p>
-          <div className="mt-6 flex flex-wrap items-center gap-6 text-xs text-stone-500">
+          <div className="mt-6 flex flex-wrap items-center gap-6 text-xs text-slate-500">
             <span className="flex items-center gap-1.5">
               <ScrollText className="size-3" />
               {scenes.length} scenes

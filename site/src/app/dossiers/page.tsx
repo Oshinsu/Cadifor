@@ -88,7 +88,7 @@ export default function DossiersPage() {
           Editorial
         </p>
         <h1 className="font-serif text-5xl text-[var(--ivory)]">Dossiers</h1>
-        <p className="mt-4 text-lg leading-8 text-stone-400">
+        <p className="mt-4 text-lg leading-8 text-slate-400">
           Parcours de lecture et points d&apos;entree editoriaux composes au-dessus
           du graphe de contenu.
         </p>
@@ -120,13 +120,13 @@ export default function DossiersPage() {
                   {dossier.tag}
                 </span>
               </div>
-              <h2 className="font-serif text-3xl text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+              <h2 className="font-serif text-3xl text-slate-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
                 {dossier.title}
               </h2>
-              <p className="mt-4 text-sm leading-7 text-stone-500">
+              <p className="mt-4 text-sm leading-7 text-slate-500">
                 {dossier.description}
               </p>
-              <div className="mt-5 flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-stone-600 transition-colors duration-300 group-hover:text-[var(--gold)]">
+              <div className="mt-5 flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-slate-600 transition-colors duration-300 group-hover:text-[var(--gold)]">
                 Lire
                 <ArrowRight className="size-3" />
               </div>
@@ -152,14 +152,14 @@ export default function DossiersPage() {
               <h3 className="font-serif text-2xl text-[var(--gold-light)]">
                 {parcour.title}
               </h3>
-              <p className="mt-2 text-sm leading-7 text-stone-500">
+              <p className="mt-2 text-sm leading-7 text-slate-500">
                 {parcour.description}
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
                 {parcour.steps.map((step, i) => (
                   <span
                     key={step}
-                    className="inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/10 bg-[var(--gold)]/[0.04] px-3 py-1 text-xs text-stone-400"
+                    className="inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/10 bg-[var(--gold)]/[0.04] px-3 py-1 text-xs text-slate-400"
                   >
                     <span className="text-[10px] text-[var(--gold)]/50">{i + 1}</span>
                     {step}

@@ -15,13 +15,13 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
           <span key={crumb.label} className="flex items-center gap-1.5">
             {i > 0 && <ChevronRight className="breadcrumb-separator size-3" />}
             {isLast || !crumb.href ? (
-              <span className={isLast ? "text-[var(--gold-light)]" : "text-stone-500"}>
+              <span className={isLast ? "text-[var(--gold-light)]" : "text-slate-500"}>
                 {crumb.label}
               </span>
             ) : (
               <Link
                 href={crumb.href}
-                className="text-stone-500 transition-colors duration-200 hover:text-stone-300"
+                className="text-slate-500 transition-colors duration-200 hover:text-slate-300"
               >
                 {crumb.label}
               </Link>

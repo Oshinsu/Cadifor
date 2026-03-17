@@ -8,13 +8,14 @@
   --gold-bright: #f0d890;
   --gold-faint: rgba(212, 168, 83, 0.08);
   --gold-glow: rgba(212, 168, 83, 0.15);
-  --ivory: #f5f0e8;
-  --parchment: #e8dcc8;
-  --deep: #0a0908;
-  --surface: #110f0d;
-  --surface-raised: #161310;
-  --blood: #8b1a1a;
-  --blood-faint: rgba(139, 26, 26, 0.08);
+  --ivory: #e8ecf5;
+  --parchment: #c5cde0;
+  --deep: #080a10;
+  --surface: #0c0e16;
+  --surface-raised: #10131e;
+  --arcane: #3a6bc5;
+  --arcane-faint: rgba(58, 107, 197, 0.08);
+  --violet-accent: #7c5cbf;
   --border: rgba(255, 255, 255, 0.06);
   --border-gold: rgba(212, 168, 83, 0.18);
   --border-gold-strong: rgba(212, 168, 83, 0.35);
@@ -25,8 +26,8 @@
   --font-sans: var(--font-body);
   --color-gold: #d4a853;
   --color-gold-light: #e8c97a;
-  --color-ivory: #f5f0e8;
-  --color-parchment: #e8dcc8;
+  --color-ivory: #e8ecf5;
+  --color-parchment: #c5cde0;
 }
 
 html { scroll-behavior: auto; }
@@ -408,7 +409,7 @@ img[loading="lazy"] {
 /* ─── Cinematic hero overlay gradient ─────────────────────── */
 .hero-vignette {
   background:
-    radial-gradient(ellipse 80% 50% at 50% 0%, transparent 30%, rgba(10,9,8,0.8) 100%),
+    radial-gradient(ellipse 80% 50% at 50% 0%, transparent 30%, rgba(8,10,16,0.8) 100%),
     linear-gradient(180deg, transparent 60%, var(--deep) 100%);
 }
 

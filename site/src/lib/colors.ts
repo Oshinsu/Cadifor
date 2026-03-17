@@ -83,7 +83,7 @@ const FACTION_THEMES = {
   },
   ironforge: {
     primary: "#d97706",       // amber-600
-    secondary: "#78716c",     // stone-500
+    secondary: "#64748b",     // slate-500
     bgTint: "bg-amber-500/[0.06]",
     borderTint: "border-amber-400/20",
     textAccent: "text-amber-300",
@@ -137,7 +137,7 @@ const FACTION_THEMES = {
   },
   alterac: {
     primary: "#FF8A0E",       // canonical Alterac orange
-    secondary: "#78716c",     // stone grey
+    secondary: "#64748b",     // slate grey
     bgTint: "bg-orange-500/[0.06]",
     borderTint: "border-orange-400/20",
     textAccent: "text-orange-300",
@@ -146,7 +146,7 @@ const FACTION_THEMES = {
   },
   imperial: {
     primary: "#f59e0b",       // amber-500 (the default site amber)
-    secondary: "#78716c",     // stone-500
+    secondary: "#64748b",     // slate-500
     bgTint: "bg-amber-500/[0.06]",
     borderTint: "border-amber-300/20",
     textAccent: "text-amber-200",
@@ -215,8 +215,8 @@ export function getTierColor(tier: CharacterTier): string {
     case "S":   return "text-cyan-300 border-cyan-300/40 bg-cyan-300/10";
     case "A":   return "text-emerald-300 border-emerald-300/40 bg-emerald-300/10";
     case "B":   return "text-blue-300 border-blue-300/40 bg-blue-300/10";
-    case "C":   return "text-stone-400 border-stone-400/40 bg-stone-400/10";
-    default:    return "text-stone-500 border-stone-500/30 bg-stone-500/5";
+    case "C":   return "text-slate-400 border-slate-400/40 bg-slate-400/10";
+    default:    return "text-slate-500 border-slate-500/30 bg-slate-500/5";
   }
 }
 
@@ -280,9 +280,9 @@ const COLLECTION_THEMES: Record<string, CollectionTheme> = {
     accentBorder: "border-yellow-400/20",
   },
   annexes: {
-    gradient: "from-stone-500/15 to-transparent",
-    iconColor: "text-stone-400",
-    accentBorder: "border-stone-400/20",
+    gradient: "from-slate-500/15 to-transparent",
+    iconColor: "text-slate-400",
+    accentBorder: "border-slate-400/20",
   },
   meta: {
     gradient: "from-sky-500/10 to-transparent",
@@ -293,8 +293,8 @@ const COLLECTION_THEMES: Record<string, CollectionTheme> = {
 
 export function getCollectionTheme(collection: string): CollectionTheme {
   return COLLECTION_THEMES[collection] ?? {
-    gradient: "from-stone-500/10 to-transparent",
-    iconColor: "text-stone-400",
-    accentBorder: "border-stone-400/15",
+    gradient: "from-slate-500/10 to-transparent",
+    iconColor: "text-slate-400",
+    accentBorder: "border-slate-400/15",
   };
 }

@@ -33,7 +33,7 @@ export default function EncyclopediePage() {
               Exploration du corpus
             </div>
             <h1 className="font-serif text-5xl text-[var(--ivory)] md:text-6xl">Encyclopedie</h1>
-            <p className="mt-4 max-w-2xl text-lg leading-8 text-stone-400">
+            <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-400">
               {totalCount} entrees derivees du corpus canonique, organisees
               en {encyclopaediaCollections.length} collections thematiques.
               Tout le savoir du Haut Royaume, a portee de parchemin.
@@ -71,7 +71,7 @@ export default function EncyclopediePage() {
                     <h2 className="mt-1 font-serif text-4xl text-[var(--ivory)]">
                       {getCollectionLabel(collection)}
                     </h2>
-                    <p className="mt-2 max-w-2xl text-sm leading-7 text-stone-500">
+                    <p className="mt-2 max-w-2xl text-sm leading-7 text-slate-500">
                       {getCollectionDescription(collection)}
                     </p>
                   </div>

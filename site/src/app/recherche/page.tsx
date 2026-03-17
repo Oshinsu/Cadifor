@@ -56,7 +56,7 @@ export default function RecherchePage() {
           Corpus
         </p>
         <h1 className="font-serif text-5xl text-[var(--ivory)]">Recherche</h1>
-        <p className="mt-4 text-lg leading-8 text-stone-400">
+        <p className="mt-4 text-lg leading-8 text-slate-400">
           Rechercher dans les {index.length} entrees du corpus Cadifor.
         </p>
       </div>

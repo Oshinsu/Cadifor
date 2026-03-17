@@ -43,7 +43,7 @@ export function EntryCard({ entry, href }: EntryCardProps) {
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--gold)]/30 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
         <div className="mb-4 flex items-center gap-3">
-          <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-stone-600">
+          <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-slate-600">
             {entry.collection}
           </span>
           {factionTheme && (
@@ -54,7 +54,7 @@ export function EntryCard({ entry, href }: EntryCardProps) {
           <span className="h-px flex-1 bg-white/[0.04]" />
         </div>
 
-        <h3 className="mb-3 font-serif text-[1.65rem] leading-tight text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+        <h3 className="mb-3 font-serif text-[1.65rem] leading-tight text-slate-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
           {entry.title}
         </h3>
 
@@ -62,16 +62,16 @@ export function EntryCard({ entry, href }: EntryCardProps) {
           <p className="mb-2 text-xs italic text-[var(--gold)]/50">{entry.epithet}</p>
         )}
 
-        <p className="line-clamp-3 text-[0.84rem] leading-relaxed text-stone-500">
+        <p className="line-clamp-3 text-[0.84rem] leading-relaxed text-slate-500">
           {entry.excerpt}
         </p>
 
-        <div className="mt-6 flex items-center gap-3 text-[10px] tracking-[0.15em] text-stone-700 transition-colors duration-300 group-hover:text-stone-500">
+        <div className="mt-6 flex items-center gap-3 text-[10px] tracking-[0.15em] text-slate-700 transition-colors duration-300 group-hover:text-slate-500">
           <span className="flex items-center gap-1">
             <Clock className="size-2.5" />
             {entry.readingTime} min
           </span>
-          <span className="h-3 w-px bg-stone-800" />
+          <span className="h-3 w-px bg-slate-800" />
           <span className="uppercase">{entry.wordCount.toLocaleString("fr")} mots</span>
         </div>
       </div>
@@ -95,8 +95,8 @@ export function StatCard({ label, value, icon }: StatCardProps) {
         <div className="mb-4 text-[var(--gold)]/50 transition-colors duration-300 group-hover:text-[var(--gold)]">
           {icon}
         </div>
-        <div className="font-serif text-5xl tabular-nums tracking-tight text-stone-100">{value}</div>
-        <div className="mt-2 text-[10px] font-medium uppercase tracking-[0.25em] text-stone-600">
+        <div className="font-serif text-5xl tabular-nums tracking-tight text-slate-100">{value}</div>
+        <div className="mt-2 text-[10px] font-medium uppercase tracking-[0.25em] text-slate-600">
           {label}
         </div>
       </div>
