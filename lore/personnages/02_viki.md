@@ -10,16 +10,16 @@
 | **Nom complet** | Viki Cadifor |
 | **Surnoms** | La Joie d'Acier, La Destriere d'Orage |
 | **Role dynastique** | Premiere grande souveraine de consolidation |
-| **Titres successifs** | Comtesse de New Avalon (617), puis Duchesse de Darrow (~632) |
-| **Naissance** | 590 |
-| **Mort** | 661 |
-| **Age au deces** | 71 ans |
+| **Titres successifs** | Comtesse de New Avalon (617.5.13), puis Duchesse de Darrow (~632) |
+| **Naissance** | ~597 |
+| **Mort** | 668.10.9 (CK2 verrouille) |
+| **Age au deces** | ~71 ans |
 | **Conjoint** | Non verrouille — le mythe dit "jamais mariee" |
 | **Enfants** | **Vara** (fille, confirmee par screenshot d'arbre dynastique) |
 | **Petits-enfants** | Lianne, Viki (homonyme), Mitchel (via Vara) |
 | **Pere** | Aberthol Cadifor |
 | **Mere** | Andrea Gahron, Duchesse de Darrow |
-| **Soeurs** | Gwen (~582), June (~584), Andrea la Rougissante (595, +5 ans) |
+| **Soeurs** | Gwen, June, Andrea la Rougissante (~602, +5 ans) |
 
 ---
 
@@ -63,6 +63,19 @@
 - Vers **8-9 ans** : episode mineur autour de **loups albinos** pres de la riviere d'Argelan — anecdote de precocite plus que veritable fait d'armes canonique
 - Formee par son pere aux arts de la guerre, pas dans les salons
 - A 8 ans, connaissait deja l'organigramme du duche. A 12, ecoutait les sermons de Grisfroy et savait demeler les mensonges dans les rapports de guerre
+- **A 5 ans** : Viki examinait deja les cartes de Darrow et Nouvelle-Avalon avec sa mere Andrea, demandant pourquoi les territoires etaient separes — precocite de clarte, pas de calcul
+- **A 9 ans** : decouvre une fraude dans les comptes de grain d'un village du sud (fausse date de pluie masquant un detournement de surplus). Son pere la surprend la nuit dans la salle des comptes et lui montre une carte militaire : "Ou frapperais-tu Avalon sans prendre les murs ?" Elle designe un point de ravitaillement non defendu — pensee logistique instinctive
+
+### Duels d'entrainement entre soeurs
+
+Les quatre soeurs Cadifor s'entrainaient regulierement dans les cours de Nouvelle-Avalon :
+
+- **Viki (9) vs Gwen (7)** — maillets de bois : Gwen frappe avec elegance et angles instinctifs, Viki charge avec volonte brute. Viki gagne par ecrasement, pas par finesse. Aberthol observe : *"Gwen gagnera par la precision. Viki par la faim."*
+- **Gwen (13) vs June (12)** — lance et bouclier vs baton ferre : Gwen est fluide et technique, mais June tient le terrain moralement — elle ne cede pas un pouce. Un vieux paladin predit : *"Celle-la pliera des hommes deux fois son age si la Lumiere la prend pleinement."*
+- **Viki (16) vs June (14)** — fleau emousse et rondache : Viki rit en plein combat (joie du guerrier pur), June ne dit rien et tient. Viki gagne nettement. Elle dit : *"T'as tenu longtemps."* Aberthol aux temoins : *"Retenez ca."*
+- **Viki (18) vs Andrea (13)** — baton court et petit bouclier : Andrea ne peut pas gagner physiquement, alors elle salit le rythme, brise la purete de Viki, force le placement. Viki gagne (evidemment) mais dit : *"T'es chiante a battre."* Aberthol : *"Celle-la n'est pas faite pour les memes victoires. Ca ne veut pas dire qu'elle en aura moins."*
+
+Les veterans des cours disaient : *Viki — si elle te mene, tu tiens ; si elle charge, tu fuis. Gwen — elle parle et tu decouvres trop tard qu'elle t'a deja deplace. June — on baisse la voix devant elle comme dans une chapelle. Andrea — tu crois qu'elle ne se bat pas ; puis tu realises qu'elle a deja choisi le terrain.*
 
 ### L'attente de la duchesse (612-632)
 Lorsque son pere mourut a 63 ans (612), Viki avait 22 ans. Elle pensa enfin pouvoir prendre la tete du duche. Mais sa mere Andrea Gahron vivait toujours. Et elle n'etait pas prete a abdiquer.

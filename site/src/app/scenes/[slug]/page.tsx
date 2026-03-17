@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { Clock, FileText } from "lucide-react";
+import { Clock, FileText, ArrowLeft, ArrowRight, Shield } from "lucide-react";
 import { Markdown } from "@/components/markdown";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ReadingProgress } from "@/components/reading-progress";
@@ -63,30 +63,32 @@ export default async function ScenePage({ params }: ScenePageProps) {
           { label: scene.title },
         ]} />
 
-      {/* Header with scene illustration */}
+      {/* Cinematic header with scene illustration */}
       {(() => {
         const sceneImage = resolveEntryImage(slug, "scenes");
         return (
           <div className="animate-fade-up relative mb-14 overflow-hidden rounded-[2rem] border border-[var(--border-gold)] bg-[var(--gold-faint)]">
             {sceneImage && (
-              <>
-                <div className="relative h-64 w-full md:h-80">
-                  <Image
-                    src={`/assets/${sceneImage}`}
-                    alt={scene.title}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 896px) 100vw, 896px"
-                    priority
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[rgb(12,10,9)] via-[rgb(12,10,9)]/40 to-transparent" />
-                </div>
-              </>
+              <div className="relative h-72 w-full md:h-96">
+                <Image
+                  src={`/assets/${sceneImage}`}
+                  alt={scene.title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 896px) 100vw, 896px"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[rgb(10,9,8)] via-[rgb(10,9,8)]/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-r from-[rgb(10,9,8)]/20 via-transparent to-[rgb(10,9,8)]/20" />
+              </div>
             )}
             <div className="relative p-8 md:p-12">
-              <p className="mb-3 text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]">
+              <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--gold)]/25 to-transparent" />
+
+              <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/15 bg-[var(--gold)]/[0.06] px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-[var(--gold)]">
+                <Shield className="size-3" />
                 Scene canonique
-              </p>
+              </div>
               <h1 className="font-serif text-5xl leading-tight text-[var(--ivory)] md:text-6xl">
                 {scene.title}
               </h1>
@@ -94,7 +96,7 @@ export default async function ScenePage({ params }: ScenePageProps) {
                 {scene.excerpt}
               </p>
 
-              <div className="mt-8 flex items-center gap-6 text-xs text-stone-500">
+              <div className="mt-8 flex flex-wrap items-center gap-6 text-xs text-stone-500">
                 <span className="flex items-center gap-1.5">
                   <Clock className="size-3" />
                   {scene.readingTime} min de lecture
@@ -103,7 +105,7 @@ export default async function ScenePage({ params }: ScenePageProps) {
                   <FileText className="size-3" />
                   {scene.wordCount.toLocaleString("fr")} mots
                 </span>
-                <span className="text-stone-600">{scene.sourcePath}</span>
+                <span className="text-stone-700">{scene.sourcePath}</span>
               </div>
             </div>
           </div>
@@ -116,33 +118,40 @@ export default async function ScenePage({ params }: ScenePageProps) {
       </article>
 
       {/* Prev / Next */}
-      <div className="mt-16 grid gap-4 md:grid-cols-2">
-        {prevScene ? (
-          <Link
-            href={`/scenes/${prevScene.slug}`}
-            className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5"
-          >
-            <span className="text-[10px] uppercase tracking-[0.2em] text-stone-600">
-              Scene precedente
-            </span>
-            <p className="mt-1 font-serif text-lg text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
-              {prevScene.title}
-            </p>
-          </Link>
-        ) : <div />}
-        {nextScene ? (
-          <Link
-            href={`/scenes/${nextScene.slug}`}
-            className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5 text-right"
-          >
-            <span className="text-[10px] uppercase tracking-[0.2em] text-stone-600">
-              Scene suivante
-            </span>
-            <p className="mt-1 font-serif text-lg text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
-              {nextScene.title}
-            </p>
-          </Link>
-        ) : null}
+      <div className="mt-16">
+        <div className="divider-ornament mb-8">
+          <span className="divider-ornament-diamond" />
+        </div>
+        <div className="grid gap-4 md:grid-cols-2">
+          {prevScene ? (
+            <Link
+              href={`/scenes/${prevScene.slug}`}
+              className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.02] p-6"
+            >
+              <span className="flex items-center gap-1.5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+                <ArrowLeft className="size-3" />
+                Scene precedente
+              </span>
+              <p className="mt-2 font-serif text-xl text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+                {prevScene.title}
+              </p>
+            </Link>
+          ) : <div />}
+          {nextScene ? (
+            <Link
+              href={`/scenes/${nextScene.slug}`}
+              className="card-imperial group rounded-2xl border border-white/[0.06] bg-white/[0.02] p-6 text-right"
+            >
+              <span className="flex items-center justify-end gap-1.5 text-[10px] uppercase tracking-[0.2em] text-stone-600">
+                Scene suivante
+                <ArrowRight className="size-3" />
+              </span>
+              <p className="mt-2 font-serif text-xl text-stone-200 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+                {nextScene.title}
+              </p>
+            </Link>
+          ) : null}
+        </div>
       </div>
       </main>
     </>

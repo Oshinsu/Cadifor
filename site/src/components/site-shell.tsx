@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import Lenis from "lenis";
 import { Command, Menu, Search, X } from "lucide-react";
@@ -35,14 +36,12 @@ export function SiteShell() {
     return () => { cancelAnimationFrame(rafId); lenis.destroy(); };
   }, []);
 
-  // Scroll-aware header
   useEffect(() => {
     function onScroll() { setScrolled(window.scrollY > 20); }
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Cmd+K search shortcut
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
       if ((e.metaKey || e.ctrlKey) && e.key === "k") {
@@ -60,24 +59,34 @@ export function SiteShell() {
         initial={{ opacity: 0, y: -12 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-        className={`sticky top-0 z-50 border-b bg-[#0a0908]/80 backdrop-blur-2xl backdrop-saturate-150 transition-[border-color,box-shadow] duration-300 ${
+        className={`sticky top-0 z-50 border-b bg-[#0a0908]/85 backdrop-blur-2xl backdrop-saturate-150 transition-[border-color,box-shadow] duration-500 ${
           scrolled
-            ? "border-[var(--gold)]/[0.08] shadow-[0_1px_12px_rgba(0,0,0,0.4)]"
+            ? "border-[var(--gold)]/[0.1] shadow-[0_1px_20px_rgba(0,0,0,0.5)]"
             : "border-white/[0.04]"
         }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link href="/" className="group flex items-center gap-3.5">
-            <div className="flex size-9 items-center justify-center rounded-lg border border-[var(--gold)]/25 bg-[var(--gold)]/[0.06] transition-all duration-300 group-hover:border-[var(--gold)]/40 group-hover:bg-[var(--gold)]/[0.1]">
-              <span className="font-serif text-base font-bold text-[var(--gold)]">C</span>
+            <div className="relative flex size-10 items-center justify-center overflow-hidden rounded-xl border border-[var(--gold)]/25 bg-[var(--gold)]/[0.06] transition-all duration-300 group-hover:border-[var(--gold)]/40 group-hover:bg-[var(--gold)]/[0.12]">
+              <Image
+                src="/assets/heraldry/heraldry_cadifor_sigil.png"
+                alt="Blason Cadifor"
+                width={22}
+                height={22}
+                className="opacity-80 transition-opacity duration-300 group-hover:opacity-100"
+              />
             </div>
             <div className="hidden sm:block">
-              <p className="font-serif text-[1.05rem] tracking-[0.15em] text-stone-100">CADIFOR</p>
-              <p className="text-[9px] uppercase tracking-[0.25em] text-stone-500">Le Haut Royaume</p>
+              <p className="font-serif text-[1.1rem] tracking-[0.18em] text-stone-100 transition-colors duration-300 group-hover:text-[var(--gold-light)]">
+                CADIFOR
+              </p>
+              <p className="text-[8px] uppercase tracking-[0.3em] text-stone-600">
+                Le Haut Royaume
+              </p>
             </div>
           </Link>
 
-          <nav aria-label="Navigation principale" className="hidden items-center gap-1 md:flex">
+          <nav aria-label="Navigation principale" className="hidden items-center gap-0.5 md:flex">
             {navLinks.map((link) => {
               const active = isActive(link.href, pathname);
               return (
@@ -85,17 +94,21 @@ export function SiteShell() {
                   key={link.href}
                   href={link.href}
                   className={`relative rounded-lg px-3.5 py-2 text-[0.8rem] tracking-[0.08em] transition-all duration-300 hover:bg-white/[0.04] hover:text-stone-100 ${
-                    active ? "text-[var(--gold-light)]" : "text-stone-400"
+                    active ? "text-[var(--gold-light)]" : "text-stone-500"
                   }`}
                 >
                   {link.label}
                   {active && (
-                    <span className="absolute inset-x-2 -bottom-[17px] h-[2px] rounded-full bg-[var(--gold)]" />
+                    <motion.span
+                      layoutId="nav-indicator"
+                      className="absolute inset-x-2 -bottom-[17px] h-[2px] rounded-full bg-[var(--gold)]"
+                      transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                    />
                   )}
                 </Link>
               );
             })}
-            <div className="mx-2 h-4 w-px bg-white/[0.06]" />
+            <div className="mx-3 h-5 w-px bg-white/[0.06]" />
             <Link
               href="/recherche"
               className="flex items-center gap-2 rounded-lg px-3 py-2 text-[0.8rem] tracking-[0.08em] text-stone-500 transition-all duration-300 hover:bg-white/[0.04] hover:text-stone-100"

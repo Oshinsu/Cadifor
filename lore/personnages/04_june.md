@@ -125,6 +125,12 @@ La plus belle des quatre soeurs, la plus sensible, la plus pudique, presque timi
 
 ---
 
+## VOIX INTERIEURE — Ce que June voulait
+
+> *"Je ne voulais ni heriter comme Viki, ni penser le monde jusqu'a l'os comme Andrea, ni aimer les salles pleines plus que les routes comme Gwen. Je voulais que la force reste juste quelque part. Pas la gloire, pas le commandement pour lui-meme, pas la saintete comme ornement. Je voulais un lieu ou la guerre protege encore sans mentir, ou la foi ne soit pas du theatre, ou les puissants ne soient pas tous pourris de l'interieur, ou les faibles puissent reconnaitre le visage de ce qui les defend. C'est pour ca que j'ai aime la route plus que la cour. C'est pour ca que Stormgarde m'a finalement choisie autant que je l'ai choisie."*
+
+---
+
 ## FORMULE DEFINITIVE
 
 > *"June Cadifor fut la fille qui transforma la violence fondatrice d'Aberthol en droiture vivable pour un royaume entier."*

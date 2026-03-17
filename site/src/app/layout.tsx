@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     default: "Cadifor — Le Haut Royaume",
     template: "%s — Cadifor",
   },
-  description: "Encyclopedie vivante du Haut Royaume de Cadifor. 997 pages de lore, une dynastie de quatre siecles.",
+  description: "Encyclopedie vivante du Haut Royaume de Cadifor. Quatre siecles de dynastie, 997 pages de lore, forgees dans le fer et la sagesse.",
 };
 
 export default function RootLayout({
@@ -48,12 +48,14 @@ export default function RootLayout({
         className={`${display.variable} ${body.variable} bg-[#0a0908] font-sans text-stone-200 antialiased`}
       >
         <div className="relative min-h-screen">
+          {/* Cinematic ambient background */}
           <div
             className="pointer-events-none fixed inset-0 -z-10"
             style={{
               background: [
-                "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212,168,83,0.10), transparent 60%)",
-                "radial-gradient(ellipse 60% 40% at 90% 80%, rgba(120,80,40,0.06), transparent 50%)",
+                "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212,168,83,0.08), transparent 60%)",
+                "radial-gradient(ellipse 40% 30% at 90% 80%, rgba(139,26,26,0.04), transparent 50%)",
+                "radial-gradient(ellipse 50% 40% at 10% 60%, rgba(120,80,40,0.04), transparent 50%)",
                 "linear-gradient(180deg, #0a0908 0%, #0d0b09 30%, #0a0908 100%)",
               ].join(", "),
             }}
