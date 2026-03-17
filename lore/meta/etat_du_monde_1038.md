@@ -26,7 +26,7 @@ Niveau de confiance : `C2` (donnees extraites de screenshots commentes, pas de d
 
 - Couronne a **26 ans** apres la mort de Brodie
 - Roi de **Grim Batol** avant son accession au trone imperial
-- Marie a **Gianna Fordring** (sang haut-elfe, grande pretresse des ombres rang IX, trait Genie)
+- Marie a **Gianna Cadifor** (nee Fordring) — **HUMAINE** avec sang haut-elfe (lignee Highglory par sa mere). Grand Mage VII, Erudition 26, Intendance 11, Diplomatie 12, Martial 6, Intrigue 11. Trait Genie. Nee en 1014.
 - Devient **Mage Legendaire X** a seulement 26 ans — plus jeune mage legendaire de l'histoire
 - Son pere : **Raul Cadifor** (mage rang 8)
 - Revenus imperiaux : 1 916 or/an

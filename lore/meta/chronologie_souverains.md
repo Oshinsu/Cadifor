@@ -230,7 +230,7 @@ Note : successeur direct de Rose. Diplomate hors pair (20), guerrier solide, int
 |-------|--------|-----------|
 | **Accession** | `1038` (mort de Brodie) | forte (CK2) |
 | **Age a l'accession** | 26 ans | forte |
-| **Epouse** | Gianna Fordring (sang haut-elfe) | forte |
+| **Epouse** | Gianna Cadifor (nee Fordring) — humaine avec sang haut-elfe, Grand Mage VII, Erudition 26, Genie | forte |
 | **Rang magique** | Mage X (legendaire, atteint a ~26 ans) | forte |
 | **Notes** | Plus jeune mage legendaire de l'histoire. Marie a Gianna Fordring. Roi de Grim Batol avant le trone imperial. |
 
