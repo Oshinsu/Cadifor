@@ -170,19 +170,30 @@ Puis Marjory dit :
 
 Rose leva les yeux.
 
-— Renaud est trop jeune. — Justement. — Il n'a que quinze ans. — Et déjà une mémoire liturgique plus propre que trois abbés de la frontière.
+— Renaud est trop jeune.
+— Justement.
+— Il n'a que quinze ans.
+— Et deja une memoire liturgique plus propre que trois abbes de la frontiere.
 
-Rose réfléchit à peine.
+Rose reflechit a peine.
 
-— Oui. Mais alors il faudra l'endurcir avant de l'envoyer. Le garçon a encore le regard trop intact.
+— Oui. Mais alors il faudra l'endurcir avant de l'envoyer. Le garcon a encore le regard trop intact.
 
 Marjory reprit son couteau.
 
 — Nous avons des guerres pour cela.
 
-La phrase n'avait rien de cruel. C'était simplement le monde.
+La phrase n'avait rien de cruel. C'etait simplement le monde.
 
-Le rouleau à la droite de Rose se fendit d'un effleurement.
+Rose gouta, puis dit :
+
+— Le dessert de Hadrien sera trop epice.
+— Tu penses toujours trop loin.
+— Hadrien aussi.
+
+Marjory reposa sa cuillere sans repondre. Il n'y avait rien a dire a une prophetie de table qu'elle savait deja juste — Rose ne se trompait pas sur ce genre de details, et Hadrien, dans sa cuisine, raisonnait a la meme altitude que les souveraines, ce qui etait son genie et sa faute simultanee.
+
+Le rouleau a la droite de Rose se fendit d'un effleurement.
 
 — Les machines, dit Marjory.
 
