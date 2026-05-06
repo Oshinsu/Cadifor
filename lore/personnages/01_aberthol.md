@@ -12,13 +12,15 @@
 | **Role dynastique** | Fondateur de la dynastie — ancien heros imperial recycle en seigneur de marche puis en methode vivante |
 | **Titre** | Comte de New Avalon (sous la theocratie de Main-de-Tyr) |
 | **Titre anterieur** | Marechal de Lordaeron — Commandant supreme des armees |
-| **Naissance** | ~530 (estime) |
+| **Naissance** | **~554** (verrouillage canonique : 29 ans lors de la blessure institutionnelle de 583) |
+| **Comte de New Avalon depuis** | 573.5.17 — soit ~19 ans |
+| **Blessure institutionnelle** | 583 — assignation a la theocratie de Main-de-Tyr (point de divergence canonique) |
 | **Mort** | 617.5.13 |
-| **Age au deces** | ~87 ans |
-| **Conjoint** | Andrea Gahron, Duchesse du "Comte de Darrow" (fiancailles 577, mariage 587) |
-| **Enfants** | 4 filles legitimes : Viki (590), Gwen (~582), June (~584), Andrea la Rougissante (595) |
-| **Age au mariage** | 38 ans (Andrea Gahron avait 16 ans) |
-| **Difference d'age** | 22 ans |
+| **Age au deces** | ~63 ans (et non 87) |
+| **Conjoint** | Andrea Gahron, Duchesse du "Comte de Darrow" |
+| **Enfants** | 4 filles legitimes : Viki, Gwen, June, Andrea la Rougissante |
+
+> **Note de retcon canonique** : la fiche ancienne portait une naissance ~530 (donc ~87 ans au deces), incoherente avec le verrouillage actuel. Le repo autorise explicitement la correction des couches anciennes par les preuves plus hautes (screens CK2 + verrouillage de chronologie). Les ages exacts du mariage et des filles devront etre realignes en consequence dans CHRONOLOGIE.md et dans 02_viki.md.
 
 ---
 
@@ -168,3 +170,134 @@ Aberthol ne legue pas seulement un comte enrichi. Il legue :
 - **Avant lui** : Rien. Un comte mineur sous une theocratie.
 - **Apres lui** : Une maison avec 4 filles legendaires, un systeme commercial, une methode de succession, et le germe d'un empire.
 - **Son role** : Le semeur. Il ne verra jamais la recolte, mais chaque fruit porte son ADN.
+
+---
+
+## VERROU CANONIQUE — Les quatre blocs de sa vie
+
+La biographie d'Aberthol doit etre lue en quatre blocs nets, qui structurent la naissance meme de la maison Cadifor.
+
+### Bloc 1 — 554-573 : l'homme avant le comte (formation et ascension)
+
+Aberthol nait dans une **petite noblesse de service** ou une **maison de guerre secondaire**, pas dans une grande lignee installee. Ce point est essentiel. S'il avait ete protege par une immense maison, il perdrait ce qui fait sa puissance anthropologique : etre l'homme qui a tout gagne **contre** la structure nobiliaire, puis qui comprend que la structure ne lui pardonnera jamais d'avoir gagne.
+
+Tres jeune, il est un **prodige de discipline** plus qu'un jeune loup tapageur. Pas un bellatre de cour. Pas un ambitieux mondain. Un etre presque trop bien cable pour l'ordre : il comprend les cartes, les rythmes de ravitaillement, la fatigue des lignes, l'autorite sur les hommes, la necessite d'obeir. C'est ca qui le fait reperer. Sa grandeur, au depart, n'est pas le narcissisme : c'est l'**efficacite presque inhumaine**. Le repo le pose deja avec 20+ dans toutes les competences, ce qui impose un profil de **genie generaliste**, non de simple brute martiale — quasi marjoryesque dans ses stats brutes, ce qui est colossal.
+
+Avant 573, il faut donc le voir gravir l'appareil lordaeronnais a une **vitesse anormale**. Avant meme d'entrer dans l'histoire cadiforienne, il est deja **Marechal supreme / Commandant supreme des armees de Lordaeron**, il a mene la guerre contre **Quel'Thalas** et exerce une autorite militaire de tout premier rang.
+
+C'est la cle de sa jalousie future : les grands ne supportent pas qu'un homme **sans tres vieille maison** soit devenu l'instrument principal du plus puissant royaume humain.
+
+Style profond fixe ici : Aberthol n'est pas un politicien naturel, mais il n'est pas naïf. Il connait les intrigues ; il les meprise. Il sait lire les hommes ; il ne prend pas plaisir a les flatter. Il est capable de servir une couronne jusqu'au sacrifice, mais **il n'a pas l'instinct de s'acheter des protecteurs**. C'est exactement ce qui le rend admirable pour le peuple, indispensable pour l'armee, et **intolerable pour une partie de la haute noblesse**.
+
+### Bloc 2 — 573-583 : la decennie de New Avalon avant la cassure
+
+Le 17 mai 573, a 19 ans, Aberthol devient comte de New Avalon. Cette date est **sacree** dans le canon. Mais il faut bien comprendre la dramaturgie : Terenas (ou son equivalent dans la souverainete lordaeronnaise du moment) lui donne New Avalon comme **promotion de frontiere, test de gouvernement et eloignement elegant a la fois**.
+
+C'est bien plus fort que "le roi lui donne tout au premier episode". Pourquoi ? Parce que cela cree **une decennie entiere de compression dramatique**. Aberthol a deja regne. Il a deja tenu. Il a deja prouve. Et pourtant, en 583, le comte reste encore seulement "moyen". Cette mediocrite relative n'est pas un echec personnel : elle devient le **signe** qu'il a encore servi le royaume avant de servir sa maison. Il a consolide, defendu, administre, mais il n'a pas encore bascule dans la logique de refondation totale qui fera la puissance cadiforienne.
+
+Entre 573 et 583, Aberthol n'est pas un seigneur oisif ni un reformateur encore dechaine. Il est dans un **entre-deux tragique** : un heros imperial qu'on a territorialement fixe, un homme de grande guerre qu'on a transforme en gardien de marche. Il apprend la **boue des comptes**, les **lenteurs d'un bourg**, les **rivalites de pretres**, l'**inertie des conseillers mediocres**, la **fatigue des routes**, l'**intendance des hivers**.
+
+C'est cette decennie qui le rend **credible comme fondateur**. Sans elle, il serait seulement exceptionnel ; avec elle, il devient **dense**.
+
+Et cette periode explique pourquoi 583 est si importante : elle n'est pas le debut de son regne, elle est le moment ou il **cesse de croire que la loyaute et la competence suffisent**.
+
+### Bloc 3 — 583 : l'annee de la blessure fondatrice
+
+Le repo pose le point de divergence de l'univers en 583. C'est donc bien l'annee ou il faut concentrer la **grande cassure narrative**.
+
+Aberthol a deja le comte, il est deja enorme, et c'est justement pour ca qu'on le **neutralise plus finement**. Pas par une disgrace vulgaire. Par une **recomposition institutionnelle**.
+
+La chronologie generale dit qu'Aberthol devient comte de New Avalon "sous la theocratie de Main-de-Tyr". La fiche personnelle parle d'une mise a l'ecart par la jalousie de la cour et des mecanismes politiques de Lordaeron, qui l'installent comme vassal de Main-de-Tyr.
+
+**Voici la lecture canonique correcte** :
+les grandes maisons, apres le choc de guerre et la montee des tensions a l'Est, imposent **non pas un duche martial confie a Aberthol, mais un archeveche de Main-de-Tyr presente comme la reponse legitime a la frontiere sacree**. C'est brillant politiquement, parce que tout le monde peut pretendre agir pour le bien du royaume :
+- verrou spirituel contre Quel'Thalas
+- charniere contre Zul'Aman
+- noyau des futurs ordres paladins
+- sanctuarisation de la marche est
+
+Et c'est precisement pour cela que c'est **terrible** : on ne le trahit pas a ciel ouvert, on le **recadre dans un dispositif qui l'abaisse sans le dire**.
+
+La, naît le vrai Aberthol cadiforien.
+
+Il decouvre que :
+- la **competence suscite la peur**
+- le **merite n'abolit pas la hierarchie**
+- la guerre produit des **institutions qui devorent leurs propres heros**
+- un homme **sans grande maison**, meme s'il est le meilleur, reste manipulable par ceux qui possedent les **formes**
+
+C'est infiniment plus riche que "Terenas le trahit". Terenas peut rester un roi encore humain, peut-etre sincere, mais **trop jeune, trop tenu, trop dependant d'equilibres qui le depassent**. Cela donne au conflit une **noblesse tragique**, pas une bassesse simple.
+
+C'est la qu'il change.
+
+Pas en devenant mechant.
+Pas en devenant cynique au sens vulgaire.
+**En devenant fondateur.**
+
+Il cesse de chercher la **justice a l'echelle du royaume**.
+Il cherche desormais la **duree a l'echelle de la maison**.
+
+### Bloc 4 — 583-617 : Andrea Gahron, les Quatre Filles, et l'invention de la methode
+
+Andrea Gahron n'est pas un mariage politique parmi d'autres. C'est la **soudure biologique et politique entre la methode Aberthol et la profondeur successorale qui rendra possible toute la lignee des Andrea**.
+
+Et il faut absolument **ne pas l'ecrire comme un homme amoureux d'Andrea au depart**. Il faut l'ecrire comme un homme qui voit le **gouffre historique autour d'elle avant qu'elle-meme ne le voie** : duchesse-enfant, regente trop austere (Grisfroy), convoitises matrimoniales, capture possible du titre, instrumentalisation. Aberthol ne l'epouse pas par desir. Il l'epouse par **operation de protection, de verrouillage et de futur**. Elle ne comprendra la logique totale de ce geste que **bien plus tard**. Cette dissymetrie donne une **profondeur monumentale au couple fondateur**.
+
+A partir de la, la decennie finale d'Aberthol doit etre lue comme le moment ou il cesse d'etre seulement un grand soldat pour devenir un **ingenieur de duree**. Le repo appelle deja "Deal d'Aberthol" l'architecture economique creee via les mariages des filles :
+
+- **Kul Tiras** pour les routes maritimes (Gwen)
+- **Stormgarde** pour les routes terrestres (June)
+- **Darrow / Andrea** pour le reseau d'information, les tresoreries secretes, les comptoirs sous faux pavillon
+
+Cela veut dire qu'Aberthol ne fonde pas la maison seulement par l'epee, mais par **quatre couches successives** :
+1. la marche tenue (New Avalon, decennie 573-583)
+2. le mariage ducal (Andrea Gahron, post-583)
+3. l'**education asymetrique des filles** (chacune dans un registre different)
+4. la **transformation des alliances familiales en infrastructure** (Deal commercial)
+
+Et c'est la que le vieux lion devient vraiment mythique : il comprend que **la grandeur martiale ne suffit jamais**, qu'**un royaume vous utilise puis vous recompose**, mais qu'**une maison bien pensee peut survivre aux royaumes**.
+
+La Rougissante deviendra ensuite "la premiere vraie Cadifor" precisement parce qu'elle **rend consciente** cette intuition de son pere.
+
+---
+
+## STYLE WOW CLASSIC — Warrior Arms / Protection (precis)
+
+Le repo pose deja sa classe en Warrior Arms / Protection avec Charge, Mortal Strike, Shield Wall, Last Stand et Retaliation. C'est exact. Mais il faut le lire encore plus precisement en pur langage WoW Classic, parce que ca raconte tres bien le personnage :
+
+- **Charge** : la competence d'entree du warrior — l'irruption brutale dans la melee, geste cadiforien fondamental
+- **Hamstring** : il **coupe les appuis** des combattants mobiles
+- **Overpower** : il **punit les ouvertures** des ennemis qui ratent une parade
+- **Mortal Strike** : la signature tranchante de l'Arms — coup decisif qui empeche la regeneration
+- **Tactical Mastery** : il vit sur la **maitrise des postures**, le **stance dancing** comme economie de combat
+- **Shield Wall / Last Stand / Retaliation** : reflexes de **survie lourde** quand une ligne menace de rompre
+
+> *Aberthol n'est pas un paladin manque. C'est un marechal Arms.*
+
+Il ne gagne pas par grace divine. Il gagne par :
+- l'**entree en contact** (Charge)
+- le **tempo** (Mortal Strike)
+- la **coupe des trajectoires** (Hamstring)
+- la **punition des ouvertures** (Overpower)
+- la **tenue du front** (Shield Wall)
+- la **gestion de rage** (Berserker stance)
+- la **decision froide**
+
+Et contre des elfes, c'est **parfait visuellement** : eux sont plus fluides, plus fins, plus elegants ; lui est l'homme qui **casse la beaute du mouvement**.
+
+---
+
+## FORMULE CANONIQUE FINALE
+
+> *Aberthol Cadifor est un genie martial et administratif ne vers 554, devenu comte de New Avalon en 573, marechal majeur du bloc lordaeronnais, heros de frontiere brise non par la defaite militaire mais par une **recomposition sacree du pouvoir en 583**, et c'est precisement cette **blessure institutionnelle** qui le transforme de serviteur supreme du royaume en **inventeur glace de la methode cadiforienne**.*
+
+---
+
+## CE QU'IL FAUT ARRETER DE FAIRE EN ECRIVANT ABERTHOL
+
+- ne plus le lire comme "petit fondateur qui devient grand" — c'est deja une anomalie absolue avant New Avalon
+- ne plus le reduire a la guerre — c'est aussi un genie generaliste presque marjoryesque dans ses stats
+- ne plus traiter 583 comme une simple jalousie de cour — c'est une **recomposition institutionnelle** par creation d'un archeveche
+- ne plus le traiter comme amoureux d'Andrea Gahron — c'est une **operation de protection et de verrouillage**
+- ne plus traiter le Deal des mariages comme une simple alliance — c'est une **infrastructure economique multi-royaumes**
+- ne plus l'ecrire en paladin manque ou en barbare — c'est un **Warrior Arms** au sens technique : tempo, coupe, punition, tenue
