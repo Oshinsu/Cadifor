@@ -30,6 +30,177 @@
 
 ---
 
+## VERROU CONCEPTUEL — L'HERITIERE TOTALE
+
+Marjory n'est pas la mere de Rose au sens biologique seul. Elle est, dans la dynastie, **l'heritiere totale** au sens historique-politique-civilisationnel. Cette place ne se confond ni avec Andrea III (premiere imperiale de plenitude mais sur table mediocre, mage de combat plutot que synthese complete), ni avec Rose (debordement vertical, pas reprise integrale du programme imperial).
+
+- Elle recoit, condense et accomplit tout ce que les onze regnes precedents ont prepare
+- Elle ne recoit pas seulement le titre : elle recoit le **systeme entier** — administratif, militaire, magique, dynastique, culturel, architectural, fiscal, religieux
+- Elle ne se contente pas de le tenir : elle l'eleve a une forme civilisationnelle haute qu'aucun predecesseur n'a su porter ensemble
+- Elle n'est pas la plus puissante magicalement (Rose la depasse) mais elle est la **plus complete**
+
+Rose, en regard, n'est pas l'heritiere totale. Rose est le **debordement**. Rose depasse, integre, transcende — mais elle ne reprend pas, point par point, le programme imperial dans toutes ses dimensions. Marjory l'a fait. Rose herite donc d'une accomplie, pas d'un projet.
+
+> *Marjory accomplit. Rose ouvre.*
+> *Marjory tient. Rose revele.*
+> *Marjory herite totalement. Rose deborde verticalement.*
+
+Cette asymetrie est le verrou narratif central de l'apogee cadiforienne. La confondre avec un simple « Rose est plus grande que Marjory » casserait la hierarchie de transmission qui rend Rose possible. Sans Marjory comme totalisation, Rose n'aurait pas de socle. Sans Rose comme debordement, Marjory aurait ete le sommet — et l'aurait deja ete sans rien y manquer.
+
+### Ce que veut dire « impérial » selon Marjory
+
+L'imperial cadiforien ne se reduit pas :
+- ni a la magie (Andrea III etait deja mage legendaire avant elle)
+- ni a la guerre (Benjamin etait plus brutal)
+- ni a la centralisation (Andrea III avait deja tout aplati)
+- ni a la stabilite (Banni avait stabilise)
+
+L'imperial selon Marjory est la **synthese** :
+- architecture, ceremonial, delegation, matiere, respiration des couronnes
+- exactitude, hierarchie, hygiene de civilisation
+- maintien d'une forme tenue qui rend possible le depassement de la fille
+- tenue magique au sommet (erudition 34) **et** tenue politique a toutes les echelles
+- coercition retenue **et** beaute tenue
+
+C'est cela qui fait d'elle l'heritiere totale : elle est la premiere a regner par **architecture complete** plutot que par dominante.
+
+---
+
+## ANOMALIE CK2 ABSOLUE — Le perso le plus cheat de la dynastie
+
+Avant Rose, et meme par certains aspects au-dela d'elle, Marjory est probablement **le personnage le plus obscenement surdote** de tout le corpus Cadifor. Pas une grande Cadifor parmi d'autres. Pas une excellente souveraine. Pas meme une simple prodige. Un **scandale d'echelle**.
+
+### Les balises chiffrees a retenir
+
+| Age | Etat magique | Lecture |
+|-----|--------------|---------|
+| **3 ans** | Maniaquerie de perfection deja visible socialement | Une enfant qui range, voit le detail de travers, ne supporte pas le pli faux. Pas un caractere. Une **anomalie comportementale precoce**. |
+| **11 ans** | **Erudition 19** | Equivalent d'un mage adulte rang 5-6. Ce n'est plus de la precocite : c'est une **discontinuite humaine**. |
+| **16 ans** | **Rang 9, Grand Maitre Mage, numero 2 de l'Empire** | A un age ou la plupart des nobles humains commencent a peine a tenir une ligne, elle est deja la deuxieme puissance magique d'un Empire qui regne sur la quasi-totalite d'Azeroth |
+
+A ce niveau-la, on ne parle plus d'« eleve brillante ». On parle d'un etre que les appareils de transmission doivent **se reorganiser autour d'elle**. Les precepteurs rang 9 et 10 ne sont plus la pour lui « donner » son niveau ; ils sont la pour :
+- l'orienter
+- la polir
+- la contenir
+- la rendre transmissible
+- s'assurer qu'un tel exces ne devienne pas un pur accident
+
+> *Marjory n'apprend pas vite. Marjory oblige les appareils de transmission a se reorganiser autour d'elle.*
+
+### Le contexte qui rend l'anomalie encore plus violente
+
+Marjory ne nait pas dans un monde ordinaire. Elle nait dans **l'epoque divine des Cadifor** — le moment ou jamais un Empire sur Azeroth n'avait autant regne que les humains sous puissance cadiforienne. Toutes les autres races, mortelles ou immortelles, se tiennent en respect. C'est l'apogee civilise.
+
+Et dans cet apogee, dans une dynastie qui est elle-meme une **anomalie de cinq siecles d'optimisation**, Marjory parait encore plus haute que la moyenne dynastique. Ce n'est plus seulement une rupture par rapport au monde humain ordinaire ; c'est une rupture par rapport au monde **Cadifor lui-meme**.
+
+C'est pour cela qu'elle n'est pas une « hypothese imperiale » ou une « promesse a venir ». C'est, des l'enfance, une **question imperiale en chair**.
+
+### Travail monstrueux + talent monstrueux
+
+Et il faut absolument tenir cela ensemble : Marjory n'est pas un miracle gratuit.
+
+- Elle travaille **3 fois plus que les autres**, voire **10 fois plus**, depuis l'enfance
+- **15 heures par jour** depuis qu'elle est enfant
+- Tout le monde — ses parents, sa famille, ses camarades, l'academie — est choque, lui dit *« pete un coup ma vieille »*
+- Elle ne lache jamais
+
+Donc sa supériorite n'est pas seulement don. Elle est **don + sacrifice de toute une enfance**. Marjory a paye le prix. Elle a sacrifie le temps de l'enfance, le rire facile, la detente, les pans entiers de vie ordinaire.
+
+Et c'est precisement pour cela qu'elle peut, sans honte, **kiffer d'etre sans egale**. Pas narcissisme creux. **Jouissance dure de quelqu'un qui sait ce qu'a coute le sommet**.
+
+> *Marjory ne s'aime pas comme une elue gratuite. Elle s'approuve comme une oeuvre qu'elle a forgee elle-meme jusqu'a l'exces.*
+
+### Les femmes egales aux hommes — pas un combat, une norme
+
+Important : dans le lore Cadifor, les femmes sont structurellement egales aux hommes. Donc Marjory n'est pas grande :
+- **malgre** son sexe
+- **contre** un ordre patriarcal
+- **comme** exception feminine toleree
+
+Elle est grande parce qu'elle est **objectivement la meilleure**.
+
+Et ca change radicalement son type d'autorite. Elle n'a pas besoin d'etre ecrite comme rebelle, comme femme qui force sa place, comme imperatrice qui compense quelque chose. Elle est la plus exacte, la plus talentueuse, la plus travailleuse, la plus complete — donc la plus legitime.
+
+C'est beaucoup plus dur, beaucoup plus pur, beaucoup plus haut. Et ca rend sa place encore plus violente pour les autres branches du sang : elles ne peuvent meme pas la minimiser par sexisme structurel. Elles doivent simplement constater qu'elle les invalide.
+
+---
+
+## DESIGNEE HERITIERE DES 6 ANS — La monarchie elective Cadifor
+
+Verrou crucial : Marjory n'est **pas** une heritiere de sang. Sa famille est noble, comte ou baron Cadifor — pas une branche centrale, pas une branche royale evidente. Banni avait des fils. Benjamin avait des fils et petits-fils directs. Marjory, elle, vient d'une branche secondaire de l'academie.
+
+Et pourtant, des **6 ans**, elle est designee heritiere.
+
+Pourquoi ? Parce que la succession Cadifor est une **monarchie elective**, et le systeme entier commence a converger vers elle a un age ou la plupart des heritiers de sang n'ont meme pas encore commence a faire leurs preuves.
+
+### Le mecanisme — une lecture politique en temps reel
+
+La succession imperiale Cadifor obeit a une procedure formelle :
+
+- **15 grands electeurs** votent (royaumes et duches majeurs sous la couronne)
+- l'**Empereur possede plus de voix** que les rois
+- le **vote est public**
+- le **vote est en temps reel** : tout le monde sait qui choisit qui pour heritier au moment ou ca se passe
+- la geopolitique des mouvements internes est donc **immediatement lisible**
+
+C'est une mecanique impériale d'une extraordinaire finesse. Elle permet au regime de :
+- preferer reellement le talent au sang quand l'ecart devient trop grand
+- rendre lisible chaque bloc, chaque coalition, chaque hesitation
+- forcer les electeurs a se positionner sous le regard des autres
+- transformer chaque succession en **radiographie instantanee de la maison**
+
+> *Dans la plupart des systemes politiques, les loyautes sont opaques. Chez Cadifor, le vote etant public et en direct, chaque mouvement est interpretable. Une anomalie comme Marjory ne peut donc pas etre niee dans l'ombre. Elle est confrontee directement au reel collectif.*
+
+### La concurrence reelle — deux autres genies
+
+Marjory n'est pas designee faute de candidats serieux.
+
+A 6 ans, elle est en **competition reelle avec deux autres genies** Cadifor — honnetement tres chauds, mais **un voire deux crans en dessous**. Si Marjory n'avait pas existe, l'un de ces deux genies aurait regne sans probleme. Ils auraient ete d'excellents souverains.
+
+Donc la designation de Marjory n'est pas « prodige sans adversaire ». C'est **prodige qui ecrase meme un plateau deja delirant**. Et c'est ce qui rend sa victoire encore plus violente : elle n'est pas portee par defaut, elle est ratifiee contre des concurrents serieux.
+
+### Une convergence rapide et quasi unanime
+
+Le vote des grands electeurs s'oriente vers Marjory **assez unaniment et rapidement**. Pas immediatement total — il y a des hesitations, des branches qui ont des fils plus proches en age, des coalitions qui auraient prefere un autre genie. Mais la convergence est nette, et le systeme entier finit par accepter ce que tout le monde voit deja : **cette enfant invalide les proximites de sang**.
+
+C'est un moment civilisationnel important. Il prouve que la doctrine Cadifor (« le rang approche du trone ; le talent y entre ») n'est pas que rhetorique. Le systeme accepte reellement d'etre depasse par mieux que lui.
+
+### Met sur la touche des dizaines de pretendants au sang plus proche
+
+Quand Marjory est confirmee, **des dizaines de Cadifor au sang plus proche du centre sont mis sur la touche**. Cousins, neveux, fils de duches majeurs, branches honorees pendant deux siecles — tous savent que leur place dans la succession vient d'etre invalidee non par le hasard, mais par la **superiorite objective demontree** d'une enfant de branche secondaire.
+
+C'est une violence dynastique enorme. Et elle prouve quelque chose de magnifique :
+
+> *Si Cadifor devait fabriquer la meilleure preuve de sa propre doctrine, cette preuve s'appellerait Marjory.*
+
+### Marjory comme validation absolue du systeme
+
+Marjory n'est donc pas seulement un miracle dynastique. Elle est aussi la **validation absolue du systeme cadiforien lui-meme**. Elle prouve que la machine de selection fonctionne au-dela de toute mesure ordinaire.
+
+Et c'est pour cela qu'elle peut, sans honte, exercer le pouvoir avec cette justesse particuliere : elle ne represente pas une famille ou une branche. Elle represente la **doctrine entiere**.
+
+---
+
+## LE DOUBLE COEUR IMPERIAL — Doctrine interieure et politique exterieure
+
+La grandeur de Marjory tient a la **coincidence** de deux gestes qui paraissent contraires mais relevent du meme regime.
+
+**Le coeur interieur — la doctrine architecturale.** Les palais imperiaux, les lampes marjoryennes, les tables runiques, les armures a trois etats, les portes a charnieres silencieuses. *« Chaque matiere forcee a devenir plus intelligente qu'elle-meme. »* C'est la civilisation tenue dans l'intime — la hauteur appliquee a la lumiere, a la pierre, au tissu, au geste, au the, a la table.
+
+**Le coeur exterieur — la restauration des couronnes vassales.** Le repli intelligent sur la centralisation poussee a outrance par Andrea III. *« Un empire trop intelligent finit par gouverner des territoires vides d'amour-propre. »* Marjory replace plusieurs Cadifor sur des trones internes pour deleguer sans disloquer. C'est la civilisation tenue dans l'etendu — la hauteur appliquee a la respiration des couronnes, au dialecte du local, a la dignite des provinces.
+
+Ce sont les **deux faces d'un meme regime de souverainete** :
+- ne pas laisser le monde redevenir vulgaire ou provincial
+- tenir l'exactitude jusque dans les matieres insignifiantes ET dans les territoires eloignes
+- refuser la centralisation aplatie sans ceder a la dispersion
+- corriger la matiere (par la doctrine architecturale) ET la politique (par la delegation des couronnes)
+
+Ce double geste explique pourquoi Marjory n'est pas seulement une grande mage ou une grande administratrice. Elle est l'**Empire devenu intelligence vivante**, interieurement comme exterieurement — l'unique souveraine ou doctrine intime et politique exterieure decoulent du meme principe : *aucune matiere, aucun territoire, aucune ame ne doit etre laisse a sa forme sommaire*.
+
+C'est aussi pourquoi sa delegation n'est pas une faiblesse de centre. Elle delegue parce qu'elle a compris que **l'intelligence anthropologique vaut mieux que la force technocratique** ; un empire respirable est plus fort qu'un empire applati. Une couronne vassale tenue par un Cadifor competent vaut plus qu'un fonctionnaire imperial expedie sur place.
+
+---
+
 ## CLASSE WOW CLASSIC
 
 | Attribut | Valeur |
@@ -417,6 +588,66 @@ Rose dans le systeme : elle le **traverse**. Pas par mepris. Mais le systeme est
 Deux types de solitude completement differents. Marjory est seule parce qu'elle est trop exigeante pour avoir des egaux. Rose est seule parce qu'elle est trop rapide pour avoir des compagnons de route.
 
 Marjory dans la bibliotheque a minuit, encore en train de travailler. Rose dans la bibliotheque a minuit — mais elle ne travaille pas, elle lit autre chose, quelque chose qui n'est pas au programme, parce que le programme ne l'occupe plus.
+
+### Le quatuor de soutien
+
+Une enfant pareille ne peut pas tenir sans un cercle precis de personnes qui la supportent ou la complementent. Marjory en a quatre :
+
+**Sa mere.** C'est probablement la principale voix qui ose lui dire *« pete un coup ma vieille »* dans l'intimite. Pas froidement. Avec amour. La mere n'est pas, dans la maison Cadifor, une figure de devotion ; elle est aussi celle qui empeche que la fille devienne purement statue. Elle aime Marjory comme on aime une enfant trop tendue, qu'on ne peut pas detendre completement, mais qu'il faut au moins forcer a respirer un peu plus que sa nature ne le permet.
+
+**Une grande cousine, duchesse de Karazhan.** Personnage capital. Karazhan amene avec elle sophistication, verticalite, etrangete noble, culture magique tres haute. Si c'est elle qui supporte le mieux Marjory enfant, c'est qu'elle reconnait tres tot ce qu'elle est, sans vouloir la reduire a « enfant penible ». Une duchesse de Karazhan est elle-meme une figure presque mythique pour la jeune Marjory : un modele de femme deja immense mais moins crispee, deja tres haute mais plus respirable.
+
+**Benjamin** (cousin tres distant, age d'etre son grand-pere). Pas un lien filial fort. Benjamin a des fils et petits-fils directs, et l'academie compte des centaines de jeunes Cadifor. Le lien Marjory/Benjamin n'est donc pas familial au sens etroit. C'est plutot **une haute instance de reconnaissance** : Benjamin teste Marjory, la provoque, la met dans des situations impossibles pour voir si elle craque. Elle ne craque jamais. Et quelque part dans cette asymetrie, il finit par voir en elle quelque chose de **meilleur que lui** — quelque chose que sa propre cruaute n'a jamais pu produire. Il ne la favorise pas publiquement, mais il s'assure que rien ni personne ne se mette en travers de sa trajectoire.
+
+**Une servante adorable.** Personnage humain capital. Les Cadifor de haut rang vivent entoures de domestiques, mais celle-la est differente. Elle coiffe Marjory, l'aide, la supporte, l'aime sans theorie, et lui offre un contrepoint affectif **non noble**. Pour un etre comme Marjory, qui passe sa journee dans le formel impeccable, avoir une presence simple, douce, loyale, qui ne juge rien et qui rend possible le moment de detente prive — c'est vital.
+
+> *Marjory tient l'academie par la perfection. Elle tient sa propre humanite par sa servante.*
+
+### Premier plaisir de perfection : la coiffure
+
+Detail revelateur. Si on demande a la jeune Marjory ce qui lui procure le premier plaisir de perfection, ce n'est pas :
+- les livres
+- les notes
+- la magie
+- la strategie
+- le debat
+- le calcul
+
+C'est **la coiffure**.
+
+Et ce detail dit beaucoup. Parce qu'il prouve que la perfection de Marjory n'est pas d'abord abstraite : elle est **formelle**. La coiffure, c'est l'ordre du visible, la maitrise du detail, la symetrie vivante, le corps discipline sans violence apparente, la civilite materialisee.
+
+Donc des l'enfance, elle eprouve la joie particuliere des etres qui aiment quand rien ne depasse, quand la ligne tombe juste, quand la matiere obeit, quand le visible cesse d'etre neglige.
+
+> *La coiffure, chez la jeune Marjory, c'est peut-etre la premiere ecole de souverainete.*
+
+Parce qu'en coiffant, en corrigeant, en lissant, en attachant, elle apprend deja la coupe, l'ordre, la surface, le rapport entre beaute et tenue, la discipline douce, le refus de l'approximatif. Et ca prepare parfaitement la future souveraine pour qui luxe, hierarchie, phrase, guerre et civilisation finiront par relever de la meme exactitude.
+
+### Premiere manie agacante : le protocole
+
+Premier registre qu'elle corrige avec une regularite qui agace tout le monde : **le protocole**. Pas la theorie politique. Pas les calculs. Pas la magie. **Le protocole**.
+
+Le protocole, c'est : qui parle, quand, comment, dans quel ordre, avec quelle posture, avec quelle distance, avec quel degre de politesse exacte. Donc une Marjory enfant qui corrige le protocole, c'est une enfant qui voit deja la hierarchie implicite, les erreurs de placement, les fautes de forme, les micro-degradations de la civilisation.
+
+Elle se force a s'arreter, parce qu'elle apprend tres tot que **avoir raison ne suffit pas** ; il faut encore choisir a quel moment la justesse doit etre dite. Mais elle ne s'arrete que partiellement. Et c'est la qu'elle cesse d'etre simple enfant-prodige insupportable et commence a devenir souveraine.
+
+### Le relachement improbable : le concert de rock
+
+Detail magnifiquement contre-intuitif. Le seul vrai moment de relachement de la jeune Marjory n'est pas :
+- la lecture seule la nuit
+- le moment rare au jardin
+- la baignade secrete
+- la danse privee
+
+C'est le **concert de rock**.
+
+Dans le contexte cadiforien, l'equivalent : la musique forte, saturee, l'instrumentation libre, l'energie collective qui deborde et force la dissolution de la conscience individuelle dans une masse sonore plus grande que soi. Le moment ou la matiere n'a plus besoin d'etre corrigee — elle est trop forte pour qu'on s'occupe d'elle.
+
+Et ca, pour Marjory, c'est libérateur. Pas parce qu'elle se sentirait inferieure a la musique. Au contraire — elle est encore trop droite, trop tenue, et soudain quelque chose la **deborde en masse sonore**. Pas par inferiorite. Par plaisir de ne plus etre la seule chose la plus intense de la piece.
+
+> *Le concert de rock, pour Marjory, n'est pas un loisir. C'est l'une des rares experiences ou l'exces vient du dehors avec assez de force pour qu'elle n'ait plus a l'organiser elle-meme.*
+
+C'est l'inverse exact de la coiffure. La coiffure, c'est la jouissance de tenir. Le concert, c'est la jouissance de **lacher** — non par faiblesse, mais parce que quelque chose d'assez grand est arrive pour qu'elle n'ait plus a tenir seule.
 
 ---
 

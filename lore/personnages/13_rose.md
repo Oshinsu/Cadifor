@@ -54,6 +54,63 @@
 
 ---
 
+## VERROU CONCEPTUEL — DEBORDEMENT, NON HERITAGE TOTAL
+
+Rose n'est pas l'heritiere totale au sens historique-politique-civilisationnel. Cette place revient a Marjory.
+
+Rose est **autre chose** :
+- elle **deborde** — verticalement, magiquement, metaphysiquement
+- elle **integre** — toutes les couches de la conscience et du pouvoir simultanement
+- elle **depasse** — sans reprendre point par point le programme imperial
+- elle **choisit** — l'humanite, alors qu'elle pourrait s'en affranchir
+
+Cette distinction est le verrou narratif central de l'apogee cadiforienne. La confondre avec « Rose herite tout et plus », ou avec un simple sommet final qui ecrase ses predecesseurs, casserait la hierarchie de transmission qui rend Rose possible.
+
+### Rose depasse mais n'herite pas totalement
+
+Rose ne reprend pas le programme complet de Marjory. Les stats le disent crument :
+
+- **Diplomatie 19** vs Marjory superieure → Rose n'a pas pris le travail diplomatique au point ou sa mere l'a porte
+- **Intendance 13** vs Marjory superieure → Rose n'a pas accompli le travail administratif
+- **Intrigue 12** vs Marjory bien superieure → Rose n'a pas pris la peine d'intriguer mieux que tous
+- **Martial 18** vs Marjory superieur → Rose n'a pas pris le travail martial complet
+
+Ce n'est pas paresse. C'est **lucidite instinctive**. Rose sait ce dont elle a besoin et ce dont elle n'a pas besoin. Elle ne complete pas un tableau. Elle habite le point exact ou elle doit etre et laisse le reste vivre sans elle.
+
+C'est exactement pour cela que Marjory bat Rose sur quatre axes sur six. La seule personne au monde qui peut dire a Rose *« tu as un angle mort »*, c'est sa mere — parce qu'elle est la seule qui ait fait le travail dans tous les axes. Quand Marjory meurt, Rose perd le **seul correctif a sa propre demesure**. Arwyn peut la ramener a l'humanite ; elle ne peut pas la ramener a la mesure.
+
+### L'absolu retenu, pas seulement acquis
+
+L'erreur de lecture la plus dangereuse sur Rose : la traiter comme un sommet acquis qui s'epanouit librement. Faux. Son absolu est **retenu**.
+
+- Elle peut transcender l'humain → elle **choisit** de rester humaine
+- Elle peut user librement de necromancie → elle **s'interdit** son usage prive (apres la transgression unique du rappel, redoublee par l'epreuve ethique du trimestre)
+- Elle peut occuper toute la scene → elle peut **choisir** de ne pas l'occuper (la taverne, le bal de Clairbois, le domino perdu)
+- Elle peut humilier subtilement → elle prefere la transparence
+- Elle peut eradiquer une lignee — et c'est ce qu'elle fait, **une seule fois**
+
+Sa force n'est pas qu'elle est grande. Sa force est qu'elle se **retient** d'etre plus grande encore. Toute sa souverainete tient dans cette retenue active. Le jour ou elle cesse de se retenir, elle cesse d'etre Rose.
+
+C'est aussi ce qui la separe definitivement d'une « boss finale » de fantasy classique. Une boss finale **deploie**. Rose **contient**. Elle n'a presque jamais besoin de montrer la totalite de ce qu'elle peut. La menace plane parce que personne ne sait ou s'arrete son plafond reel — et elle non plus, peut-etre, ne tient pas a le savoir.
+
+### Le monde lui arrive deja profond
+
+Marjory voit le monde et le transforme en architecture. Rose voit le monde et y voit deja la profondeur.
+
+> *Son esprit ne peut plus rencontrer une chose sans en sentir immediatement plusieurs couches.*
+
+- Une naissance n'est plus une simple joie
+- Une tombe n'est plus un simple adieu  
+- Une bataille n'est plus seulement une victoire ou un massacre
+- Un repas n'est plus seulement un repas
+- Une faute juridique n'est plus seulement une faute
+
+C'est le regime de conscience qui separe Rose des autres souverains : elle ne **choisit** pas d'aller profond. Le monde lui **arrive** deja profond. Cette profondeur n'est pas une competence ; c'est une **constitution ontologique**. Le cout intime n'est pas qu'elle voit trop ; c'est qu'elle ne peut plus jamais redevenir innocente devant le reel.
+
+C'est pour cette raison que sa nécromancie ne pouvait que devenir invisible, integree, elegante. Quelqu'un dont le monde arrive deja profond n'a pas besoin d'afficher la mort pour la connaitre. Elle est deja installee la, au meme rang que tous les autres regimes.
+
+---
+
 ## CLASSE WOW CLASSIC
 
 | Attribut | Valeur |

@@ -214,3 +214,114 @@ Si l'on me demande ce que j'ai ete, je reponds simplement : l'ainee. Et cela veu
 - **Paradoxe** : La plus puissante guerriere de la lignee (95/100) est aussi celle dont la maternite a ete la plus effacee par le mythe.
 - **Lecture juste** : Viki n'est pas l'ambition impatiente ; elle est la force tenue en laisse
 - **Grandeur morale** : elle repond au desordre du couple fondateur par la tenue, non par la revendication
+
+---
+
+## VERROU PSYCHIQUE — La prison de la force et le surjeu permanent
+
+L'erreur de lecture la plus dangereuse sur Viki : la lire comme **simple grande guerriere**, energie brute, joie d'acier sans seconde couche. Faux. Plus precisement : **trop petit**.
+
+### Viki surjoue. Tout le temps.
+
+C'est probablement le trait le plus important pour comprendre son intimite. Viki **surjoue** :
+- la guerriere
+- l'ainee
+- la dure a cuire
+- le « fils qu'Aberthol n'a jamais eu »
+- la rieuse, la joviale, la buveuse de bieres avec la troupe
+- la patience parfaite face a Andrea Gahron pendant 20 ans
+- l'absence de jalousie envers Andrea
+
+Ce n'est pas du mensonge. Pas de la pose. C'est une **strategie de tenue** plus profonde, presque inconsciente : le monde a besoin qu'elle soit la plus solide ; donc elle est la plus solide. Le monde n'a pas le droit de la voir flechir ; donc elle ne flechit pas. Elle se rend **visible** dans le registre attendu — et garde **invisible** tout ce qui ne ressemble pas a la grande guerriere.
+
+Et Andrea — sa cadette de 5 ans, la genie, la seule qui voit reellement — sait tout cela. Personne ne s'y trompe : ni elle, ni Andrea, ni leur pere. Mais le **systeme** entier autour d'elles (capitaines, vassaux, voisins, autres maisons) prefere croire au surjeu, parce que le surjeu protege l'ordre.
+
+### La prison de la force
+
+Viki est ainsi enfermee dans une condition specifique : **le monde l'aime parce qu'elle tient ; donc le monde la condamne a ne jamais tomber**.
+
+Elle n'a pas le droit a la faiblesse. Pas le droit au doute. Pas le droit a la fatigue visible. Pas le droit a la confidence ordinaire. Pas le droit aux pleurs de rage que sa cadette se permet en privé. Aberthol l'a faite force, et la force, dans le monde, **ne peut pas etre une saison** — elle doit etre une permanence.
+
+Donc sa vraie blessure n'est pas qu'elle ait du attendre Andrea Gahron 20 ans. C'est qu'elle ait du, des l'enfance, **surjouer la solidite** au point de ne plus savoir comment ne pas la surjouer. Sa joie d'acier n'est pas un masque cynique : c'est sa nature publique, devenue si profonde qu'elle envahit aussi sa nature privee.
+
+> *Viki rit fort dans les camps non parce qu'elle ne sait rien d'autre, mais parce qu'elle sait que sa douleur ne peut pas etre lue par les hommes qui la suivent. Donc elle la convertit en rire.*
+
+### Ce qu'elle est avec ses soeurs, et seulement avec elles
+
+C'est avec Gwen, June, et surtout Andrea que le surjeu se relache un peu. Pas completement — meme avec Andrea, elle continue partiellement de jouer la guerriere parce qu'elle ne sait pas faire autrement. Mais c'est avec ses soeurs que :
+- elle accepte qu'on la voie sans armure
+- elle laisse sa propre tendresse exister
+- elle rit autrement, plus doucement
+- elle accepte d'etre vue comme **fragile a un endroit precis**
+- elle peut s'appuyer sur la lecture lucide d'Andrea sans que cela la rabaisse
+
+Avec Andrea : amour total. Aucune condescendance veritable (un peu au debut quand Andrea etait toute petite, mais avec 5 ans d'ecart c'est inevitable et passager — Viki n'est pas une imbecile, elle voit tres tot que sa cadette est plus haute mentalement).
+
+Avec June : Viki devient plus douce. June, paladine, lumiere sacree, lui rappelle qu'il existe une autre forme de tenue que la guerre — et Viki la respecte profondement.
+
+Avec Gwen : Viki rit enormement. Elles sont les deux soeurs qui peuvent plaisanter sans tabou — Gwen avec son humour de salle qui se rend, Viki avec son humour de camp.
+
+> *Viki tient le monde. Andrea la rend pensable a elle-meme. June lui montre qu'on peut tenir sans etre force. Gwen lui rend le rire.*
+
+### La dyarchie de superposition (et non de relais)
+
+Autre verrou : Viki ne « regne » pas seule pendant qu'Andrea attend. **Andrea regne deja plus qu'elle** au moment ou Viki herite du comte de New Avalon.
+
+Avant 617, Andrea avait deja ~10 ans d'experience administrative reelle (signait pour Andrea Gahron, gerait services secrets, reseaux, finance). Quand Viki devient comtesse, elle commence presque a zero sur le plan politique — elle est marechale, logisticienne, CEMA, mais pas administratrice. Le tandem est immediat et **asymetrique** :
+
+- **Viki** : 0 ans d'exp politique, 25 ans d'exp militaire avec son pere
+- **Andrea** : ~10 ans d'exp politique reelle, en avance d'une decennie sur sa propre soeur ainee
+
+Donc le mythe de « Viki regne, Andrea attend » est faux. C'est plus precisement une **dyarchie de superposition** : Viki tient la facade militaire et la presence ; Andrea tient l'appareil reel. Personne ne s'y trompe — c'est tacite mais total.
+
+Et Viki ne s'en sent pas diminuee. Au contraire. Sa joie d'acier inclut la conscience que sa cadette tient ce qu'elle, Viki, ne pourrait pas tenir. Loin d'une jalousie possible, c'est de la **gratitude de force complementaire**.
+
+---
+
+## SCENE-FOSSILE — Le bureau d'Aberthol
+
+C'est probablement la scene qui contient tout du duo Viki/Andrea apres la mort du pere.
+
+Bureau d'Aberthol, encore charge de ses papiers et de son odeur. Viki, fraichement comtesse de New Avalon, **les pieds sur le bureau de son pere**, en train de manger un chocolat. Sa cadette Andrea, debout pres d'elle, lui fait **repeter un discours qu'elle doit faire le lendemain pour la fete des enfants de l'ecole**.
+
+Tout est dans cette image :
+
+- le pere absent-present (il vient de mourir, son odeur est encore dans la piece)
+- la transmission au sens cadiforien (les pieds sur le bureau, c'est de l'amour, pas de la profanation)
+- **Viki qui surjoue** (le chocolat, la posture, le rire entendu d'avance avec sa cadette)
+- **Andrea qui gouverne deja le symbolique** (elle ecrit le discours, elle corrige le rythme, elle regle la bouche publique)
+- la guerre et l'ecole dans la meme piece (Viki est marechale, Andrea ecrit pour les enfants)
+- le comique sans abaissement
+- l'amour entre elles (sans une formule sentimentale)
+- l'absence totale de jalousie (Viki accepte d'etre corrigee par sa cadette parce qu'elle sait que sa cadette voit mieux)
+- le **good cop / bad cop** selon les situations
+
+Les veterans qui passaient devant cette scene comprenaient en une seconde la verite de la maison. Ils comprenaient pourquoi cette maison allait monter. Et pourquoi elle ne tomberait pas avant longtemps.
+
+> *Viki tient le siecle present. Andrea prepare le suivant. Toutes les deux, ensemble, dans le bureau de leur pere.*
+
+---
+
+## NOYAU — La quatrieme grande Cadifor que personne ne pleure correctement
+
+Une derniere chose. Viki est probablement le personnage Cadifor dont **la solitude reelle est la plus mal lue par la posterite**.
+
+La memoire officielle retient :
+- la guerriere
+- l'ainee
+- la jovialite
+- la marechale
+- la « fils qu'Aberthol n'a jamais eu »
+- la sterile (le mythe — alors qu'elle a une fille Vara)
+
+La memoire ne retient pas :
+- les pleurs intimes qu'elle s'interdit
+- les tendresses qu'elle n'a presque jamais montrees publiquement
+- le surjeu permanent qui ronge plus qu'il n'oblige
+- la fatigue d'avoir du, des 20 ans, devenir l'arme tactique de Lordaeron
+- le poids d'etre la deuxieme guerriere legendaire d'une seule famille (le pere etant la premiere) — donc d'etre toujours comparee, toujours mesuree, toujours obligee d'etre a la hauteur d'un nom qui est deja un standard
+- l'amour total mais silencieux pour ses soeurs
+
+Donc la formule juste sur elle :
+
+> *Viki Cadifor n'est pas la guerriere joyeuse que le mythe a voulu retenir ; c'est une femme qui a paye toute sa vie le prix d'etre la solidite que le monde exigeait, et qui a eu la noblesse rare de ne jamais le faire payer aux autres.*

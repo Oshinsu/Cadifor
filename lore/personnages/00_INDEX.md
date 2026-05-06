@@ -121,3 +121,130 @@
 | Marjory | **34** | 1er ex aequo mondial avant Rose |
 | Jaina (canon) | ~27-31 (estime) | Apex humain canonique |
 | Mage elfique moyen | ~15-20 | Seuil de respect chez les elfes |
+
+---
+
+## VERROUS CONCEPTUELS — A retenir avant toute lecture
+
+### Hierarchie Marjory / Rose
+
+- **Marjory** = HERITIERE TOTALE au sens historique-politique-civilisationnel. Forme imperiale tenue. Synthese complete.
+- **Rose** = DEBORDEMENT vertical, integration absolue, choix de rester humaine. Pas l'heritiere totale au sens du programme imperial complet.
+- Formules : *Marjory accomplit. Rose ouvre.* / *Marjory tient. Rose revele.* / *Marjory herite totalement. Rose deborde verticalement.*
+
+### Stats honnetes (sans embellissement)
+
+- **Andrea III la Victorieuse** : table moyenne a mediocre pour Cadifor. Mar 7 = pas bon, Intrigue 1 = naivete quasi criminelle, Erud 10 = peu, Dip/Int 14 = moyen. Pas le trait Genie. Sa grandeur vient de son **destin historique**, pas de sa table. Mage de combat, pas grande theoricienne.
+- **Andrea II la Juste** : ACCOMPLIE, pas monstrueuse. Mar 16, Dip 14, Int 20 (tres bon mais pas monstrueux — le monstrueux commence a 24-26), Intrigue 5 (sa vraie faiblesse), Erud 11. Pas Genie. Sa grandeur vient de devoir suffire dans une vie atroce.
+- **Marjory** : LE PERSO LE PLUS CHEAT en 3000h CK2. A 11 ans : Erud 19. A 16 ans : rang 9 mage, Grand Maitre Mage, n°2 de l'Empire. Designee heritiere des **6 ans** dans une monarchie elective, en concurrence avec **2 autres genies** (un voire deux crans en dessous, qui auraient regne sans elle). Met sur la touche des dizaines de pretendants au sang plus proche.
+
+### Andrea III fonde la lignee des archimages — pas Banni
+
+- **Andrea III** = mere reelle des archimages **EN FAIT**. Premiere souveraine ou la magie legendaire coincide avec le sommet politique. Inauguratrice par precedent.
+- **Banni** = pere des archimages **EN DROIT**. Formalisateur, codificateur. Il transforme en doctrine ce qu'Andrea III a rendu reel.
+- Formules : *Andrea III ouvre. Banni nomme.* / *Andrea III fonde par precedent. Banni fonde par doctrine.*
+
+### Les femmes Cadifor sont egales aux hommes
+
+Dans le lore Cadifor, les femmes sont **structurellement egales** aux hommes. Donc les grandes Cadifor ne sont jamais a lire comme :
+- versions feminines de roles masculins
+- exceptions tolerees malgre leur sexe
+- rebelles contre un patriarcat
+- compensations a une faiblesse structurelle
+
+Elles sont des **formes pleines de souverainete** dans un systeme ou l'egalite des sexes va de soi. Leur grandeur n'a donc pas a etre justifiee « malgre » leur sexe — elle est **objective**.
+
+---
+
+## LA MAXIME DES QUATRE SOEURS
+
+Capture la mecanique affective de la fratrie d'Aberthol :
+
+> *Devant Viki, on se sent fraternel. Devant Gwen, on rougit. Devant June, on se sent sale. Devant Andrea, on s'agenouille.*
+
+| Soeur | Effet sur l'autre | Registre |
+|-------|--------------------|----------|
+| **Viki** (rang 10) | fraternel, a l'aise | martial, camaraderie, force qui n'humilie pas |
+| **Gwen** (rang 8) | rougit | desir, grace, seduction, lumiere horizontale |
+| **June** (rang 8 paladin) | se sent sale | morale, honte, redressement, lumiere verticale |
+| **Andrea** (rang 6 + Genie) | s'agenouille | reconnaissance du genie, deference intellectuelle |
+
+Chacune produit, par presence pure, un effet psychique immediat. Devant aucune d'entre elles, on ne reste neutre.
+
+---
+
+## CONTEXTE RANG 7-8 — Rarete civilisationnelle
+
+A l'epoque d'Aberthol et de ses filles (~600 EP) :
+
+- **Aberthol** et **Viki** sont des **anomalies** absolues (rang 10)
+- **Aucun rang 9 ou 10** n'existe a Stormwind, Kul Tiras ou Stormgarde
+- Le seul vrai rang 10 lisible a l'echelle du monde est **Medivh**
+- Meme Gul'dan, plus tard, n'est qu'un demoniste rang 9 quand il attaque
+- Dans tout Lordaeron (plusieurs millions d'habitants), il y a au mieux **4-5 paladins de rang 8 ou plus**
+
+Donc :
+- **Rang 6** = deja une anomalie absolue, tueuse d'elite (Andrea la Rougissante)
+- **Rang 7** = quasi invisible, mages ages, genies dans des tours
+- **Rang 8** = phenomene rarissime (Gwen et June, surtout June paladine = scandale ontologique)
+- **Rang 10** = legendaire, presque un signe theologique
+
+Le mariage des filles Cadifor a Kul Tiras et Stormgarde n'est donc pas un simple contrat dynastique. C'est l'**importation d'une arme tactique vivante** au sommet de chaque royaume.
+
+---
+
+## CHAINE DES TRANSMISSIONS INTERROMPUES
+
+Lignee matrilineaire la plus douloureuse de la dynastie :
+
+```
+Andrea Gahron (orpheline, manipulee, "l'Adultere")
+     │
+     ▼
+Andrea l'Erudite (anomalie sylvaine, chasseuse, eleve sa fille librement)
+     │
+     ▼
+Andrea Cadifor (designee heritiere, faite pour regner, MEURT avant)
+     │
+     ▼
+Andrea II la Juste (double deuil a 6 ans, tentatives d'assassinat, vie atroce)
+     │
+     ▼
+Andrea III la Victorieuse (eleve dure et juste — la chaine commence a se reparer)
+```
+
+Andrea II la Juste recoit en heritage cumulatif **toutes les blessures** de la chaine. Elle est probablement **la pire vie de toute la dynastie Cadifor** au sens humain.
+
+Voir `meta/transmissions_interrompues.md` pour analyse complete.
+
+---
+
+## MONARCHIE ELECTIVE CADIFOR
+
+La succession Cadifor n'est **pas hereditaire ordinaire**. C'est une **monarchie elective** :
+
+- **15 grands electeurs** votent (royaumes et duches majeurs)
+- l'**Empereur a plus de voix** que les rois
+- le **vote est public** (pas de bulletin secret)
+- le **vote est en temps reel** (lisible a chaque instant)
+
+Consequences :
+- le **genie cesse d'etre un miracle prive** ; il devient un fait constitutionnel
+- chaque succession devient une **radiographie instantanee de la maison**
+- les **coalitions de mediocres** sont quasi impossibles
+- le **talent peut reellement ecarter le sang plus proche** (Marjory ecarte des dizaines de pretendants)
+
+Voir `meta/monarchie_elective_cadifor.md` pour analyse complete.
+
+---
+
+## DOSSIERS META PRINCIPAUX A CONSULTER
+
+| Fichier | Sujet |
+|---------|-------|
+| `meta/monarchie_elective_cadifor.md` | Mecanique elective, 15 grands electeurs, vote public en temps reel |
+| `meta/quatuor_filles_acier_anomalie.md` | Anomalie statistique des 4 filles d'Aberthol |
+| `meta/duo_june_gwen_emblematique.md` | Le duo le plus emblematique de la dynastie |
+| `meta/sylve_de_l_est_construction.md` | Construction geopolitique, vengeance d'Aberthol |
+| `meta/transmissions_interrompues.md` | Chaine Gahron > Erudite > Cadifor > Juste |
+| `meta/patterns_psychiques_cadifor.md` | Les 8 grands regimes psychiques de la dynastie |
