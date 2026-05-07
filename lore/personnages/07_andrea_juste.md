@@ -84,13 +84,83 @@ Le peuple murmurait :
 - Elle n'est donc pas une heritiere qui attend son heure : elle est deja **reine effective**, tenue par la charge avant meme d'avoir perdu ses dents de lait
 - La regence est assuree par `Iromgurn d'Eastormel`, bourgmestre nain de 283 ans — austere mais bon, qui la protegea du tumulte et des intrigues
 
-Mais la legende dit qu'Andrea II, meme sous la tutelle, impressionnait deja ses conseillers par sa maturite :
-- A 7 ans, elle savait lire les traites
-- A 8 ans, elle negociait deja la repartition du pain pendant une famine
-- A 9 ans, elle ecrivait en secret un journal, ou elle racontait ses peurs et ses espoirs
+### Structure exacte de la regence — verrouillee par les screens CK2
+
+A 13 ans (`19 decembre 717`), les screens fixent la composition complete de l'appareil qui tient l'enfant-reine :
+
+| Fonction | Personne | Role |
+|----------|----------|------|
+| **Regent** | `Iromgurn d'Eastormel` | Nain barbe-de-bronze, **283 ans**, intendant de cour, **collecteur d'impot a New Avalon** — gestion fiscale et politique du royaume |
+| **Tuteur** | `Bourgmestre Deriston de Ophiaiver a Lakeridge` | Education d'Andrea — pas un grand noble, un bourgmestre civil de gestion |
+| **Chef religieux** | `Eveque Feywa de Sylve de l'Est` | Direction spirituelle de la cour |
+
+**Verrou capital** : Iromgurn n'est **pas** le tuteur. Il **gere**. Le **tuteur educatif** est Deriston, bourgmestre de Lakeridge.
+
+> *Deriston forma l'enfant ; Iromgurn tint le royaume. Cette separation entre education et regence est l'une des preuves les plus fines de la maturite institutionnelle sylvaine.*
+
+Andrea II est aussi explicitement designee **heritiere** :
+- du **Haut Royaume d'Azeroth** (par son pere Llane II)
+- de la **Seigneurie de Stormwind** (en propre)
+
+Donc des 13 ans, elle porte deja **trois couronnes en attente** : Sylve regnante, Azeroth a venir, Stormwind a venir.
+
+### 717 — Andrea acquiert le sens de la justice
+
+`8 septembre 717`, Andrea a 13 ans. Evenement de personnalite verrouille par screen :
+
+> *"Il est de mon devoir de traiter les gens equitablement et de faire regner la justice. J'ai acquis le sens de la justice."*
+
+Cela change radicalement la lecture du surnom *« la Juste »*. Ce n'est **pas** une etiquette tardive forgee par les chroniqueurs. C'est un **trait de caractere acquis a 13 ans**, sous regence, sous charge, sous pression.
+
+Sa justice n'est pas une politique adulte. Elle est une **disposition morale formee dans l'enfance** — reponse d'enfant a une architecture de pouvoir trop vaste pour son age.
+
+Et c'est ce qui rend ensuite la guerre civile de 741-744 si tragique : la meme femme appelee *« la Juste »* par ses partisans est appelee *« la Tyrannie couronnee »* par ses ennemis. La justice qui s'est forgee dans l'enfance se heurte, a l'age adulte, a la resistance d'un monde qui ne veut pas etre **redresse de force**.
+
+### Vassalite de l'Alliance — verrouillee par les screens CK2
+
+Autre verrou capital : en 717, Andrea II n'est **pas** une reine independante. Elle est **vassale** d'un Haut Roi.
+
+| Element | Detail |
+|---------|--------|
+| **Suzerain** | `Haut roi Ulf "le Tenace"` |
+| **Dynastie** | Menethil |
+| **Culture** | Lordaeronienne |
+| **Age** (en 717) | 55 ans |
+| **Titre** | Haut roi de l'**Alliance** |
+| **Rapport** | Seigneur lige d'Andrea II |
+
+Donc l'Alliance n'est pas une coalition diplomatique molle — c'est un **titre feodal** structurant, porte par un Haut Roi, avec des vassaux. La Sylve de l'Est est un **royaume vassal a l'interieur de l'Alliance**, pas un royaume independant qui en serait juste membre.
+
+> *La Sylve n'etait pas independante comme une ile souveraine ; elle etait un royaume si central qu'il pouvait etre vassal et pourtant tenir l'Alliance par le coeur.*
+
+Cette vassalite explique pourquoi l'incorporation ulterieure de la Sylve a Azeroth (sous Andrea II) est si violente politiquement : elle ne retire pas seulement un territoire a une alliance ; elle **arrache un pilier vassal** a une architecture de suzerainete entiere.
+
+### Le domaine personnel a 13 ans — verrouille par screen
+
+En 717, Andrea II tient deja un domaine direct massif (9/9 cases personnelles) :
+
+- **Nouvelle-Avalon**
+- **Lakeridge** (ou reside Deriston, son tuteur)
+- **Karazhan**
+- **Ogderm**
+- **Vallee du Sapin**
+- **Ravenwood**
+- **Main de Tyr**
+- **Derrington**
+- **Carderol**
+
+Donc Andrea II n'est pas une petite reine fragile perdue dans une couronne abstraite. **A 13 ans, elle tient deja un appareil domanial dense, riche, structuré**.
 
 ### Formation par Thorim
-Dans sa jeunesse, Andrea II fut entrainee par **Thorim de Iahienal**, guerrier legendaire et guetteur de titan. Cette formation explique en partie son style de combat et sa discipline de ligne. Thorim lui enseigna non seulement la lame, mais la tenue, la patience, et la capacite a voir le combat comme un systeme plutot que comme une explosion de colere.
+Dans sa jeunesse, Andrea II fut entrainee par **Thorim de Iahienal**, guerrier legendaire et guetteur de titan, age de **719 ans** en 720, **Martial 39**, **Combat Personnel 128**. Mais Thorim n'est pas seulement un titan martial : il porte aussi les traits **Craintif** et **Anxiete**.
+
+Cette combinaison est decisive. Andrea II n'apprend pas le courage simple. Elle apprend la **forme superieure du courage** : savoir exactement de quoi il faut avoir peur, et tenir quand meme.
+
+Le maitre martial d'Andrea n'est pas un vieux guerrier cliche qui n'a peur de rien. C'est un etre de 719 ans, presque hors du temps, dont la memoire longue connait trop bien ce que le monde peut faire. Sa peur n'est pas une faiblesse banale : c'est une **memoire ancienne du danger**.
+
+> *Thorim n'enseigna pas a Andrea l'absence de peur. Il lui enseigna la forme superieure du courage : savoir exactement de quoi il faut avoir peur, et tenir quand meme.*
+
+C'est totalement compatible avec sa vie : deuil, regence, haine de cour, guerre civile, centralisation trop tot.
 
 ### Les sentiments d'enfance, les douleurs d'heritiere
 Quelles furent ses pensees, la nuit ?
@@ -176,10 +246,54 @@ June, sa grand-tante, avait rendu mythique les Cadifor chez les Stormgarde. John
 - Andrea reve d'un Empire plus centralise, moins morcele en couronnes et en autonomies dormantes
 - Elle veut a terme abolir les vieux royaumes de jure d'Azeroth pour tout rationaliser sous une couronne plus unitaire
 - Mais toute centralisation trop rapide revele les plaques tectoniques du monde humain
-- C'est ce qui produit la guerre civile contre `Ysena Wrynn`
+- C'est ce qui produit **deux guerres civiles successives** — la premiere avant la maturite imperiale, la seconde apres
 
-### La guerre civile contre Ysena
-- Le coeur de la crise oppose `Andrea II` a `Ysena Wrynn`, reine de `Stormwind`, `Morasses Noires` et `Gurubashi`
+### Phase 0 — Guerre contre la tyrannie d'Andrea (741-744)
+
+**Verrou canonique fixe par les screens CK2.** Le repo formalisait la guerre civile a partir de 755-756. Les screens prouvent qu'il existe une **phase anterieure**, encore plus politiquement violente.
+
+| Element | Detail |
+|---------|--------|
+| **Nom officiel** | *Guerre contre la tyrannie de Haute reine Andrea "la Juste"* |
+| **Debut** | 741 |
+| **Duree** | 3 ans et 2 mois |
+| **Statut au 24 mai 744** | Score de guerre 91 % (favorable a Andrea) |
+| **Adversaires** | Coalition azerothienne anti-centralisation |
+| **Commandants visibles** | Folki, Caeonia, Oskeladd (cote Andrea) |
+| **Armee de Folki** | ~6 901 hommes |
+| **Siege majeur** | **Main de Tyr** — 64,9 % de progression hostile |
+
+**Batailles connues** :
+- Bataille de **Cromvill**
+- Bataille de **Place de la Cathedrale**
+- Bataille de **Quartier de la Magie**
+- Bataille de **Townsend**
+- Bataille de **Lowland** (24 mai 744 — victoire sanglante : ~12 636 vs ~19 636, pertes ~5 800 cote Andrea)
+
+**Ce que cela revele** :
+
+L'intitule officiel du conflit est decisif : **« contre la tyrannie »**. Une partie du monde azerothien ne voit pas Andrea comme « la Juste » mais comme une souveraine **abusive, centralisatrice, juridiquement agressive**. Cela cree un paradoxe magnifique :
+
+- **Pour sa maison** : la Juste
+- **Pour ses ennemis** : la Tyrannie couronnee
+- **Pour l'histoire** : la reine qui essaie de forcer l'unite trop tot
+
+> *La meme femme peut etre sincerement juste et objectivement tyrannique dans l'experience de ses vassaux.*
+
+Le **siege de Main de Tyr** est symboliquement enorme. Main de Tyr est lie a la **blessure institutionnelle d'Aberthol** (583 — recomposition sacree par creation de la theocratie). Voir Main de Tyr assiegee pendant la guerre d'Andrea II cree un **echo historique sublime** : l'ancien lieu d'abaissement du fondateur devient un lieu menace pendant la tentative de centralisation de son arriere-petite-fille.
+
+Les **lieux de bataille** sont eux aussi parlants :
+- **Place de la Cathedrale** : on se bat dans le sacre
+- **Quartier de la Magie** : on se bat dans le savoir
+
+C'est une guerre civile **urbaine, institutionnelle, presque symbolique**. On ne se bat pas seulement pour des comtes : on se bat dans les lieux du sacre, du savoir, de la ville.
+
+**La victoire de Lowland** (24 mai 744) est typique de cette guerre : Andrea gagne, mais elle gagne **salement**. ~5 800 hommes morts d'un cote, ~9 000 de l'autre. Sa justice se paie en sang.
+
+La guerre se termine officiellement vers 744, avec score favorable. Mais elle **n'eteint pas** les tensions : elle prepare au contraire la **Phase 1** quelques annees plus tard.
+
+### Phase 1 — La guerre civile contre Ysena (~755-770)
+- Le coeur de cette seconde crise oppose `Andrea II` a `Ysena Wrynn`, reine de `Stormwind`, `Morasses Noires` et `Gurubashi`
 - Le paradoxe tragique est la : Andrea ne reforme pas un empire ruine, mais un empire qui **fonctionnait deja**
 - `Llane` pouvait tenir environ `40 000` hommes a l'echelle theorique de l'ensemble ; `Ysena` en administre environ `25 000` dans ses trois royaumes
 - `Andrea`, elle, ne rassemble qu'environ `18 000` hommes au moment de la guerre
@@ -188,6 +302,19 @@ June, sa grand-tante, avait rendu mythique les Cadifor chez les Stormgarde. John
 - La guerre se termine par une **paix blanche**
 - `Ysena` conserve ses trois couronnes
 - Andrea suspend la centralisation brutale et se tourne vers une voie plus lente : codification, conseil, harmonisation
+
+### Lecture conjointe des deux phases
+
+| | Phase 0 (741-744) | Phase 1 (755-770) |
+|---|---|---|
+| **Nature** | Anti-tyrannie (centralisation excessive) | Successorale (Ysena) |
+| **Issue** | Victoire sale d'Andrea (score 91%) | Paix blanche |
+| **Cout** | Milliers de morts, Main de Tyr assiegee | Stagnation strategique |
+| **Lecon** | Andrea continue malgre tout | Andrea apprend la lenteur |
+
+Sans la Phase 0, Andrea serait seulement la souveraine compressee qui subit. Avec la Phase 0, elle devient aussi la souveraine **qui a tente de forcer**, qui a du payer ce forcage en sang, et qui apres seulement a appris la voie longue.
+
+**C'est pour cela qu'elle est la Juste** : pas par douceur naturelle, mais par **conversion durement acquise** apres avoir vu le prix de la justice imposee.
 
 ---
 

@@ -76,6 +76,54 @@ Sous Andrea l'Erudite, puis Andrea II la Juste, la Sylve de l'Est cesse d'etre u
 
 C'est pour cela qu'Andrea II la Juste est **deja anomalie geopolitique** avant meme d'etre Haute Reine d'Azeroth : etre reine de la Sylve a 6 ans, c'est deja regner sur le moteur principal de l'Alliance orientale.
 
+### Vassalite Menethil — Verrouillage par screens CK2 (19 decembre 717)
+
+**Verrou capital ajoute par les screens** : l'Alliance n'est **pas** une coalition diplomatique molle. C'est un **titre feodal structurant**, porte par un **Haut Roi**, avec des **vassaux** identifies hierarchiquement.
+
+Au 19 decembre 717, Andrea II (alors agee de 13 ans) est explicitement designee, dans l'interface CK2, comme **vassale** :
+
+| Suzerain | **Haut Roi Ulf "le Tenace"** |
+|----------|----------------------------|
+| **Dynastie** | Menethil |
+| **Culture** | Lordaeronienne |
+| **Age en 717** | 55 ans |
+| **Titre** | Haut Roi de l'Alliance |
+| **Statut tooltip CK2** | *« Votre seigneur lige »* |
+
+Donc la Sylve de l'Est, en 717, est **un royaume vassal a l'interieur d'un Haut Royaume de l'Alliance** preside par Ulf Menethil ou ses successeurs.
+
+> *La Sylve n'etait pas independante comme une ile souveraine ; elle etait un royaume si central qu'il pouvait etre vassal et pourtant tenir l'Alliance par le coeur.*
+
+Cette vassalite explique des points decisifs :
+
+1. **L'incorporation a Azeroth en 739** n'est pas un transfert territorial neutre. C'est un **arrachement vassal** d'une architecture feodale entiere. Andrea II ne quitte pas une coalition — elle **rompt sa parole vassale envers le Haut Roi de l'Alliance**.
+
+2. **La guerre de 741-744 (« contre la tyrannie d'Andrea »)** doit etre lue, en partie, comme un **retour de baton de la suzerainete Menethil rompue**. Pas seulement une revolte interne : aussi une consequence directe de la rupture vassale.
+
+3. **Le siege de Main de Tyr** pendant cette guerre prend un sens supplementaire : Main de Tyr, ancien lieu de la blessure d'Aberthol (583, theocratie), est maintenant menace pendant la tentative d'Andrea de finaliser la sortie cadiforienne du carcan vassal Menethil.
+
+4. **Andrea III** pourra ensuite supprimer **tous** les titres royaux internes (~810) sans declencher une nouvelle guerre civile a la meme echelle parce que sa mere Andrea II a **deja brise** une fois la suzerainete de l'Alliance.
+
+> *Pour comprendre pourquoi Andrea III peut, plus tard, supprimer tous les titres royaux internes et n'en garder qu'un seul ("Empire d'Azeroth"), il faut d'abord comprendre que les Cadifor avaient deja, sous Andrea II, brise une vassalite Menethil-Alliance qui n'etait pas symbolique mais juridique.*
+
+### Continuite doctrinale du projet Cadifor
+
+L'incorporation de la Sylve a Azeroth en 739 n'est pas un acte impulsif d'Andrea II. C'est probablement la **realisation finale** d'un projet pense depuis la Rougissante, voire depuis Aberthol : **sortir du carcan vassal Menethil** pour creer une souverainete cadiforienne autonome.
+
+| Generation | Etape |
+|------------|-------|
+| **Aberthol** (~573-617) | Subit la blessure de 583 (Main de Tyr) — la maison Cadifor decouvre que servir un Haut Roi ne protege pas |
+| **Andrea la Rougissante** (~617-676) | Pense la Sylve comme bloc politique distinct — vengeance d'Aberthol convertie en cartographie |
+| **Andrea l'Erudite** (~676-710) | Officialise la Sylve comme royaume reconnu **dans** l'Alliance — etape intermediaire |
+| **Andrea II la Juste** (710-767) | **Sort la Sylve de l'Alliance** en l'incorporant a Azeroth en 739 — finalisation |
+| **Andrea III la Victorieuse** (767-815) | Supprime tous les titres royaux internes (~810) — abolition de la logique vassale |
+
+C'est une **doctrine cadiforienne longue** qui s'etend sur 230 ans. Elle culmine en deux gestes successifs :
+- **Andrea II** : romprt la suzerainete Menethil
+- **Andrea III** : abolit le principe meme de la vassalite interne
+
+Sans la rupture d'Andrea II en 739 (et la guerre couteuse qui s'ensuit en 741-744), Andrea III n'aurait pas eu le **precedent** qui rend possible son geste de ~810.
+
 ---
 
 ## LE DEFI DE L'INTEGRATION — Cultures, frontieres, animaux, pieges, economie
