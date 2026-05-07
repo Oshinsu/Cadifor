@@ -205,14 +205,111 @@ Elle se murmurait a elle-meme, en caressant la bague de sa mere :
 - Son genie politique tient a la lente soudure entre plusieurs niveaux de souverainete
 - Chaque institution renforcee, chaque alliance verifiee, chaque frontiere securisee prepare moins un regne brillant qu'une **future possibilite d'Empire**
 
-### Haute Reine d'Azeroth (739)
-- A 35 ans, Andrea la Juste recoit le titre supreme humain
+### Haute Reine d'Azeroth (739) — L'accession dangereuse
+
+- Le `26 octobre 739`, Andrea la Juste recoit le titre supreme humain a **35 ans**
 - Elle est a la fois **Andrea II de Sylve de l'Est** et **Andrea I d'Azeroth**
 - C'est pourquoi la numerotation des Andrea est si complexe
 - C'est a ce moment, et non avant, que la **Sylve de l'Est** est incorporee dans le royaume d'Azeroth
 - Le choc politique est immense : le moteur majeur de l'Alliance cesse d'en etre le coeur autonome
 - Chez elle, la vocation cadiforienne cesse d'etre un projet pour devenir une **realite d'Etat**
 - New Avalon ne disparait pas pour autant : elle reste la capitale symbolique, la matrice et le foyer de densite cadiforienne
+
+### Verrou par screen CK2 (26 octobre 739) — Le scandale du domaine 10/7
+
+Le screen verrouille la nature exacte de cette accession : Andrea ne recoit pas seulement un titre. Elle recoit un **monstre domanial**.
+
+| Element | Valeur |
+|---------|--------|
+| **Date** | 26 octobre 739 |
+| **Age** | 35 ans |
+| **Capitale** | Hurlevent / Stormwind |
+| **Domaine** | **10 / 7** (au-dessus de la limite) |
+| **Possessions directes** | Hurlevent, Nouvelle-Avalon, Lakeridge, Karazhan, Ogderm, Vallée du Sapin, Ravenwood, Derrington, Carderol, Main de Tyr |
+| **Conjoint** | Haut Roi Johnson de Azeroth (consort) |
+| **Chef religieux** | **Eveque Caeonia de Place de la Cathedrale** |
+
+**Ce que signifie « 10 / 7 »** : la limite domaniale CK2 d'Andrea est **7** (ce que son rang et ses stats lui permettent de tenir directement sans malus). Elle en tient **10**. Elle est donc, mecaniquement, en **surcharge directe** de trois cases entieres.
+
+Et il ne s'agit pas de cases secondaires. Ce sont :
+- le **coeur azerothien** (Hurlevent)
+- le **vieux noyau cadiforien** (Nouvelle-Avalon, Lakeridge, Karazhan)
+- les **lieux symboliques** (Main de Tyr, Karazhan)
+- les **routes structurelles** (Ogderm, Carderol, Derrington)
+
+Le repo dit deja qu'Andrea voulait centraliser. Le screen prouve qu'elle **avait deja centralise au-dela du soutenable** des le jour de son couronnement.
+
+> *Le premier scandale du regne d'Andrea n'est pas une bataille. C'est une carte : trop de titres, trop de lieux saints, trop de capitales dans une seule main.*
+
+### Le pacte defensif anti-Andrea — verrouille a J+0
+
+Verrou capital : la coalition contre Andrea ne se forme **pas** apres des annees de centralisation excessive. Elle se forme **immediatement**.
+
+**25 octobre 739** (la veille meme du couronnement) : **Zanen Dawnseeker** rejoint un pacte defensif s'opposant a Andrea Cadifor.
+
+Donc le monde **n'attend meme pas** de la voir gouverner. Le simple fait qu'elle herite d'Azeroth, alors qu'elle tient deja la Sylve, suffit a declencher une coalition defensive. Sa **simple existence** comme Haute Reine est percue comme une **menace systemique regionale**.
+
+**5 janvier 744** : **Trik Perenolde** quitte le pacte defensif (peut-etre parce qu'il juge qu'Andrea va gagner, peut-etre parce qu'il calcule autre chose). Mais le pacte **existe toujours** en 744.
+
+Donc la guerre 741-744 **n'est pas** seulement une revolte interne d'Azeroth. C'est l'**aboutissement militaire** d'un pacte defensif diplomatique qui couvait depuis le jour zero du regne imperial d'Andrea.
+
+### Caeonia — Du chef religieux a la commandante
+
+Verrou narratif important : la **chef religieuse** d'Andrea II en 739 est l'**Eveque Caeonia de Place de la Cathedrale**. Le screen de 744 montre une commandante du nom de **Caeonia** parmi les officiers de l'armee de Folki a la bataille de Lowland.
+
+**Hypothese canonique** : c'est probablement la **meme personne**. Une eveque de Stormwind ayant pris du grade militaire pendant la guerre — pas inhabituel dans un univers ou la Lumiere et l'epee se chevauchent. Elle aurait commande l'aile droite a Lowland avec ce mix typique d'autorite religieuse + leadership militaire.
+
+C'est une **lecture canonique consistante** : la cathedrale de Stormwind, devenue lieu de bataille de la Phase 0, voit son eveque elle-meme passer du regne pastoral au commandement de cavalerie. Le signe que la guerre n'est pas seulement politique mais **theologique**.
+
+### Ses enfants vivants en 744
+
+Le screen de l'arbre Cadifor (1744) montre la fratrie d'Andrea II :
+
+| Enfant | Statut | Detail |
+|--------|--------|--------|
+| **Andrea (III)** | Heritiere principale | 9 ans en 744, future Victorieuse |
+| **Elton** | Cadet | Frere d'Andrea III, vivant en 744 |
+| **Darla** | Cadette | Soeur d'Andrea III, vivante en 744 |
+
+C'est une **information nouvelle** integree au repo. Andrea III n'est pas enfant unique. Elle a un frere (Elton) et une soeur (Darla). Cela reorganise les ombres autour de son enfance : elle n'est pas seule dans le palais d'Andrea II la centralisatrice surchargee. Il y a deux autres jeunes Cadifor de meme generation, eux aussi exposes a la pression du regne maternel.
+
+Que deviennent Elton et Darla ? Le repo n'en donne pas l'aval, mais probablement :
+- **Elton** : prince cadet, peut-etre commandant militaire ou administrateur de province sous Andrea III
+- **Darla** : princesse cadette, probablement mariage diplomatique avec une grande maison
+
+Sans intervention forte (PDF, screen, decision auctoriale), ils restent dans l'ombre — eclipses par leur soeur qui deviendra la Victorieuse.
+
+### La Maison Cadifor en 744 — Encore etroite
+
+Le screen de l'arbre verrouille un point fondamental : la maison Cadifor en 744 n'est pas encore la machine immense de l'epoque Marjory/Rose. Elle est **etroite, precieuse, vulnerable**.
+
+| Element | Valeur |
+|---------|--------|
+| **Membres totaux** | **18** |
+| **Membres vivants** | **8** |
+| **Prestige** | **270** |
+
+Donc Andrea II ne gouverne **pas** avec une « machine Cadifor infinie ». Elle gouverne avec :
+- une dynastie encore **limitee** (~18 personnes seulement, dont 8 vivants)
+- une **base humaine fragile** : 8 vivants seulement pour porter le poids d'un Empire continental
+- une **memoire forte** mais une **demographie etroite**
+
+C'est tres different du repo de Marjory ou Rose, qui mentionne « ~250 Cadifor vivants tous rangs et postes confondus ». Entre 744 et 943, la maison se sera multipliee par **30x**. Mais en 744, c'est encore une maison qui tient sur **8 personnes vivantes**.
+
+> *En 744, Cadifor n'est pas encore une foret. C'est un arbre mince portant deja le poids d'un continent.*
+
+### Note canonique sur Gloria Cadifor
+
+L'arbre Cadifor de 744 montre une **Gloria** parmi les filles d'Aberthol, **a cote** des Quatre Filles d'Acier canoniques (Viki, Gwen, June, Andrea la Rougissante).
+
+**Lecture proposee** : Gloria est une **fille hors-mythe**. Une figure utile precisement parce qu'elle prouve que le mythe dynastique **selectionne**. Toutes les filles biologiques ne deviennent pas des piliers symboliques.
+
+Donc :
+- **Gloria n'est pas** une cinquieme Fille d'Acier
+- **Gloria n'est pas** integree au mythe canonique du quatuor
+- **Gloria existe** comme branche secondaire ou figure morte tot, qui n'a pas atteint la puissance symbolique des quatre autres
+
+C'est important : la doctrine cadiforienne du **quatuor des Filles d'Acier** reste verrouillee comme expression mythique, pas comme fait biologique exhaustif.
 
 ### Le colosse aux pieds d'argile
 - L'Empire d'Azeroth que recoit Andrea n'est pas un bloc total

@@ -33,6 +33,192 @@ Sa structure dynastique est deja exceptionnelle :
 
 ---
 
+## VERROUILLAGE PAR SCREEN CK2 — PRINCESSE A 9 ANS
+
+Verrouillee par screen CK2 du `9 janvier 744`.
+
+| Champ | Valeur verrouillee |
+|-------|--------------------|
+| **Age** | 9 ans (cohérent avec naissance attestee 24 septembre 734) |
+| **Dynastie** | Cadifor |
+| **Opinion envers Andrea II** | **100** (parfaite) |
+| **Opinion d'Andrea II envers elle** | **93** (tres haute) |
+| **Pupille** | tutrice a Stormwind |
+| **Tuteur** | tuteur a Stormwind |
+| **Chef religieux** | Eveque Gunthar de Stromgarde |
+
+### Lecture de l'opinion 100 / 93
+
+Ce n'est pas accidentel. Le screen capture, en chiffres bruts, la **reussite maternelle d'Andrea II** :
+
+- **100 cote Andrea III** : la fille adore sa mere d'une adoration totale, sans ambiguite. Aucune fissure. Aucune mefiance d'enfant. C'est l'inverse exact de l'enfance d'Andrea II elle-meme, qui n'avait pas eu de mere et avait grandi dans le froid du double deuil. Le pari de la **compensation maternelle consciente** a marche
+- **93 cote Andrea II** : tres haute, mais **pas 100**. Pourquoi ? Parce qu'Andrea II est souveraine d'Azeroth, et qu'aimer sa fille a 100 serait ouvrir la porte a la faille politique. Sept points de retenue separent une mere d'une Haute Reine. Andrea II garde une **distance protectrice** — elle aime, mais elle pese encore
+
+Cette asymetrie 100/93 est plus importante qu'elle ne parait. Elle dit que **la fille n'a aucune defense affective contre sa mere**, alors que la mere garde, en elle, une marge politique. C'est la geometrie type des heritieres puissantes : adoration en bas, calcul retenu en haut.
+
+> *Andrea III adore sa mere a 100. Andrea II l'aime a 93. Les sept points manquants sont la part de Haute Reine que meme une mere ne peut pas donner.*
+
+---
+
+## LA REINE AUX TROIS SANGS DEJA VISIBLE A 9 ANS
+
+Verrouille par screen CK2 du `9 janvier 744`.
+
+A neuf ans, Andrea III est deja heritiere de **trois royaumes et deux hautes seigneuries** :
+
+| Heritage verrouille | Provenance |
+|---------------------|------------|
+| **Haut Royaume d'Azeroth** | par sa mere Andrea II la Juste, Haute Reine |
+| **Royaume de Sylve de l'Est** | par succession Cadifor, lignee de Andrea l'Erudite et Andrea II |
+| **Royaume de Stromgarde** | par son pere Johnson Trollbane, conquerant trollbane de 740.1.23 |
+| **Haute Seigneurie du Comte-de-Darrow** | par la souche Cadifor |
+| **Haute Seigneurie de Main de Tyr** | par la souche Cadifor lordaeronienne |
+
+### Lecture politique
+
+Aucun enfant de neuf ans dans l'histoire humaine d'Azeroth n'a jamais accumule **cinq titres majeurs** — dont **trois couronnes royales** — comme reserve heritable. Et le screen verrouille un fait crucial : ce n'est pas une projection narrative. C'est **deja contractuel**. Les chancelleries d'Azeroth, de la Sylve et de Stromgarde reconnaissent toutes Andrea III comme heritiere designee, en chair, en droit, en or.
+
+C'est ce qui produit la **surmediatisation mondiale** decrite plus haut : a 9 ans, elle n'est pas un projet. Elle est deja un **agregateur de titres** que toute l'Europe humaine regarde comme bombe genealogique en attente.
+
+### Formule canonique
+
+> *A neuf ans, Andrea III n'a encore rien conquis. Mais son sang a deja fait ce que les chancelleries n'arrivent pas a faire : unir Azeroth, la Sylve et Stromgarde dans un seul corps d'enfant.*
+
+### Distinction cle avec sa mere
+
+C'est la difference structurelle qui separe les deux Andrea de l'unite imperiale :
+
+| Andrea II la Juste | Andrea III la Victorieuse |
+|--------------------|---------------------------|
+| **fabrique l'unite par guerre, loi et souffrance** | **incarne l'unite par sang** |
+| construit l'edifice politique brique par brique | porte l'edifice dans son corps des la naissance |
+| paie chaque couronne par une crise, un mariage, une victoire | herite chaque couronne par sa simple genealogie |
+| centre actif, decideuse, blessee | centre passif a 9 ans, agglomerateur, deja symboliquement souveraine |
+
+C'est pour cela que la mere et la fille forment un binome historique unique : **Andrea II est la condition de possibilite politique d'Andrea III. Andrea III est la realisation organique de ce qu'Andrea II a paye en monnaie d'Etat.**
+
+---
+
+## LES DEUX LIGNEES DE SANG ACTIVEES
+
+Verrouille par screen CK2 du `9 janvier 744`.
+
+A 9 ans, Andrea III porte deja, dans son patrimoine genealogique, **deux lignees de sang activees** dans la mecanique CK2 — deux concentrations heritables qui lui donnent des bonus statutaires inscrits au plus profond de son code dynastique.
+
+### 1. Sang d'Ignaeus (par Trollbane, via Johnson)
+
+| Champ | Valeur |
+|-------|--------|
+| **Date de fondation** | 22 aout 501 |
+| **Fondateur** | Liam Trollbane |
+| **Description** | "Ignaeus etait un general de Strom celebre pour ses exploits contre les trolls Amani, repute comme Trollemort" |
+
+**Bonus heritables** :
+- prestige mensuel **+0.20**
+- renforcement levees **+1%**
+- opinion stormgardienne **+10**
+- opinion amani **-10**
+- combat personnel **+8**
+- exigence martiale reduite pour formation guerrier
+
+C'est la **lignee des Trollemorts** : violence martiale ancestrale, expertise du Nord stormgardien contre les Amani, durete militaire structurelle. Cette lignee est a peu pres aussi vieille que la dynastie Cadifor en Azeroth — elle remonte a 501, soit avant meme la pleine montee Cadifor lordaeronienne.
+
+### 2. Sang de Barathen "l'Adamant" (par Wrynn, via Llane et la mere Andrea Cadifor)
+
+| Champ | Valeur |
+|-------|--------|
+| **Date de fondation** | 11 juillet 508 |
+| **Description** | "Barathen avait remporte une victoire importante pour les humains pendant la guerre des Gnolls, consolidant Hurlevent comme puissance regionale" |
+
+**Bonus heritables** :
+- opinion azerothienne **+10**
+- opinion sur bravoure **+5**
+- combat personnel **+5**
+
+C'est la **lignee fondatrice de Hurlevent comme puissance**. Elle confere a Andrea III une legitimite quasi-dynastique sur Stormwind, separee meme de la legitimite Wrynn — c'est-a-dire que meme sans la couronne Wrynn, le sang de Barathen lui donnerait une influence souveraine sur le grand royaume du Sud.
+
+### Lecture combinee
+
+Andrea III ne porte pas seulement les **trois sangs Cadifor-Wrynn-Trollbane** au niveau des dynasties. Elle porte aussi, a un niveau plus profond et mecaniquement actif, **deux lignees de sang heroiques** qui datent du debut du sixieme siecle :
+
+- **Ignaeus** lui donne le capital martial du Nord (Trollemort)
+- **Barathen** lui donne le capital legitimite du Sud (Hurlevent fondateur)
+
+Cumulees, ces deux lignees donnent a Andrea III, des 9 ans :
+- **opinion stormgardienne +10** + **opinion azerothienne +10** = elle est **automatiquement aimee** des deux royaumes les plus durs a tenir ensemble dans tout le canon humain
+- **combat personnel +13** cumule = un socle martial naturel, qui explique pourquoi elle peut combiner Mage rang 7 a 16 ans avec une presence physique de souveraine
+- **+0.20 prestige mensuel** = revenu symbolique constant, qui s'ajoute a la masse Cadifor
+
+Autrement dit : Andrea III ne porte pas seulement trois noms. Elle porte **deux machines genealogiques actives** qui font passer son corps dynastique au-dessus de toute autre heritiere humaine de son siecle.
+
+> *Trois sangs, deux lignees, cinq titres. A neuf ans. Le screen ne la montre pas comme une enfant. Il la montre comme un capital genealogique consolide.*
+
+---
+
+## LA FRATRIE CADETTE D'ANDREA III
+
+Verrouille par screen CK2 du `9 janvier 744`.
+
+Andrea III n'est **pas enfant unique**. Le screen verrouille deux freres et soeurs qui etaient **absents du canon precedent** :
+
+| Enfant | Position | Note |
+|--------|----------|------|
+| **Andrea III** | ainee, heritiere | 9 ans, future Victorieuse, deja heritiere de cinq titres majeurs |
+| **Elton** | cadet | frere d'Andrea III, jeune Cadifor de meme generation |
+| **Darla** | cadette | soeur d'Andrea III, jeune Cadifor de meme generation |
+
+### Lecture
+
+Elton et Darla grandissent dans **l'ombre absolue** de leur soeur ainee aux Trois Sangs. Ils sont :
+
+- exposes au **meme regime maternel rigoureux** d'Andrea II — meme education dure et juste, meme cordon de gardes et de precepteurs, meme surprotection consciente
+- exposes a la **meme cour mondiale** qui regarde Andrea III comme objet politique et qui, par extension, les regarde aussi comme reserves dynastiques
+- mais **eclipses** par la concentration triple-sang qui se realise dans leur seule soeur ainee
+
+Le silence du lore sur Elton et Darla est une **forme de leur destin**. Ils existent, ils portent du sang Cadifor-Trollbane, ils sont donc importants symboliquement, mais ils ne portent pas la triple couronne d'Andrea III. La maison les utilisera pour des alliances secondaires, des hauts mariages, des regences ponctuelles. Pas pour le centre.
+
+### Comparatif avec les enfants de Gautmar
+
+Le canon verrouille egalement les enfants de **Gautmar** (oncle d'Andrea III) :
+- **Nissa**
+- **Mirelle**
+
+Cousines d'Andrea III, Elton et Darla forment donc avec Nissa et Mirelle une **generation Cadifor cadette** de quatre enfants secondaires, tous nes dans l'ombre d'Andrea III. Aucun d'eux ne portera la triple couronne. Tous porteront, a divers degres, l'attente structurelle qui suit la grande heritiere.
+
+> *Etre Cadifor en 744, c'est tres bien. Etre Cadifor-Trollbane-Wrynn, c'est etre Andrea III. Elton, Darla, Nissa et Mirelle sont du premier cas. Andrea III est seule du second.*
+
+---
+
+## FORMATION A STORMWIND
+
+Verrouille par screen CK2 du `9 janvier 744`.
+
+Andrea III est a 9 ans **pupille a Stormwind**, et son education ferme est tenue par :
+
+- une **tutrice a Stormwind** (nom partiellement lisible sur le screen, non verrouille)
+- un **tuteur a Stormwind**
+- avec, comme chef religieux, l'**Eveque Gunthar de Stromgarde**
+
+### Lecture
+
+Cette configuration est **politiquement chargee**. Andrea III n'est pas elevee dans le Nord ancestral de Nouvelle-Avalon. Elle n'est pas elevee dans la Sylve de l'Est. Elle est elevee **a Stormwind**, capitale imperiale choisie par sa mere — la pierre blanche, les avenues animees du Sud, la cour mondiale de l'Empire en construction.
+
+Cela confirme la lecture du **deplacement civilisationnel** : Andrea III est **la premiere Cadifor culturellement azerothienne**, et son education a Stormwind n'est pas un hasard. C'est le choix conscient d'Andrea II d'ancrer sa fille dans le Sud politique, dans la langue de Stormwind, dans les codes de la cour la plus active du continent humain.
+
+### Le pivot Gunthar
+
+Le chef religieux d'Andrea III est l'**Eveque Gunthar de Stromgarde** — exactement le meme que celui de son pere Johnson. Le verrou est important :
+
+- l'autorite religieuse **n'est pas azerothienne** : elle est **stromgardienne**
+- elle est transmise **par voie paternelle** (de Johnson a Andrea III)
+- elle court-circuite le clerge stormwindien et le clerge lordaeronien dans la formation spirituelle de l'heritiere
+
+Cela ajoute une couche de **profondeur ecclesiale** au capital d'Andrea III : non seulement elle herite des Trois Sangs, mais elle herite aussi d'**une autorite religieuse stromgardienne** par son pere, distincte du clerge azerothien que sa mere finira par integrer dans le grand totalisme imperial. Quand Andrea III dissoudra plus tard les couronnes royales internes, elle aura, comme arriere-plan religieux, le souvenir de Gunthar — un eveque du Nord guerrier, pas un prelat lisse de capitale.
+
+> *Andrea III parle stormwindien, prie stromgardien, regne azerothien. Sa formation est l'inverse exact d'une formation simple. C'est, des ses neuf ans, une formation imperiale.*
+
+---
+
 ## STATS & COMBAT
 
 | Attribut | Valeur |
@@ -344,16 +530,17 @@ Elle recoit notamment :
 
 ### Balises screenshots CK2
 
-Les screens datent utilement trois etats fermes de `Andrea` :
+Les screens datent utilement quatre etats fermes de `Andrea` :
 
+- `9 janvier 744` : `Princesse Andrea de Azeroth`, agee de `9 ans`, deja heritiere du Haut Royaume d'Azeroth, du Royaume de Sylve de l'Est, du Royaume de Stromgarde, et de deux hautes seigneuries (Comte-de-Darrow, Main de Tyr) ; opinion 100/93 avec sa mere ; pupille a Stormwind ; deux lignees de sang activees (Ignaeus, Barathen)
 - `3 juin 744` : `Andrea`, agee de `9 ans`, existe deja comme princesse dynastique de premier rang
 - `770` : un screen la montre a `35 ans`, au centre d'un bloc azerothien avec vassaux visibles ; l'UI numerote parfois differemment, mais le noyau ferme est l'age et la centralite politique
 - `786` : `Andrea la Victorieuse`, agee de `51 ans`, regne en pleine maturite sur un `Azeroth` deja immense
 
-Ces trois bornes confortent fortement la ligne canonique :
+Ces quatre bornes confortent fortement la ligne canonique :
 
 - naissance `734`
-- enfance deja saturée de capital dynastique
+- enfance deja saturée de capital dynastique (verrouillee par screen 744)
 - pleine hauteur imperiale avant la phase `Banni`
 
 ### L'expansion continue (~780-800)
@@ -552,6 +739,10 @@ moins legendaire dans la memoire, mais capitale pour que l'oeuvre de `Andrea III
 > *"Ce n'est pas un detail ; c'est une decision civilisationnelle."* (sur la suppression des titres royaux)
 
 > *"Andrea III n'est pas seulement la souveraine qui unifie ; c'est celle chez qui la dynastie devient totale."*
+
+> *"A neuf ans, Andrea III n'a encore rien conquis. Mais son sang a deja fait ce que les chancelleries n'arrivent pas a faire : unir Azeroth, la Sylve et Stromgarde dans un seul corps d'enfant."* (sur le verrou screen 744)
+
+> *"Andrea II fabrique l'unite par guerre, loi et souffrance. Andrea III incarne l'unite par sang."* (distinction structurelle mere/fille)
 
 ---
 
