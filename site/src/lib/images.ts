@@ -34,6 +34,11 @@ const SCENE_MAP: Record<string, string> = {
   bataille_crestbourg_756: "scene_bataille_crestbourg_756.png",
   conseil_seigneurs_lordaeron: "scene_conseil_seigneurs_lordaeron.png",
   bourgade_avalon_assiegee: "scene_bourgade_avalon_assiegee.png",
+  // Lot 4 — assauts, siège, magie, artillerie
+  assaut_horde_amani: "scene_assaut_horde_amani.png",
+  breche_quartier_magie: "scene_breche_quartier_magie.png",
+  purge_sargerite: "scene_purge_sargerite.png",
+  artillerie_siege: "scene_artillerie_siege.png",
   grand_bal_reconciliation: "scene_grand_bal.png",
   bal_de_clairbois: "scene_rose_entering_clairbois.png",
   mort_marjory_ulfar: "scene_marjory_death.png",

@@ -49,6 +49,18 @@
 | **3.4** | **Bourgade pré-cadiforienne près de Nouvelle-Avalon** (panorama brumeux avec bannière ours-engrenage) — théâtre des guerres internes lordaeroniennes | `site/public/assets/locations/location_bourgade_avalon.png` |
 | **3.5** | **Même bourgade** (cour intérieure avec gardes, scribe-novice, palefrenier) — routine administrative pré-cadiforienne | `site/public/assets/locations/location_bourgade_avalon_cour.png` |
 
+### Lot 4 — Assauts, siège, magie, artillerie (5 images)
+
+> **Note** : attributions provisoires basées sur la lecture canonique. À valider canoniquement par l'auteur — peuvent être réaffectées si le contexte précis diffère.
+
+| # | Description | Chemin de destination |
+|---|-------------|----------------------|
+| **4.1** | **Assaut de horde sur cité humaine** : guerriers orcoïdes/trolls sur loups de bataille, chevaucheurs de wargs, château en feu — probable **assaut Amani** ère pré-Aberthol ou Aberthol jeune (Liam Trollbane "Trollemort", Ignæus) | `site/public/assets/scenes/scene_assaut_horde_amani.png` |
+| **4.2** | **Éclaireur haut-elfe** : blond platiné tressé, capuche feuillue, carquois, carte parchemin, longue-vue, camp forestier — figure générique de Quel'Thalas ou allié forestier | `site/public/assets/portraits/portrait_eclaireur_haut_elfe.png` |
+| **4.3** | **Brèche dans un mur fortifié** avec **magie bleue arcanique** + bannière étoile blanche bleue (Dalaran ou faction magique) — probable **Quartier de la Magie de Stormwind** durant la Phase 0 (741-744) | `site/public/assets/scenes/scene_breche_quartier_magie.png` |
+| **4.4** | **Bataille rangée** avec **sort de Lumière** consumant les corps, lignes d'infanterie de chaque côté — probable **purge sargerite** sous Andrea III (~790-800) ou intervention paladine | `site/public/assets/scenes/scene_purge_sargerite.png` |
+| **4.5** | **Trébuchet/baliste géante** en chargement, servants en cape, château en feu au fond — scène d'**artillerie de siège** générique (Phase 0, Yelden 756, Old Town 845, etc.) | `site/public/assets/scenes/scene_artillerie_siege.png` |
+
 ---
 
 ## PRIORITÉ 2 — Régénérer ultérieurement (via assets-pipeline)
