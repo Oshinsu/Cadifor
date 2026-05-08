@@ -20,7 +20,6 @@ const PORTRAIT_MAP: Record<string, string> = {
   "15_llane": "portrait_llane_bust.png",
   // Nouveaux portraits canoniques (lot screenshots du chat)
   "17_johnson": "portrait_johnson_trollbane_bust.png",
-  "41_bariston_fordring": "portrait_bariston_fordring.png",
   "47_duchesse_quelthalas": "portrait_duchesse_quelthalas_bust.png",
   "48_folki_lowland": "portrait_folki_lowland.png",
 };
@@ -33,7 +32,8 @@ const SCENE_MAP: Record<string, string> = {
   bataille_yelden_756: "scene_bataille_yelden_756.png",
   bataille_lowland_744: "scene_bataille_lowland_744.png",
   bataille_crestbourg_756: "scene_bataille_crestbourg_756.png",
-  pacte_defensif_739: "scene_pacte_defensif_739.png",
+  conseil_seigneurs_lordaeron: "scene_conseil_seigneurs_lordaeron.png",
+  bourgade_avalon_assiegee: "scene_bourgade_avalon_assiegee.png",
   grand_bal_reconciliation: "scene_grand_bal.png",
   bal_de_clairbois: "scene_rose_entering_clairbois.png",
   mort_marjory_ulfar: "scene_marjory_death.png",
@@ -67,7 +67,7 @@ const LOCATION_MAP: Record<string, string> = {
   karazhan: "location_karazhan_tower.png",
   kezan: "location_kezan_port.png",
   darrow: "location_darrow.png",
-  eastormel: "location_eastormel.png",
+  bourgade_avalon: "location_bourgade_avalon.png",
   clairbois: "location_clairbois_exterior.png",
   old_town: "location_stormwind_old_town.png",
   baie_du_butin: "location_baie_du_butin.png",

@@ -33,21 +33,21 @@
 
 | # | Description | Chemin de destination |
 |---|-------------|----------------------|
-| **2.1** | Cour château avec armée + ville en feu + bannière ours-engrenage | `site/public/assets/scenes/scene_siege_main_de_tyr_744.png` |
+| **2.1** | Cour château avec armée + ville en feu + bannière ours-engrenage (**bourgade pre-cadiforienne assiégée pendant guerres internes lordaeroniennes**) | `site/public/assets/scenes/scene_bourgade_avalon_assiegee.png` |
 | **2.2** | Reine elfe rousse couronne pointue + magie de feu | `site/public/assets/portraits/portrait_duchesse_quelthalas_bust.png` |
 | **2.3** | Chevalier au marteau de guerre sous la pluie, armure noir+or+bordeaux | `site/public/assets/portraits/portrait_johnson_trollbane_bust.png` |
 | **2.4** | Cavalier sur griffon avec escadre dans nuages d'orage | `site/public/assets/scenes/scene_air_corps_imperial.png` |
-| **2.5** | Homme balafré, armure usée, fortification + braseros | `site/public/assets/portraits/portrait_folki_lowland.png` |
+| **2.5** | Homme balafré, armure usée, fortification + braseros (**Folki, commandant Lowland 744**) | `site/public/assets/portraits/portrait_folki_lowland.png` |
 
-### Lot 3 — Conseil de guerre + Eastormel + Bariston + Johnson jeune (5 images)
+### Lot 3 — Conseil de guerre lordaeronien + bourgade pré-cadiforienne + Aberthol + Menethil (5 images)
 
-| # | Description | Chemin de destination |
-|---|-------------|----------------------|
-| **3.1** | Conseil de guerre nocturne gothique, 5 hommes autour de table avec cartes/dagues | `site/public/assets/scenes/scene_pacte_defensif_739.png` |
-| **3.2** | Jeune chevalier au lion bleu, regard intense, cour de forteresse | `site/public/assets/portraits/portrait_johnson_trollbane_jeune.png` |
-| **3.3** | Homme balafré close-up, place urbaine au crépuscule | `site/public/assets/portraits/portrait_bariston_fordring.png` |
-| **3.4** | Vue panoramique cité-forteresse brumeuse avec bannière ours-engrenage | `site/public/assets/locations/location_eastormel.png` |
-| **3.5** | Cour intérieure d'Eastormel avec gardes, scribe, palefrenier | `site/public/assets/locations/location_eastormel_courtyard.png` |
+| # | Description corrigée | Chemin de destination |
+|---|----------------------|----------------------|
+| **3.1** | **Conseil de comtes/ducs lordaeroniens** (guerres internes pré-Aberthol ou contemporaines), 5 hommes autour de table avec cartes/dagues, salle voûtée gothique | `site/public/assets/scenes/scene_conseil_seigneurs_lordaeron.png` |
+| **3.2** | **Jeune Menethil** (lion bleu = héraldique Menethil), regard intense, cour de forteresse — possible ancêtre d'Ulf "le Tenace" | `site/public/assets/portraits/portrait_menethil_jeune.png` |
+| **3.3** | **Aberthol mature** (Vieux Lion lui-même), homme balafré close-up, place urbaine au crépuscule | `site/public/assets/portraits/portrait_aberthol_bust.png` |
+| **3.4** | **Bourgade pré-cadiforienne près de Nouvelle-Avalon** (panorama brumeux avec bannière ours-engrenage) — théâtre des guerres internes lordaeroniennes | `site/public/assets/locations/location_bourgade_avalon.png` |
+| **3.5** | **Même bourgade** (cour intérieure avec gardes, scribe-novice, palefrenier) — routine administrative pré-cadiforienne | `site/public/assets/locations/location_bourgade_avalon_cour.png` |
 
 ---
 
