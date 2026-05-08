@@ -19,18 +19,35 @@
 
 ---
 
-## PRIORITÉ 1 — Les 8 images du chat à intégrer immédiatement
+## PRIORITÉ 1 — Les 13 images du chat à intégrer immédiatement
 
-| # | Image du chat | Description | Chemin de destination |
-|---|---------------|-------------|----------------------|
-| **1** | Lot 1, image 1 | Table de marbre noir avec huîtres, cristal à liseré or | `site/public/assets/scenes/scene_diner_imperial.png` |
-| **2** | Lot 1, image 2 | Marjory + Rose à table avec carte arcane bleu-blanc | `site/public/assets/scenes/scene_diner_imperial_kalimdor.png` |
-| **3** | Lot 1, image 3 | Portrait Marjory sur trône, robe velours noir broderie argent | `site/public/assets/portraits/portrait_marjory_formal.png` |
-| **4** | Lot 2, image 1 | Cour château avec armée + ville en feu + bannière ours-engrenage | `site/public/assets/scenes/scene_siege_main_de_tyr_744.png` |
-| **5** | Lot 2, image 2 | Reine elfe rousse couronne pointue + magie de feu | `site/public/assets/portraits/portrait_duchesse_quelthalas_bust.png` |
-| **6** | Lot 2, image 3 | Chevalier au marteau de guerre sous la pluie, armure noir+or+bordeaux | `site/public/assets/portraits/portrait_johnson_trollbane_bust.png` |
-| **7** | Lot 2, image 4 | Cavalier sur griffon avec escadre dans nuages d'orage | `site/public/assets/scenes/scene_air_corps_imperial.png` |
-| **8** | Lot 2, image 5 | Homme balafré, armure usée, fortification + braseros | `site/public/assets/portraits/portrait_folki_lowland.png` |
+### Lot 1 — Marjory et le dîner impérial (3 images)
+
+| # | Description | Chemin de destination |
+|---|-------------|----------------------|
+| **1.1** | Table de marbre noir avec huîtres, cristal à liseré or | `site/public/assets/scenes/scene_diner_imperial.png` |
+| **1.2** | Marjory + Rose à table avec carte arcane bleu-blanc | `site/public/assets/scenes/scene_diner_imperial_kalimdor.png` |
+| **1.3** | Portrait Marjory sur trône, robe velours noir broderie argent | `site/public/assets/portraits/portrait_marjory_formal.png` |
+
+### Lot 2 — Personnages secondaires + scènes (5 images)
+
+| # | Description | Chemin de destination |
+|---|-------------|----------------------|
+| **2.1** | Cour château avec armée + ville en feu + bannière ours-engrenage | `site/public/assets/scenes/scene_siege_main_de_tyr_744.png` |
+| **2.2** | Reine elfe rousse couronne pointue + magie de feu | `site/public/assets/portraits/portrait_duchesse_quelthalas_bust.png` |
+| **2.3** | Chevalier au marteau de guerre sous la pluie, armure noir+or+bordeaux | `site/public/assets/portraits/portrait_johnson_trollbane_bust.png` |
+| **2.4** | Cavalier sur griffon avec escadre dans nuages d'orage | `site/public/assets/scenes/scene_air_corps_imperial.png` |
+| **2.5** | Homme balafré, armure usée, fortification + braseros | `site/public/assets/portraits/portrait_folki_lowland.png` |
+
+### Lot 3 — Conseil de guerre + Eastormel + Bariston + Johnson jeune (5 images)
+
+| # | Description | Chemin de destination |
+|---|-------------|----------------------|
+| **3.1** | Conseil de guerre nocturne gothique, 5 hommes autour de table avec cartes/dagues | `site/public/assets/scenes/scene_pacte_defensif_739.png` |
+| **3.2** | Jeune chevalier au lion bleu, regard intense, cour de forteresse | `site/public/assets/portraits/portrait_johnson_trollbane_jeune.png` |
+| **3.3** | Homme balafré close-up, place urbaine au crépuscule | `site/public/assets/portraits/portrait_bariston_fordring.png` |
+| **3.4** | Vue panoramique cité-forteresse brumeuse avec bannière ours-engrenage | `site/public/assets/locations/location_eastormel.png` |
+| **3.5** | Cour intérieure d'Eastormel avec gardes, scribe, palefrenier | `site/public/assets/locations/location_eastormel_courtyard.png` |
 
 ---
 
