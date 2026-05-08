@@ -18,12 +18,20 @@ const PORTRAIT_MAP: Record<string, string> = {
   "13_rose": "portrait_rose_formal.png",
   "14_arwyn": "portrait_arwyn_bust.png",
   "15_llane": "portrait_llane_bust.png",
+  // Nouveaux portraits canoniques (lot screenshots du chat)
+  "17_johnson": "portrait_johnson_trollbane_bust.png",
+  "47_duchesse_quelthalas": "portrait_duchesse_quelthalas_bust.png",
+  "48_folki_lowland": "portrait_folki_lowland.png",
 };
 
 // ─── Scene mapping: scene slug → scene illustration filename ─────────────
 const SCENE_MAP: Record<string, string> = {
   diner_imperial: "scene_diner_imperial.png",
+  diner_imperial_kalimdor: "scene_diner_imperial_kalimdor.png",
   bataille_yielden: "scene_bataille_yielden.png",
+  bataille_yelden_756: "scene_bataille_yelden_756.png",
+  bataille_lowland_744: "scene_bataille_lowland_744.png",
+  bataille_crestbourg_756: "scene_bataille_crestbourg_756.png",
   grand_bal_reconciliation: "scene_grand_bal.png",
   bal_de_clairbois: "scene_rose_entering_clairbois.png",
   mort_marjory_ulfar: "scene_marjory_death.png",
@@ -43,6 +51,8 @@ const SCENE_LOCATION_FALLBACK: Record<string, string> = {
   duel_hautes_reprises: "location_stormgarde_fortress.png",
   rappel_necromantique: "location_karazhan_library.png",
   bataille_trois_cendres: "location_col_de_yielden.png",
+  // Nouvelles scènes canoniques (en attente d'illustration finale)
+  convocation_de_rose: "location_stormwind_throne_room.png",
 };
 
 // ─── Location mapping: ville/territoire/nation/duche slug → location image ──
