@@ -1,112 +1,155 @@
-# INSTRUCTIONS — Déposer les 8 nouvelles images du chat
+# INSTRUCTIONS — Réintégration des images après nettoyage complet
 
-> Document généré pour intégrer 8 images partagées dans le chat ChatGPT/Claude. Le repo a déjà été préparé : registres mis à jour, fiches créées. Il reste juste à **déposer les fichiers PNG aux chemins exacts ci-dessous**.
+> **TABULA RASA** : Toutes les anciennes images ont été supprimées (17 portraits + 9 scènes + 33 locations = 59 fichiers PNG). Seul le sigil héraldique de la maison Cadifor a été conservé (utilisé sur la homepage). Le repo est maintenant prêt à recevoir uniquement des images **au niveau canonique**.
 
 ---
 
-## ÉTAT DU REPO
+## ÉTAT ACTUEL DU REPO
 
 ✅ **Déjà fait par moi** :
-- Suppression des 4 anciens portraits Marjory pas au niveau (`campaign`, `dining`, `death`, `armor_ceremony`)
-- Mise à jour de `site/src/lib/images.ts` avec les nouveaux mappings (Johnson, duchesse Quel'Thalas, Folki, scènes Yelden/Lowland/Crestbourg/Kalimdor/convocation)
-- Création de `lore/personnages/47_duchesse_quelthalas.md` (nouvelle fiche pour la duchesse elfique)
-- Création de `lore/personnages/48_folki_lowland.md` (nouvelle fiche pour le commandant principal)
+- Suppression de **59 anciennes images** (toutes les portraits, scènes, locations sauf le sigil)
+- Conservation de `heraldry/heraldry_cadifor_sigil.png` et `heraldry/materials_imperial_palette.png`
+- Mise à jour de `site/src/lib/images.ts` avec les nouveaux mappings canoniques
+- Création de 2 nouvelles fiches personnages (`47_duchesse_quelthalas.md`, `48_folki_lowland.md`)
+- Le système d'images gère gracieusement les fichiers manquants (`assetExists()` retourne `false` → fallback ou rien)
 
 ❌ **À faire par toi** :
-- Sauvegarder les 8 images du chat aux chemins indiqués ci-dessous
-- Commit + push
+- Sauvegarder les **8 images du chat** aux chemins exacts ci-dessous
+- Régénérer ultérieurement les autres images (via `assets-pipeline/`) avec une qualité conforme au canon
 
 ---
 
-## TABLEAU DES CORRESPONDANCES IMAGES
+## PRIORITÉ 1 — Les 8 images du chat à intégrer immédiatement
 
-| # | Image du chat | Description | Chemin de destination | Action |
-|---|---------------|-------------|----------------------|--------|
-| **1** | Lot 1, image 1 | Table de marbre noir avec huîtres, cristal à liseré or, chemin de table ivoire | `site/public/assets/scenes/scene_diner_imperial.png` | **REMPLACE** l'ancienne |
-| **2** | Lot 1, image 2 | Marjory + Rose à table avec carte arcane bleu-blanc flottante | `site/public/assets/scenes/scene_diner_imperial_kalimdor.png` | **NOUVEAU** |
-| **3** | Lot 1, image 3 | Portrait Marjory sur trône, robe velours noir broderie argent | `site/public/assets/portraits/portrait_marjory_formal.png` | **REMPLACE** l'ancienne |
-| **4** | Lot 2, image 1 | Cour château avec armée + ville en feu + bannière ours-engrenage | `site/public/assets/scenes/scene_siege_main_de_tyr_744.png` | **NOUVEAU** |
-| **5** | Lot 2, image 2 | Reine elfe rousse couronne pointue + magie de feu sur balcon | `site/public/assets/portraits/portrait_duchesse_quelthalas_bust.png` | **NOUVEAU** (fiche `47_duchesse_quelthalas.md`) |
-| **6** | Lot 2, image 3 | Chevalier au marteau de guerre sous la pluie, armure noir+or+bordeaux | `site/public/assets/portraits/portrait_johnson_trollbane_bust.png` | **NOUVEAU** (associé à `17_johnson.md`) |
-| **7** | Lot 2, image 4 | Cavalier sur griffon avec escadre dans nuages d'orage | `site/public/assets/scenes/scene_air_corps_imperial.png` | **NOUVEAU** |
-| **8** | Lot 2, image 5 | Homme balafré, armure usée, fortification + braseros derrière | `site/public/assets/portraits/portrait_folki_lowland.png` | **NOUVEAU** (fiche `48_folki_lowland.md`) |
-
----
-
-## COMMENT PROCÉDER
-
-### Méthode A — Via ChatGPT/Claude desktop
-
-1. Dans le chat, **clic droit sur chaque image** → "Enregistrer l'image sous..."
-2. Sauvegarde directement avec le **nom de fichier exact** indiqué dans la colonne "Chemin de destination" (juste le nom, ex: `scene_diner_imperial.png`)
-3. Place le fichier dans le bon dossier (`site/public/assets/scenes/` ou `site/public/assets/portraits/`)
-
-### Méthode B — Si Claude/ChatGPT ne te laisse pas faire clic droit
-
-1. Sauvegarde les 8 images dans un dossier temporaire avec n'importe quel nom (ex: `image1.png`, `image2.png`, ...)
-2. Renomme et déplace selon le tableau ci-dessus
+| # | Image du chat | Description | Chemin de destination |
+|---|---------------|-------------|----------------------|
+| **1** | Lot 1, image 1 | Table de marbre noir avec huîtres, cristal à liseré or | `site/public/assets/scenes/scene_diner_imperial.png` |
+| **2** | Lot 1, image 2 | Marjory + Rose à table avec carte arcane bleu-blanc | `site/public/assets/scenes/scene_diner_imperial_kalimdor.png` |
+| **3** | Lot 1, image 3 | Portrait Marjory sur trône, robe velours noir broderie argent | `site/public/assets/portraits/portrait_marjory_formal.png` |
+| **4** | Lot 2, image 1 | Cour château avec armée + ville en feu + bannière ours-engrenage | `site/public/assets/scenes/scene_siege_main_de_tyr_744.png` |
+| **5** | Lot 2, image 2 | Reine elfe rousse couronne pointue + magie de feu | `site/public/assets/portraits/portrait_duchesse_quelthalas_bust.png` |
+| **6** | Lot 2, image 3 | Chevalier au marteau de guerre sous la pluie, armure noir+or+bordeaux | `site/public/assets/portraits/portrait_johnson_trollbane_bust.png` |
+| **7** | Lot 2, image 4 | Cavalier sur griffon avec escadre dans nuages d'orage | `site/public/assets/scenes/scene_air_corps_imperial.png` |
+| **8** | Lot 2, image 5 | Homme balafré, armure usée, fortification + braseros | `site/public/assets/portraits/portrait_folki_lowland.png` |
 
 ---
 
-## VÉRIFICATION
+## PRIORITÉ 2 — Régénérer ultérieurement (via assets-pipeline)
 
-Après avoir déposé les 8 fichiers, vérifie :
+Le repo a été vidé de **59 images** qui n'étaient pas au niveau canonique. Pour redonner au site sa richesse visuelle, il faudra régénérer (avec une DA conforme à la doctrine "Impératrice de Forme") :
+
+### Portraits manquants (17)
+
+Personnages déjà avec mapping dans `lib/images.ts` qui doivent retrouver une illustration :
+
+- `portrait_aberthol_bust.png` — Aberthol Cadifor
+- `portrait_andrea_juste_mature.png` — Andrea II la Juste (mature)
+- `portrait_andrea_juste_young.png` — Andrea l'Érudite ou Andrea II jeune
+- `portrait_andrea_rougissante_bust.png` — Andrea la Rougissante
+- `portrait_andrea_victorieuse_bust.png` — Andrea III la Victorieuse
+- `portrait_arwyn_bust.png` — Arwyn
+- `portrait_banni_bust.png` — Banni
+- `portrait_benjamin_bust.png` — Benjamin
+- `portrait_llane_bust.png` — Llane II Wrynn
+- `portrait_rose_formal.png` — Rose (formel)
+- `portrait_viki_bust.png` — Viki
+- Portraits Rose secondaires : `arcane`, `entering`, `intimate`, `throne`
+- Portraits Marjory secondaires (à régénérer avec la doctrine "Impératrice de Forme") : campaign, dining, death, armor_ceremony
+
+### Scènes manquantes (9)
+
+- `header_personnages.png` — header de la page personnages
+- `hero_homepage.png` — image de fond de la homepage (CRITIQUE — actuellement le visuel sera vide)
+- `scene_bataille_yielden.png`, `scene_grand_bal.png`, `scene_marjory_death.png`, `scene_rose_coronation.png`, `scene_rose_entering_clairbois.png`, `scene_viki_loups.png`
+
+### Locations manquantes (33)
+
+Toutes les illustrations de villes, territoires, nations, duchés. Voir `lib/images.ts` `LOCATION_MAP` pour la liste complète.
+
+---
+
+## DOCTRINE VISUELLE À RESPECTER
+
+Pour les futures régénérations, la grammaire Cadifor est verrouillée dans :
+
+- `lore/meta/marjory_archetype_imperatrice_de_forme.md`
+- `lore/meta/canon_visuel_marjory_rose.md`
+- `lore/meta/dossier_synthese_recalibrage.md`
+
+**Règles clés** :
+1. **Sobriété fonctionnelle** : pas de surcharge décorative, pas d'épées brandies, pas de magie spectaculaire
+2. **Palette** : marbre noir, ivoire, bleu cendré, gris impérial, mithril/argent, or sobre, bordeaux profond
+3. **Lumière** : tamisée, latérale, chaude — éclairage qui pense plutôt qu'illumine
+4. **Visages tenus** : pas démonstratifs, pas séducteurs, pas hystériques — calme contrôlé
+5. **Architecture** : pierre noble, colonnes hautes, lignes géométriques, refus du clinquant
+6. **Refus du spectacle** : la magie est opératoire et discrète, pas théâtrale
+
+---
+
+## ÉTAT DE LA HOMEPAGE APRÈS NETTOYAGE
+
+⚠️ **Impact visuel temporaire** : la homepage utilise actuellement :
+- `/assets/scenes/hero_homepage.png` (FOND HÉROÏQUE) → **manquant**
+- `/assets/heraldry/heraldry_cadifor_sigil.png` (BLASON) → **conservé**
+
+Pendant la phase de transition, la homepage gardera son blason mais aura un fond noir uni à la place du hero. Le site continuera de **builder** sans erreur grâce à `next/image` et au système de fallback.
+
+Tu peux soit :
+- **Régénérer immédiatement `hero_homepage.png`** comme priorité absolue
+- **Ou** modifier `site/src/app/page.tsx` ligne 67 pour ne plus afficher l'image fond temporairement
+
+---
+
+## COMMANDES POST-INTÉGRATION
 
 ```bash
-# Doit lister les nouveaux fichiers
-ls site/public/assets/portraits/portrait_marjory_formal.png \
-   site/public/assets/portraits/portrait_johnson_trollbane_bust.png \
-   site/public/assets/portraits/portrait_duchesse_quelthalas_bust.png \
-   site/public/assets/portraits/portrait_folki_lowland.png \
-   site/public/assets/scenes/scene_diner_imperial.png \
-   site/public/assets/scenes/scene_diner_imperial_kalimdor.png \
-   site/public/assets/scenes/scene_siege_main_de_tyr_744.png \
-   site/public/assets/scenes/scene_air_corps_imperial.png
+# 1. Vérifie que les 8 nouvelles images sont en place
+ls -la site/public/assets/portraits/portrait_marjory_formal.png \
+       site/public/assets/portraits/portrait_johnson_trollbane_bust.png \
+       site/public/assets/portraits/portrait_duchesse_quelthalas_bust.png \
+       site/public/assets/portraits/portrait_folki_lowland.png \
+       site/public/assets/scenes/scene_diner_imperial.png \
+       site/public/assets/scenes/scene_diner_imperial_kalimdor.png \
+       site/public/assets/scenes/scene_siege_main_de_tyr_744.png \
+       site/public/assets/scenes/scene_air_corps_imperial.png
 
-# Build de vérification
+# 2. Build de vérification (le site doit builder même avec des images manquantes)
 cd site && npm run build
-```
 
----
-
-## CE QUI A ÉTÉ SUPPRIMÉ
-
-Les 4 portraits Marjory suivants ont été supprimés (non au niveau canonique selon ton verdict) :
-
-- ~~`portrait_marjory_armor_ceremony.png`~~
-- ~~`portrait_marjory_campaign.png`~~
-- ~~`portrait_marjory_death.png`~~
-- ~~`portrait_marjory_dining.png`~~
-
-Si tu veux les régénérer plus tard via `assets-pipeline/`, ils peuvent revenir avec une qualité conforme au canon de l'**Impératrice de Forme** (voir `lore/meta/marjory_archetype_imperatrice_de_forme.md`).
-
----
-
-## NOTES CANONIQUES IMPORTANTES
-
-### Image 5 (duchesse Quel'Thalas)
-
-Cette image **n'est pas une Cadifor**. Elle représente un **antagoniste haut-elfe** des guerres pré-573 d'Aberthol. Sa fiche `47_duchesse_quelthalas.md` la place comme adversaire pendant les campagnes lordaeronnaises au sud de Quel'Thalas. Sa grammaire visuelle ostentatoire **définit Cadifor par contraste**.
-
-### Image 6 (chevalier au marteau)
-
-Attribuée à **Johnson Trollbane** (le 4e fils devenu roi de Stromgarde par conquête en 740, mari d'Andrea II la Juste). L'esthétique pré-réformes-de-June (austère, militaire, marteau de guerre) colle avec la culture trollbane.
-
-### Image 8 (homme balafré)
-
-Attribuée à **Folki**, commandant principal des batailles de Lowland (744) et Yelden (756). Modèle du commandant cadiforien : technique, sobre, refuse le chant. Sa fiche `48_folki_lowland.md` formalise sa doctrine du « poids tactique ».
-
----
-
-## APRÈS LE DÉPÔT
-
-Une fois les 8 images en place :
-
-```bash
+# 3. Commit
 git add site/public/assets/
-git status  # Doit montrer 8 nouveaux PNG + le INSTRUCTIONS_NOUVELLES_IMAGES.md
-git commit -m "Intégration 8 nouvelles images canoniques (lot chat)"
+git commit -m "Ajout 8 images canoniques au niveau Cadifor"
 git push
 ```
 
-Puis tu peux supprimer ce fichier `INSTRUCTIONS_NOUVELLES_IMAGES.md` si tu veux nettoyer le repo, ou le garder comme trace historique.
+---
+
+## RAPPEL DES FICHES À ENRICHIR (lien avec les nouvelles images)
+
+| Image | Fiche associée |
+|-------|----------------|
+| portrait_marjory_formal | `lore/personnages/12_marjory.md` |
+| portrait_johnson_trollbane_bust | `lore/personnages/17_johnson.md` |
+| portrait_duchesse_quelthalas_bust | `lore/personnages/47_duchesse_quelthalas.md` (nouvelle) |
+| portrait_folki_lowland | `lore/personnages/48_folki_lowland.md` (nouvelle) |
+| scene_diner_imperial | `lore/meta/scenes/diner_imperial.md` |
+| scene_diner_imperial_kalimdor | `lore/meta/scenes/diner_imperial.md` (nouvelle scène) |
+| scene_siege_main_de_tyr_744 | `lore/meta/guerre_tyrannie_andrea_741_744.md` |
+| scene_air_corps_imperial | `lore/scenes/bataille_yelden_756.md`, `bataille_lowland_744.md` |
+
+---
+
+## RÉCUPÉRATION D'URGENCE (si tu changes d'avis)
+
+Si tu veux récupérer les anciennes images supprimées :
+
+```bash
+# Les fichiers sont récupérables via git
+git checkout HEAD~1 -- site/public/assets/portraits/ site/public/assets/scenes/ site/public/assets/locations/
+```
+
+Mais **je recommande de NE PAS le faire** : la doctrine canonique est de remettre le visuel au niveau de l'écriture. Mieux vaut un site sobre temporairement qu'un site avec des images qui dégradent le canon.
+
+---
+
+> *Le site n'a plus d'images. C'est inconfortable. Mais c'est aussi un acte de vérité : on refuse désormais que la grammaire visuelle soit en dessous de la grammaire écrite. À partir d'ici, chaque image qui revient devra être au niveau de l'Empire qu'elle illustre.*
