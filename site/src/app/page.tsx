@@ -11,6 +11,7 @@ import {
   Shield,
 } from "lucide-react";
 import { EntryCard, StatCard } from "@/components/cards";
+import { NovelFeature } from "@/components/novel-feature";
 import { resolveEntryImage } from "@/lib/images";
 import {
   encyclopaediaCollections,
@@ -134,6 +135,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <NovelFeature />
 
       {/* ─── Stats ribbon ────────────────────────────────────── */}
       <section className="stagger mt-10 grid gap-4 md:grid-cols-5">

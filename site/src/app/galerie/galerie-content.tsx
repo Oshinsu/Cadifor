@@ -2,10 +2,13 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import novelImages from "@/lib/novel-images.json";
 import { Lightbox } from "@/components/lightbox";
 
 type GalerieContentProps = {
   allImages: {
+    roman: string[];
     portraits: string[];
     locations: string[];
     scenes: string[];
@@ -14,6 +17,8 @@ type GalerieContentProps = {
 };
 
 function imageLabel(filePath: string): string {
+  const novelImage = novelImages.find(image => image.src === `/assets/${filePath}`);
+  if (novelImage) return novelImage.title;
   return filePath
     .split("/")
     .pop()!
@@ -24,6 +29,7 @@ function imageLabel(filePath: string): string {
 }
 
 const SECTION_CONFIG = [
+  { key: "roman" as const, label: "La Maison des vivants", subtitle: "Commandement et diplomatie · Les scènes du livre premier", aspect: "aspect-[1672/941]", sizes: "(max-width: 640px) 100vw, 400px" },
   { key: "portraits" as const, label: "Portraits", subtitle: "Souverains et figures de la dynastie", aspect: "aspect-[3/4]", sizes: "220px" },
   { key: "scenes" as const, label: "Scenes", subtitle: "Moments canoniques illustres", aspect: "aspect-[16/10]", sizes: "320px" },
   { key: "locations" as const, label: "Lieux", subtitle: "Cites, forteresses et paysages du monde", aspect: "aspect-[16/10]", sizes: "320px" },
@@ -47,8 +53,8 @@ export function GalerieContent({ allImages }: GalerieContentProps) {
           </p>
           <h1 className="font-serif text-5xl text-[var(--ivory)]">Galerie</h1>
           <p className="mt-4 text-lg leading-8 text-stone-400">
-            {totalCount} illustrations generees pour le Haut Royaume de Cadifor.
-            Portraits de souverains, vues de cites, scenes canoniques et blasons heraldiques.
+            {totalCount} images du monde Cadifor, dont trente nouvelles scènes photographiques pour le roman.
+            Portraits de souverains, vues de cités, scènes et blasons.
           </p>
         </div>
       </div>
@@ -59,13 +65,15 @@ export function GalerieContent({ allImages }: GalerieContentProps) {
         if (images.length === 0) return null;
 
         return (
-          <section key={key} className="mt-16 first:mt-0" data-reveal>
+          <section key={key} id={key === "roman" ? "roman" : key} className="mt-16 scroll-mt-28 first:mt-0">
             <div className="mb-8">
-              <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
+              {key !== "roman" ? <p className="text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/60">
                 {images.length} image{images.length !== 1 ? "s" : ""}
-              </p>
+              </p> : null}
               <h2 className="font-serif text-4xl text-[var(--ivory)]">{label}</h2>
+              {key === "roman" ? <p className="mt-2 text-xs text-stone-400">{images.length} scènes photographiques</p> : null}
               <p className="mt-2 text-sm text-stone-500">{subtitle}</p>
+              {key === "roman" ? <Link href="/roman" className="mt-4 inline-block text-sm text-[var(--gold-light)] underline underline-offset-4">Lire le roman</Link> : null}
             </div>
 
             <div className={`stagger grid gap-4 ${

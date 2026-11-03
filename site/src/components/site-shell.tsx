@@ -10,6 +10,7 @@ import { AnimatePresence, motion } from "motion/react";
 
 const navLinks = [
   { href: "/", label: "Accueil" },
+  { href: "/roman", label: "Roman" },
   { href: "/scenes", label: "Scenes" },
   { href: "/encyclopedie", label: "Encyclopedie" },
   { href: "/galerie", label: "Galerie" },
@@ -29,12 +30,13 @@ export function SiteShell() {
   const router = useRouter();
 
   useEffect(() => {
+    if (pathname.startsWith("/roman")) return;
     const lenis = new Lenis({ duration: 1.15, smoothWheel: true });
     let rafId = 0;
     const raf = (time: number) => { lenis.raf(time); rafId = requestAnimationFrame(raf); };
     rafId = requestAnimationFrame(raf);
     return () => { cancelAnimationFrame(rafId); lenis.destroy(); };
-  }, []);
+  }, [pathname]);
 
   useEffect(() => {
     function onScroll() { setScrolled(window.scrollY > 20); }
@@ -86,7 +88,7 @@ export function SiteShell() {
             </div>
           </Link>
 
-          <nav aria-label="Navigation principale" className="hidden items-center gap-0.5 md:flex">
+          <nav aria-label="Navigation principale" className="hidden items-center gap-0.5 xl:flex">
             {navLinks.map((link) => {
               const active = isActive(link.href, pathname);
               return (
@@ -125,7 +127,7 @@ export function SiteShell() {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label={mobileMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
             aria-expanded={mobileMenuOpen}
-            className="rounded-lg border border-white/[0.06] p-2.5 text-stone-400 transition hover:border-[var(--border-gold)] hover:text-stone-100 md:hidden"
+            className="rounded-lg border border-white/[0.06] p-2.5 text-stone-400 transition hover:border-[var(--border-gold)] hover:text-stone-100 xl:hidden"
           >
             {mobileMenuOpen ? <X className="size-4" /> : <Menu className="size-4" />}
           </button>
@@ -140,7 +142,7 @@ export function SiteShell() {
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             aria-label="Navigation mobile"
-            className="sticky top-[65px] z-40 overflow-hidden border-b border-white/[0.04] bg-[#0a0908]/95 backdrop-blur-2xl md:hidden"
+            className="sticky top-[73px] z-40 overflow-hidden border-b border-white/[0.04] bg-[#0a0908]/95 backdrop-blur-2xl xl:hidden"
           >
             <div className="mx-auto max-w-7xl space-y-0.5 px-6 py-3">
               {navLinks.map((link) => (

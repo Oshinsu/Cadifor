@@ -4,7 +4,7 @@ import { GalerieContent } from "./galerie-content";
 
 export const metadata: Metadata = {
   title: "Galerie",
-  description: "Toutes les illustrations du Haut Royaume de Cadifor : portraits, lieux, scenes et heraldique.",
+  description: "Les scènes photographiques de La Maison des vivants, et la galerie du monde Cadifor : portraits, lieux, scènes et héraldique.",
 };
 
 export default function GaleriePage() {

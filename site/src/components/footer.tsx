@@ -11,12 +11,13 @@ const FOOTER_WISDOMS = [
   "Un empire sans memoire est un chateau sans fondations.",
   "Ce que le fer a pris, la plume le preserve.",
 ];
+const footerWisdom = FOOTER_WISDOMS[Math.floor(Date.now() / 86400000) % FOOTER_WISDOMS.length];
 
 export function SiteFooter() {
   const totalEntries = getTotalEntryCount();
   const sceneCount = getCollection("scenes").length;
   const characterCount = getCollection("personnages").length;
-  const wisdom = FOOTER_WISDOMS[Math.floor(Date.now() / 86400000) % FOOTER_WISDOMS.length];
+  const wisdom = footerWisdom;
 
   return (
     <footer className="relative mt-24 border-t border-white/[0.04]">
@@ -60,6 +61,7 @@ export function SiteFooter() {
             <p className="mb-5 text-[10px] font-semibold uppercase tracking-[0.25em] text-[var(--gold)]/40">Navigation</p>
             <div className="space-y-3">
               {[
+                { href: "/roman", label: "Le roman" },
                 { href: "/scenes", label: "Scenes canoniques" },
                 { href: "/encyclopedie", label: "Encyclopedie" },
                 { href: "/chronologie", label: "Chronologie" },

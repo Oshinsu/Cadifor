@@ -1,6 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { CollectionKey } from "./content";
+import novelImages from "./novel-images.json";
+
+export function resolveNovelImage(id: number) {
+  return novelImages.find(image => image.id === id) ?? null;
+}
 
 const ASSETS_DIR = path.resolve(process.cwd(), "public", "assets");
 
@@ -156,12 +161,13 @@ export function resolveCharacterGallery(slug: string): string[] {
  * Return all images organized by category for the gallery page.
  */
 export function getAllImages(): {
+  roman: string[];
   portraits: string[];
   locations: string[];
   scenes: string[];
   heraldry: string[];
 } {
-  const result = { portraits: [] as string[], locations: [] as string[], scenes: [] as string[], heraldry: [] as string[] };
+  const result = { roman: novelImages.map(image => image.src.replace("/assets/", "")), portraits: [] as string[], locations: [] as string[], scenes: [] as string[], heraldry: [] as string[] };
 
   const categories = ["portraits", "locations", "scenes", "heraldry"] as const;
   for (const cat of categories) {

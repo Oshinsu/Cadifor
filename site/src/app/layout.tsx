@@ -30,6 +30,7 @@ const body = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cadifor.com"),
   title: {
     default: "Cadifor — Le Haut Royaume",
     template: "%s — Cadifor",
