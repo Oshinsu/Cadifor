@@ -1,5 +1,13 @@
 # Todo — Cadifor Encyclopedia
 
+## Migration Vercel
+
+- [x] Retrouver le domaine, les DNS, le dépôt et le dernier déploiement publié.
+- [x] Sauvegarder les enregistrements DNS et créer le projet Vercel lié à `Oshinsu/Cadifor`, racine `site`.
+- [x] Vérifier la compilation Vercel, les 40 chapitres, les images, les téléchargements et les pages existantes.
+- [ ] Faire pointer le domaine et www vers Vercel ; vérifier DNS et HTTPS.
+- [x] Arrêter les compilations Netlify et documenter l’hébergement Vercel dans le dépôt.
+
 ## Completed — Session 1 (2026-03-11)
 
 - [x] Generate 65 images via Gemini API (heraldry, portraits, locations, scenes)
