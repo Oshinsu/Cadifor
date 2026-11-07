@@ -20,7 +20,7 @@ export function SiteFooter() {
   const wisdom = footerWisdom;
 
   return (
-    <footer className="relative mt-24 border-t border-white/[0.04]">
+    <footer className="relative mt-24 overflow-hidden border-t border-white/[0.04]">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--gold)]/15 to-transparent" />
 
       {/* Ambient glow */}
