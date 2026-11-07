@@ -2,7 +2,7 @@ import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import { SearchView } from "@/components/search";
 
-export const metadata: Metadata = pageMetadata("/recherche","Recherche","Recherche dans l'encyclopedie du Haut Royaume de Cadifor.");
+export const metadata: Metadata = {...pageMetadata("/recherche","Recherche","Recherche dans l'encyclopedie du Haut Royaume de Cadifor."), robots:{index:false,follow:true}};
 import {
   encyclopaediaCollections,
   getCollection,
