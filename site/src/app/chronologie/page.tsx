@@ -1,11 +1,9 @@
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Clock, FileText } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Chronologie",
-  description: "La chronologie complete du Haut Royaume de Cadifor — quatre siecles de regne, de la Fondation a l'Empire de Rose.",
-};
+export const metadata: Metadata = pageMetadata("/chronologie","Chronologie","La chronologie complete du Haut Royaume de Cadifor — quatre siecles de regne, de la Fondation a l'Empire de Rose.");
 import { Markdown } from "@/components/markdown";
 import { ReadingProgress } from "@/components/reading-progress";
 import { getChronologyDocument } from "@/lib/content";

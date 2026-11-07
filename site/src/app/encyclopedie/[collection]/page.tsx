@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: CollectionPageProps): Promise
   const description = getCollectionDescription(collection);
 
   return {
-    title: `${label} — Encyclopedie`,
+    ...pageMetadata(`/encyclopedie/${collection}`, `${label} — Encyclopedie`, description),
     description,
   };
 }

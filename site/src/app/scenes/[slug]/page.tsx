@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -26,12 +27,13 @@ export async function generateMetadata({ params }: ScenePageProps): Promise<Meta
   const description = scene.excerpt || `${scene.title} — Scene canonique du Haut Royaume de Cadifor.`;
 
   return {
-    title: scene.title,
+    ...pageMetadata(`/scenes/${slug}`, scene.title, description),
     description,
     openGraph: {
       title: `${scene.title} — Cadifor`,
       description,
       type: "article",
+      url: `/scenes/${slug}`,
       ...(image && {
         images: [{ url: `/assets/${image}`, width: 1200, height: 630, alt: scene.title }],
       }),

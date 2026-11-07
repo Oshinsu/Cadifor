@@ -1,12 +1,10 @@
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Markdown } from "@/components/markdown";
 import { getNotationDocument } from "@/lib/content";
 
-export const metadata: Metadata = {
-  title: "Notation des scenes",
-  description: "Criteres de notation et ordre de reecriture des scenes canoniques du Haut Royaume de Cadifor.",
-};
+export const metadata: Metadata = pageMetadata("/canon/notation-scenes","Notation des scenes","Criteres de notation et ordre de reecriture des scenes canoniques du Haut Royaume de Cadifor.");
 
 export default function NotationScenesPage() {
   const notation = getNotationDocument();

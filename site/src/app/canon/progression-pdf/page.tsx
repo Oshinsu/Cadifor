@@ -1,12 +1,10 @@
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Markdown } from "@/components/markdown";
 import { getPdfProgressDocument } from "@/lib/content";
 
-export const metadata: Metadata = {
-  title: "Progression PDF",
-  description: "Suivi de l'extraction et de la verification du PDF fondateur du Haut Royaume de Cadifor.",
-};
+export const metadata: Metadata = pageMetadata("/canon/progression-pdf","Progression PDF","Suivi de l'extraction et de la verification du PDF fondateur du Haut Royaume de Cadifor.");
 
 export default function ProgressionPdfPage() {
   const progress = getPdfProgressDocument();

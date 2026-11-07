@@ -1,3 +1,5 @@
+import { pageMetadata, DESCRIPTION } from "@/lib/seo";
+export const metadata = pageMetadata("/", "Le Haut Royaume et La Maison des vivants", DESCRIPTION);
 import Link from "next/link";
 import Image from "next/image";
 import {
