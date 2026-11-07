@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ chapter: 
   const c = getNovel().chapters.find(c => c.slug === slug);
   if (!c) return {};
   const image = c.imageId ? resolveNovelImage(c.imageId) : null;
-  return { title: `${c.number}. ${c.title} — La Maison des vivants`, description: c.paragraphs[0].slice(0, 170), openGraph: image ? { images: [image.src] } : undefined };
+  return { ...pageMetadata(chapterHref(slug), `${c.number}. ${c.title} — La Maison des vivants`, c.paragraphs[0].slice(0,170)), ...(image ? {openGraph:{title:`${c.number}. ${c.title} — La Maison des vivants`,description:c.paragraphs[0].slice(0,170),url:chapterHref(slug),type:"article",images:[image.src]}} : {}) };
 }
 
 export default async function ChapterPage({ params }: { params: Promise<{ chapter: string }> }) {

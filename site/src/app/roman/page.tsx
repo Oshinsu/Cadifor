@@ -1,3 +1,4 @@
+import { pageMetadata, DESCRIPTION } from "@/lib/seo";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,11 +7,7 @@ import { getNovel, getChapterSummaries, chapterHref } from "@/lib/novel";
 import { resolveNovelImage } from "@/lib/images";
 import { ResumeReading } from "@/components/novel-reading";
 
-export const metadata: Metadata = {
-  title: "La Maison des vivants — Le roman",
-  description: "Le premier livre de Cadifor : Aberthol, maréchal de Lordaeron, et les cinq filles qui feront vivre sa maison. Quarante chapitres à lire en ligne ou en EPUB.",
-  openGraph: { images: ["/assets/roman/01-la-decision-du-conseil.webp"] },
-};
+export const metadata: Metadata = pageMetadata("/roman","La Maison des vivants — Le roman","Le premier livre de Cadifor : Aberthol, maréchal de Lordaeron, et les cinq filles qui feront vivre sa maison. Quarante chapitres à lire en ligne ou en EPUB.");
 
 export default function RomanPage() {
   const book = getNovel();

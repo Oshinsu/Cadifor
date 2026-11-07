@@ -27,6 +27,7 @@ export function SiteFooter() {
       <div className="pointer-events-none absolute left-1/2 top-0 h-48 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--gold)]/[0.03] blur-[100px]" />
 
       <div className="mx-auto max-w-7xl px-6 py-16">
+        <p className="mb-10 text-center"><Link href="/preuves" className="inline-block py-3 text-sm text-stone-300 underline underline-offset-4">Fabrication, crédits et pièces publiques</Link></p>
         {/* Motto */}
         <div className="mb-14 text-center">
           <p className="font-serif text-lg italic text-stone-500/60">

@@ -1,11 +1,9 @@
+import { pageMetadata, DESCRIPTION } from "@/lib/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ChevronRight, Command, Search, BookOpenText } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Encyclopedie",
-  description: "Toutes les entrees de l'encyclopedie du Haut Royaume de Cadifor — personnages, factions, nations, villes, territoires et plus.",
-};
+export const metadata: Metadata = pageMetadata("/encyclopedie","Encyclopedie","Toutes les entrees de l'encyclopedie du Haut Royaume de Cadifor — personnages, factions, nations, villes, territoires et plus.");
 import { EntryCard } from "@/components/cards";
 import { getCollectionTheme } from "@/lib/colors";
 import {

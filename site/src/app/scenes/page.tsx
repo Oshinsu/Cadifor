@@ -1,11 +1,9 @@
+import { pageMetadata, DESCRIPTION } from "@/lib/seo";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { Clock, ScrollText, Swords } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Scenes canoniques",
-  description: "Les scenes canoniques du Haut Royaume de Cadifor — recits fondateurs, diners imperiaux, batailles et moments dynastiques.",
-};
+export const metadata: Metadata = pageMetadata("/scenes","Scenes canoniques","Les scenes canoniques du Haut Royaume de Cadifor — recits fondateurs, diners imperiaux, batailles et moments dynastiques.");
 import { EntryCard } from "@/components/cards";
 import { getCollection } from "@/lib/content";
 

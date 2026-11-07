@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -44,12 +45,13 @@ export async function generateMetadata({ params }: EntryPageProps): Promise<Meta
   const description = entry.excerpt || `${entry.title} — ${collectionLabel} du Haut Royaume de Cadifor.`;
 
   return {
-    title: entry.title,
+    ...pageMetadata(`/encyclopedie/${collection}/${slug}`, entry.title, description),
     description,
     openGraph: {
       title: `${entry.title} — Cadifor`,
       description,
       type: "article",
+      url: `/encyclopedie/${collection}/${slug}`,
       ...(image && {
         images: [{ url: `/assets/${image}`, width: 1200, height: 630, alt: entry.title }],
       }),

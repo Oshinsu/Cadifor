@@ -6,6 +6,7 @@ import { CardGlowTracker } from "@/components/card-glow";
 import { ScrollRevealProvider } from "@/components/scroll-reveal";
 import { BackToTop } from "@/components/back-to-top";
 import "./globals.css";
+import { DESCRIPTION, siteGraph } from "@/lib/seo";
 
 const display = localFont({
   src: [
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     default: "Cadifor — Le Haut Royaume",
     template: "%s — Cadifor",
   },
-  description: "Encyclopedie vivante du Haut Royaume de Cadifor. Quatre siecles de dynastie, 997 pages de lore, forgees dans le fer et la sagesse.",
+  description: DESCRIPTION,
 };
 
 export default function RootLayout({
@@ -45,6 +46,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(siteGraph).replace(/</g,"\\u003c")}}/></head>
       <body
         className={`${display.variable} ${body.variable} bg-[#0a0908] font-sans text-stone-200 antialiased`}
       >
