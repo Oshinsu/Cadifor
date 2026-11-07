@@ -26,6 +26,8 @@ function extractText(children: ReactNode): string {
 }
 
 const components: Components = {
+  // The page template owns H1; headings from the source document are subordinate.
+  h1: ({ children }) => <h2 id={slugify(extractText(children))}>{children}</h2>,
   h2: ({ children }) => {
     const id = slugify(extractText(children));
     return <h2 id={id}>{children}</h2>;

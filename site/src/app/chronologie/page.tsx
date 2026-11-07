@@ -1,4 +1,4 @@
-import { pageMetadata, DESCRIPTION } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Clock, FileText } from "lucide-react";

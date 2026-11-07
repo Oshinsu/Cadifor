@@ -1,4 +1,4 @@
-import { pageMetadata, DESCRIPTION } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ChevronRight, Command, Search, BookOpenText } from "lucide-react";

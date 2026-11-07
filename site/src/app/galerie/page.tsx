@@ -1,4 +1,4 @@
-import { pageMetadata, DESCRIPTION } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import { getAllImages } from "@/lib/images";
 import { GalerieContent } from "./galerie-content";
